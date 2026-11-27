@@ -1,0 +1,19 @@
+name: CI
+on: [push, pull_request]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install pyyaml skills-ref
+      - name: SKILL.md follows the Agent Skills spec
+        run: agentskills validate "$GITHUB_WORKSPACE"
+      - name: SKILL.md stays short (under 200 lines)
+        run: |
+          n=$(wc -l < SKILL.md)
+          echo "SKILL.md: $n lines"
+          [ "$n" -lt 200 ] || { echo "Move detail into a branch file"; exit 1; }
+      - name: Catalog is valid and reference pages are up to date
+        run: python scripts/build.py --check

@@ -1,0 +1,20 @@
+name: Something is wrong
+description: A broken link, a wrong licence, an outdated pick, or the agent used the skill badly
+labels: [bug]
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind
+      options: [Broken link, Wrong licence, Outdated or abandoned tool, Agent used the skill badly, Other]
+    validations: { required: true }
+  - type: input
+    id: where
+    attributes: { label: File or entry, placeholder: "reference/frontend/type.md > Fontshare" }
+  - type: input
+    id: tool
+    attributes: { label: "Where you ran it (if it's about the agent)", placeholder: "Claude Code / Codex / Cursor / ..." }
+  - type: textarea
+    id: what
+    attributes: { label: "What's wrong", description: "Include the right link or licence page if you have it" }
+    validations: { required: true }
