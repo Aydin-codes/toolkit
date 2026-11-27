@@ -1,0 +1,147 @@
+proposals:
+- branch: frontend/dataviz
+  section: Charts
+  tier: more
+  name: Tremor
+  url: https://github.com/tremorlabs/tremor-npm
+  repo: tremorlabs/tremor-npm
+  npm: '@tremor/react'
+  search: Tremor React dashboard components Tailwind
+  license: Apache-2.0
+  install: npm i @tremor/react
+  use_when: you are building a Tailwind dashboard and want KPI cards and charts that match
+  note: Tremor also offers copy-paste components; check which version the project uses.
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 16460
+    pushed: '2025-01-13'
+    archived: false
+    gh_license: Apache-2.0
+    npm_license: Apache 2.0
+    npm_modified: '2025-01-13'
+    npm_error: 429
+  problems:
+  - no updates in the last year
+  attempts: 1
+- branch: frontend/dataviz
+  section: Charts
+  tier: paid
+  name: Highcharts
+  url: https://www.highcharts.com
+  npm: highcharts
+  search: Highcharts JavaScript charts license
+  license: paid for commercial use (free for some non-commercial use)
+  license_url: https://www.highcharts.com/license
+  install: npm i highcharts
+  note: 'Free option: Apache ECharts or Chart.js.'
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    license_link: 200
+    npm_license: https://www.highcharts.com/license
+    npm_modified: '2026-10-20'
+    npm_error: 429
+  problems:
+  - license says 'paid for commercial use (free for some non-commercial use)' but npm_license is https://www.highcharts.com/license
+  - under 100 stars and 500 weekly downloads
+  attempts: 1
+- branch: frontend/dataviz
+  section: Charts
+  tier: big_lists
+  name: awesome-dataviz
+  url: https://awesome.ecosyste.ms/projects/github.com%2Fhal9ai%2Fawesome-dataviz
+  repo: hal9ai/awesome-dataviz
+  search: hal9ai awesome-dataviz
+  license: list
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 402
+    stars: 4471
+    pushed: '2026-11-11'
+    archived: false
+    gh_license: NOASSERTION
+  problems:
+  - link returned 402
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: frontend/dataviz
+  section: Maps
+  tier: paid
+  name: Mapbox GL JS
+  url: https://github.com/mapbox/mapbox-gl-js
+  repo: mapbox/mapbox-gl-js
+  npm: mapbox-gl
+  search: Mapbox GL JS pricing
+  license: proprietary (Mapbox terms); needs a Mapbox account and token, billed by usage
+  install: npm i mapbox-gl
+  never_copy: true
+  note: 'Free option: MapLibre GL JS with OpenFreeMap or Protomaps.'
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 12501
+    pushed: '2026-11-27'
+    archived: false
+    gh_license: NOASSERTION
+    npm_license: SEE LICENSE IN LICENSE.txt
+    npm_modified: '2026-11-26'
+    npm_error: 429
+  problems:
+  - license says 'proprietary (Mapbox terms); needs a Mapbox account and token, billed by usage' but npm_license is SEE LICENSE IN LICENSE.txt
+  attempts: 1
+- branch: frontend/dataviz
+  section: Diagrams
+  tier: more
+  name: AntV X6
+  url: https://x6.antv.antgroup.com/tutorial/about
+  repo: antvis/x6
+  npm: '@antv/x6'
+  search: AntV X6 graph editing engine
+  license: MIT
+  install: npm i @antv/x6
+  use_when: you build a diagram editor (flowchart, ER, DAG) outside React or across frameworks
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 404
+    stars: 6774
+    pushed: '2026-11-13'
+    archived: false
+    gh_license: MIT
+    npm_license: MIT
+    npm_modified: '2026-09-21'
+    npm_error: 429
+  problems:
+  - link returned 404
+  attempts: 1
+- branch: frontend/dataviz
+  section: Tables and grids
+  tier: paid
+  name: Handsontable
+  url: https://handsontable.com/
+  repo: handsontable/handsontable
+  npm: handsontable
+  search: Handsontable spreadsheet grid license
+  license: paid for commercial use (free non-commercial license)
+  install: npm i handsontable
+  never_copy: true
+  note: 'Free option: AG Grid Community or react-data-grid.'
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 22083
+    pushed: '2026-11-27'
+    archived: false
+    gh_license: NOASSERTION
+    npm_license: SEE LICENSE IN LICENSE.txt
+    npm_modified: '2026-11-26'
+    npm_error: 429
+  problems:
+  - license says 'paid for commercial use (free non-commercial license)' but npm_license is SEE LICENSE IN LICENSE.txt
+  attempts: 1

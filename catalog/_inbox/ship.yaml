@@ -1,0 +1,153 @@
+proposals:
+- branch: ship
+  section: Hosting
+  tier: alternatives
+  name: Railway CLI
+  url: https://github.com/railwayapp/cli
+  repo: railwayapp/cli
+  npm: '@railway/cli'
+  search: Railway app hosting CLI
+  license: ISC (CLI); Railway hosting is paid after a trial
+  install: npm i -g @railway/cli
+  use_when: you need a backend, worker or database running next to your app without managing servers
+  note: Pricing page not checked yet.
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 634
+    pushed: '2026-11-27'
+    archived: false
+    gh_license: MIT
+    npm_license: ISC
+    npm_modified: '2026-11-27'
+    npm_error: 429
+  problems:
+  - license says 'ISC (CLI); Railway hosting is paid after a trial' but gh_license is MIT
+  attempts: 1
+- branch: ship
+  section: Hosting
+  tier: more
+  name: Codeberg Pages
+  url: https://codeberg.page/
+  search: Codeberg Pages static hosting
+  license: free (non-profit service)
+  use_when: you want free static hosting from a Codeberg repo instead of GitHub
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: ship
+  section: Hosting
+  tier: big_lists
+  name: free-for-dev
+  url: https://github.com/ripienaar/free-for-dev
+  repo: ripienaar/free-for-dev
+  search: ripienaar free-for-dev list of free tiers
+  license: list
+  note: Long list of SaaS and hosting services with free tiers for developers.
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 143890
+    pushed: '2026-11-27'
+    archived: false
+    gh_license: null
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: ship
+  section: CI and automation
+  tier: alternatives
+  name: GitLab CI/CD
+  url: https://about.gitlab.com/
+  search: GitLab CI/CD pipelines
+  license: free tier, then paid
+  use_when: your code lives on GitLab and you want built-in pipelines
+  note: Free tier compute minutes not checked yet.
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: ship
+  section: Analytics
+  tier: alternatives
+  name: PostHog
+  url: https://posthog.com/docs/libraries/js
+  repo: PostHog/posthog-js
+  npm: posthog-js
+  search: PostHog product analytics open source
+  license: free tier, then paid; posthog-js is Apache-2.0 AND MIT
+  install: npm i posthog-js
+  use_when: you need product analytics (funnels, events, session replay, feature flags) rather than only page views
+  note: Free tier limits and pricing page not checked yet.
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 692
+    pushed: '2026-11-27'
+    archived: false
+    gh_license: NOASSERTION
+    npm_license: (Apache-2.0 AND MIT)
+    npm_modified: '2026-11-26'
+    npm_error: 429
+  problems:
+  - license says 'free tier, then paid; posthog-js is Apache-2.0 AND MIT' but npm_license is (Apache-2.0 AND MIT)
+  attempts: 1
+- branch: ship
+  section: Error tracking and monitoring
+  tier: alternatives
+  name: LaunchDarkly Observability SDK (Highlight)
+  url: https://github.com/launchdarkly/observability-sdk
+  repo: launchdarkly/observability-sdk
+  npm: '@highlight-run/next'
+  search: Highlight.io LaunchDarkly observability session replay
+  license: Apache-2.0 (SDK); hosted service has a free tier, then paid
+  install: npm i @highlight-run/next
+  use_when: you want session replay, errors and logs together for a Next.js app
+  note: Highlight is now part of LaunchDarkly; check current pricing before relying on it.
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 6
+    pushed: '2026-11-26'
+    archived: false
+    gh_license: NOASSERTION
+    npm_license: Apache-2.0
+    npm_modified: '2026-07-17'
+    npm_error: 429
+  problems:
+  - under 100 stars and 500 weekly downloads
+  attempts: 1
+- branch: ship
+  section: SEO and sharing
+  tier: alternatives
+  name: '@vercel/og'
+  url: https://github.com/vercel/og
+  repo: vercel/og
+  npm: '@vercel/og'
+  search: vercel og ImageResponse Open Graph images
+  license: MPL-2.0
+  install: npm i @vercel/og
+  use_when: you want dynamic OG images as PNG from an edge or serverless route (built on Satori)
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 404
+    github_error: 404
+    npm_license: MPL-2.0
+    npm_modified: '2026-09-22'
+    npm_error: 429
+  problems:
+  - link returned 404
+  - under 100 stars and 500 weekly downloads
+  attempts: 1

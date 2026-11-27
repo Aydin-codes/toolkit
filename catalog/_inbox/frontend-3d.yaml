@@ -1,0 +1,192 @@
+proposals:
+- branch: frontend/3d
+  branch_title: 3D on the web
+  section: Engines
+  tier: alternatives
+  name: OGL
+  url: https://github.com/oframe/ogl
+  repo: oframe/ogl
+  npm: ogl
+  search: OGL minimal WebGL library oframe
+  license: Unlicense
+  install: npm i ogl
+  use_when: you want a very small WebGL library for shader-heavy effects and can do without three.js extras
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 4766
+    pushed: '2025-04-13'
+    archived: false
+    gh_license: null
+    npm_license: Unlicense
+    npm_modified: '2025-01-27'
+    npm_weekly: 1063075
+  problems:
+  - no updates in the last year
+  attempts: 1
+- branch: frontend/3d
+  branch_title: 3D on the web
+  section: Engines
+  tier: big_lists
+  name: awesome-threejs
+  url: https://github.com/AxiomeCG/awesome-threejs
+  repo: AxiomeCG/awesome-threejs
+  search: AxiomeCG awesome-threejs
+  license: list
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 1035
+    pushed: '2026-07-28'
+    archived: false
+    gh_license: CC0-1.0
+  problems:
+  - license says 'list' but gh_license is CC0-1.0
+  attempts: 1
+- branch: frontend/3d
+  branch_title: 3D on the web
+  section: Engines
+  tier: big_lists
+  name: awesome-webgl
+  url: https://github.com/sjfricke/awesome-webgl
+  repo: sjfricke/awesome-webgl
+  search: sjfricke awesome-webgl
+  license: list
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 1548
+    pushed: '2026-11-15'
+    archived: false
+    gh_license: CC0-1.0
+  problems:
+  - license says 'list' but gh_license is CC0-1.0
+  attempts: 1
+- branch: frontend/3d
+  branch_title: 3D on the web
+  section: React helpers
+  tier: alternatives
+  name: leva
+  url: https://github.com/pmndrs/leva
+  repo: pmndrs/leva
+  npm: leva
+  search: pmndrs leva React GUI controls
+  license: MIT
+  install: npm i leva
+  use_when: you want a quick tweak panel for scene values while developing
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 6280
+    pushed: '2025-11-09'
+    archived: false
+    gh_license: MIT
+    npm_license: MIT
+    npm_modified: '2025-10-31'
+    npm_weekly: 1295934
+  problems:
+  - no updates in the last year
+  attempts: 1
+- branch: frontend/3d
+  branch_title: 3D on the web
+  section: React helpers
+  tier: more
+  name: r3f-perf
+  url: https://github.com/utsuboco/r3f-perf
+  repo: utsuboco/r3f-perf
+  npm: r3f-perf
+  search: r3f-perf React Three Fiber performance monitor
+  license: MIT
+  install: npm i r3f-perf
+  use_when: you want an on-screen panel of draw calls, FPS and GPU time in an R3F scene
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 783
+    pushed: '2024-12-20'
+    archived: false
+    gh_license: MIT
+    npm_license: MIT
+    npm_modified: '2024-11-08'
+    npm_weekly: 47570
+  problems:
+  - no updates in the last year
+  attempts: 1
+- branch: frontend/3d
+  branch_title: 3D on the web
+  section: Physics
+  tier: more
+  name: ammo.js
+  url: https://github.com/kripken/ammo.js
+  repo: kripken/ammo.js
+  npm: ammo.js
+  search: ammo.js Bullet physics Emscripten
+  license: Zlib
+  install: npm i ammo.js (or a build from the repo)
+  use_when: you need Bullet features such as soft bodies and accept an older, less active project
+  note: The npm package is old; most projects use a build from the repo.
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 4614
+    pushed: '2026-09-22'
+    archived: false
+    gh_license: NOASSERTION
+    npm_license: null
+    npm_modified: '2022-06-13'
+    npm_weekly: 2162
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: frontend/3d
+  branch_title: 3D on the web
+  section: Model tools and compression
+  tier: alternatives
+  name: Blender
+  url: https://www.blender.org
+  search: Blender free 3D software glTF export
+  license: GPL-2.0-or-later
+  license_url: https://docs.blender.org/manual/en/4.2/getting_started/about/license.html
+  install: download from blender.org
+  use_when: you need to model, fix or bake a model and export it as glTF/GLB
+  note: glTF import/export is built in (KhronosGroup/glTF-Blender-IO).
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 403
+    license_link: 200
+  problems:
+  - link returned 403
+  attempts: 1
+- branch: frontend/3d
+  branch_title: 3D on the web
+  section: Model tools and compression
+  tier: more
+  name: obj2gltf
+  url: https://github.com/CesiumGS/obj2gltf
+  repo: CesiumGS/obj2gltf
+  npm: obj2gltf
+  search: Cesium obj2gltf converter
+  license: Apache-2.0
+  install: npx obj2gltf -i model.obj -o model.glb
+  use_when: you have OBJ files and need glTF/GLB
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 1855
+    pushed: '2025-11-19'
+    archived: false
+    gh_license: Apache-2.0
+    npm_license: Apache-2.0
+    npm_modified: '2025-11-19'
+    npm_weekly: 26942
+  problems:
+  - no updates in the last year
+  attempts: 1

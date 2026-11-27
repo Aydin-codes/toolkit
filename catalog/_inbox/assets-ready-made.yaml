@@ -1,0 +1,196 @@
+proposals:
+- branch: assets/ready-made
+  branch_title: Ready-made assets
+  section: Photos
+  tier: default
+  name: Unsplash
+  url: https://unsplash.com
+  search: Unsplash free photos API
+  license: Unsplash License (free, not CC)
+  license_url: https://unsplash.com/license
+  use_when: you need good general-purpose photos for a site or app
+  install: download, or the Unsplash API (needs an access key)
+  note: 'No credit needed for downloads; can''t sell unaltered copies or build a competing service. API rules: hotlink the returned image URLs and credit photographer + Unsplash (https://help.unsplash.com/api-guidelines/unsplash-api-guidelines).'
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 401
+    license_link: 401
+  problems:
+  - link returned 401
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: assets/ready-made
+  section: Photos
+  tier: alternatives
+  name: Pexels
+  url: https://www.pexels.com
+  search: Pexels free stock photos API
+  license: Pexels License (free, not CC)
+  license_url: https://help.pexels.com/hc/en-us/articles/360042332714-What-are-the-rules-for-using-Pexels-photos-or-videos
+  use_when: Unsplash lacks the subject, or you also want free stock video from the same API
+  install: download, or the Pexels API (needs a key)
+  note: 'Credit appreciated, not required; don''t sell unaltered copies. Terms: https://pexels.com/terms-of-service'
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 403
+    license_link: 403
+  problems:
+  - link returned 403
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: assets/ready-made
+  section: Photos
+  tier: alternatives
+  name: Pixabay
+  url: https://pixabay.com
+  search: Pixabay content license free images
+  license: Pixabay Content License (free, not CC)
+  license_url: https://pixabay.com/en/service/license/
+  use_when: you want photos, vectors and illustrations from one free source with an API
+  install: download, or the Pixabay API
+  never_copy: true
+  note: No standalone redistribution (don't ship the files as-is in a repo or asset pack); no credit needed.
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 403
+    license_link: 403
+  problems:
+  - link returned 403
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: assets/ready-made
+  section: Photos
+  tier: big_lists
+  name: awesome-stock-resources
+  url: https://github.com/neutraltone/awesome-stock-resources
+  repo: neutraltone/awesome-stock-resources
+  search: neutraltone awesome-stock-resources
+  license: list
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 14888
+    pushed: '2026-02-11'
+    archived: false
+    gh_license: CC0-1.0
+  problems:
+  - license says 'list' but gh_license is CC0-1.0
+  attempts: 1
+- branch: assets/ready-made
+  section: Photos
+  tier: paid
+  name: Adobe Stock
+  url: https://stock.adobe.com/discover
+  search: Adobe Stock royalty-free images
+  license: paid (royalty-free license; some free assets at stock.adobe.com/free)
+  never_copy: true
+  note: 'Free option: Unsplash or Pexels.'
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: assets/ready-made
+  section: Public domain and open collections
+  tier: alternatives
+  name: The Met Open Access
+  url: https://www.metmuseum.org/openaccess
+  repo: metmuseum/openaccess
+  search: Metropolitan Museum Open Access CC0 images
+  license: CC0 (for works marked Open Access)
+  license_url: https://www.metmuseum.org/en/policies/image-resources
+  use_when: you want high-resolution art and artifact images with no credit needed
+  install: download from object pages, the Met Collection API, or the CSV in metmuseum/openaccess
+  note: Only objects with the Open Access mark are CC0.
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 429
+    license_link: 429
+    stars: 1472
+    pushed: '2026-11-23'
+    archived: false
+    gh_license: CC0-1.0
+  problems:
+  - license says 'CC0 (for works marked Open Access)' but gh_license is CC0-1.0
+  attempts: 1
+- branch: assets/ready-made
+  section: Public domain and open collections
+  tier: alternatives
+  name: Smithsonian Open Access
+  url: https://www.si.edu/openaccess
+  search: Smithsonian Open Access CC0
+  license: CC0 (for items marked CC0)
+  license_url: https://dashboard.si.edu/openaccess/faq
+  use_when: you want natural history, science and American history images, plus 3D models, as CC0
+  install: download, API and bulk data (https://www.si.edu/openaccess/devtools)
+  note: Only items labelled CC0 are free; others keep their rights.
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 403
+    license_link: 403
+  problems:
+  - link returned 403
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: assets/ready-made
+  section: Public domain and open collections
+  tier: more
+  name: Art Institute of Chicago Open Access
+  url: https://www.artic.edu/open-access/open-access-images
+  search: Art Institute of Chicago open access CC0 images API
+  license: CC0 (for public-domain works)
+  license_url: https://www.artic.edu/open-access/open-access-images
+  use_when: you want art images with a clean public JSON API and IIIF image server
+  install: public API (https://www.artic.edu/collection-information/open-access/public-api)
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 403
+    license_link: 403
+  problems:
+  - link returned 403
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: assets/ready-made
+  section: 3D models
+  tier: alternatives
+  name: Quaternius
+  url: https://quaternius.com
+  search: Quaternius free low poly models CC0
+  license: CC0 (per the site's License page; not confirmed in this pass)
+  use_when: you want low-poly characters and environments, many rigged and animated
+  install: download packs
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: assets/ready-made
+  section: 3D models
+  tier: more
+  name: Smithsonian 3D
+  url: https://3d.si.edu
+  search: Smithsonian 3D digitization models
+  license: per model; CC0 where marked
+  license_url: https://dashboard.si.edu/openaccess/faq
+  use_when: you want scans of real museum objects and specimens
+  install: download from model pages where offered
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 403
+    license_link: 403
+  problems:
+  - link returned 403
+  - license has no evidence (add license_url)
+  attempts: 1

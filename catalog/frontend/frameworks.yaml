@@ -1,0 +1,727 @@
+branch: frontend/frameworks
+title: Frameworks and front-end libraries
+intro: ''
+sections:
+- name: Web frameworks
+  default:
+    name: Next.js
+    url: https://nextjs.org
+    repo: vercel/next.js
+    npm: next
+    search: Next.js React framework
+    license: MIT
+    install: npx create-next-app@latest
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 143756
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-27'
+      npm_error: 429
+    verified_by: auto
+  alternatives:
+  - name: React Router (framework mode, formerly Remix)
+    url: https://reactrouter.com
+    repo: remix-run/react-router
+    npm: react-router
+    search: React Router framework mode Remix
+    license: MIT
+    install: npx create-react-router@latest
+    use_when: you want a React full-stack app built on web standards (loaders, actions, forms) without Next.js
+    note: Remix v2 merged into React Router v7; React Router v8 is out.
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 56653
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-24'
+      npm_error: 429
+    verified_by: auto
+  - name: SvelteKit
+    url: https://svelte.dev
+    repo: sveltejs/kit
+    npm: '@sveltejs/kit'
+    search: SvelteKit Svelte app framework
+    license: MIT
+    install: npx sv create
+    use_when: you prefer Svelte over React and want routing, SSR and adapters in one package
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 20932
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-25'
+      npm_error: 429
+    verified_by: auto
+  - name: Nuxt
+    url: https://nuxt.com
+    repo: nuxt/nuxt
+    npm: nuxt
+    search: Nuxt Vue framework
+    license: MIT
+    install: npm create nuxt@latest
+    use_when: the project uses Vue and needs SSR, file routing and modules
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 61121
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-23'
+      npm_error: 429
+    verified_by: auto
+  - name: TanStack Start
+    url: https://tanstack.com/start
+    repo: TanStack/router
+    npm: '@tanstack/react-start'
+    search: TanStack Start full-stack React framework
+    license: MIT
+    install: npm create @tanstack/start@latest
+    use_when: you want type-safe routing from TanStack Router plus server functions, on Vite
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 15381
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-19'
+      npm_error: 429
+    verified_by: auto
+  more:
+  - name: Qwik
+    url: https://qwik.dev/
+    repo: QwikDev/qwik
+    npm: '@builder.io/qwik'
+    search: Qwik resumable framework
+    license: MIT
+    install: npm create qwik@latest
+    use_when: you need very little JavaScript sent on first load (resumability instead of hydration)
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 22075
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-09'
+      npm_error: 429
+    verified_by: auto
+  - name: Angular
+    url: https://angular.dev
+    repo: angular/angular
+    npm: '@angular/core'
+    search: Angular framework angular.dev
+    license: MIT
+    install: npx @angular/cli new my-app
+    use_when: the team wants a full, opinionated framework with DI, forms and router built in
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 101605
+      pushed: '2026-11-25'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-18'
+      npm_error: 429
+    verified_by: auto
+  big_lists:
+  - name: awesome-nextjs
+    url: https://github.com/unicodeveloper/awesome-nextjs
+    repo: unicodeveloper/awesome-nextjs
+    search: awesome-nextjs list
+    license: list
+    license_url: https://github.com/unicodeveloper/awesome-nextjs
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      license_link: 200
+      stars: 11107
+      pushed: '2026-11-02'
+      archived: false
+      gh_license: null
+    verified_by: auto
+- name: Static and content sites
+  default:
+    name: Astro
+    url: https://astro.build
+    repo: withastro/astro
+    npm: astro
+    search: Astro web framework content sites
+    license: MIT
+    install: npm create astro@latest
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 64268
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: NOASSERTION
+      npm_license: MIT
+      npm_modified: '2026-11-18'
+      npm_error: 429
+    verified_by: auto
+  alternatives:
+  - name: Starlight
+    url: https://starlight.astro.build
+    repo: withastro/starlight
+    npm: '@astrojs/starlight'
+    search: Starlight Astro documentation theme
+    license: MIT
+    install: npm create astro@latest -- --template starlight
+    use_when: you are building a documentation site and want Astro underneath
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 9667
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-26'
+      npm_error: 429
+    verified_by: auto
+  - name: VitePress
+    url: https://vitepress.dev/
+    repo: vuejs/vitepress
+    npm: vitepress
+    search: VitePress static site generator
+    license: MIT
+    install: npm add -D vitepress
+    use_when: you want a fast Markdown docs site with Vue components
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 18534
+      pushed: '2026-11-12'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-10-25'
+      npm_error: 429
+    verified_by: auto
+  - name: Docusaurus
+    url: https://docusaurus.io/
+    repo: facebook/docusaurus
+    npm: '@docusaurus/core'
+    search: Docusaurus documentation site generator
+    license: MIT
+    install: npx create-docusaurus@latest my-website classic
+    use_when: you want a React docs site with versioning, i18n and a blog built in
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 66818
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-27'
+      npm_error: 429
+    verified_by: auto
+  - name: Eleventy (Build Awesome)
+    url: https://www.11ty.dev/
+    repo: 11ty/buildawesome
+    npm: '@11ty/eleventy'
+    search: Eleventy 11ty Build Awesome static site generator
+    license: MIT
+    install: npm i -D @11ty/eleventy
+    use_when: you want a plain, template-based static site with no client framework
+    note: Eleventy is being renamed Build Awesome (v4); npm still lists @11ty/eleventy, repo field points to 11ty/buildawesome (11ty/eleventy redirects).
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 20064
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-19'
+      npm_error: 429
+    verified_by: auto
+  - name: Hugo
+    url: https://gohugo.io/
+    repo: gohugoio/hugo
+    search: Hugo static site generator Go
+    license: Apache-2.0
+    install: prebuilt binary or package manager (brew install hugo); not on npm
+    use_when: you want a single binary that builds large Markdown sites very fast, no Node needed
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 90581
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: Apache-2.0
+    verified_by: auto
+- name: Build tools
+  default:
+    name: Vite
+    url: https://vite.dev
+    repo: vitejs/vite
+    npm: vite
+    search: Vite frontend build tool
+    license: MIT
+    install: npm create vite@latest
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 84155
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-26'
+      npm_error: 429
+    verified_by: auto
+  alternatives:
+  - name: Rspack
+    url: https://rspack.rs
+    repo: web-infra-dev/rspack
+    npm: '@rspack/core'
+    search: Rspack Rust webpack-compatible bundler
+    license: MIT
+    install: npm create rsbuild@latest
+    use_when: you are moving off webpack and want its config and loaders with a faster Rust core
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 13003
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-24'
+      npm_error: 429
+    verified_by: auto
+  - name: esbuild
+    url: https://esbuild.github.io/
+    repo: evanw/esbuild
+    npm: esbuild
+    search: esbuild JavaScript bundler
+    license: MIT
+    install: npm i -D esbuild
+    use_when: you need a small, very fast bundler or transpiler for libraries, scripts or CLIs
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 40200
+      pushed: '2026-08-09'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-08-08'
+      npm_error: 429
+    verified_by: auto
+  - name: Bun
+    url: https://bun.com
+    repo: oven-sh/bun
+    npm: bun
+    search: Bun JavaScript runtime bundler
+    license: MIT
+    install: curl -fsSL https://bun.sh/install | bash (or npm i -g bun)
+    use_when: you want one tool for runtime, package manager, bundler and test runner
+    note: the npm package installs the Bun binary; the main install is the shell script.
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 96997
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: NOASSERTION
+      npm_license: MIT
+      npm_modified: '2026-11-27'
+      npm_error: 429
+    verified_by: auto
+  - name: Turbopack
+    url: https://nextjs.org/docs/app/api-reference/turbopack
+    repo: vercel/next.js
+    search: Turbopack Next.js bundler
+    license: MIT
+    install: built into next (next dev / next build); no separate package
+    use_when: you are on Next.js; it is the Next.js bundler and is not used on its own
+    note: repo is shared with Next.js, so its stars and activity are Next.js's.
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 143756
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+    verified_by: auto
+- name: Styling
+  default:
+    name: Tailwind CSS
+    url: https://tailwindcss.com
+    repo: tailwindlabs/tailwindcss
+    npm: tailwindcss
+    search: Tailwind CSS utility-first framework
+    license: MIT
+    install: npm i tailwindcss @tailwindcss/vite
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 98874
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-25'
+      npm_error: 429
+    verified_by: auto
+  alternatives:
+  - name: vanilla-extract
+    url: https://vanilla-extract.style/
+    repo: vanilla-extract-css/vanilla-extract
+    npm: '@vanilla-extract/css'
+    search: vanilla-extract zero-runtime CSS in TypeScript
+    license: MIT
+    install: npm i @vanilla-extract/css
+    use_when: you want type-safe styles written in TypeScript that compile to static CSS
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 10457
+      pushed: '2026-11-25'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-10-08'
+      npm_error: 429
+    verified_by: auto
+  - name: Panda CSS
+    url: https://panda-css.com
+    repo: chakra-ui/panda
+    npm: '@pandacss/dev'
+    search: Panda CSS build-time CSS-in-JS
+    license: MIT
+    install: npm i -D @pandacss/dev
+    use_when: you want CSS-in-JS syntax and design tokens with no runtime cost
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 6261
+      pushed: '2026-11-26'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-19'
+      npm_error: 429
+    verified_by: auto
+  - name: UnoCSS
+    url: https://unocss.dev
+    repo: unocss/unocss
+    npm: unocss
+    search: UnoCSS atomic CSS engine
+    license: MIT
+    install: npm i -D unocss
+    use_when: you want a Tailwind-like utility setup that is fully configurable through presets
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 18994
+      pushed: '2026-11-26'
+      archived: false
+      gh_license: NOASSERTION
+      npm_license: MIT
+      npm_modified: '2026-11-13'
+      npm_error: 429
+    verified_by: auto
+  - name: Open Props
+    url: https://open-props.style/
+    repo: argyleink/open-props
+    npm: open-props
+    search: Open Props CSS custom properties
+    license: MIT
+    install: npm i open-props
+    use_when: you want ready design tokens as CSS variables on top of plain CSS
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 5588
+      pushed: '2026-10-11'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-01-31'
+      npm_error: 429
+    verified_by: auto
+- name: State and data fetching
+  default:
+    name: TanStack Query
+    url: https://tanstack.com/query
+    repo: TanStack/query
+    npm: '@tanstack/react-query'
+    search: TanStack Query React Query server state
+    license: MIT
+    install: npm i @tanstack/react-query
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 50683
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-23'
+      npm_error: 429
+    verified_by: auto
+  alternatives:
+  - name: Zustand
+    url: https://zustand.docs.pmnd.rs/
+    repo: pmndrs/zustand
+    npm: zustand
+    search: Zustand React state management
+    license: MIT
+    install: npm i zustand
+    use_when: you need a small global client-state store with hooks and little boilerplate
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 59038
+      pushed: '2026-11-23'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-06'
+      npm_error: 429
+    verified_by: auto
+  - name: Jotai
+    url: https://jotai.org/
+    repo: pmndrs/jotai
+    npm: jotai
+    search: Jotai atomic state React
+    license: MIT
+    install: npm i jotai
+    use_when: you want state split into small atoms that components subscribe to one by one
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 21363
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-09'
+      npm_error: 429
+    verified_by: auto
+  - name: SWR
+    url: https://swr.vercel.app
+    repo: vercel/swr
+    npm: swr
+    search: SWR React hooks data fetching
+    license: MIT
+    install: npm i swr
+    use_when: you want a lighter fetch-and-cache hook than TanStack Query
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 32494
+      pushed: '2026-10-16'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-09-22'
+      npm_error: 429
+    verified_by: auto
+  - name: Redux Toolkit
+    url: https://redux-toolkit.js.org
+    repo: reduxjs/redux-toolkit
+    npm: '@reduxjs/toolkit'
+    search: Redux Toolkit RTK Query
+    license: MIT
+    install: npm i @reduxjs/toolkit react-redux
+    use_when: the app is large, already uses Redux, or needs strict, traceable state changes
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 11250
+      pushed: '2026-11-26'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-18'
+      npm_error: 429
+    verified_by: auto
+  - name: tRPC
+    url: https://trpc.io
+    repo: trpc/trpc
+    npm: '@trpc/server'
+    search: tRPC end-to-end typesafe APIs
+    license: MIT
+    install: npm i @trpc/server @trpc/client
+    use_when: client and server are both TypeScript and you want typed API calls without a schema file
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 40895
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-27'
+      npm_error: 429
+    verified_by: auto
+  big_lists:
+  - name: awesome-react
+    url: https://github.com/enaqx/awesome-react
+    repo: enaqx/awesome-react
+    search: enaqx awesome-react
+    license: list
+    license_url: https://github.com/enaqx/awesome-react
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      license_link: 200
+      stars: 75423
+      pushed: '2026-09-04'
+      archived: false
+      gh_license: null
+    verified_by: auto
+- name: Forms and validation
+  default:
+    name: React Hook Form
+    url: https://react-hook-form.com
+    repo: react-hook-form/react-hook-form
+    npm: react-hook-form
+    search: React Hook Form
+    license: MIT
+    install: npm i react-hook-form
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 44930
+      pushed: '2026-11-26'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-21'
+      npm_error: 429
+    verified_by: auto
+  alternatives:
+  - name: Zod
+    url: https://zod.dev
+    repo: colinhacks/zod
+    npm: zod
+    search: Zod TypeScript schema validation
+    license: MIT
+    install: npm i zod
+    use_when: you need a schema for validation and TypeScript types from one source (pairs with any form library)
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 44471
+      pushed: '2026-11-22'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-10-12'
+      npm_error: 429
+    verified_by: auto
+  - name: Valibot
+    url: https://valibot.dev
+    repo: open-circle/valibot
+    npm: valibot
+    search: Valibot modular schema library
+    license: MIT
+    install: npm i valibot
+    use_when: you want Zod-style schemas with a smaller bundle through tree-shaking
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 9110
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-09-09'
+      npm_error: 429
+    verified_by: auto
+  - name: TanStack Form
+    url: https://tanstack.com/form
+    repo: TanStack/form
+    npm: '@tanstack/react-form'
+    search: TanStack Form type-safe forms
+    license: MIT
+    install: npm i @tanstack/react-form
+    use_when: you want fully typed form state that also works in Vue, Solid, Svelte and Angular
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 6774
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-26'
+      npm_error: 429
+    verified_by: auto
+  - name: Conform
+    url: https://conform.guide
+    repo: edmundhung/conform
+    npm: '@conform-to/react'
+    search: Conform progressive enhancement forms
+    license: MIT
+    install: npm i @conform-to/react @conform-to/zod
+    use_when: you use server actions (React Router, Next.js) and want forms that work before JavaScript loads
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 2588
+      pushed: '2026-11-15'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-10-31'
+      npm_error: 429
+    verified_by: auto

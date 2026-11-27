@@ -1,0 +1,198 @@
+proposals:
+- branch: agent-tooling
+  branch_title: Agent tooling
+  section: MCP servers and connectors
+  tier: default
+  name: MCP reference servers
+  url: https://github.com/modelcontextprotocol/servers
+  repo: modelcontextprotocol/servers
+  npm: '@modelcontextprotocol/server-filesystem'
+  search: modelcontextprotocol servers reference MCP servers
+  license: Apache-2.0 for new contributions, MIT for existing code
+  install: npx -y @modelcontextprotocol/server-<name> (filesystem, memory, sequential-thinking); fetch, git and time are Python (uvx)
+  use_when: you want the small reference set (Fetch, Filesystem, Git, Memory, Sequential Thinking, Time, Everything) or examples to build your own server
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 92302
+    pushed: '2026-11-27'
+    archived: false
+    gh_license: NOASSERTION
+    npm_license: SEE LICENSE IN LICENSE
+    npm_modified: '2026-11-27'
+    npm_weekly: 1143812
+  problems:
+  - license says 'Apache-2.0 for new contributions, MIT for existing code' but npm_license is SEE LICENSE IN LICENSE
+  attempts: 1
+- branch: agent-tooling
+  section: MCP servers and connectors
+  tier: more
+  name: Context Awesome
+  url: https://context-awesome.com/
+  repo: bh-rat/context-awesome
+  npm: context-awesome
+  search: Context Awesome MCP awesome lists
+  license: MIT
+  install: claude mcp add --transport http context-awesome https://www.context-awesome.com/api/mcp
+  use_when: you want the agent to look up tools from community awesome lists instead of a general web search
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 65
+    pushed: '2026-06-10'
+    archived: false
+    gh_license: MIT
+    npm_license: MIT
+    npm_modified: '2026-06-10'
+    npm_weekly: 52
+  problems:
+  - under 100 stars and 500 weekly downloads
+  attempts: 1
+- branch: agent-tooling
+  section: MCP servers and connectors
+  tier: paid
+  name: Spline MCP Server
+  url: https://docs.spline.design/generate/spline-mcp-server
+  search: Spline MCP server docs
+  license: Spline account required; daily tool-call allowance set by your Spline plan
+  install: claude mcp add --transport http --scope user spline https://mcp.spline.design/mcp
+  note: 'Official, hosted. Some tools are paid-plan only. Free option: three.js / react-three-fiber by code.'
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: agent-tooling
+  section: MCP servers and connectors
+  tier: paid
+  name: Mobbin MCP
+  url: https://github.com/mobbin/mobbin-mcp-server
+  repo: mobbin/mobbin-mcp-server
+  search: Mobbin MCP server
+  license: repo MIT; Mobbin content needs a Mobbin account (paid plans)
+  install: remote https://api.mobbin.com/mcp (OAuth sign-in)
+  note: 'Gives the agent real app screens and flows as references. Free option: browse public design galleries by hand.'
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 75
+    pushed: '2026-10-27'
+    archived: false
+    gh_license: MIT
+  problems:
+  - under 100 stars and 500 weekly downloads
+  attempts: 1
+- branch: agent-tooling
+  section: MCP servers and connectors
+  tier: big_lists
+  name: Official MCP Registry
+  url: https://registry.modelcontextprotocol.io/
+  repo: modelcontextprotocol/registry
+  search: official MCP Registry modelcontextprotocol
+  license: list (registry in preview)
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 7504
+    pushed: '2026-11-27'
+    archived: false
+    gh_license: NOASSERTION
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: agent-tooling
+  section: MCP servers and connectors
+  tier: big_lists
+  name: best-of-mcp-servers
+  url: https://github.com/tolkonepiu/best-of-mcp-servers
+  repo: tolkonepiu/best-of-mcp-servers
+  search: tolkonepiu best-of-mcp-servers ranked list
+  license: list
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 184
+    pushed: '2026-11-27'
+    archived: false
+    gh_license: CC-BY-SA-4.0
+  problems:
+  - license says 'list' but gh_license is CC-BY-SA-4.0
+  attempts: 1
+- branch: agent-tooling
+  section: Skills
+  tier: default
+  name: Anthropic skills
+  url: https://github.com/anthropics/skills
+  repo: anthropics/skills
+  search: anthropics skills repo Agent Skills examples
+  license: Apache-2.0 for many skills (check each skill folder)
+  install: /plugin marketplace add anthropics/skills, then /plugin install example-skills@anthropic-agent-skills
+  use_when: you want official example skills (docx, pdf, pptx, xlsx and more) and a template to copy
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 201481
+    pushed: '2026-11-16'
+    archived: false
+    gh_license: null
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: agent-tooling
+  section: Plugins and marketplaces
+  tier: default
+  name: Claude Code official plugin marketplace
+  url: https://github.com/anthropics/claude-plugins-official
+  repo: anthropics/claude-plugins-official
+  search: anthropics claude-plugins-official marketplace
+  license: per plugin (check each)
+  install: claude plugin install <name>@claude-plugins-official
+  use_when: you want vetted Claude Code plugins (Figma, Context7, Playwright, GitHub and more) installed by name
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 48472
+    pushed: '2026-11-27'
+    archived: false
+    gh_license: Apache-2.0
+  problems:
+  - license says 'per plugin (check each)' but gh_license is Apache-2.0
+  attempts: 1
+- branch: agent-tooling
+  section: Plugins and marketplaces
+  tier: big_lists
+  name: Claude plugins directory
+  url: https://claude.com/marketplace/plugins
+  search: Claude marketplace plugins directory
+  license: list
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: agent-tooling
+  section: Docs for agents
+  tier: alternatives
+  name: Agent Skills llms.txt (example)
+  url: https://agentskills.io/llms.txt
+  search: agentskills.io llms.txt documentation index
+  license: CC-BY-4.0
+  use_when: you want a working example of a docs site exposing an llms.txt index and .md pages for agents
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1

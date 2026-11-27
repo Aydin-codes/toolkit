@@ -1,0 +1,151 @@
+proposals:
+- branch: platforms
+  section: Mobile apps
+  tier: more
+  name: NativeScript
+  url: https://nativescript.org
+  repo: NativeScript/NativeScript
+  npm: '@nativescript/core'
+  search: NativeScript native apps JavaScript
+  license: Apache-2.0
+  install: npm i @nativescript/core
+  use_when: you want direct JavaScript access to native iOS and Android APIs without a WebView
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 25709
+    pushed: '2026-11-27'
+    archived: false
+    gh_license: MIT
+    npm_license: Apache-2.0
+    npm_modified: '2026-11-27'
+    npm_error: 429
+  problems:
+  - license says 'Apache-2.0' but gh_license is MIT
+  attempts: 1
+- branch: platforms
+  section: Mobile apps
+  tier: more
+  name: Progressive Web Apps (web.dev)
+  url: https://web.dev/explore/progressive-web-apps
+  search: web.dev progressive web apps guide
+  license: free docs (Google terms; license not stated on page)
+  use_when: an installable web app is enough and you want to skip app stores
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: platforms
+  section: Mobile apps
+  tier: paid
+  name: Apple Developer Program
+  url: https://developer.apple.com/programs/
+  search: Apple Developer Program membership
+  license: paid ($99 per year)
+  note: 'Needed to publish on the App Store. Free option: ship as a PWA.'
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: platforms
+  section: Browser extensions
+  tier: alternatives
+  name: CRXJS Vite plugin
+  url: https://crxjs.dev/vite-plugin
+  repo: crxjs/chrome-extension-tools
+  npm: '@crxjs/vite-plugin'
+  search: CRXJS Vite plugin Chrome extension
+  license: MIT
+  install: npm i -D @crxjs/vite-plugin
+  use_when: you have an existing Vite setup and only want extension build support with HMR
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: URLError
+    stars: 4185
+    pushed: '2026-11-24'
+    archived: false
+    gh_license: null
+    npm_license: MIT
+    npm_modified: '2026-09-24'
+    npm_error: 429
+  problems:
+  - link returned URLError
+  attempts: 1
+- branch: platforms
+  section: Browser extensions
+  tier: alternatives
+  name: Chrome Extensions docs
+  url: https://developer.chrome.com/docs/extensions
+  search: Chrome for Developers extensions documentation
+  license: free docs (Google terms; license not stated on page)
+  use_when: you need the Manifest V3 API reference and Chrome Web Store publishing rules
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: platforms
+  section: Browser extensions
+  tier: alternatives
+  name: MDN WebExtensions
+  url: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions
+  search: MDN browser extensions WebExtensions API
+  license: Creative Commons (MDN content; version not checked)
+  use_when: you need cross-browser API docs and Firefox-specific differences
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: platforms
+  section: Games
+  tier: default
+  name: Phaser
+  url: https://phaser.io
+  repo: phaserjs/phaser
+  npm: phaser
+  search: Phaser HTML5 game framework
+  license: MIT
+  install: npm i phaser
+  use_when: you want a full 2D browser game framework with physics, scenes and input
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 403
+    stars: 40797
+    pushed: '2026-08-21'
+    archived: false
+    gh_license: MIT
+    npm_license: MIT
+    npm_modified: '2026-07-09'
+    npm_error: 429
+  problems:
+  - link returned 403
+  attempts: 1
+- branch: platforms
+  section: Games
+  tier: more
+  name: itch.io
+  url: https://itch.io/developers
+  search: itch.io publish indie games
+  license: free to upload; seller sets the revenue share (not checked)
+  use_when: you want to publish a browser or downloadable game with a page and pay-what-you-want
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1

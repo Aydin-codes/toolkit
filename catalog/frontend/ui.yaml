@@ -1,0 +1,766 @@
+branch: frontend/ui
+title: UI components and icons
+intro: ''
+sections:
+- name: Base kits
+  default:
+    name: shadcn/ui
+    url: https://ui.shadcn.com
+    repo: shadcn-ui/ui
+    npm: shadcn
+    search: shadcn/ui components
+    license: MIT
+    install: npx shadcn@latest init, then npx shadcn@latest add <component>
+    use_when: you want accessible React components copied into your repo as editable Tailwind source
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 129266
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-25'
+      npm_error: 429
+    verified_by: auto
+  alternatives:
+  - name: Radix Primitives
+    url: https://radix-ui.com/primitives
+    repo: radix-ui/primitives
+    npm: radix-ui
+    search: Radix UI Primitives
+    license: MIT
+    install: npm i radix-ui
+    use_when: you want unstyled accessible React primitives and will write all styling yourself
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 19615
+      pushed: '2026-10-14'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-10-14'
+      npm_error: 429
+    verified_by: auto
+  - name: Base UI
+    url: https://base-ui.com
+    repo: mui/base-ui
+    npm: '@base-ui/react'
+    search: Base UI MUI unstyled components
+    license: MIT
+    install: npm i @base-ui/react
+    use_when: you want unstyled accessible React primitives from the Radix/MUI team, and shadcn's Base UI option
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 11510
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-10-09'
+      npm_error: 429
+    verified_by: auto
+  - name: React Aria Components
+    url: https://github.com/adobe/react-spectrum
+    repo: adobe/react-spectrum
+    npm: react-aria-components
+    search: React Aria Components Adobe
+    license: Apache-2.0
+    install: npm i react-aria-components
+    use_when: you need the strongest accessibility and internationalization (date pickers, drag and drop, many locales)
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 16074
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: Apache-2.0
+      npm_license: Apache-2.0
+      npm_modified: '2026-10-09'
+      npm_error: 429
+    verified_by: auto
+  - name: Mantine
+    url: https://mantine.dev/
+    repo: mantinedev/mantine
+    npm: '@mantine/core'
+    search: Mantine React components
+    license: MIT
+    install: npm i @mantine/core @mantine/hooks
+    use_when: you want a full styled React kit with forms, dates, notifications and hooks, without Tailwind
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 32031
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-20'
+      npm_error: 429
+    verified_by: auto
+  - name: daisyUI
+    url: https://daisyui.com
+    repo: saadeghi/daisyui
+    npm: daisyui
+    search: daisyUI Tailwind components
+    license: MIT
+    install: npm i -D daisyui
+    use_when: you want Tailwind component classes and themes that work in any framework, with no JS
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 43029
+      pushed: '2026-11-26'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-26'
+      npm_error: 429
+    verified_by: auto
+  more:
+  - name: Headless UI
+    url: https://github.com/tailwindlabs/headlessui
+    repo: tailwindlabs/headlessui
+    npm: '@headlessui/react'
+    search: Headless UI Tailwind Labs
+    license: MIT
+    install: npm i @headlessui/react
+    use_when: you want a small set of unstyled React or Vue components from the Tailwind team
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 28852
+      pushed: '2026-04-13'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-04-13'
+      npm_error: 429
+    verified_by: auto
+  - name: Ark UI
+    url: https://ark-ui.com
+    repo: chakra-ui/ark
+    npm: '@ark-ui/react'
+    search: Ark UI headless components Zag
+    license: MIT
+    install: npm i @ark-ui/react
+    use_when: you want the same headless components across React, Vue, Solid and Svelte
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 5489
+      pushed: '2026-11-26'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-23'
+      npm_error: 429
+    verified_by: auto
+  - name: Chakra UI
+    url: https://chakra-ui.com/
+    repo: chakra-ui/chakra-ui
+    npm: '@chakra-ui/react'
+    search: Chakra UI React
+    license: MIT
+    install: npm i @chakra-ui/react @emotion/react
+    use_when: you want a styled React kit with style props and theming, built on Ark UI
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 40754
+      pushed: '2026-11-25'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-03'
+      npm_error: 429
+    verified_by: auto
+  - name: Park UI
+    url: https://park-ui.com
+    repo: cschroeter/park-ui
+    npm: '@park-ui/panda-preset'
+    search: Park UI Ark Panda components
+    license: MIT
+    install: npm i -D @park-ui/panda-preset
+    use_when: you use Ark UI with Panda CSS or Tailwind and want ready styled recipes
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 2385
+      pushed: '2026-04-10'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2024-11-22'
+      npm_error: 429
+    verified_by: auto
+  - name: Reka UI
+    url: https://github.com/unovue/reka-ui
+    repo: unovue/reka-ui
+    npm: reka-ui
+    search: Reka UI Vue headless (formerly Radix Vue)
+    license: MIT
+    install: npm i reka-ui
+    use_when: you build in Vue or Nuxt and want Radix-style headless primitives
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 6978
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-27'
+      npm_error: 429
+    verified_by: auto
+  - name: Bits UI
+    url: https://github.com/huntabyte/bits-ui
+    repo: huntabyte/bits-ui
+    npm: bits-ui
+    search: Bits UI Svelte headless components
+    license: MIT
+    install: npm i bits-ui
+    use_when: you build in Svelte and want headless primitives (used by shadcn-svelte)
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 3684
+      pushed: '2026-11-25'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-21'
+      npm_error: 429
+    verified_by: auto
+- name: Animated kits
+  alternatives:
+  - name: Motion Primitives
+    url: https://www.motion-primitives.com
+    repo: ibelick/motion-primitives
+    npm: motion-primitives
+    search: Motion Primitives ibelick
+    license: MIT
+    install: npx shadcn@latest add @motion-primitives/<component>
+    use_when: you want small, plain animated building blocks (text effects, transitions, dialogs) built on Motion
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 7049
+      pushed: '2026-09-28'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2025-03-04'
+      npm_error: 429
+    verified_by: auto
+  - name: Cult UI
+    url: https://www.cult-ui.com
+    repo: nolly-studio/cult-ui
+    search: Cult UI shadcn components
+    license: MIT
+    install: npx shadcn@latest add @cult-ui/<component>
+    use_when: you want shadcn-compatible animated components with a more tactile style
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 7723
+      pushed: '2026-10-29'
+      archived: false
+      gh_license: MIT
+    verified_by: auto
+  - name: Kokonut UI
+    url: https://kokonutui.com
+    repo: kokonut-labs/kokonutui
+    search: Kokonut UI open source components
+    license: MIT
+    install: npx shadcn@latest add @kokonutui/<component>
+    use_when: you want free animated Tailwind and Motion components for Next.js
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 2435
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+    verified_by: auto
+  - name: Fancy Components
+    url: https://fancycomponents.dev
+    repo: danielpetho/fancy
+    search: Fancy Components danielpetho
+    license: MIT
+    install: npx shadcn@latest add @fancy/<component>
+    use_when: you want playful, experimental interaction and text components
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 3322
+      pushed: '2026-11-23'
+      archived: false
+      gh_license: MIT
+    verified_by: auto
+  more:
+  - name: Eldora UI
+    url: https://eldoraui.site
+    repo: karthikmudunuri/eldoraui
+    search: Eldora UI animated components
+    license: MIT
+    install: npx shadcn@latest add @eldoraui/<component>
+    use_when: you want another set of free animated Tailwind and Motion components and templates
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 1976
+      pushed: '2026-09-26'
+      archived: false
+      gh_license: MIT
+    verified_by: auto
+  - name: React Bits
+    url: https://reactbits.dev
+    repo: DavidHDev/react-bits
+    search: React Bits animated components DavidHDev
+    license: MIT + Commons Clause
+    license_url: https://raw.githubusercontent.com/DavidHDev/react-bits/main/LICENSE.md
+    install: npx shadcn@latest add @react-bits/<Component>-TS-TW
+    use_when: you want animated text, backgrounds and effects to use inside your own app or site
+    never_copy: true
+    note: 'Commons Clause: use in a product is fine; do not resell or republish the components.'
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      license_link: 200
+      stars: 52839
+      pushed: '2026-11-26'
+      archived: false
+      gh_license: NOASSERTION
+    verified_by: auto
+  - name: Animate UI
+    url: https://animate-ui.com
+    repo: imskyleen/animate-ui
+    search: Animate UI animated shadcn components
+    license: MIT + Commons Clause
+    license_url: https://raw.githubusercontent.com/imskyleen/animate-ui/main/LICENSE.md
+    install: npx shadcn@latest add @animate-ui/<component>
+    use_when: you want animated versions of shadcn/ui components (tabs, dialogs, switches) to use in your product
+    never_copy: true
+    note: 'Commons Clause: use in a product is fine; do not resell or republish the components.'
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      license_link: 200
+      stars: 5148
+      pushed: '2026-11-15'
+      archived: false
+      gh_license: NOASSERTION
+    verified_by: auto
+- name: Blocks and sections
+  default:
+    name: shadcn/studio
+    url: https://shadcnstudio.com
+    repo: themeselection/shadcn-studio
+    search: shadcn studio blocks components themes
+    license: MIT (open source part); Pro blocks paid
+    license_url: https://shadcnstudio.com/license
+    install: npx shadcn@latest add @shadcn-studio/<block>
+    use_when: you want free shadcn/ui blocks and component variants as editable source
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      license_link: 200
+      stars: 2008
+      pushed: '2026-08-20'
+      archived: false
+      gh_license: NOASSERTION
+    verified_by: auto
+  alternatives:
+  - name: shadcnblocks
+    url: https://shadcnblocks.com
+    search: shadcnblocks marketing blocks
+    license: free blocks plus paid Pro (shadcnblocks license)
+    license_url: https://www.shadcnblocks.com/license
+    install: npx shadcn@latest add @shadcnblocks/<block>
+    use_when: you want a large set of marketing sections (heroes, pricing, features) for shadcn/ui
+    note: Check which blocks are free; Pro blocks may not be redistributed.
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      license_link: 200
+    verified_by: auto
+  paid:
+  - name: Tailwind Plus
+    url: https://tailwindcss.com/plus/license
+    search: Tailwind Plus UI blocks templates
+    license: paid (Tailwind Plus license)
+    license_url: https://tailwindcss.com/plus/license
+    never_copy: true
+    note: 'Free option: shadcn/studio or shadcnblocks free blocks.'
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      license_link: 200
+    verified_by: auto
+- name: Icons
+  default:
+    name: Lucide
+    url: https://lucide.dev
+    repo: lucide-icons/lucide
+    npm: lucide-react
+    search: Lucide icons
+    license: ISC
+    install: npm i lucide-react
+    use_when: you want a consistent stroke icon set with packages for every framework (shadcn's default)
+    note: Very common in AI-built UIs; pick another set if you want to look less generic.
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 26042
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: NOASSERTION
+      npm_license: ISC
+      npm_modified: '2026-11-27'
+      npm_error: 429
+    verified_by: auto
+  alternatives:
+  - name: Phosphor Icons
+    url: https://phosphoricons.com
+    repo: phosphor-icons/react
+    npm: '@phosphor-icons/react'
+    search: Phosphor Icons
+    license: MIT
+    install: npm i @phosphor-icons/react
+    use_when: you want six weights per icon (thin to fill, duotone) from one set
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 1801
+      pushed: '2026-01-06'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2025-05-22'
+      npm_error: 429
+    verified_by: auto
+  - name: Tabler Icons
+    url: https://tabler.io/icons
+    repo: tabler/tabler-icons
+    npm: '@tabler/icons-react'
+    search: Tabler Icons
+    license: MIT
+    install: npm i @tabler/icons-react
+    use_when: you need a very large free stroke set (5000+) with adjustable stroke width
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 22853
+      pushed: '2026-11-25'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-24'
+      npm_error: 429
+    verified_by: auto
+  - name: Heroicons
+    url: https://github.com/tailwindlabs/heroicons
+    repo: tailwindlabs/heroicons
+    npm: '@heroicons/react'
+    search: Heroicons Tailwind Labs
+    license: MIT
+    install: npm i @heroicons/react
+    use_when: you want a small, clean set from the Tailwind team in outline, solid and mini sizes
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 23928
+      pushed: '2026-05-12'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-05-12'
+      npm_error: 429
+    verified_by: auto
+  - name: Iconoir
+    url: https://iconoir.com
+    repo: iconoir-icons/iconoir
+    npm: iconoir-react
+    search: Iconoir icons
+    license: MIT
+    install: npm i iconoir-react
+    use_when: you want a free stroke set with a slightly softer look than Lucide
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 4702
+      pushed: '2026-11-21'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-04'
+      npm_error: 429
+    verified_by: auto
+  more:
+  - name: Material Symbols
+    url: https://github.com/google/material-design-icons
+    repo: google/material-design-icons
+    search: Google Material Symbols icons
+    license: Apache-2.0
+    install: npm i material-symbols (self-hosted fonts by marella) or Google Fonts CDN
+    use_when: you want Google's variable icon font (fill, weight, grade) or a Material look
+    note: npm package material-symbols is a community repackage (marella/material-symbols, Apache-2.0).
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 54379
+      pushed: '2026-10-23'
+      archived: false
+      gh_license: Apache-2.0
+    verified_by: auto
+  - name: Remix Icon
+    url: https://remixicon.com
+    repo: Remix-Design/remixicon
+    npm: remixicon
+    search: Remix Icon
+    license: Apache-2.0
+    install: npm i remixicon
+    use_when: you want a neutral set with matching line and fill versions of each icon
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 8475
+      pushed: '2026-04-28'
+      archived: false
+      gh_license: NOASSERTION
+      npm_license: Apache-2.0
+      npm_modified: '2026-01-29'
+      npm_error: 429
+    verified_by: auto
+  - name: Simple Icons
+    url: https://simpleicons.org
+    repo: simple-icons/simple-icons
+    npm: simple-icons
+    search: Simple Icons brand logos SVG
+    license: CC0-1.0 (the SVG files); logos are trademarks of their owners
+    install: npm i simple-icons
+    use_when: you need SVG brand logos (GitHub, Stripe, etc.) for footers, integrations or login buttons
+    note: CC0 covers the files, not the trademarks; follow each brand's guidelines.
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 26289
+      pushed: '2026-11-24'
+      archived: false
+      gh_license: CC0-1.0
+      npm_license: CC0-1.0
+      npm_modified: '2026-11-24'
+      npm_error: 429
+    verified_by: auto
+  - name: Iconify
+    url: https://iconify.design/
+    repo: iconify/iconify
+    npm: '@iconify/react'
+    search: Iconify icon framework
+    license: MIT (framework); each icon set keeps its own license
+    install: npm i @iconify/react
+    use_when: you want one API to load icons from 200+ open sets by name
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 6420
+      pushed: '2026-11-26'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-01'
+      npm_error: 429
+    verified_by: auto
+  - name: Hugeicons
+    url: https://hugeicons.com
+    repo: hugeicons/hugeicons
+    npm: '@hugeicons/react'
+    search: Hugeicons free icons
+    license: MIT (free set); Pro paid
+    install: npm i @hugeicons/react
+    use_when: you want a large modern set with a free tier and several styles
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 1244
+      pushed: '2026-11-16'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-08-21'
+      npm_error: 429
+    verified_by: auto
+  - name: react-icons
+    url: https://github.com/react-icons/react-icons
+    repo: react-icons/react-icons
+    npm: react-icons
+    search: react-icons
+    license: MIT (package); each bundled set keeps its own license
+    install: npm i react-icons
+    use_when: you want many popular icon sets in React through one package
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 12702
+      pushed: '2026-10-23'
+      archived: false
+      gh_license: NOASSERTION
+      npm_license: MIT
+      npm_modified: '2026-09-21'
+      npm_error: 429
+    verified_by: auto
+- name: Color and tokens
+  default:
+    name: tweakcn
+    url: https://github.com/jnsahaj/tweakcn
+    repo: jnsahaj/tweakcn
+    search: tweakcn shadcn theme editor
+    license: Apache-2.0
+    use_when: you want to build and preview a shadcn/ui theme visually and export the CSS variables
+    note: Hosted editor is at tweakcn.com (not opened here). npm package 'tweakcn' is unrelated.
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 10581
+      pushed: '2026-09-03'
+      archived: false
+      gh_license: Apache-2.0
+    verified_by: auto
+  alternatives:
+  - name: Radix Colors
+    url: https://github.com/radix-ui/colors
+    repo: radix-ui/colors
+    npm: '@radix-ui/colors'
+    search: Radix Colors scales
+    license: MIT
+    install: npm i @radix-ui/colors
+    use_when: you want 12-step color scales with light and dark versions designed for UI roles
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 1753
+      pushed: '2025-12-17'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2025-12-24'
+      npm_error: 429
+    verified_by: auto
+  - name: Color.js
+    url: https://colorjs.io
+    repo: color-js/color.js
+    npm: colorjs.io
+    search: Color.js color science library
+    license: MIT
+    install: npm i colorjs.io
+    use_when: you need to convert, mix or check contrast of colors in OKLCH and other spaces in code
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 2331
+      pushed: '2026-11-24'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-07-24'
+      npm_error: 429
+    verified_by: auto
+  more:
+  - name: Culori
+    url: https://github.com/Evercoder/culori
+    repo: Evercoder/culori
+    npm: culori
+    search: Culori color library
+    license: MIT
+    install: npm i culori
+    use_when: you want a small functional color library for OKLCH scales and interpolation
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 1259
+      pushed: '2026-11-04'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-04-03'
+      npm_error: 429
+    verified_by: auto
+  - name: APCA (apca-w3)
+    url: https://git.myndex.com
+    repo: Myndex/apca-w3
+    npm: apca-w3
+    search: APCA contrast algorithm apca-w3
+    license: Limited W3 License (not open source)
+    install: npm i apca-w3
+    use_when: you want the APCA contrast method proposed for WCAG 3 to check text readability
+    note: WCAG 2 contrast ratio is still the legal standard; use APCA as an extra check.
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 220
+      pushed: '2026-05-06'
+      archived: false
+      gh_license: NOASSERTION
+      npm_license: Limited W3 License
+      npm_modified: '2022-07-04'
+      npm_error: 429
+    verified_by: auto
+- name: Component registries and directories
+  default:
+    name: shadcn registry directory
+    url: https://ui.shadcn.com/docs/directory
+    repo: shadcn-ui/ui
+    search: shadcn registry directory community registries
+    license: MIT (site); each registry has its own license
+    use_when: you want to find a shadcn-compatible registry and install from it by namespace (@name/component)
+    note: 'Machine-readable index: https://ui.shadcn.com/r/registries.json. Community registries are third-party; review code before installing.'
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 129266
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+    verified_by: auto

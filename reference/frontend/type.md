@@ -22,7 +22,7 @@ Where to get free fonts, starting picks by style, type-scale tools, and the font
 
 - [Velvetyne Libre Friends](https://velvetyne.fr/velvetyne-libre-friends) (search: Velvetyne Libre Friends free foundries list). License: list of OFL / libre foundries. *(candidate)*
 - [Free Faces](https://www.freefaces.gallery) (search: Free Faces gallery free typefaces). License: mixed; check each font. *(candidate)*
-- [awesome-typography](https://github.com/Jolg42/awesome-typography) (search: Jolg42 awesome-typography). License: list. *(candidate)*
+- [awesome-typography](https://github.com/Jolg42/awesome-typography) (search: Jolg42 awesome-typography). License: list. (1.6k stars, updated 2026-11) *(candidate)*
 
 **Paid** (only when asked, or when no free option fits)
 

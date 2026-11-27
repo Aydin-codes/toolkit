@@ -1,0 +1,550 @@
+rejected:
+- branch: agent-tooling
+  section: MCP servers and connectors
+  tier: big_lists
+  name: awesome-mcp-servers (appcypher)
+  url: https://github.com/appcypher/awesome-mcp-servers
+  repo: appcypher/awesome-mcp-servers
+  search: appcypher awesome-mcp-servers
+  license: list
+  status: declining
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 5850
+    pushed: '2026-05-06'
+    archived: true
+    gh_license: null
+  problems: &id001
+  - archived on GitHub
+  attempts: 1
+  rejected: '2026-11-27'
+  reasons: *id001
+- branch: frontend/3d
+  branch_title: 3D on the web
+  section: React helpers
+  tier: alternatives
+  name: Theatre.js
+  url: https://theatrejs.com
+  repo: theatre-js/theatre
+  npm: '@theatre/core'
+  search: Theatre.js motion design editor three.js
+  license: Apache-2.0 (core); studio is AGPL-3.0
+  install: npm i @theatre/core @theatre/studio @theatre/r3f
+  use_when: you need keyframed camera and object animation edited visually in the browser
+  note: Check the studio license before shipping it; usually it is only loaded in development.
+  status: declining
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 13131
+    pushed: '2024-08-14'
+    archived: false
+    gh_license: Apache-2.0
+    npm_license: Apache-2.0
+    npm_modified: '2024-05-19'
+    npm_weekly: 41598
+  problems: &id002
+  - no updates for 835 days
+  attempts: 1
+  rejected: '2026-11-27'
+  reasons: *id002
+- branch: frontend/3d
+  branch_title: 3D on the web
+  section: Physics
+  tier: alternatives
+  name: Rapier (JS/WASM)
+  url: https://rapier.rs
+  repo: dimforge/rapier.js
+  npm: '@dimforge/rapier3d-compat'
+  search: Rapier physics engine WASM JavaScript dimforge
+  license: Apache-2.0
+  install: npm i @dimforge/rapier3d-compat
+  use_when: you want fast deterministic WASM physics with plain three.js or another engine
+  status: declining
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 700
+    pushed: '2026-07-12'
+    archived: true
+    gh_license: Apache-2.0
+    npm_license: Apache-2.0
+    npm_modified: '2026-09-25'
+    npm_weekly: 20668861
+  problems: &id003
+  - archived on GitHub
+  attempts: 1
+  rejected: '2026-11-27'
+  reasons: *id003
+- branch: frontend/3d
+  branch_title: 3D on the web
+  section: Physics
+  tier: alternatives
+  name: cannon-es
+  url: https://github.com/pmndrs/cannon-es
+  repo: pmndrs/cannon-es
+  npm: cannon-es
+  search: cannon-es JavaScript physics engine
+  license: MIT
+  install: npm i cannon-es
+  use_when: you want a pure JavaScript physics engine with no WASM, for simple scenes
+  status: declining
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 2094
+    pushed: '2024-01-06'
+    archived: false
+    gh_license: MIT
+    npm_license: MIT
+    npm_modified: '2022-08-12'
+    npm_weekly: 244246
+  problems: &id004
+  - no updates for 1056 days
+  attempts: 1
+  rejected: '2026-11-27'
+  reasons: *id004
+- branch: frontend/3d
+  branch_title: 3D on the web
+  section: Physics
+  tier: alternatives
+  name: use-cannon
+  url: https://github.com/pmndrs/use-cannon
+  repo: pmndrs/use-cannon
+  npm: '@react-three/cannon'
+  search: pmndrs use-cannon react-three-cannon
+  license: MIT
+  install: npm i @react-three/cannon
+  use_when: you want cannon-es physics in R3F running in a web worker
+  status: declining
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 2971
+    pushed: '2024-02-25'
+    archived: false
+    gh_license: null
+    npm_license: MIT
+    npm_modified: '2026-08-07'
+    npm_weekly: 30416
+  problems: &id005
+  - no updates for 1006 days
+  attempts: 1
+  rejected: '2026-11-27'
+  reasons: *id005
+- branch: frontend/3d
+  branch_title: 3D on the web
+  section: Model tools and compression
+  tier: alternatives
+  name: gltfjsx
+  url: https://github.com/pmndrs/gltfjsx
+  repo: pmndrs/gltfjsx
+  npm: gltfjsx
+  search: pmndrs gltfjsx glTF to JSX
+  license: MIT
+  install: npx gltfjsx model.glb --transform
+  use_when: you want a GLB turned into a reusable React Three Fiber component
+  status: declining
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 5906
+    pushed: '2024-11-04'
+    archived: false
+    gh_license: MIT
+    npm_license: MIT
+    npm_modified: '2024-11-04'
+    npm_weekly: 10845
+  problems: &id006
+  - no updates for 753 days
+  attempts: 1
+  rejected: '2026-11-27'
+  reasons: *id006
+- branch: frontend/dataviz
+  section: Charts
+  tier: big_lists
+  name: awesome-charting
+  url: https://github.com/zingchart/awesome-charting/blob/master/README.md
+  repo: zingchart/awesome-charting
+  search: zingchart awesome-charting
+  license: list
+  status: declining
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 2121
+    pushed: '2024-02-18'
+    archived: false
+    gh_license: MIT
+  problems: &id007
+  - no updates for 1013 days
+  attempts: 1
+  rejected: '2026-11-27'
+  reasons: *id007
+- branch: frontend/frameworks
+  branch_title: Frameworks and front-end libraries
+  section: Static and content sites
+  tier: big_lists
+  name: awesome-static-generators
+  url: https://www.github.com/myles/awesome-static-generators
+  repo: myles/awesome-static-generators
+  search: myles awesome-static-generators
+  license: list
+  license_url: https://www.github.com/myles/awesome-static-generators
+  status: declining
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    license_link: 200
+    stars: 3772
+    pushed: '2026-10-05'
+    archived: true
+    gh_license: CC0-1.0
+  problems: &id008
+  - archived on GitHub
+  attempts: 1
+  rejected: '2026-11-27'
+  reasons: *id008
+- branch: frontend/frameworks
+  branch_title: Frameworks and front-end libraries
+  section: Styling
+  tier: alternatives
+  name: CSS Modules
+  url: https://github.com/CSS-modules/CSS-modules
+  repo: css-modules/css-modules
+  search: CSS Modules spec locally scoped class names
+  license: spec and docs; no license file in the repo (support is built into Vite, Next.js and css-loader)
+  license_url: https://github.com/CSS-modules/CSS-modules
+  install: none; name files *.module.css in Vite or Next.js
+  use_when: you want plain CSS with locally scoped class names and no extra library
+  status: declining
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    license_link: 200
+    stars: 18037
+    pushed: '2024-05-30'
+    archived: false
+    gh_license: null
+  problems: &id009
+  - no updates for 911 days
+  attempts: 1
+  rejected: '2026-11-27'
+  reasons: *id009
+- branch: frontend/motion
+  section: Animation libraries
+  tier: more
+  name: Animate.css
+  url: https://animate.style/
+  repo: animate-css/animate.css
+  npm: animate.css
+  search: Animate.css ready-made CSS animations
+  license: MIT
+  install: npm i animate.css
+  use_when: you only need a few ready-made CSS entrance or attention animations, no JS
+  status: declining
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 83075
+    pushed: '2024-07-29'
+    archived: false
+    gh_license: NOASSERTION
+    npm_license: MIT
+    npm_modified: '2022-11-18'
+    npm_error: 429
+  problems: &id010
+  - no updates for 851 days
+  attempts: 1
+  rejected: '2026-11-27'
+  reasons: *id010
+- branch: frontend/motion
+  section: Animation libraries
+  tier: more
+  name: Theatre.js
+  url: https://www.theatrejs.com
+  repo: theatre-js/theatre
+  npm: '@theatre/core'
+  search: Theatre.js motion design editor for the web
+  license: Apache-2.0 (core); studio editor is AGPL-3.0
+  install: npm i @theatre/core @theatre/studio
+  use_when: you want a visual keyframe editor for three.js or DOM scenes; use studio only during development
+  note: Public repo says development moved to a private repo; last npm release 2024.
+  status: declining
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 13131
+    pushed: '2024-08-14'
+    archived: false
+    gh_license: Apache-2.0
+    npm_license: Apache-2.0
+    npm_modified: '2024-05-19'
+    npm_error: 429
+  problems: &id011
+  - no updates for 835 days
+  attempts: 1
+  rejected: '2026-11-27'
+  reasons: *id011
+- branch: frontend/motion
+  section: Animation libraries
+  tier: more
+  name: Popmotion
+  url: https://popmotion.io/
+  repo: Popmotion/popmotion
+  npm: popmotion
+  search: Popmotion functional animation library
+  license: MIT
+  install: npm i popmotion
+  use_when: you need low-level tween and spring functions only; prefer Motion for new work
+  note: No release since 2022; its ideas live on in Motion.
+  status: declining
+  facts:
+    checked: '2026-11-27'
+    link: 403
+    stars: 20162
+    pushed: '2024-03-12'
+    archived: false
+    gh_license: null
+    npm_license: MIT
+    npm_modified: '2022-08-15'
+    npm_error: 429
+  problems: &id012
+  - no updates for 990 days
+  attempts: 1
+  rejected: '2026-11-27'
+  reasons: *id012
+- branch: frontend/motion
+  section: Text and background effects
+  tier: alternatives
+  name: Splitting.js
+  url: https://splitting.js.org
+  repo: shshaw/Splitting
+  npm: splitting
+  search: Splitting.js split text into chars words CSS variables
+  license: MIT
+  install: npm i splitting
+  use_when: you want to split text into words and characters with CSS variables for CSS-driven text effects
+  status: declining
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 1757
+    pushed: '2024-06-19'
+    archived: false
+    gh_license: MIT
+    npm_license: MIT
+    npm_modified: '2024-05-31'
+    npm_error: 429
+  problems: &id013
+  - no updates for 891 days
+  attempts: 1
+  rejected: '2026-11-27'
+  reasons: *id013
+- branch: frontend/motion
+  section: Text and background effects
+  tier: alternatives
+  name: SplitType
+  url: https://github.com/lukePeavey/SplitType
+  repo: lukePeavey/SplitType
+  npm: split-type
+  search: SplitType split text lines words chars
+  license: ISC
+  install: npm i split-type
+  use_when: you need line-level text splitting for reveal animations without GSAP SplitText
+  status: declining
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 736
+    pushed: '2023-12-03'
+    archived: false
+    gh_license: null
+    npm_license: ISC
+    npm_modified: '2023-10-22'
+    npm_error: 429
+  problems: &id014
+  - no updates for 1090 days
+  attempts: 1
+  rejected: '2026-11-27'
+  reasons: *id014
+- branch: frontend/motion
+  section: Text and background effects
+  tier: more
+  name: Vanta.js
+  url: https://github.com/tengbao/vanta
+  repo: tengbao/vanta
+  npm: vanta
+  search: Vanta.js animated 3D backgrounds three.js
+  license: MIT
+  install: npm i vanta three
+  use_when: you want a drop-in animated 3D background (waves, fog, birds) on a plain page
+  note: No npm release since 2022; the effects look dated and are widely used.
+  status: declining
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 7448
+    pushed: '2024-03-03'
+    archived: false
+    gh_license: MIT
+    npm_license: MIT
+    npm_modified: '2022-09-16'
+    npm_error: 429
+  problems: &id015
+  - no updates for 999 days
+  attempts: 1
+  rejected: '2026-11-27'
+  reasons: *id015
+- branch: frontend/motion
+  section: Shaders and WebGL backgrounds
+  tier: big_lists
+  name: awesome-glsl
+  url: https://github.com/vanrez-nez/awesome-glsl
+  repo: vanrez-nez/awesome-glsl
+  search: vanrez-nez awesome-glsl
+  license: list
+  status: declining
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 1379
+    pushed: '2023-08-21'
+    archived: false
+    gh_license: MIT
+  problems: &id016
+  - no updates for 1194 days
+  attempts: 1
+  rejected: '2026-11-27'
+  reasons: *id016
+- branch: frontend/motion
+  section: Smooth scroll and scroll effects
+  tier: more
+  name: scroll-timeline polyfill
+  url: https://github.com/flackr/scroll-timeline
+  repo: flackr/scroll-timeline
+  search: flackr scroll-timeline polyfill
+  license: check repo
+  use_when: you use scroll-driven animations and need them in browsers that don't support them yet
+  status: declining
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 1164
+    pushed: '2024-08-26'
+    archived: false
+    gh_license: Apache-2.0
+  problems: &id017
+  - no updates for 823 days
+  attempts: 1
+  rejected: '2026-11-27'
+  reasons: *id017
+- branch: frontend/motion
+  section: Smooth scroll and scroll effects
+  tier: more
+  name: AOS
+  url: https://michalsnik.github.io/aos/
+  repo: michalsnik/aos
+  npm: aos
+  search: AOS animate on scroll library
+  license: MIT
+  install: npm i aos
+  use_when: you only need simple fade or slide in on scroll via data attributes; CSS scroll-driven animations now cover most of this
+  note: Old and little maintained.
+  status: declining
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 28051
+    pushed: '2024-03-26'
+    archived: false
+    gh_license: MIT
+    npm_license: MIT
+    npm_modified: '2022-06-13'
+    npm_error: 429
+  problems: &id018
+  - no updates for 976 days
+  attempts: 1
+  rejected: '2026-11-27'
+  reasons: *id018
+- branch: platforms
+  section: Browser extensions
+  tier: more
+  name: webextension-polyfill
+  url: https://github.com/mozilla/webextension-polyfill
+  repo: mozilla/webextension-polyfill
+  npm: webextension-polyfill
+  search: mozilla webextension-polyfill browser namespace
+  license: MPL-2.0
+  install: npm i webextension-polyfill
+  use_when: you want the promise-based browser.* API in Chrome without a framework
+  status: declining
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 3069
+    pushed: '2026-07-30'
+    archived: true
+    gh_license: MPL-2.0
+    npm_license: MPL-2.0
+    npm_modified: '2024-05-14'
+    npm_error: 429
+  problems: &id019
+  - archived on GitHub
+  attempts: 1
+  rejected: '2026-11-27'
+  reasons: *id019
+- branch: print-pdf
+  section: Edit and merge
+  tier: alternatives
+  name: pdf-lib
+  url: https://pdf-lib.js.org/
+  repo: Hopding/pdf-lib
+  npm: pdf-lib
+  search: pdf-lib JavaScript create modify PDF
+  license: MIT
+  install: npm i pdf-lib
+  use_when: you edit, merge or fill forms in PDFs in JavaScript, in the browser or on Node
+  note: Last npm release is 1.17.1 and the repo is quiet; it still works widely.
+  status: declining
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 8700
+    pushed: '2024-07-17'
+    archived: false
+    gh_license: MIT
+    npm_license: MIT
+    npm_modified: '2022-05-12'
+    npm_error: 429
+  problems: &id020
+  - no updates for 863 days
+  attempts: 1
+  rejected: '2026-11-27'
+  reasons: *id020
+- branch: ship
+  section: Analytics
+  tier: more
+  name: Umami Node client
+  url: https://github.com/umami-software/umami-node
+  repo: umami-software/umami-node
+  npm: '@umami/node'
+  search: Umami analytics open source
+  license: MIT
+  install: npm i @umami/node
+  use_when: you run Umami (open-source analytics) and want to send events from a Node server
+  note: Main Umami app repo and homepage still to be added.
+  status: declining
+  facts:
+    checked: '2026-11-27'
+    link: 404
+    github_error: 404
+    npm_license: MIT
+    npm_modified: '2024-08-19'
+    npm_error: 429
+  problems: &id021
+  - no updates for 830 days
+  attempts: 1
+  rejected: '2026-11-27'
+  reasons: *id021

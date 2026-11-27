@@ -1,0 +1,279 @@
+proposals:
+- branch: print-pdf
+  section: Make PDFs
+  tier: alternatives
+  name: Paged.js
+  url: https://pagedjs.org/about
+  repo: pagedjs/pagedjs
+  npm: pagedjs
+  search: Paged.js paged media polyfill
+  license: MIT
+  install: npm i pagedjs
+  use_when: you want CSS Paged Media (running headers, page counters, margin boxes) in a browser, then print to PDF
+  note: Main development has moved to gitlab.coko.foundation/pagedjs/pagedjs; the GitHub repo is a mirror.
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 404
+    stars: 1576
+    pushed: '2026-11-14'
+    archived: false
+    gh_license: MIT
+    npm_license: MIT
+    npm_modified: '2024-10-04'
+    npm_error: 429
+  problems:
+  - link returned 404
+  attempts: 1
+- branch: print-pdf
+  section: Make PDFs
+  tier: more
+  name: Tectonic
+  url: https://github.com/tectonic-typesetting/tectonic
+  repo: tectonic-typesetting/tectonic
+  search: Tectonic TeX LaTeX engine
+  license: MIT
+  install: brew install tectonic, cargo install tectonic, or a release binary; tectonic doc.tex
+  use_when: you need LaTeX output from one binary that fetches packages on demand, without a full TeX Live install
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 5268
+    pushed: '2026-08-01'
+    archived: false
+    gh_license: NOASSERTION
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: print-pdf
+  section: Make PDFs
+  tier: paid
+  name: DocRaptor
+  url: https://docraptor.com/
+  search: DocRaptor HTML to PDF API
+  license: paid (hosted API, free test documents)
+  note: 'Hosted Prince engine. Free option: WeasyPrint or Paged.js.'
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: print-pdf
+  section: Edit and merge
+  tier: alternatives
+  name: pypdf
+  url: https://pypdf.readthedocs.io/en/latest/
+  repo: py-pdf/pypdf
+  search: pypdf Python PDF library
+  license: BSD-3-Clause
+  install: pip install pypdf
+  use_when: you merge, split, crop, encrypt or fill forms in pure Python with no native dependencies
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 10321
+    pushed: '2026-11-27'
+    archived: false
+    gh_license: NOASSERTION
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: print-pdf
+  section: Edit and merge
+  tier: more
+  name: MuPDF (mutool)
+  url: https://mupdf.com/product/ecosystem
+  npm: mupdf
+  search: MuPDF mutool Artifex
+  license: AGPL-3.0-or-later or Artifex commercial license
+  license_url: https://mupdf.readthedocs.io/en/1.27.0/license.html
+  install: apt install mupdf-tools (mutool), or npm i mupdf for the WASM build
+  use_when: you want a small, fast CLI to render, clean, merge and extract from PDFs, or the WASM build in JS
+  note: AGPL, same terms as PyMuPDF.
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    license_link: 200
+    npm_license: AGPL-3.0-or-later
+    npm_modified: '2026-11-09'
+    npm_error: 429
+  problems:
+  - under 100 stars and 500 weekly downloads
+  attempts: 1
+- branch: print-pdf
+  section: Edit and merge
+  tier: big_lists
+  name: awesome-pdf (OneOffTech)
+  url: https://github.com/OneOffTech/awesome-pdf/
+  repo: OneOffTech/awesome-pdf
+  search: OneOffTech awesome-pdf
+  license: list
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 33
+    pushed: '2026-07-26'
+    archived: false
+    gh_license: CC0-1.0
+  problems:
+  - license says 'list' but gh_license is CC0-1.0
+  - under 100 stars and 500 weekly downloads
+  attempts: 1
+- branch: print-pdf
+  section: Edit and merge
+  tier: paid
+  name: Adobe Acrobat Pro
+  url: https://www.adobe.com/acrobat/pricing.html
+  search: Adobe Acrobat Pro
+  license: paid subscription
+  note: 'Reference editor for preflight, forms and redaction. Free option: qpdf, pypdf or Stirling-PDF.'
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 403
+  problems:
+  - link returned 403
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: print-pdf
+  section: Read and extract
+  tier: big_lists
+  name: awesome-pdf (py-pdf)
+  url: https://github.com/py-pdf/awesome-pdf
+  repo: py-pdf/awesome-pdf
+  search: py-pdf awesome-pdf
+  license: list
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 162
+    pushed: '2026-11-08'
+    archived: false
+    gh_license: BSD-3-Clause
+  problems:
+  - license says 'list' but gh_license is BSD-3-Clause
+  attempts: 1
+- branch: print-pdf
+  section: Templates
+  tier: default
+  name: Typst Universe
+  url: https://typst.app/universe
+  repo: typst/packages
+  search: Typst Universe templates packages
+  license: per package (each lists its own, mostly MIT, Apache or MIT-0)
+  license_url: https://github.com/typst/packages/
+  install: typst init @preview/<template>
+  use_when: you want ready Typst templates for CVs, theses, letters, posters and slides
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    license_link: 200
+    stars: 1052
+    pushed: '2026-11-26'
+    archived: false
+    gh_license: Apache-2.0
+  problems:
+  - license says 'per package (each lists its own, mostly MIT, Apache or MIT-0)' but gh_license is Apache-2.0
+  attempts: 1
+- branch: print-pdf
+  section: Templates
+  tier: alternatives
+  name: Typst official templates
+  url: https://github.com/typst/templates
+  repo: typst/templates
+  search: typst templates repository
+  license: not stated on the repo page; check LICENSE
+  use_when: you want small reference templates from the Typst team to learn from or adapt
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 435
+    pushed: '2026-03-20'
+    archived: false
+    gh_license: MIT-0
+  problems:
+  - license says 'not stated on the repo page; check LICENSE' but gh_license is MIT-0
+  attempts: 1
+- branch: print-pdf
+  section: Templates
+  tier: big_lists
+  name: awesome-typst
+  url: https://github.com/qjcg/awesome-typst
+  repo: qjcg/awesome-typst
+  search: qjcg awesome-typst
+  license: list
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 3629
+    pushed: '2026-08-07'
+    archived: false
+    gh_license: CC0-1.0
+  problems:
+  - license says 'list' but gh_license is CC0-1.0
+  attempts: 1
+- branch: print-pdf
+  section: Print and layout tools
+  tier: alternatives
+  name: Inkscape
+  url: https://inkscape.org
+  search: Inkscape vector editor
+  license: GPL-2.0-or-later (parts GPL-3.0)
+  license_url: https://sources.debian.org/src/inkscape/1.4.2-3/COPYING
+  install: apt install inkscape; inkscape --export-type=pdf file.svg for headless export
+  use_when: you make single-page print pieces (posters, cards, covers) as SVG and export to PDF from the command line
+  note: No native CMYK workflow; finish CMYK and PDF/X in Scribus if the printer needs it.
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    license_link: 404
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: print-pdf
+  section: Print and layout tools
+  tier: alternatives
+  name: Paged.js cheatsheet
+  url: https://pagedjs.org/documentation/cheatsheet
+  search: Paged.js paged media cheatsheet
+  license: docs page, link only
+  license_url: https://pagedjs.org/about
+  use_when: you want a short reference of Paged Media CSS properties with working examples
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 404
+    license_link: 404
+  problems:
+  - link returned 404
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: print-pdf
+  section: Print and layout tools
+  tier: more
+  name: FLOSS Manuals Scribus - The final output
+  url: https://archive.flossmanuals.net/scribus-2/the-final-output.html
+  search: FLOSS Manuals Scribus final output PDF print
+  license: not stated on the page (FLOSS Manuals books are usually GPL); link only
+  license_url: https://archive.flossmanuals.net/scribus-2/the-final-output.html
+  use_when: you need a step-by-step checklist for bleed, crop marks and PDF/X export for commercial print
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: URLError
+    license_link: URLError
+  problems:
+  - link returned URLError
+  - license has no evidence (add license_url)
+  attempts: 1

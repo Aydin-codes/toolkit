@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased
+
+- Fill pipeline: `scripts/enrich.py` (facts from GitHub, npm and the link), `gate.py` (status from fixed rules), `merge.py` (inbox to branches, duplicates dropped, rejects kept with reasons), `pipeline.py` (runs all four and writes a report to `runs/`).
+- `scripts/find.py` searches every entry; `build.py` also writes `catalog/index.json`.
+- New tier **More options** so sections can grow past 5 alternatives.
+- Claude Code: `fill-branch` skill plus `harvester`, `license-checker` and `auditor` subagents.
+
 ## 0.1.0 (draft, not released)
 
 - Toolkit moves from `Aydin-codes/skills/toolkit` to its own repo.

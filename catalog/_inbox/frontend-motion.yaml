@@ -1,0 +1,231 @@
+proposals:
+- branch: frontend/motion
+  section: Animation libraries
+  tier: alternatives
+  name: GSAP
+  url: https://gsap.com
+  repo: greensock/GSAP
+  npm: gsap
+  search: GSAP GreenSock animation platform
+  license: free, not open source (GSAP Standard "No Charge" license, owned by Webflow)
+  license_url: https://gsap.com/community/standard-license/
+  install: npm i gsap (React helper - npm i @gsap/react)
+  use_when: you need timelines, SVG morphing, SplitText or scroll scenes; free for commercial use, but not allowed in no-code tools that compete with Webflow
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    license_link: 200
+    stars: 31378
+    pushed: '2026-11-04'
+    archived: false
+    gh_license: null
+    npm_license: 'Standard ''no charge'' license: https://gsap.com/standard-license.'
+    npm_modified: '2026-11-11'
+    npm_error: 429
+  problems:
+  - 'license says ''free, not open source (GSAP Standard "No Charge" license, owned by Webflow)'' but npm_license is Standard ''no charge'' license: https://gsap.com/standard-license.'
+  attempts: 1
+- branch: frontend/motion
+  section: Animation libraries
+  tier: big_lists
+  name: awesome-web-animation
+  url: https://github.com/sergey-pimenov/awesome-web-animation
+  repo: sergey-pimenov/awesome-web-animation
+  search: sergey-pimenov awesome-web-animation
+  license: list
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 1611
+    pushed: '2026-09-20'
+    archived: false
+    gh_license: CC0-1.0
+  problems:
+  - license says 'list' but gh_license is CC0-1.0
+  attempts: 1
+- branch: frontend/motion
+  section: Text and background effects
+  tier: alternatives
+  name: React Bits
+  url: https://reactbits.dev
+  repo: DavidHDev/react-bits
+  search: React Bits animated React components DavidHDev
+  license: MIT + Commons Clause
+  install: npx shadcn@latest add @react-bits/<Component>-TS-TW (or jsrepo, or copy)
+  use_when: you want animated text and WebGL-style backgrounds for React; may be used in projects but not resold or redistributed as a library
+  never_copy: true
+  note: Vue version is DavidHDev/vue-bits.
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 52839
+    pushed: '2026-11-26'
+    archived: false
+    gh_license: NOASSERTION
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: frontend/motion
+  section: Text and background effects
+  tier: big_lists
+  name: awesome-creative-coding
+  url: https://github.com/terkelg/awesome-creative-coding
+  repo: terkelg/awesome-creative-coding
+  search: terkelg awesome-creative-coding
+  license: list
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 15665
+    pushed: '2026-07-21'
+    archived: false
+    gh_license: null
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: frontend/motion
+  section: Shaders and WebGL backgrounds
+  tier: alternatives
+  name: OGL
+  url: https://oframe.github.io/ogl/examples
+  repo: oframe/ogl
+  npm: ogl
+  search: OGL minimal WebGL library
+  license: Unlicense
+  install: npm i ogl
+  use_when: you want to write your own full-screen shader effect with a much smaller library than three.js
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 4766
+    pushed: '2025-04-13'
+    archived: false
+    gh_license: null
+    npm_license: Unlicense
+    npm_modified: '2025-01-27'
+    npm_error: 429
+  problems:
+  - no updates in the last year
+  attempts: 1
+- branch: frontend/motion
+  section: Shaders and WebGL backgrounds
+  tier: more
+  name: Shadertoy
+  url: https://www.shadertoy.com
+  search: Shadertoy GLSL shaders
+  license: per shader, set by each author; many are non-commercial, so check before porting
+  use_when: you want to learn or find a reference for a shader technique; treat it as reference, not a code source
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 403
+  problems:
+  - link returned 403
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: frontend/motion
+  section: Smooth scroll and scroll effects
+  tier: alternatives
+  name: GSAP ScrollTrigger
+  url: https://gsap.com/docs/v3/Plugins/ScrollTrigger/
+  repo: greensock/GSAP
+  npm: gsap
+  search: GSAP ScrollTrigger plugin
+  license: free, not open source (GSAP Standard "No Charge" license)
+  license_url: https://gsap.com/community/standard-license/
+  install: npm i gsap, then gsap.registerPlugin(ScrollTrigger)
+  use_when: you need pinned sections, scrubbed timelines or complex scroll scenes
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    license_link: 200
+    stars: 31378
+    pushed: '2026-11-04'
+    archived: false
+    gh_license: null
+    npm_license: 'Standard ''no charge'' license: https://gsap.com/standard-license.'
+    npm_modified: '2026-11-11'
+    npm_error: 429
+  problems:
+  - 'license says ''free, not open source (GSAP Standard "No Charge" license)'' but npm_license is Standard ''no charge'' license: https://gsap.com/standard-license.'
+  attempts: 1
+- branch: frontend/motion
+  section: Smooth scroll and scroll effects
+  tier: alternatives
+  name: CSS scroll-driven animations (MDN)
+  url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Scroll-driven_Animations
+  search: MDN CSS scroll-driven animations animation-timeline
+  license: docs (CC BY-SA); a web platform feature, nothing to install
+  use_when: you want scroll progress or reveal effects in plain CSS with no JS; check browser support and add a fallback
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: frontend/motion
+  section: Smooth scroll and scroll effects
+  tier: more
+  name: scroll-driven-animations.style
+  url: https://scroll-driven-animations.style
+  search: scroll-driven-animations.style Bramus demos
+  license: Apache-2.0 (site source)
+  use_when: you want working demos, visualizer tools and a debugger extension for CSS scroll-driven animations
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: frontend/motion
+  section: Lottie and Rive
+  tier: alternatives
+  name: lottie-web
+  url: https://github.com/airbnb/lottie-web
+  repo: airbnb/lottie-web
+  npm: lottie-web
+  search: lottie-web Airbnb After Effects animations
+  license: MIT
+  install: npm i lottie-web
+  use_when: you need the original Lottie JSON player with SVG renderer and full After Effects feature coverage
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 32614
+    pushed: '2025-09-01'
+    archived: false
+    gh_license: MIT
+    npm_license: MIT
+    npm_modified: '2025-05-21'
+    npm_error: 429
+  problems:
+  - no updates in the last year
+  attempts: 1
+- branch: frontend/motion
+  section: Lottie and Rive
+  tier: big_lists
+  name: awesome-lottie
+  url: https://github.com/LottieFiles/awesome-lottie
+  repo: LottieFiles/awesome-lottie
+  search: LottieFiles awesome-lottie
+  license: list
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 334
+    pushed: '2026-04-06'
+    archived: false
+    gh_license: null
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1

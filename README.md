@@ -1,4 +1,4 @@
-<p align="center"><img src=".github/assets/logo.svg" alt="toolkit logo: a black index folder with a checked list on a safety-yellow tile" width="96"></p>
+<p align="center"><img src=".github/assets/logo.svg" alt="toolkit logo: a black toolbox on a safety-yellow tile" width="96"></p>
 
 <h1 align="center">toolkit</h1>
 

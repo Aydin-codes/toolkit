@@ -1,0 +1,237 @@
+proposals:
+- branch: frontend/ui
+  branch_title: UI components and icons
+  section: Base kits
+  tier: more
+  name: coss ui
+  url: https://coss.com/ui
+  repo: cosscom/ui
+  search: coss ui Cal.com Base UI Tailwind
+  license: free and open source (check repo license)
+  install: npx shadcn@latest add @coss/<component>
+  use_when: you want shadcn-style Tailwind components built on Base UI instead of Radix
+  note: License file not read yet.
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 11215
+    pushed: '2026-11-26'
+    archived: false
+    gh_license: MIT
+  problems:
+  - license says 'free and open source (check repo license)' but gh_license is MIT
+  attempts: 1
+- branch: frontend/ui
+  branch_title: UI components and icons
+  section: Animated kits
+  tier: more
+  name: Watermelon UI
+  url: https://ui.watermelon.sh
+  repo: WatermelonCorp/watermelon-platform
+  search: Watermelon UI animated components
+  license: free, open source (license not confirmed)
+  install: npx shadcn@latest add @watermelon/<component>
+  use_when: you want animated app components, blocks and dashboards for shadcn/ui
+  note: Site links a copyright and attribution policy; read the repo license before copying.
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 274
+    pushed: '2026-11-27'
+    archived: false
+    gh_license: MIT
+  problems:
+  - license says 'free, open source (license not confirmed)' but gh_license is MIT
+  attempts: 1
+- branch: frontend/ui
+  branch_title: UI components and icons
+  section: Animated kits
+  tier: more
+  name: Skiper UI
+  url: https://skiper-ui.com/
+  search: Skiper UI components
+  license: free tier with attribution required; Pro paid
+  license_url: https://pre.skiper-ui.com/docs/quick-start
+  install: npx shadcn@latest add @skiper-ui/<component>
+  use_when: you want product-style animated components and can credit Skiper UI
+  never_copy: true
+  note: Free components need attribution to Skiper UI; no open source license found.
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    license_link: URLError
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: frontend/ui
+  branch_title: UI components and icons
+  section: Blocks and sections
+  tier: alternatives
+  name: Launch UI
+  url: https://www.launchuicomponents.com/
+  search: Launch UI landing page components shadcn
+  license: free version under a permissive license; Pro paid
+  install: npx shadcn@latest add @launchui/<block>
+  use_when: you want a free landing-page template and a few sections built with shadcn/ui and Tailwind
+  note: 'Free tier: 1 template and 9 blocks; Pro is a one-time purchase.'
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: frontend/ui
+  branch_title: UI components and icons
+  section: Blocks and sections
+  tier: alternatives
+  name: Tailark
+  url: https://tailark.com
+  search: Tailark marketing blocks shadcn
+  license: license not stated on homepage; has a paid full-access tier
+  install: npx shadcn@latest add @tailark/<block>
+  use_when: you want marketing page blocks for shadcn/ui on Radix or Base UI
+  note: Read the license before copying blocks.
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: frontend/ui
+  branch_title: UI components and icons
+  section: Blocks and sections
+  tier: more
+  name: blocks.so
+  url: https://blocks.so
+  search: blocks.so shadcn blocks
+  license: check site
+  install: npx shadcn@latest add @blocks-so/<block>
+  use_when: you want free app-style blocks (dashboards, forms, settings) for shadcn/ui
+  note: License not read yet.
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: frontend/ui
+  branch_title: UI components and icons
+  section: Icons
+  tier: more
+  name: Material Design Icons (Pictogrammers)
+  url: https://github.com/Templarian/MaterialDesign
+  repo: Templarian/MaterialDesign
+  search: Pictogrammers Material Design Icons
+  license: Pictogrammers Free License
+  license_url: https://raw.githubusercontent.com/Templarian/MaterialDesign/HEAD/LICENSE
+  use_when: you want a very large community icon set in Material style
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    license_link: 200
+    stars: 11315
+    pushed: '2025-01-20'
+    archived: false
+    gh_license: NOASSERTION
+  problems:
+  - no updates in the last year
+  attempts: 1
+- branch: frontend/ui
+  branch_title: UI components and icons
+  section: Icons
+  tier: big_lists
+  name: Iconify icon sets
+  url: https://iconify.design/icon-sets/
+  repo: iconify/icon-sets
+  npm: '@iconify/json'
+  search: Iconify icon sets browse
+  license: list; license shown per set
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 1091
+    pushed: '2026-11-26'
+    archived: false
+    gh_license: null
+    npm_license: MIT
+    npm_modified: '2026-11-26'
+    npm_error: 429
+  problems:
+  - license says 'list; license shown per set' but npm_license is MIT
+  attempts: 1
+- branch: frontend/ui
+  branch_title: UI components and icons
+  section: Component registries and directories
+  tier: alternatives
+  name: 21st.dev
+  url: https://21st.dev
+  search: 21st.dev community React components
+  license: free tier with limits; paid plans; each component keeps its author's license
+  use_when: you want to browse many community shadcn-style components with previews and install commands
+  note: Free tier is limited; check each component's source license.
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: frontend/ui
+  branch_title: UI components and icons
+  section: Component registries and directories
+  tier: alternatives
+  name: Kibo UI
+  url: https://www.kibo-ui.com/
+  search: Kibo UI shadcn registry components
+  license: check site
+  install: npx shadcn@latest add @kibo-ui/<component>
+  use_when: you need larger shadcn-compatible components (kanban, gantt, editors) not in shadcn/ui
+  note: License not read yet.
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: frontend/ui
+  branch_title: UI components and icons
+  section: Component registries and directories
+  tier: more
+  name: shadcn.io
+  url: https://www.shadcn.io
+  search: shadcn.io templates and components directory
+  license: unofficial directory; mixed licenses
+  use_when: you want an index of shadcn templates grouped by author
+  note: Not affiliated with shadcn/ui.
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: frontend/ui
+  branch_title: UI components and icons
+  section: Component registries and directories
+  tier: big_lists
+  name: Best of JS
+  url: https://bestofjs.org
+  search: Best of JS projects ranking
+  license: list
+  note: Ranks JS projects (including UI kits and icons) by GitHub star trends.
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1

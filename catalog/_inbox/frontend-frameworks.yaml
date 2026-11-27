@@ -1,0 +1,115 @@
+proposals:
+- branch: frontend/frameworks
+  branch_title: Frameworks and front-end libraries
+  section: Web frameworks
+  tier: alternatives
+  name: SolidStart
+  url: https://docs.solidjs.com/solid-start
+  repo: solidjs/solid-start
+  npm: '@solidjs/start'
+  search: SolidStart SolidJS meta-framework
+  license: MIT
+  install: npm init solid@latest
+  use_when: you want fine-grained reactivity with Solid and a full-stack starter
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 404
+    stars: 5928
+    pushed: '2026-11-18'
+    archived: false
+    gh_license: MIT
+    npm_license: null
+    npm_modified: '2026-11-16'
+    npm_error: 429
+  problems:
+  - link returned 404
+  attempts: 1
+- branch: frontend/frameworks
+  branch_title: Frameworks and front-end libraries
+  section: Web frameworks
+  tier: big_lists
+  name: awesome-sveltekit
+  url: https://github.com/janosh/awesome-sveltekit
+  repo: janosh/awesome-sveltekit
+  search: janosh awesome-sveltekit
+  license: list
+  license_url: https://github.com/janosh/awesome-sveltekit
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    license_link: 200
+    stars: 1334
+    pushed: '2026-10-30'
+    archived: false
+    gh_license: MIT
+  problems:
+  - license says 'list' but gh_license is MIT
+  attempts: 1
+- branch: frontend/frameworks
+  branch_title: Frameworks and front-end libraries
+  section: Build tools
+  tier: big_lists
+  name: awesome-vite
+  url: https://github.com/vitejs/awesome-vite
+  repo: vitejs/awesome-vite
+  search: vitejs awesome-vite
+  license: list
+  license_url: https://github.com/vitejs/awesome-vite
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    license_link: 200
+    stars: 17299
+    pushed: '2026-02-04'
+    archived: false
+    gh_license: MIT
+  problems:
+  - license says 'list' but gh_license is MIT
+  attempts: 1
+- branch: frontend/frameworks
+  branch_title: Frameworks and front-end libraries
+  section: Styling
+  tier: big_lists
+  name: awesome-tailwindcss
+  url: https://github.com/aniftyco/awesome-tailwindcss
+  repo: aniftyco/awesome-tailwindcss
+  search: aniftyco awesome-tailwindcss
+  license: list
+  license_url: https://github.com/aniftyco/awesome-tailwindcss
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    license_link: 200
+    stars: 15235
+    pushed: '2026-10-27'
+    archived: false
+    gh_license: CC0-1.0
+  problems:
+  - license says 'list' but gh_license is CC0-1.0
+  attempts: 1
+- branch: frontend/frameworks
+  branch_title: Frameworks and front-end libraries
+  section: Forms and validation
+  tier: big_lists
+  name: awesome-react-components
+  url: https://github.com/brillout/awesome-react-components
+  repo: brillout/awesome-react-components
+  search: brillout awesome-react-components forms
+  license: list
+  license_url: https://github.com/brillout/awesome-react-components
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    license_link: 200
+    stars: 48984
+    pushed: '2026-01-26'
+    archived: false
+    gh_license: CC0-1.0
+  problems:
+  - license says 'list' but gh_license is CC0-1.0
+  attempts: 1

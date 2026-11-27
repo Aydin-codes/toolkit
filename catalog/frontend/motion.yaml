@@ -1,0 +1,362 @@
+branch: frontend/motion
+title: Motion and effects
+intro: ''
+sections:
+- name: Animation libraries
+  default:
+    name: Motion
+    url: https://motion.dev
+    repo: motiondivision/motion
+    npm: motion
+    search: Motion animation library motion.dev (formerly Framer Motion)
+    license: MIT
+    install: npm i motion
+    use_when: you want spring, gesture, layout and exit animations in React or plain JS
+    note: 'Formerly Framer Motion; Motion One was merged into it, so don''t list Motion One separately. Vue port: motion-v.'
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 35656
+      pushed: '2026-11-26'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-13'
+      npm_error: 429
+    verified_by: auto
+  alternatives:
+  - name: anime.js
+    url: https://animejs.com
+    repo: juliangarnier/anime
+    npm: animejs
+    search: anime.js JavaScript animation engine
+    license: MIT
+    install: npm i animejs
+    use_when: you want a small framework-free animation engine with timelines and staggering
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 75147
+      pushed: '2026-11-02'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-02'
+      npm_error: 429
+    verified_by: auto
+  - name: React Spring
+    url: https://github.com/pmndrs/react-spring
+    repo: pmndrs/react-spring
+    npm: '@react-spring/web'
+    search: react-spring pmndrs spring physics animation
+    license: MIT
+    install: npm i @react-spring/web
+    use_when: you want physics-based spring animations in React, or to share code with react-three-fiber scenes
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 29353
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-26'
+      npm_error: 429
+    verified_by: auto
+  - name: AutoAnimate
+    url: https://github.com/formkit/auto-animate
+    repo: formkit/auto-animate
+    npm: '@formkit/auto-animate'
+    search: FormKit AutoAnimate
+    license: MIT
+    install: npm i @formkit/auto-animate
+    use_when: you want lists and elements to animate when added, removed or moved, with one line and no config
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 13973
+      pushed: '2026-11-24'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-23'
+      npm_error: 429
+    verified_by: auto
+- name: Text and background effects
+  default:
+    name: Magic UI
+    url: https://magicui.design
+    repo: magicuidesign/magicui
+    search: Magic UI animated components shadcn
+    license: MIT
+    install: npx shadcn@latest add from the Magic UI docs page of each component
+    use_when: you use shadcn/ui and want animated text (text animate, word rotate, shiny text) and backgrounds (grids, dot patterns, particles)
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 23627
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+    verified_by: auto
+  alternatives:
+  - name: tsParticles
+    url: https://particles.js.org
+    repo: tsparticles/tsparticles
+    npm: tsparticles
+    search: tsParticles particles confetti fireworks
+    license: MIT
+    install: npm i tsparticles (React - npm i @tsparticles/react)
+    use_when: you want particle, confetti or firework backgrounds with React, Vue or plain JS wrappers
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 9136
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-13'
+      npm_error: 429
+    verified_by: auto
+  more:
+  - name: Codrops demos
+    url: https://tympanus.net/codrops/demos
+    search: Codrops demos tympanus
+    license: per repo; many recent demo repos are MIT, some older ones have no license (read only)
+    license_url: https://github.com/orgs/codrops/repositories
+    use_when: you want to study a specific creative effect; check each demo repo for a LICENSE before copying code
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      license_link: 200
+    verified_by: auto
+  - name: Aceternity UI
+    url: https://ui.aceternity.com
+    search: Aceternity UI animated components
+    license: free and paid items under a custom license; use in end products, no redistribution of source or resale as templates
+    license_url: https://ui.aceternity.com/licence
+    install: npx shadcn@latest add from each component page
+    use_when: you want copy-in React effects like background beams or spotlight; note these are very common in AI-built sites
+    never_copy: true
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      license_link: 200
+    verified_by: auto
+- name: Shaders and WebGL backgrounds
+  default:
+    name: Paper Shaders
+    url: https://shaders.paper.design/
+    repo: paper-design/shaders
+    npm: '@paper-design/shaders-react'
+    search: Paper Shaders paper.design mesh gradient
+    license: Apache-2.0
+    install: npm i @paper-design/shaders-react (vanilla - @paper-design/shaders)
+    use_when: you want lightweight shader backgrounds (mesh gradients, grain, dithering) as React components with no three.js
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 4044
+      pushed: '2026-11-26'
+      archived: false
+      gh_license: Apache-2.0
+      npm_license: Apache-2.0
+      npm_modified: '2026-11-26'
+      npm_error: 429
+    verified_by: auto
+  alternatives:
+  - name: ShaderGradient
+    url: https://www.shadergradient.co/customize
+    repo: ruucm/shadergradient
+    npm: '@shadergradient/react'
+    search: ShaderGradient animated gradient React three.js
+    license: MIT
+    install: npm i @shadergradient/react @react-three/fiber three three-stdlib camera-controls
+    use_when: you want a configurable 3D animated gradient and already use react-three-fiber
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 3280
+      pushed: '2026-09-23'
+      archived: false
+      gh_license: null
+      npm_license: MIT
+      npm_modified: '2025-12-08'
+      npm_error: 429
+    verified_by: auto
+  paid:
+  - name: Unicorn Studio
+    url: https://www.unicorn.studio
+    search: Unicorn Studio WebGL effects no-code
+    license: paid for commercial use; free plan is personal and non-commercial, with a logo watermark
+    license_url: https://www.unicorn.studio/docs/pricing/
+    note: 'Free option: Paper Shaders or ShaderGradient.'
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      license_link: 200
+    verified_by: auto
+- name: Smooth scroll and scroll effects
+  default:
+    name: Lenis
+    url: https://github.com/darkroomengineering/lenis
+    repo: darkroomengineering/lenis
+    npm: lenis
+    search: Lenis smooth scroll darkroom engineering
+    license: MIT
+    install: npm i lenis
+    use_when: you want smooth scrolling that keeps native scroll and works with GSAP ScrollTrigger
+    note: Old package name @studio-freight/lenis is deprecated; use lenis.
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 17515
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-27'
+      npm_error: 429
+    verified_by: auto
+  alternatives:
+  - name: Locomotive Scroll
+    url: https://github.com/locomotivemtl/locomotive-scroll
+    repo: locomotivemtl/locomotive-scroll
+    npm: locomotive-scroll
+    search: Locomotive Scroll v5
+    license: MIT
+    install: npm i locomotive-scroll
+    use_when: you want smooth scroll plus data-attribute parallax and in-view classes without writing timelines (v5 is built on Lenis)
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 8901
+      pushed: '2026-11-16'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-13'
+      npm_error: 429
+    verified_by: auto
+- name: Lottie and Rive
+  default:
+    name: dotLottie web
+    url: https://docs.lottiefiles.com/en/runtimes/distributions/js?utm_source=npm&utm_medium=package
+    repo: LottieFiles/dotlottie-web
+    npm: '@lottiefiles/dotlottie-web'
+    search: dotLottie web player LottieFiles
+    license: MIT
+    install: npm i @lottiefiles/dotlottie-web (React - @lottiefiles/dotlottie-react, web component - @lottiefiles/dotlottie-wc)
+    use_when: you want to play Lottie or .lottie files on the web with a small, actively maintained player
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 964
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-12'
+      npm_error: 429
+    verified_by: auto
+  alternatives:
+  - name: lottie-react
+    url: https://lottiereact.com
+    repo: Gamote/lottie-react
+    npm: lottie-react
+    search: lottie-react hooks component
+    license: MIT
+    install: npm i lottie-react
+    use_when: you want a simple React component and hooks around lottie-web
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 969
+      pushed: '2026-09-07'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-09-07'
+      npm_error: 429
+    verified_by: auto
+  - name: Rive web runtime
+    url: https://rive.app
+    repo: rive-app/rive-wasm
+    npm: '@rive-app/canvas'
+    search: Rive web runtime canvas wasm
+    license: MIT
+    install: npm i @rive-app/canvas (or @rive-app/webgl2)
+    use_when: you want interactive animations with state machines that react to hover, clicks or app state
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 1040
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-23'
+      npm_error: 429
+    verified_by: auto
+  - name: Rive React
+    url: https://github.com/rive-app/rive-react
+    repo: rive-app/rive-react
+    npm: '@rive-app/react-canvas'
+    search: rive-react runtime
+    license: MIT
+    install: npm i @rive-app/react-canvas
+    use_when: you use React and want Rive files with hooks for state machine inputs
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 1194
+      pushed: '2026-11-21'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-21'
+      npm_error: 429
+    verified_by: auto
+  more:
+  - name: LottieFiles free animations
+    url: https://lottiefiles.com
+    search: LottieFiles free animations
+    license: Lottie Simple License (free, commercial use allowed, attribution not required, no scraping to build a rival service)
+    license_url: https://lottiefiles.com/page/license
+    use_when: you need ready-made Lottie animations (loaders, icons, illustrations)
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      license_link: 200
+    verified_by: auto
+  - name: Rive community marketplace
+    url: https://www.rive.app/docs/community/marketplace-overview
+    search: Rive community marketplace files
+    license: CC BY 4.0 (credit the author)
+    license_url: https://www.rive.app/docs/community/marketplace-overview
+    use_when: you want ready-made Rive files to remix; credit the author
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      license_link: 200
+    verified_by: auto
