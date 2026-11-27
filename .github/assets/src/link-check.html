@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>toolkit link check</title>
+<!--
+  Source for ../link-check.png (1800x800: a 900x400 page at 2x).
+  The lines are copied from a real run of `python scripts/check_links.py`:
+  its first 7 output lines and its final summary line. Re-run the script and update them before re-rendering.
+  Re-render from this folder:
+    chrome --headless=new --force-device-scale-factor=2 --window-size=900,400 --virtual-time-budget=5000 --screenshot=../link-check.png "file:///<abs path>/link-check.html"
+-->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@500&family=Public+Sans:wght@500&display=block">
+<style>
+  * { box-sizing:border-box; margin:0; }
+  html, body { width:900px; height:400px; overflow:hidden; background:#ffffff; }
+  .win { position:absolute; left:28px; right:28px; top:28px; border-radius:16px; background:#171717; box-shadow:0 14px 34px rgba(0,0,0,.22); overflow:hidden; }
+  .bar { height:41px; background:#232323; display:flex; align-items:center; gap:8px; padding:0 16px; }
+  .bar i { width:12px; height:12px; border-radius:50%; background:#3a3a3a; }
+  .bar span { margin-left:12px; font:500 13px "Public Sans", system-ui, sans-serif; color:#a3a3a3; }
+  .out { padding:22px 22px 24px; font:500 14px/1.5 "Red Hat Mono", ui-monospace, monospace; color:#e8e8e8; }
+  .out div { white-space:pre-wrap; overflow-wrap:anywhere; }
+  .p { color:#7ec699; }
+  .dim { color:#8a8a8a; }
+</style>
+</head>
+<body>
+<div class="win">
+  <div class="bar"><i></i><i></i><i></i><span>toolkit</span></div>
+  <div class="out"><div><span class="p">$</span> python scripts/check_links.py</div>
+<div>ok  200 https://img.shields.io/github/actions/workflow/status/Aydin-codes/toolkit/ci.yml?style=flat-square&amp;label=ci</div>
+<div>ok  200 https://agentskills.io</div>
+<div>ok  200 https://img.shields.io/badge/Agent_Skills-compatible-2f7a4a?style=flat-square</div>
+<div>ok  200 https://img.shields.io/badge/status-early_draft-161616?style=flat-square</div>
+<div>ok  200 https://img.shields.io/badge/license-MIT-161616?style=flat-square</div>
+<div>ok  200 https://aydin-codes.github.io/toolkit/</div>
+<div>ok  200 https://github.com/Aydin-codes/design-studio</div>
+<div class="dim">  ...</div>
+<div>395 ok, 5 broken</div></div>
+</div>
+</body>
+</html>
