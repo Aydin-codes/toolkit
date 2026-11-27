@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>toolkit hero</title>
+<!--
+  Source for hero-light.png and hero-dark.png (2000x1236: a 1000x618 page at 2x).
+  Light is the default; add #dark to the URL for the dark version.
+  Re-render from this folder with headless Chrome at 2x:
+    chrome --headless=new --force-device-scale-factor=2 --window-size=1000,618 --virtual-time-budget=5000 --screenshot=../hero-light.png "file:///<abs path>/hero.html"
+    chrome --headless=new --force-device-scale-factor=2 --window-size=1000,618 --virtual-time-budget=5000 --screenshot=../hero-dark.png "file:///<abs path>/hero.html#dark"
+  Category icons are Fluent Emoji 3D (MIT) and brand logos are Simple Icons (CC0), both from docs/.
+-->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&display=block">
+<style>
+  :root { --bg:#ffffff; --ink:#111214; --card:#f6f7f8; --line:#dde1e6; --mut:#5b6470; --hub:#111214; --hub-ink:#FFC20E; }
+  :root.dark { --bg:#0d1117; --ink:#e9edf2; --card:#161b22; --line:#30363d; --mut:#9aa4b0; --hub:#FFC20E; --hub-ink:#111214; }
+  * { box-sizing:border-box; margin:0; }
+  html, body { width:1000px; height:618px; overflow:hidden; background:var(--bg); color:var(--ink); font-family:Archivo, sans-serif; }
+  .g { position:absolute; left:24px; right:24px; display:grid; grid-template-columns:repeat(5,1fr); gap:12px; }
+  .r1 { top:20px; } .r2 { top:386px; }
+  .t { height:212px; border-radius:16px; background:var(--card); border:2px solid var(--line); padding:14px 14px 12px; display:flex; flex-direction:column; gap:10px; }
+  .t.on { border-color:#FFC20E; box-shadow:0 0 0 3px #FFC20E55; }
+  .h { display:flex; align-items:center; gap:10px; }
+  .h img { width:38px; height:38px; }
+  .h span { font-size:20px; font-weight:800; letter-spacing:-.01em; line-height:1.1; }
+  .lg { display:flex; gap:5px; flex-wrap:nowrap; }
+  .lg span { width:33px; height:33px; border-radius:9px; background:#fff; border:1px solid #dde1e6; display:grid; place-items:center; }
+  .lg img { width:20px; height:20px; }
+  .tx { font-size:16px; color:var(--mut); font-weight:500; line-height:1.3; }
+  .st { margin-top:auto; display:flex; flex-direction:column; align-items:flex-start; gap:5px; }
+  .st b { font-size:14px; font-weight:700; padding:3px 10px; border-radius:999px; background:var(--line); color:var(--mut); }
+  .on .st b { background:#FFC20E; color:#111214; }
+  .st small { font-size:13px; font-weight:600; line-height:1.3; color:var(--mut); }
+  .hub { position:absolute; left:150px; right:150px; top:250px; height:118px; border-radius:20px; background:var(--hub); color:var(--hub-ink); display:flex; align-items:center; gap:20px; padding:0 26px; }
+  .hub img { width:70px; height:70px; }
+  .hub b { display:block; font-size:28px; font-weight:800; letter-spacing:-.01em; }
+  .hub p { font-size:17px; font-weight:500; margin-top:4px; opacity:.9; }
+  .chips { display:flex; gap:8px; margin-top:10px; flex-wrap:wrap; }
+  .chips span { font-size:15px; font-weight:700; padding:4px 11px; border-radius:999px; border:2px solid var(--hub-ink); }
+  svg { position:absolute; inset:0; }
+  svg path { stroke:var(--line); stroke-width:2.5; fill:none; stroke-dasharray:6 6; }
+  svg path.on { stroke:#FFC20E; stroke-width:4; stroke-dasharray:none; }
+</style>
+</head>
+<body>
+<svg id="lines" width="1000" height="618"></svg>
+<div class="g r1" id="r1"></div>
+<div class="hub"><img src="../../../docs/icons/compass.png" alt=""><div><b>SKILL.md, the index</b><p>Your AI reads it first, then opens only the page it needs.</p>
+<div class="chips"><span>12 project stacks</span><span>12 rules</span><span>Quality checklist</span><span>License rules</span></div></div></div>
+<div class="g r2" id="r2"></div>
+<script>
+  if (location.hash === '#dark') document.documentElement.classList.add('dark');
+  // [name, icon, logos, text, written count line (null = coming soon)]
+  const CATS = [
+    ['Plan', 'clipboard', [], 'Scoping questions', null],
+    ['Front end', 'desktop-computer', ['astro', 'nextdotjs', 'shadcnui', 'googlefonts'], '', '2,083 fonts, 39 UI kits and icons, 36 frameworks, 34 charts, 24 3D, 19 motion'],
+    ['Assets', 'framed-picture', ['blender', 'krita', 'inkscape'], '', '22 sources, 14 apps'],
+    ['Back end', 'gear', ['supabase', 'stripe'], '', null],
+    ['Platforms', 'mobile-phone', ['expo', 'tauri', 'electron'], '', '26 entries'],
+    ['Print & PDF', 'printer', [], 'Typst, Paged.js', '39 entries'],
+    ['Ship', 'rocket', ['vercel', 'netlify'], '', '19 entries'],
+    ['Quality', 'magnifying-glass-tilted-left', ['lighthouse'], '', null],
+    ['Agent tools', 'electric-plug', [], 'Connectors, skills', '12 entries'],
+    ['Learn', 'books', [], 'Repos, courses', null],
+  ];
+  const tile = ([name, icon, logos, txt, count]) => `
+    <div class="t${count ? ' on' : ''}">
+      <div class="h"><img src="../../../docs/icons/${icon}.png" alt=""><span>${name}</span></div>
+      ${logos.length ? `<div class="lg">${logos.map(l => `<span><img src="../../../docs/logos/${l}.svg" alt=""></span>`).join('')}</div>` : `<div class="tx">${txt}</div>`}
+      <div class="st">${count ? `<b>Written</b><small>${count}</small>` : '<b>Coming soon</b>'}</div>
+    </div>`;
+  document.getElementById('r1').innerHTML = CATS.slice(0, 5).map(tile).join('');
+  document.getElementById('r2').innerHTML = CATS.slice(5).map(tile).join('');
+  const w = (952 - 48) / 5, x = i => 24 + w * i + w / 2 + 12 * i;
+  document.getElementById('lines').innerHTML =
+    CATS.slice(0, 5).map((c, i) => `<path class="${c[4] ? 'on' : ''}" d="M${x(i)},232 C${x(i)},244 500,242 500,250"/>`).join('') +
+    CATS.slice(5).map((c, i) => `<path class="${c[4] ? 'on' : ''}" d="M${x(i)},386 C${x(i)},374 500,376 500,368"/>`).join('');
+</script>
+</body>
+</html>

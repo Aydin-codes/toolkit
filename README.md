@@ -25,7 +25,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset=".github/assets/hero-dark.png">
-    <img src=".github/assets/hero-light.png" width="838" alt="What's in the toolkit. In the middle, SKILL.md, the index: your AI reads it first, then opens only the page it needs; it holds 12 project stacks, 12 rules, a quality checklist and license rules. Around it, ten categories: Plan; Front end with Astro, Next.js, shadcn/ui and Google Fonts logos, marked Written, 40 fonts; Assets with Blender, Krita and Inkscape; Back end with Supabase and Stripe; Platforms with Expo, Tauri and Electron; Print and PDF; Ship with Vercel and Netlify; Quality with Lighthouse; Agent tools; Learn. All but Front end are marked Coming soon.">
+    <img src=".github/assets/hero-light.png" width="838" alt="What's in the toolkit. In the middle, SKILL.md, the index: your AI reads it first, then opens only the page it needs; it holds 12 project stacks, 12 rules, a quality checklist and license rules. Around it, ten categories. Written: Front end (2,083 fonts, 39 UI kits and icons, 36 frameworks, 34 charts, 24 3D, 19 motion), with Astro, Next.js, shadcn/ui and Google Fonts logos; Assets (22 sources, 14 apps), with Blender, Krita and Inkscape; Platforms (26 entries), with Expo, Tauri and Electron; Print and PDF (39 entries); Ship (19 entries), with Vercel and Netlify; Agent tools (12 entries). Coming soon: Plan, Back end (Supabase and Stripe), Quality (Lighthouse) and Learn.">
   </picture>
 </p>
 
