@@ -1,8 +1,32 @@
-# toolkit
+<p align="center">
+  <img src=".github/assets/banner.png" alt="toolkit: what exists, how to pick, how to check. Three catalog entries (Google Fonts, Fontsource, Velvetyne) each show their licence and a checked mark." width="838">
+</p>
+
+<h1 align="center">toolkit</h1>
+
+<p align="center">
+  <b>What exists, how to pick, how to check.</b><br>
+  Frameworks, UI kits, fonts, photos, 3D models, back ends, PDF tools and example repos, with links and licences, for AI coding agents.
+</p>
+
+<p align="center">
+  <a href="https://github.com/Aydin-codes/toolkit/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/Aydin-codes/toolkit/ci.yml?style=flat-square&label=ci" alt="CI"></a>
+  <a href="https://agentskills.io"><img src="https://img.shields.io/badge/Agent_Skills-compatible-111111?style=flat-square" alt="Agent Skills compatible"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-111111?style=flat-square" alt="MIT license"></a>
+  <a href="CHANGELOG.md"><img src="https://img.shields.io/badge/status-draft_0.1.0-111111?style=flat-square" alt="Status: draft 0.1.0"></a>
+</p>
+
+<p align="center">
+  <a href="#install">Install</a> ·
+  <a href="#use">Use</a> ·
+  <a href="#how-the-agent-uses-it">How it works</a> ·
+  <a href="#adding-a-tool">Add a tool</a> ·
+  <a href="CHANGELOG.md">Changelog</a>
+</p>
 
 A free and open-source-first reference library for AI coding agents. It tells the agent what already exists (frameworks, UI kits, fonts, photos, 3D models, back ends, PDF tools, example repos), helps it pick 1-3 options for your project, and checks the work with numbered rules.
 
-**Status:** early draft (0.1.0). Links not checked yet.
+**Status:** early draft (0.1.0). Links last checked 2026-11-26. The core `SKILL.md` and the typography branch ([`reference/frontend/type.md`](reference/frontend/type.md)) are written; the other branch files it lists are still to come.
 
 Works with any tool that reads `SKILL.md` (the open [Agent Skills](https://agentskills.io) format): Claude Code, Codex, Cursor, Gemini CLI and others.
 
@@ -34,21 +58,41 @@ AI-built sites look alike because agents invent everything from scratch with the
 toolkit/
 ├── SKILL.md                  core: rules, decision model, stacks, index, quality gate
 ├── reference/                generated pages, one per branch (don't edit by hand)
-│   ├── frontend/             frameworks, ui, ux, type, motion, 3d, dataviz
-│   ├── assets/               ready-made, make-your-own, ai-generators
-│   └── plan, backend, platforms, print-pdf, ship, quality, rules, agent-tooling, learn
+│   ├── frontend/             type (written); frameworks, ui, ux, motion, 3d, dataviz to come
+│   ├── assets/               ready-made, make-your-own, ai-generators (to come)
+│   └── plan, backend, platforms, print-pdf, ship, quality, rules, agent-tooling, learn (to come)
 ├── catalog/                  the source: one YAML file per branch (see SCHEMA.md)
 ├── scripts/build.py          catalog → reference pages; --check for CI
+├── scripts/check_links.py    checks every link, standard library only
 └── .github/                  CI, weekly link check, issue forms
 ```
 
 ## Install
+
+**Any agent that supports skills:**
+```
+npx skills add Aydin-codes/toolkit
+```
+
+**By hand:**
 
 | Tool | Where |
 | --- | --- |
 | Claude Code | `git clone https://github.com/Aydin-codes/toolkit ~/.claude/skills/toolkit` |
 | Codex | `git clone https://github.com/Aydin-codes/toolkit ~/.agents/skills/toolkit` |
 | Claude app | Download the repo as a zip, then Customize → Skills → Upload a skill |
+
+It also ships inside the [design-studio](https://github.com/Aydin-codes/design-studio) plugin, so installing that gets both.
+
+## Use
+
+```text
+Use the toolkit to pick fonts for a bakery landing page.
+Use the toolkit to choose a stack for a small booking site, then run the quality gate.
+Use the toolkit to find free fonts and a type scale for a printed report.
+```
+
+The agent says which stack row it picked and why, lists the assets it needs and where each comes from, then builds and runs the quality gate.
 
 ## Adding a tool
 
