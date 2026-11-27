@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>toolkit map</title>
+<meta name="description" content="What's in the toolkit: every category an AI coding agent can look up, what each page covers, and how a request is routed to the right page.">
+<style>
+  :root {
+    --bg:#f6f7f9; --panel:#ffffff; --ink:#14181f; --muted:#5b6472; --line:#d5dae1; --soft:#eef1f5;
+    --hub:#0f766e; --hub-ink:#ffffff; --ok:#15803d; --ok-bg:#dcfce7; --soon:#6b7280; --soon-bg:#eef0f3;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#0d1117; --panel:#161b22; --ink:#e6edf3; --muted:#9aa4b0; --line:#30363d; --soft:#1c222b;
+      --hub:#14b8a6; --hub-ink:#04201d; --ok:#4ade80; --ok-bg:#12321f; --soon:#9aa4b0; --soon-bg:#222831; }
+  }
+  * { box-sizing:border-box; margin:0; }
+  body { background:var(--bg); color:var(--ink); font:16px/1.45 "Segoe UI", system-ui, -apple-system, sans-serif; }
+  .wrap { max-width:1400px; margin:0 auto; padding:34px 28px 40px; }
+  header { text-align:center; margin-bottom:26px; }
+  header h1 { font-size:38px; font-weight:800; letter-spacing:-.02em; }
+  header p { color:var(--muted); font-size:19px; margin-top:6px; }
+  .map { position:relative; display:grid; grid-template-columns:repeat(5, 1fr); gap:18px; }
+  svg.links { position:absolute; inset:0; width:100%; height:100%; pointer-events:none; overflow:visible; }
+  svg.links path { fill:none; stroke:var(--line); stroke-width:2; stroke-dasharray:6 6; transition:stroke .2s, stroke-width .2s; }
+  svg.links path.on { stroke:var(--c); stroke-width:3.5; stroke-dasharray:none; }
+  .card { position:relative; z-index:1; background:var(--panel); border:1.5px solid var(--line); border-radius:14px; padding:14px 14px 12px;
+    cursor:pointer; text-align:left; font:inherit; color:inherit; display:flex; flex-direction:column; gap:8px; transition:transform .15s, border-color .15s, box-shadow .15s; }
+  .card:hover, .card:focus-visible { transform:translateY(-2px); border-color:var(--c); outline:none; box-shadow:0 8px 22px rgba(0,0,0,.08); }
+  .card.on { border-color:var(--c); box-shadow:0 0 0 3px color-mix(in srgb, var(--c) 30%, transparent); }
+  .top { display:flex; align-items:center; gap:10px; }
+  .ico { width:46px; height:46px; border-radius:12px; display:grid; place-items:center; background:color-mix(in srgb, var(--c) 16%, transparent); flex:none; }
+  .ico img { width:32px; height:32px; }
+  .card h2 { font-size:18px; font-weight:700; line-height:1.2; }
+  .chips { display:flex; flex-wrap:wrap; gap:5px; }
+  .chip { font-size:12.5px; padding:2px 8px; border-radius:999px; background:var(--soft); color:var(--muted); white-space:nowrap; }
+  .logos { display:flex; gap:6px; }
+  .lg { width:34px; height:34px; border-radius:9px; background:#fff; border:1px solid var(--line); display:grid; place-items:center; }
+  .lg img { width:20px; height:20px; }
+  .status { font-size:12.5px; font-weight:600; padding:2px 9px; border-radius:999px; align-self:flex-start; }
+  .status.ok { color:var(--ok); background:var(--ok-bg); }
+  .status.soon { color:var(--soon); background:var(--soon-bg); }
+  .hub { grid-column:1 / -1; justify-self:center; width:min(620px, 100%); z-index:1; background:var(--hub); color:var(--hub-ink); border-radius:18px;
+    padding:16px 22px; display:flex; align-items:center; gap:16px; margin:22px 0; box-shadow:0 12px 30px color-mix(in srgb, var(--hub) 35%, transparent); }
+  .hub img { width:58px; height:58px; flex:none; }
+  .hub h2 { font-size:21px; font-weight:800; }
+  .hub p { font-size:14.5px; opacity:.92; }
+  .hub .chips .chip { background:rgba(255,255,255,.18); color:inherit; }
+  @media (prefers-color-scheme: dark) { .hub .chips .chip { background:rgba(0,0,0,.18); } }
+  .routes { margin-top:26px; display:flex; flex-wrap:wrap; gap:8px; align-items:center; justify-content:center; }
+  .routes span { color:var(--muted); font-weight:600; margin-right:4px; }
+  .routes button { font:inherit; font-size:14.5px; padding:7px 13px; border-radius:999px; border:1.5px solid var(--line); background:var(--panel); color:var(--ink); cursor:pointer; }
+  .routes button:hover, .routes button[aria-pressed="true"] { border-color:var(--hub); color:var(--hub); }
+  .detail { margin:18px auto 0; max-width:900px; background:var(--panel); border:1.5px solid var(--line); border-radius:14px; padding:18px 20px; min-height:120px; }
+  .detail h3 { font-size:19px; margin-bottom:4px; }
+  .detail .route { color:var(--muted); margin-bottom:12px; }
+  .detail ul { list-style:none; padding:0; display:grid; gap:8px; }
+  .detail li { display:flex; gap:10px; align-items:baseline; flex-wrap:wrap; }
+  .detail code { font:13.5px/1.4 "Cascadia Mono", Consolas, monospace; background:var(--soft); padding:1px 6px; border-radius:6px; }
+  .detail a { color:var(--hub); }
+  .hint { color:var(--muted); text-align:center; }
+  footer { text-align:center; color:var(--muted); font-size:13px; margin-top:24px; }
+  footer a { color:inherit; }
+  @media (max-width:900px) { .map { grid-template-columns:repeat(2, 1fr); } svg.links { display:none; } }
+  @media (prefers-reduced-motion: reduce) { * { transition:none !important; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>What's in the toolkit</h1>
+    <p>Your AI reads the index first, then opens only the one page it needs.</p>
+  </header>
+
+  <div class="map" id="map">
+    <svg class="links" id="links" aria-hidden="true"></svg>
+  </div>
+
+  <div class="routes" id="routes"><span>Try a request:</span></div>
+  <div class="detail" id="detail" aria-live="polite"><p class="hint">Click a category, or try a request, to see which page the AI opens.</p></div>
+
+  <footer>From <a href="https://github.com/Aydin-codes/toolkit">github.com/Aydin-codes/toolkit</a>. Icons: Microsoft Fluent Emoji (MIT).</footer>
+</div>
+
+<script>
+const REPO = "https://github.com/Aydin-codes/toolkit/blob/main/";
+const CATS = [
+  { id:"plan", name:"Plan", icon:"clipboard", c:"#d97706", ex:["Scoping questions","Project types"],
+    pages:[["reference/plan.md","Scoping questions, project types"]] },
+  { id:"frontend", logos:["astro", "nextdotjs", "shadcnui", "googlefonts"], name:"Front end", icon:"desktop-computer", c:"#2563eb", ex:["Astro, Next.js","shadcn/ui","40 free fonts"],
+    pages:[["reference/frontend/frameworks.md","Frameworks"],
+           ["reference/frontend/ui.md","Components (base and animated kits, blocks), icons, colour"],
+           ["reference/frontend/ux.md","Real-app references, flows, forms, accessibility, copy"],
+           ["reference/frontend/type.md","Fonts by style, type scale, overused AI fonts", true],
+           ["reference/frontend/motion.md","Animation libraries, effects, shaders, smooth scroll, Lottie, Rive"],
+           ["reference/frontend/3d.md","3D engines, helpers, performance rules"],
+           ["reference/frontend/dataviz.md","Charts and maps"]] },
+  { id:"assets", logos:["blender", "krita", "inkscape"], name:"Assets", icon:"framed-picture", c:"#db2777", ex:["Photos, icons, 3D","Blender, Krita"],
+    pages:[["reference/assets/ready-made.md","Photos, public domain, illustration, icons, 3D models, textures, video, audio"],
+           ["reference/assets/make-your-own.md","Tools to make your own assets (Blender, Krita, Inkscape…)"],
+           ["reference/assets/ai-generators.md","AI image, 3D, video, voice and music generators"]] },
+  { id:"backend", logos:["supabase", "stripe"], name:"Back end", icon:"gear", c:"#059669", ex:["Supabase","Stripe","Auth, email"],
+    pages:[["reference/backend.md","Databases, auth, payments, email, files, search, realtime, jobs, AI features"]] },
+  { id:"platforms", logos:["expo", "tauri", "electron"], name:"Platforms", icon:"mobile-phone", c:"#0891b2", ex:["Expo","Tauri, Electron","MCP servers"],
+    pages:[["reference/platforms.md","Mobile, desktop, extensions, games, MCP servers"]] },
+  { id:"print", name:"Print and PDF", icon:"printer", c:"#475569", ex:["Typst","Paged.js","OCR"],
+    pages:[["reference/print-pdf.md","Make, edit, read and OCR PDFs; print templates"]] },
+  { id:"ship", logos:["vercel", "netlify"], name:"Ship", icon:"rocket", c:"#ea580c", ex:["Vercel, Netlify","Analytics","SEO"],
+    pages:[["reference/ship.md","Hosting, CI, domains, analytics, errors, SEO"]] },
+  { id:"quality", logos:["lighthouse"], name:"Quality and rules", icon:"magnifying-glass-tilted-left", c:"#16a34a", ex:["Playwright","axe-core","Lighthouse"],
+    pages:[["reference/quality.md","Tests, accessibility, performance, security tools"],
+           ["reference/rules.md","Full MUST / SHOULD / NEVER list"]] },
+  { id:"agent", name:"Agent tooling", icon:"electric-plug", c:"#0284c7", ex:["Context7","Connectors","Skills"],
+    pages:[["reference/agent-tooling.md","Connectors, skills, plugins, shadcn registries"]] },
+  { id:"learn", name:"Learn", icon:"books", c:"#ca8a04", ex:["Repos to read","Awesome lists","Courses"],
+    pages:[["reference/learn.md","Repos to read, awesome lists, courses"]] },
+];
+const ROUTES = [
+  ["Pick fonts for my landing page","frontend","reference/frontend/type.md"],
+  ["Add sign-in and payments","backend","reference/backend.md"],
+  ["Find free 3D models","assets","reference/assets/ready-made.md"],
+  ["Make it a phone app","platforms","reference/platforms.md"],
+  ["Put it online","ship","reference/ship.md"],
+  ["Check it before launch","quality","reference/quality.md"],
+];
+const $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;" }[c]));
+const written = cat => cat.pages.filter(p => p[2]).length;
+
+function card(cat) {
+  const w = written(cat), n = cat.pages.length;
+  const status = w ? `<span class="status ok">${w === n ? "Written" : `${w} of ${n} pages written`}</span>` : `<span class="status soon">Coming soon</span>`;
+  return `<button class="card" id="c-${cat.id}" style="--c:${cat.c}" data-id="${cat.id}" aria-label="${esc(cat.name)}: show its pages">
+    <div class="top"><div class="ico"><img src="icons/${cat.icon}.png" alt=""></div><h2>${esc(cat.name)}</h2></div>
+    ${cat.logos ? `<div class="logos">${cat.logos.map(l => `<span class="lg"><img src="logos/${l}.svg" alt=""></span>`).join("")}</div>` : ""}
+    <div class="chips">${cat.ex.map(e => `<span class="chip">${esc(e)}</span>`).join("")}</div>${status}</button>`;
+}
+const hub = `<div class="hub" id="hub"><img src="icons/compass.png" alt=""><div>
+  <h2>SKILL.md, the index</h2><p>Always read first. It says which page to open, and holds:</p>
+  <div class="chips" style="margin-top:6px"><span class="chip">Stacks for 12 kinds of project</span><span class="chip">12 rules</span><span class="chip">Quality checklist</span><span class="chip">License rules</span></div></div></div>`;
+$("map").insertAdjacentHTML("beforeend", CATS.slice(0,5).map(card).join("") + hub + CATS.slice(5).map(card).join(""));
+
+function drawLinks() {
+  const svg = $("links"), box = $("map").getBoundingClientRect(), h = $("hub").getBoundingClientRect();
+  const hx = h.left - box.left + h.width / 2, hTop = h.top - box.top, hBot = h.bottom - box.top;
+  svg.innerHTML = CATS.map((cat, i) => {
+    const r = $("c-" + cat.id).getBoundingClientRect(); const cx = r.left - box.left + r.width / 2;
+    const above = i < 5, cy = above ? r.bottom - box.top : r.top - box.top, hy = above ? hTop : hBot;
+    const my = (cy + hy) / 2;
+    return `<path id="l-${cat.id}" class="${cat.id === cur ? "on" : ""}" style="--c:${cat.c}" d="M${cx},${cy} C${cx},${my} ${hx + (cx - hx) * .25},${my} ${hx + (cx - hx) * .25},${hy}"/>`;
+  }).join("");
+}
+let cur = null;
+function select(id, route) {
+  cur = id;
+  document.querySelectorAll(".card").forEach(c => c.classList.toggle("on", c.dataset.id === id));
+  document.querySelectorAll("svg.links path").forEach(p => p.classList.toggle("on", p.id === "l-" + id));
+  const cat = CATS.find(c => c.id === id);
+  const head = route
+    ? `<h3>"${esc(route[0])}"</h3><p class="route">SKILL.md → ${esc(cat.name)} → <code>${esc(route[2])}</code></p>`
+    : `<h3>${esc(cat.name)}</h3><p class="route">SKILL.md sends the AI here for: ${esc(cat.pages.map(p => p[1]).join("; "))}</p>`;
+  const items = cat.pages.map(([f, what, ok]) => {
+    const hot = route && route[2] === f ? ' style="font-weight:700"' : "";
+    return `<li${hot}>${ok ? `<span class="status ok">Written</span> <a href="${REPO + f}"><code>${esc(f)}</code></a>` : `<span class="status soon">Coming soon</span> <code>${esc(f)}</code>`} <span>${esc(what)}</span></li>`;
+  }).join("");
+  const target = route && cat.pages.find(p => p[0] === route[2]);
+  const note = target && !target[2] ? `<p class="route" style="margin-top:12px">This page isn't written yet, so for now the AI uses the stack table and rules in SKILL.md, plus the official docs, and says so.</p>` : "";
+  $("detail").innerHTML = head + `<ul>${items}</ul>` + note;
+}
+$("map").addEventListener("click", e => { const c = e.target.closest(".card"); if (c) { document.querySelectorAll(".routes button").forEach(b => b.setAttribute("aria-pressed", "false")); select(c.dataset.id); } });
+ROUTES.forEach(r => {
+  const b = document.createElement("button"); b.textContent = r[0]; b.setAttribute("aria-pressed", "false");
+  b.onclick = () => { document.querySelectorAll(".routes button").forEach(x => x.setAttribute("aria-pressed", x === b)); select(r[1], r); };
+  $("routes").appendChild(b);
+});
+addEventListener("resize", drawLinks); addEventListener("load", drawLinks); drawLinks();
+const pre = new URLSearchParams(location.search).get("route");
+if (pre !== null && ROUTES[+pre]) $("routes").querySelectorAll("button")[+pre].click();
+</script>
+</body>
+</html>
