@@ -1,3 +1,5 @@
+<p align="center"><img src=".github/assets/logo.svg" alt="toolkit logo: a black index folder with a checked list on a safety-yellow tile" width="96"></p>
+
 <h1 align="center">toolkit</h1>
 
 <p align="center"><b>toolkit gives your AI a list of real, free fonts, icons, photos and libraries, each with a link and a license, so it builds from real material instead of guessing.</b></p>
@@ -21,14 +23,11 @@
 <p align="center">If the toolkit helps you, please give it a star ⭐</p>
 
 <p align="center">
-  <a href="https://aydin-codes.github.io/toolkit/">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset=".github/assets/map-dark.png">
-      <img src=".github/assets/map-light.png" width="838" alt="Map of what's in the toolkit. In the middle, SKILL.md, the index: always read first, it holds stacks for 12 kinds of project, 12 rules, a quality checklist and license rules. Around it, ten categories with real tool logos and examples: Plan; Front end (Astro, Next.js, shadcn/ui, 40 free fonts, 1 of 7 pages written); Assets; Back end (Supabase, Stripe); Platforms (Expo, Tauri, MCP servers); Print and PDF (Typst, Paged.js); Ship (Vercel, Netlify); Quality and rules (Playwright, axe-core, Lighthouse); Agent tooling (Context7, connectors, skills); Learn. Below, sample requests like Pick fonts for my landing page and Add sign-in and payments, with the route from the index to Front end highlighted.">
-    </picture>
-  </a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset=".github/assets/hero-dark.png">
+    <img src=".github/assets/hero-light.png" width="838" alt="What's in the toolkit. In the middle, SKILL.md, the index: your AI reads it first, then opens only the page it needs; it holds 12 project stacks, 12 rules, a quality checklist and license rules. Around it, ten categories: Plan; Front end with Astro, Next.js, shadcn/ui and Google Fonts logos, marked Written, 40 fonts; Assets with Blender, Krita and Inkscape; Back end with Supabase and Stripe; Platforms with Expo, Tauri and Electron; Print and PDF; Ship with Vercel and Netlify; Quality with Lighthouse; Agent tools; Learn. All but Front end are marked Coming soon.">
+  </picture>
 </p>
-<p align="center"><sub>Everything your AI can look up, and how a request gets routed. <a href="https://aydin-codes.github.io/toolkit/"><b>Open the interactive map</b></a> to click through each category.</sub></p>
 
 ## What it is
 
@@ -43,7 +42,10 @@ It works with any tool that reads `SKILL.md`: Claude Code, Codex, Cursor, Gemini
 ## From request to picks
 
 <p align="center">
-  <img src=".github/assets/request-to-picks.png" width="838" alt="A blue bar reads: Use the toolkit to, followed by what you need. Below, SKILL.md routes the request to one of ten coloured category cards with 3D icons: Plan, Front end, Assets, Back end, Platforms, Print and PDF, Ship, Quality, Agent tools, Learn. Lines lead to the result: 1 to 3 picks, each with a link, the license and how to install it.">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset=".github/assets/request-to-picks-dark.png">
+    <img src=".github/assets/request-to-picks-light.png" width="838" alt="A bar reads: Use the toolkit to, followed by what you need. SKILL.md sends the request to one of ten categories: Plan, Front end, Assets, Back end, Platforms, Print and PDF, Ship, Quality, Agent tools, Learn. The result: 1 to 3 picks, each with an official link, the license and how to install it.">
+  </picture>
 </p>
 
 ## How it works

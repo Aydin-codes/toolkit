@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160" role="img" aria-label="toolkit">
+  <rect width="160" height="160" rx="34" fill="#FFC20E"/>
+  <path d="M34 50 a8 8 0 0 1 8 -8 h30 a8 8 0 0 1 7 4 l5 9 h34 a8 8 0 0 1 8 8 v55 a8 8 0 0 1 -8 8 h-76 a8 8 0 0 1 -8 -8 z" fill="#111214"/>
+  <rect x="48" y="74" width="46" height="9" rx="4.5" fill="#FFC20E"/>
+  <rect x="48" y="93" width="30" height="9" rx="4.5" fill="#FFC20E"/>
+  <path d="M96 99 l8 8 l16 -18" fill="none" stroke="#FFC20E" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
