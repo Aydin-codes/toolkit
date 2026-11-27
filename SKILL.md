@@ -19,7 +19,7 @@ At the start of a task:
 1. Name the project type and pick the matching row in **Default stacks**. Say which row and why in one line.
 2. List the assets the project needs and where each will come from, in this order:
    1. the user's own photos, product, CAD or 3D files
-   2. a real 3D model or real photo/video from a free source (the assets page is coming soon; until then, read the license on the source's own site)
+   2. a real 3D model or real photo/video from a free source (see `reference/assets/ready-made.md`; check the license on the source's own site)
    3. generated, and labelled as generated
    4. hand-coded, only by choice
    Ask the user for anything only they have: screenshots, logos, real content.
@@ -71,28 +71,29 @@ Links for every name in this table will be in the matching branch file. Until th
 
 ## Where to look
 
-Open only the file the task needs. Only the fonts page is written so far; the others are marked *coming soon*.
+Open only the file the task needs. Pages not written yet are marked *coming soon*.
 
 | Need | Open |
 | --- | --- |
 | Scoping questions, project types | *coming soon* |
-| Frameworks | *coming soon* |
-| Components (base and animated kits, blocks), icons, colour | *coming soon* |
+| Frameworks | `reference/frontend/frameworks.md` |
+| Components (base and animated kits, blocks), icons, colour | `reference/frontend/ui.md` |
 | Real-app references, flows, forms, accessibility, copy | *coming soon* |
 | Fonts by style, type scale, overused AI fonts | `reference/frontend/type.md` |
-| Animation libraries, effects, shaders, smooth scroll, Lottie, Rive | *coming soon* |
-| 3D engines, helpers, performance rules | *coming soon* |
-| Charts and maps | *coming soon* |
+| Every Google Font (2,043), by style | `reference/frontend/fonts/<style>.md` (sans-serif, serif, display, handwriting, monospace) |
+| Animation libraries, effects, shaders, smooth scroll, Lottie, Rive | `reference/frontend/motion.md` |
+| 3D engines, helpers, performance rules | `reference/frontend/3d.md` |
+| Charts and maps | `reference/frontend/dataviz.md` |
 | Databases, auth, payments, email, files, search, realtime, jobs, AI features | *coming soon* |
-| Photos, public domain, illustration, icons, 3D models, textures, video, audio | *coming soon* |
-| Tools to make your own assets (Blender, Krita, Inkscape…) | *coming soon* |
+| Photos, public domain, illustration, icons, 3D models, textures, video, audio | `reference/assets/ready-made.md` |
+| Tools to make your own assets (Blender, Krita, Inkscape…) | `reference/assets/make-your-own.md` |
 | AI image, 3D, video, voice and music generators | *coming soon* |
-| Mobile, desktop, extensions, games, MCP servers | *coming soon* |
-| Make, edit, read and OCR PDFs; print templates | *coming soon* |
-| Hosting, CI, domains, analytics, errors, SEO | *coming soon* |
+| Mobile, desktop, extensions, games, MCP servers | `reference/platforms.md` |
+| Make, edit, read and OCR PDFs; print templates | `reference/print-pdf.md` |
+| Hosting, CI, domains, analytics, errors, SEO | `reference/ship.md` |
 | Tests, accessibility, performance, security tools | *coming soon* |
 | Full MUST / SHOULD / NEVER list | *coming soon* |
-| Connectors, skills, plugins, shadcn registries | *coming soon* |
+| Connectors, skills, plugins, shadcn registries | `reference/agent-tooling.md` |
 | Repos to read, awesome lists, courses | *coming soon* |
 
 ## Top rules

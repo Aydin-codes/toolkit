@@ -63,9 +63,11 @@ It works with any tool that reads `SKILL.md`: Claude Code, Codex, Cursor, Gemini
 |---|---|---|
 | `SKILL.md` | Which stack to use for 12 kinds of project, 12 rules (tap targets, contrast, focus rings…), a quality checklist and license rules | Written |
 | [Fonts](reference/frontend/type.md) | Where to get free fonts, 25 starting picks by style, type-scale tools, and the fonts AI overuses | Written: 40 entries, every link checked on 26 Nov 2026 |
-| UI kits and icons, frameworks, UX, motion, 3D, charts | Component libraries, icon sets, animation and 3D tools | Planned |
-| Photos, illustrations, 3D models, sound | Free asset sources with their licenses | Planned |
-| Back end, platforms, PDF and print, shipping, quality | Databases, auth, hosting, testing and more | Planned |
+| [All Google Fonts](reference/frontend/fonts/) | Every Google Fonts family by style (sans-serif, serif, display, handwriting, monospace), with license and install command | Written: 2,043 families, imported from Google's own font data |
+| UI kits and icons, frameworks, motion, 3D, charts | Component libraries, icon sets, animation and 3D tools | Written: 152 entries |
+| Photos, illustrations, 3D models, sound; tools to make your own | Free asset sources with their licenses, and free apps like Blender and Krita | Written: 36 entries (video, music and sound still thin) |
+| Platforms, PDF and print, shipping, agent tools | Mobile, desktop and game frameworks, PDF tools, hosting, MCP servers | Written: 96 entries |
+| UX, back end, quality, AI generators, learn | Real-app references, databases, auth, testing, AI asset tools, repos to read | Planned |
 
 <details>
 <summary><b>A look inside <code>SKILL.md</code>: the stack it suggests for each kind of project</b></summary>
