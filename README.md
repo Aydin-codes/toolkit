@@ -152,7 +152,7 @@ toolkit/
 
 ## Built with
 
-| | | What it does here |
+| Icon | Name | What it does here |
 |:-:|---|---|
 | <img src=".github/assets/logos/yaml.svg" alt="" width="28"> | YAML | Every entry lives in a small YAML file in `catalog/` |
 | <img src=".github/assets/logos/python.svg" alt="" width="28"> | [Python](https://www.python.org) | Builds the pages from the catalog and checks every link |
