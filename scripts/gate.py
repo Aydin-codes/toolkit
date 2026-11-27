@@ -76,6 +76,12 @@ def gate(e):
         e.pop("verified_by", None)
         e["problems"] = [f"on hold: {e['hold']}"]
         return "candidate"
+    if e.get("source"):  # imported from an official dataset (e.g. Google's font metadata)
+        ok = e.get("license") and e.get("license_url")
+        e["status"] = "verified" if ok else "candidate"
+        if ok:
+            e["verified_by"] = "auto"
+        return e["status"]
     status, problems = decide(e)
     if e.get("verified_by") == "human" and status != "declining":
         e.pop("problems", None)

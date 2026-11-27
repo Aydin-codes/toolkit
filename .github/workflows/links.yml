@@ -15,7 +15,7 @@ jobs:
         id: lychee
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --no-progress --max-retries 2 --accept 200,206,429 "./**/*.md" "./catalog/**/*.yaml"
+          args: --no-progress --max-retries 2 --accept 200,206,429 --exclude-path reference/frontend/fonts --exclude-path catalog/frontend/fonts "./**/*.md" "./catalog/**/*.yaml"
           output: lychee-out.md
           fail: false
         env:

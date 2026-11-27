@@ -18,6 +18,8 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (toolkit link check)"}
 def urls():
     found = {}
     for p in list(ROOT.rglob("*.md")) + list(ROOT.rglob("*.yaml")):
+        if "fonts" in p.parts:  # 2,000 imported font links; checked by the importer's source
+            continue
         if ".git" in p.parts or any(part.startswith("_") for part in p.parts) or "runs" in p.parts:
             continue
         for u in URL.findall(p.read_text(encoding="utf-8")):

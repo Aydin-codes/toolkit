@@ -111,7 +111,7 @@ def main():
     todo = []
     for path, doc, kind in docs:
         entries = (doc.get("proposals") or []) if kind == "inbox" else [e for _, _, e in walk(doc)]
-        todo += [e for e in entries if e.get("url") and stale(e, force)]
+        todo += [e for e in entries if e.get("url") and not e.get("source") and stale(e, force)]
     print(f"enriching {len(todo)} entries (GitHub token: {'yes' if TOKEN else 'no, 60 calls/hour'})")
     with ThreadPoolExecutor(8) as pool:
         for e, f in zip(todo, pool.map(facts_for, todo)):

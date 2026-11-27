@@ -67,6 +67,16 @@ def line(e, with_use_when=False):
     return s
 
 
+def compact_line(e):
+    s = f"- [{e['name']}]({e['url']})"
+    if e.get("note"):
+        s += f": {e['note']}"
+    s += f". {e['license']}."
+    if e.get("install"):
+        s += f" `{e['install']}`"
+    return s
+
+
 def render(doc, src):
     out = [
         f"# {doc['title']}",
@@ -91,7 +101,7 @@ def render(doc, src):
         if sec.get("big_lists"):
             out += ["**Big lists**", ""] + [line(e) for e in sec["big_lists"]] + [""]
         if sec.get("list"):
-            out += [line(e, True) for e in sec["list"]] + [""]
+            out += [compact_line(e) if doc.get("compact") else line(e, True) for e in sec["list"]] + [""]
         if sec.get("paid"):
             out += ["**Paid** (only when asked, or when no free option fits)", ""] + [line(e) for e in sec["paid"]] + [""]
     return "\n".join(out).rstrip() + "\n"
