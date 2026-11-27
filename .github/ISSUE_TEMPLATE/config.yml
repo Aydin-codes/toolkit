@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Using design-studio?
+    url: https://github.com/Aydin-codes/design-studio/issues
+    about: Problems with the design skill itself go there.
