@@ -52,7 +52,7 @@ All on Google Fonts (OFL). None of these is on the common-AI-picks list below. O
 - [Serif: Spectral](https://fonts.google.com/specimen/Spectral) (search: Spectral font). Licence: OFL. *(candidate)*
 - [Display: Syne](https://fonts.google.com/specimen/Syne) (search: Syne font). Licence: OFL. *(candidate)*
 - [Display: Unbounded](https://fonts.google.com/specimen/Unbounded) (search: Unbounded font). Licence: OFL. *(candidate)*
-- [Display: Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display) (search: Big Shoulders Display font). Licence: OFL. *(candidate)*
+- [Display: Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders) (search: Big Shoulders Display font). Licence: OFL. *(candidate)*
 - [Display: Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue) (search: Bebas Neue font). Licence: OFL. *(candidate)*
 - [Display: Anton](https://fonts.google.com/specimen/Anton) (search: Anton font). Licence: OFL. *(candidate)*
 - [Mono: Space Mono](https://fonts.google.com/specimen/Space+Mono) (search: Space Mono font). Licence: OFL. *(candidate)*
