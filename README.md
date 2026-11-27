@@ -1,7 +1,5 @@
 <h1 align="center">toolkit</h1>
 
-<h3 align="center">You asked for fonts.<br>The AI picked Inter again.</h3>
-
 <p align="center"><b>toolkit gives your AI a list of real, free fonts, icons, photos and libraries, each with a link and a licence, so it builds from real material instead of guessing.</b></p>
 
 <p align="center">
