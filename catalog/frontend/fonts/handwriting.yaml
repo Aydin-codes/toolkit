@@ -1,0 +1,3926 @@
+branch: frontend/fonts/handwriting
+title: 'All Google Fonts: handwriting (356 families)'
+intro: Every family in this style on Google Fonts, imported from Google's own metadata (github.com/google/fonts). Open the specimen and test with real text before choosing. Fonts marked common AI pick are
+  fine on purpose but shouldn't be a default. For curated starting picks, see reference/frontend/type.md.
+compact: true
+sections:
+- name: Latin families, A-Z (318)
+  list:
+  - name: Agrave Pro
+    url: https://fonts.google.com/specimen/Agrave+Pro
+    search: Agrave Pro font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/agravepro/OFL.txt
+    install: npm i @fontsource/agrave-pro
+    note: variable, by Daan Jobsis, added 2026
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Aguafina Script
+    url: https://fonts.google.com/specimen/Aguafina+Script
+    search: Aguafina Script font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/aguafinascript/OFL.txt
+    install: npm i @fontsource/aguafina-script
+    note: by Sudtipos, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Alex Brush
+    url: https://fonts.google.com/specimen/Alex+Brush
+    search: Alex Brush font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/alexbrush/OFL.txt
+    install: npm i @fontsource/alex-brush
+    note: by Robert Leuschke, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Allison
+    url: https://fonts.google.com/specimen/Allison
+    search: Allison font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/allison/OFL.txt
+    install: npm i @fontsource/allison
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Allura
+    url: https://fonts.google.com/specimen/Allura
+    search: Allura font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/allura/OFL.txt
+    install: npm i @fontsource/allura
+    note: by Robert Leuschke, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Amatic SC
+    url: https://fonts.google.com/specimen/Amatic+SC
+    search: Amatic SC font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/amaticsc/OFL.txt
+    install: npm i @fontsource/amatic-sc
+    note: by Vernon Adams, Ben Nathan, Thomas Jockin, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Annie Use Your Telescope
+    url: https://fonts.google.com/specimen/Annie+Use+Your+Telescope
+    search: Annie Use Your Telescope font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/annieuseyourtelescope/OFL.txt
+    install: npm i @fontsource/annie-use-your-telescope
+    note: by Kimberly Geswein, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Architects Daughter
+    url: https://fonts.google.com/specimen/Architects+Daughter
+    search: Architects Daughter font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/architectsdaughter/OFL.txt
+    install: npm i @fontsource/architects-daughter
+    note: by Kimberly Geswein, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Are You Serious
+    url: https://fonts.google.com/specimen/Are+You+Serious
+    search: Are You Serious font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/areyouserious/OFL.txt
+    install: npm i @fontsource/are-you-serious
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Arizonia
+    url: https://fonts.google.com/specimen/Arizonia
+    search: Arizonia font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/arizonia/OFL.txt
+    install: npm i @fontsource/arizonia
+    note: by Robert Leuschke, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Babylonica
+    url: https://fonts.google.com/specimen/Babylonica
+    search: Babylonica font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/babylonica/OFL.txt
+    install: npm i @fontsource/babylonica
+    note: by Robert Leuschke, added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Ballet
+    url: https://fonts.google.com/specimen/Ballet
+    search: Ballet font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/ballet/OFL.txt
+    install: npm i @fontsource/ballet
+    note: variable, by Omnibus-Type, Maximiliano Sproviero, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Beau Rivage
+    url: https://fonts.google.com/specimen/Beau+Rivage
+    search: Beau Rivage font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/beaurivage/OFL.txt
+    install: npm i @fontsource/beau-rivage
+    note: by Robert Leuschke, added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Berkshire Swash
+    url: https://fonts.google.com/specimen/Berkshire+Swash
+    search: Berkshire Swash font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/berkshireswash/OFL.txt
+    install: npm i @fontsource/berkshire-swash
+    note: by Astigmatic, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Betania Patmos
+    url: https://fonts.google.com/specimen/Betania+Patmos
+    search: Betania Patmos font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/betaniapatmos/OFL.txt
+    install: npm i @fontsource/betania-patmos
+    note: by Carolina Giovagnoli, added 2026
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Betania Patmos GDL
+    url: https://fonts.google.com/specimen/Betania+Patmos+GDL
+    search: Betania Patmos GDL font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/betaniapatmosgdl/OFL.txt
+    install: npm i @fontsource/betania-patmos-gdl
+    note: by Carolina Giovagnoli, added 2026
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Betania Patmos In
+    url: https://fonts.google.com/specimen/Betania+Patmos+In
+    search: Betania Patmos In font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/betaniapatmosin/OFL.txt
+    install: npm i @fontsource/betania-patmos-in
+    note: by Carolina Giovagnoli, added 2026
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Betania Patmos In GDL
+    url: https://fonts.google.com/specimen/Betania+Patmos+In+GDL
+    search: Betania Patmos In GDL font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/betaniapatmosingdl/OFL.txt
+    install: npm i @fontsource/betania-patmos-in-gdl
+    note: by Carolina Giovagnoli, added 2026
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Beth Ellen
+    url: https://fonts.google.com/specimen/Beth+Ellen
+    search: Beth Ellen font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/bethellen/OFL.txt
+    install: npm i @fontsource/beth-ellen
+    note: by Rob Jelinski, Alyson Fraser Diaz, added 2019
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Bilbo
+    url: https://fonts.google.com/specimen/Bilbo
+    search: Bilbo font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/bilbo/OFL.txt
+    install: npm i @fontsource/bilbo
+    note: by Robert Leuschke, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Bilbo Swash Caps
+    url: https://fonts.google.com/specimen/Bilbo+Swash+Caps
+    search: Bilbo Swash Caps font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/bilboswashcaps/OFL.txt
+    install: npm i @fontsource/bilbo-swash-caps
+    note: by TypeSETit, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Birthstone
+    url: https://fonts.google.com/specimen/Birthstone
+    search: Birthstone font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/birthstone/OFL.txt
+    install: npm i @fontsource/birthstone
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Birthstone Bounce
+    url: https://fonts.google.com/specimen/Birthstone+Bounce
+    search: Birthstone Bounce font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/birthstonebounce/OFL.txt
+    install: npm i @fontsource/birthstone-bounce
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Bonbon
+    url: https://fonts.google.com/specimen/Bonbon
+    search: Bonbon font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/bonbon/OFL.txt
+    install: npm i @fontsource/bonbon
+    note: by Cyreal, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Bonheur Royale
+    url: https://fonts.google.com/specimen/Bonheur+Royale
+    search: Bonheur Royale font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/bonheurroyale/OFL.txt
+    install: npm i @fontsource/bonheur-royale
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Borel
+    url: https://fonts.google.com/specimen/Borel
+    search: Borel font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/borel/OFL.txt
+    install: npm i @fontsource/borel
+    note: by Rosalie Wagner, added 2023
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Briem Hand
+    url: https://fonts.google.com/specimen/Briem+Hand
+    search: Briem Hand font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/briemhand/OFL.txt
+    install: npm i @fontsource/briem-hand
+    note: variable, by Gunnlaugur SE Briem, Eben Sorkin, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Butterfly Kids
+    url: https://fonts.google.com/specimen/Butterfly+Kids
+    search: Butterfly Kids font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/butterflykids/OFL.txt
+    install: npm i @fontsource/butterfly-kids
+    note: by Tart Workshop, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Calligraffitti
+    url: https://fonts.google.com/specimen/Calligraffitti
+    search: Calligraffitti font
+    license: Apache-2.0
+    license_url: https://github.com/google/fonts/blob/main/apache/calligraffitti/LICENSE.txt
+    install: npm i @fontsource/calligraffitti
+    note: by Open Window, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Caramel
+    url: https://fonts.google.com/specimen/Caramel
+    search: Caramel font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/caramel/OFL.txt
+    install: npm i @fontsource/caramel
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Carattere
+    url: https://fonts.google.com/specimen/Carattere
+    search: Carattere font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/carattere/OFL.txt
+    install: npm i @fontsource/carattere
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Cause
+    url: https://fonts.google.com/specimen/Cause
+    search: Cause font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/cause/OFL.txt
+    install: npm i @fontsource/cause
+    note: variable, by Saurabh Sharma, added 2025
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Caveat
+    url: https://fonts.google.com/specimen/Caveat
+    search: Caveat font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/caveat/OFL.txt
+    install: npm i @fontsource/caveat
+    note: variable, by Impallari Type, added 2015
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Caveat Brush
+    url: https://fonts.google.com/specimen/Caveat+Brush
+    search: Caveat Brush font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/caveatbrush/OFL.txt
+    install: npm i @fontsource/caveat-brush
+    note: by Impallari Type, added 2015
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Cedarville Cursive
+    url: https://fonts.google.com/specimen/Cedarville+Cursive
+    search: Cedarville Cursive font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/cedarvillecursive/OFL.txt
+    install: npm i @fontsource/cedarville-cursive
+    note: by Kimberly Geswein, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Cherish
+    url: https://fonts.google.com/specimen/Cherish
+    search: Cherish font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/cherish/OFL.txt
+    install: npm i @fontsource/cherish
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Clicker Script
+    url: https://fonts.google.com/specimen/Clicker+Script
+    search: Clicker Script font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/clickerscript/OFL.txt
+    install: npm i @fontsource/clicker-script
+    note: by Astigmatic, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Comforter
+    url: https://fonts.google.com/specimen/Comforter
+    search: Comforter font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/comforter/OFL.txt
+    install: npm i @fontsource/comforter
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Comforter Brush
+    url: https://fonts.google.com/specimen/Comforter+Brush
+    search: Comforter Brush font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/comforterbrush/OFL.txt
+    install: npm i @fontsource/comforter-brush
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Comic Neue
+    url: https://fonts.google.com/specimen/Comic+Neue
+    search: Comic Neue font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/comicneue/OFL.txt
+    install: npm i @fontsource/comic-neue
+    note: by Craig Rozynski, Hrant Papazian, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Coming Soon
+    url: https://fonts.google.com/specimen/Coming+Soon
+    search: Coming Soon font
+    license: Apache-2.0
+    license_url: https://github.com/google/fonts/blob/main/apache/comingsoon/LICENSE.txt
+    install: npm i @fontsource/coming-soon
+    note: by Open Window, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Condiment
+    url: https://fonts.google.com/specimen/Condiment
+    search: Condiment font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/condiment/OFL.txt
+    install: npm i @fontsource/condiment
+    note: by Sudtipos, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Cookie
+    url: https://fonts.google.com/specimen/Cookie
+    search: Cookie font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/cookie/OFL.txt
+    install: npm i @fontsource/cookie
+    note: by Ania Kruk, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Corinthia
+    url: https://fonts.google.com/specimen/Corinthia
+    search: Corinthia font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/corinthia/OFL.txt
+    install: npm i @fontsource/corinthia
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Courgette
+    url: https://fonts.google.com/specimen/Courgette
+    search: Courgette font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/courgette/OFL.txt
+    install: npm i @fontsource/courgette
+    note: by Karolina Lach, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Covered By Your Grace
+    url: https://fonts.google.com/specimen/Covered+By+Your+Grace
+    search: Covered By Your Grace font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/coveredbyyourgrace/OFL.txt
+    install: npm i @fontsource/covered-by-your-grace
+    note: by Kimberly Geswein, added 2010
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Crafty Girls
+    url: https://fonts.google.com/specimen/Crafty+Girls
+    search: Crafty Girls font
+    license: Apache-2.0
+    license_url: https://github.com/google/fonts/blob/main/apache/craftygirls/LICENSE.txt
+    install: npm i @fontsource/crafty-girls
+    note: by Tart Workshop, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Damion
+    url: https://fonts.google.com/specimen/Damion
+    search: Damion font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/damion/OFL.txt
+    install: npm i @fontsource/damion
+    note: by Vernon Adams, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Dancing Script
+    url: https://fonts.google.com/specimen/Dancing+Script
+    search: Dancing Script font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/dancingscript/OFL.txt
+    install: npm i @fontsource/dancing-script
+    note: variable, by Impallari Type, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Dawning of a New Day
+    url: https://fonts.google.com/specimen/Dawning+of+a+New+Day
+    search: Dawning of a New Day font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/dawningofanewday/OFL.txt
+    install: npm i @fontsource/dawning-of-a-new-day
+    note: by Kimberly Geswein, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Delicious Handrawn
+    url: https://fonts.google.com/specimen/Delicious+Handrawn
+    search: Delicious Handrawn font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/delicioushandrawn/OFL.txt
+    install: npm i @fontsource/delicious-handrawn
+    note: by Agung Rohmat, added 2023
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Delius
+    url: https://fonts.google.com/specimen/Delius
+    search: Delius font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/delius/OFL.txt
+    install: npm i @fontsource/delius
+    note: by Natalia Raices, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Delius Swash Caps
+    url: https://fonts.google.com/specimen/Delius+Swash+Caps
+    search: Delius Swash Caps font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/deliusswashcaps/OFL.txt
+    install: npm i @fontsource/delius-swash-caps
+    note: by Natalia Raices, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Delius Unicase
+    url: https://fonts.google.com/specimen/Delius+Unicase
+    search: Delius Unicase font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/deliusunicase/OFL.txt
+    install: npm i @fontsource/delius-unicase
+    note: by Natalia Raices, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Devonshire
+    url: https://fonts.google.com/specimen/Devonshire
+    search: Devonshire font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/devonshire/OFL.txt
+    install: npm i @fontsource/devonshire
+    note: by Astigmatic, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Dr Sugiyama
+    url: https://fonts.google.com/specimen/Dr+Sugiyama
+    search: Dr Sugiyama font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/drsugiyama/OFL.txt
+    install: npm i @fontsource/dr-sugiyama
+    note: by Sudtipos, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Eagle Lake
+    url: https://fonts.google.com/specimen/Eagle+Lake
+    search: Eagle Lake font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/eaglelake/OFL.txt
+    install: npm i @fontsource/eagle-lake
+    note: by Astigmatic, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Edu AU VIC WA NT Arrows
+    url: https://fonts.google.com/specimen/Edu+AU+VIC+WA+NT+Arrows
+    search: Edu AU VIC WA NT Arrows font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/eduauvicwantarrows/OFL.txt
+    install: npm i @fontsource/edu-au-vic-wa-nt-arrows
+    note: variable, by Tina Anderson, Corey Anderson, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Edu AU VIC WA NT Dots
+    url: https://fonts.google.com/specimen/Edu+AU+VIC+WA+NT+Dots
+    search: Edu AU VIC WA NT Dots font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/eduauvicwantdots/OFL.txt
+    install: npm i @fontsource/edu-au-vic-wa-nt-dots
+    note: variable, by Tina Anderson, Corey Anderson, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Edu AU VIC WA NT Guides
+    url: https://fonts.google.com/specimen/Edu+AU+VIC+WA+NT+Guides
+    search: Edu AU VIC WA NT Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/eduauvicwantguides/OFL.txt
+    install: npm i @fontsource/edu-au-vic-wa-nt-guides
+    note: variable, by Tina Anderson, Corey Anderson, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Edu AU VIC WA NT Hand
+    url: https://fonts.google.com/specimen/Edu+AU+VIC+WA+NT+Hand
+    search: Edu AU VIC WA NT Hand font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/eduauvicwanthand/OFL.txt
+    install: npm i @fontsource/edu-au-vic-wa-nt-hand
+    note: variable, by Tina Anderson, Corey Anderson, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Edu AU VIC WA NT Pre
+    url: https://fonts.google.com/specimen/Edu+AU+VIC+WA+NT+Pre
+    search: Edu AU VIC WA NT Pre font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/eduauvicwantpre/OFL.txt
+    install: npm i @fontsource/edu-au-vic-wa-nt-pre
+    note: variable, by Tina Anderson, Corey Anderson, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Edu NSW ACT Foundation
+    url: https://fonts.google.com/specimen/Edu+NSW+ACT+Foundation
+    search: Edu NSW ACT Foundation font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/edunswactfoundation/OFL.txt
+    install: npm i @fontsource/edu-nsw-act-foundation
+    note: variable, by Tina Anderson, Corey Anderson, added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Edu QLD Beginner
+    url: https://fonts.google.com/specimen/Edu+QLD+Beginner
+    search: Edu QLD Beginner font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/eduqldbeginner/OFL.txt
+    install: npm i @fontsource/edu-qld-beginner
+    note: variable, by Tina Anderson, Corey Anderson, added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Edu SA Beginner
+    url: https://fonts.google.com/specimen/Edu+SA+Beginner
+    search: Edu SA Beginner font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/edusabeginner/OFL.txt
+    install: npm i @fontsource/edu-sa-beginner
+    note: variable, by Tina Anderson, Corey Anderson, added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Edu TAS Beginner
+    url: https://fonts.google.com/specimen/Edu+TAS+Beginner
+    search: Edu TAS Beginner font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/edutasbeginner/OFL.txt
+    install: npm i @fontsource/edu-tas-beginner
+    note: variable, by Tina Anderson, Corey Anderson, added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Edu VIC WA NT Beginner
+    url: https://fonts.google.com/specimen/Edu+VIC+WA+NT+Beginner
+    search: Edu VIC WA NT Beginner font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/eduvicwantbeginner/OFL.txt
+    install: npm i @fontsource/edu-vic-wa-nt-beginner
+    note: variable, by Tina Anderson, Corey Anderson, added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Engagement
+    url: https://fonts.google.com/specimen/Engagement
+    search: Engagement font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/engagement/OFL.txt
+    install: npm i @fontsource/engagement
+    note: by Astigmatic, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Ephesis
+    url: https://fonts.google.com/specimen/Ephesis
+    search: Ephesis font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/ephesis/OFL.txt
+    install: npm i @fontsource/ephesis
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Estonia
+    url: https://fonts.google.com/specimen/Estonia
+    search: Estonia font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/estonia/OFL.txt
+    install: npm i @fontsource/estonia
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Euphoria Script
+    url: https://fonts.google.com/specimen/Euphoria+Script
+    search: Euphoria Script font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/euphoriascript/OFL.txt
+    install: npm i @fontsource/euphoria-script
+    note: by Sabrina Mariela Lopez, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Explora
+    url: https://fonts.google.com/specimen/Explora
+    search: Explora font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/explora/OFL.txt
+    install: npm i @fontsource/explora
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Felipa
+    url: https://fonts.google.com/specimen/Felipa
+    search: Felipa font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/felipa/OFL.txt
+    install: npm i @fontsource/felipa
+    note: by Fontstage, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Festive
+    url: https://fonts.google.com/specimen/Festive
+    search: Festive font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/festive/OFL.txt
+    install: npm i @fontsource/festive
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Fleur De Leah
+    url: https://fonts.google.com/specimen/Fleur+De+Leah
+    search: Fleur De Leah font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/fleurdeleah/OFL.txt
+    install: npm i @fontsource/fleur-de-leah
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Fondamento
+    url: https://fonts.google.com/specimen/Fondamento
+    search: Fondamento font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/fondamento/OFL.txt
+    install: npm i @fontsource/fondamento
+    note: by Astigmatic, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Fuggles
+    url: https://fonts.google.com/specimen/Fuggles
+    search: Fuggles font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/fuggles/OFL.txt
+    install: npm i @fontsource/fuggles
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Fuzzy Bubbles
+    url: https://fonts.google.com/specimen/Fuzzy+Bubbles
+    search: Fuzzy Bubbles font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/fuzzybubbles/OFL.txt
+    install: npm i @fontsource/fuzzy-bubbles
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Give You Glory
+    url: https://fonts.google.com/specimen/Give+You+Glory
+    search: Give You Glory font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/giveyouglory/OFL.txt
+    install: npm i @fontsource/give-you-glory
+    note: by Kimberly Geswein, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Gloria Hallelujah
+    url: https://fonts.google.com/specimen/Gloria+Hallelujah
+    search: Gloria Hallelujah font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/gloriahallelujah/OFL.txt
+    install: npm i @fontsource/gloria-hallelujah
+    note: by Kimberly Geswein, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Gochi Hand
+    url: https://fonts.google.com/specimen/Gochi+Hand
+    search: Gochi Hand font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/gochihand/OFL.txt
+    install: npm i @fontsource/gochi-hand
+    note: by HT Fonts, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Grand Hotel
+    url: https://fonts.google.com/specimen/Grand+Hotel
+    search: Grand Hotel font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/grandhotel/OFL.txt
+    install: npm i @fontsource/grand-hotel
+    note: by Astigmatic, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Grape Nuts
+    url: https://fonts.google.com/specimen/Grape+Nuts
+    search: Grape Nuts font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/grapenuts/OFL.txt
+    install: npm i @fontsource/grape-nuts
+    note: by Robert Leuschke, added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Great Vibes
+    url: https://fonts.google.com/specimen/Great+Vibes
+    search: Great Vibes font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/greatvibes/OFL.txt
+    install: npm i @fontsource/great-vibes
+    note: by Robert Leuschke, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Grechen Fuemen
+    url: https://fonts.google.com/specimen/Grechen+Fuemen
+    search: Grechen Fuemen font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/grechenfuemen/OFL.txt
+    install: npm i @fontsource/grechen-fuemen
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Grey Qo
+    url: https://fonts.google.com/specimen/Grey+Qo
+    search: Grey Qo font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/greyqo/OFL.txt
+    install: npm i @fontsource/grey-qo
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Gwendolyn
+    url: https://fonts.google.com/specimen/Gwendolyn
+    search: Gwendolyn font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/gwendolyn/OFL.txt
+    install: npm i @fontsource/gwendolyn
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Handlee
+    url: https://fonts.google.com/specimen/Handlee
+    search: Handlee font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/handlee/OFL.txt
+    install: npm i @fontsource/handlee
+    note: by Joe Prince, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Herr Von Muellerhoff
+    url: https://fonts.google.com/specimen/Herr+Von+Muellerhoff
+    search: Herr Von Muellerhoff font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/herrvonmuellerhoff/OFL.txt
+    install: npm i @fontsource/herr-von-muellerhoff
+    note: by Sudtipos, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Homemade Apple
+    url: https://fonts.google.com/specimen/Homemade+Apple
+    search: Homemade Apple font
+    license: Apache-2.0
+    license_url: https://github.com/google/fonts/blob/main/apache/homemadeapple/LICENSE.txt
+    install: npm i @fontsource/homemade-apple
+    note: by Font Diner, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Hurricane
+    url: https://fonts.google.com/specimen/Hurricane
+    search: Hurricane font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/hurricane/OFL.txt
+    install: npm i @fontsource/hurricane
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Imperial Script
+    url: https://fonts.google.com/specimen/Imperial+Script
+    search: Imperial Script font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/imperialscript/OFL.txt
+    install: npm i @fontsource/imperial-script
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Indie Flower
+    url: https://fonts.google.com/specimen/Indie+Flower
+    search: Indie Flower font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/indieflower/OFL.txt
+    install: npm i @fontsource/indie-flower
+    note: by Kimberly Geswein, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Ingrid Darling
+    url: https://fonts.google.com/specimen/Ingrid+Darling
+    search: Ingrid Darling font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/ingriddarling/OFL.txt
+    install: npm i @fontsource/ingrid-darling
+    note: by Robert Leuschke, added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Inspiration
+    url: https://fonts.google.com/specimen/Inspiration
+    search: Inspiration font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/inspiration/OFL.txt
+    install: npm i @fontsource/inspiration
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Island Moments
+    url: https://fonts.google.com/specimen/Island+Moments
+    search: Island Moments font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/islandmoments/OFL.txt
+    install: npm i @fontsource/island-moments
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Italianno
+    url: https://fonts.google.com/specimen/Italianno
+    search: Italianno font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/italianno/OFL.txt
+    install: npm i @fontsource/italianno
+    note: by Robert Leuschke, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Jim Nightshade
+    url: https://fonts.google.com/specimen/Jim+Nightshade
+    search: Jim Nightshade font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/jimnightshade/OFL.txt
+    install: npm i @fontsource/jim-nightshade
+    note: by Astigmatic, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Julee
+    url: https://fonts.google.com/specimen/Julee
+    search: Julee font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/julee/OFL.txt
+    install: npm i @fontsource/julee
+    note: by Julián Tunni, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Just Another Hand
+    url: https://fonts.google.com/specimen/Just+Another+Hand
+    search: Just Another Hand font
+    license: Apache-2.0
+    license_url: https://github.com/google/fonts/blob/main/apache/justanotherhand/LICENSE.txt
+    install: npm i @fontsource/just-another-hand
+    note: by Astigmatic, added 2010
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Just Me Again Down Here
+    url: https://fonts.google.com/specimen/Just+Me+Again+Down+Here
+    search: Just Me Again Down Here font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/justmeagaindownhere/OFL.txt
+    install: npm i @fontsource/just-me-again-down-here
+    note: by Kimberly Geswein, added 2010
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Kaushan Script
+    url: https://fonts.google.com/specimen/Kaushan+Script
+    search: Kaushan Script font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/kaushanscript/OFL.txt
+    install: npm i @fontsource/kaushan-script
+    note: by Impallari Type, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Kings
+    url: https://fonts.google.com/specimen/Kings
+    search: Kings font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/kings/OFL.txt
+    install: npm i @fontsource/kings
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Kolker Brush
+    url: https://fonts.google.com/specimen/Kolker+Brush
+    search: Kolker Brush font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/kolkerbrush/OFL.txt
+    install: npm i @fontsource/kolker-brush
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Kristi
+    url: https://fonts.google.com/specimen/Kristi
+    search: Kristi font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/kristi/OFL.txt
+    install: npm i @fontsource/kristi
+    note: by Birgit Pulk, added 2010
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: La Belle Aurore
+    url: https://fonts.google.com/specimen/La+Belle+Aurore
+    search: La Belle Aurore font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/labelleaurore/OFL.txt
+    install: npm i @fontsource/la-belle-aurore
+    note: by Kimberly Geswein, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Lavishly Yours
+    url: https://fonts.google.com/specimen/Lavishly+Yours
+    search: Lavishly Yours font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/lavishlyyours/OFL.txt
+    install: npm i @fontsource/lavishly-yours
+    note: by Robert Leuschke, added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: League Script
+    url: https://fonts.google.com/specimen/League+Script
+    search: League Script font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/leaguescript/OFL.txt
+    install: npm i @fontsource/league-script
+    note: by Haley Fiege, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Leckerli One
+    url: https://fonts.google.com/specimen/Leckerli+One
+    search: Leckerli One font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/leckerlione/OFL.txt
+    install: npm i @fontsource/leckerli-one
+    note: by Gesine Todt, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Licorice
+    url: https://fonts.google.com/specimen/Licorice
+    search: Licorice font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/licorice/OFL.txt
+    install: npm i @fontsource/licorice
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Love Light
+    url: https://fonts.google.com/specimen/Love+Light
+    search: Love Light font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/lovelight/OFL.txt
+    install: npm i @fontsource/love-light
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Loved by the King
+    url: https://fonts.google.com/specimen/Loved+by+the+King
+    search: Loved by the King font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/lovedbytheking/OFL.txt
+    install: npm i @fontsource/loved-by-the-king
+    note: by Kimberly Geswein, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Lovers Quarrel
+    url: https://fonts.google.com/specimen/Lovers+Quarrel
+    search: Lovers Quarrel font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/loversquarrel/OFL.txt
+    install: npm i @fontsource/lovers-quarrel
+    note: by Robert Leuschke, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Lugrasimo
+    url: https://fonts.google.com/specimen/Lugrasimo
+    search: Lugrasimo font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/lugrasimo/OFL.txt
+    install: npm i @fontsource/lugrasimo
+    note: by The DocRepair Project, Astigmatic, added 2023
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Lumanosimo
+    url: https://fonts.google.com/specimen/Lumanosimo
+    search: Lumanosimo font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/lumanosimo/OFL.txt
+    install: npm i @fontsource/lumanosimo
+    note: by The DocRepair Project, Eduardo Tunni, added 2023
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Luxurious Script
+    url: https://fonts.google.com/specimen/Luxurious+Script
+    search: Luxurious Script font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/luxuriousscript/OFL.txt
+    install: npm i @fontsource/luxurious-script
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Mansalva
+    url: https://fonts.google.com/specimen/Mansalva
+    search: Mansalva font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/mansalva/OFL.txt
+    install: npm i @fontsource/mansalva
+    note: by Carolina Short, added 2019
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Marck Script
+    url: https://fonts.google.com/specimen/Marck+Script
+    search: Marck Script font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/marckscript/OFL.txt
+    install: npm i @fontsource/marck-script
+    note: by Denis Masharov, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Mea Culpa
+    url: https://fonts.google.com/specimen/Mea+Culpa
+    search: Mea Culpa font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/meaculpa/OFL.txt
+    install: npm i @fontsource/mea-culpa
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Meddon
+    url: https://fonts.google.com/specimen/Meddon
+    search: Meddon font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/meddon/OFL.txt
+    install: npm i @fontsource/meddon
+    note: by Vernon Adams, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Meie Script
+    url: https://fonts.google.com/specimen/Meie+Script
+    search: Meie Script font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/meiescript/OFL.txt
+    install: npm i @fontsource/meie-script
+    note: by Johan Kallas, Mihkel Virkus, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Meow Script
+    url: https://fonts.google.com/specimen/Meow+Script
+    search: Meow Script font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/meowscript/OFL.txt
+    install: npm i @fontsource/meow-script
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Merienda
+    url: https://fonts.google.com/specimen/Merienda
+    search: Merienda font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/merienda/OFL.txt
+    install: npm i @fontsource/merienda
+    note: variable, by Eduardo Tunni, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Mervale Script
+    url: https://fonts.google.com/specimen/Mervale+Script
+    search: Mervale Script font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/mervalescript/OFL.txt
+    install: npm i @fontsource/mervale-script
+    note: by Astigmatic, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Miama
+    url: https://fonts.google.com/specimen/Miama
+    search: Miama font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/miama/OFL.txt
+    install: npm i @fontsource/miama
+    note: by Linus Romer, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Miss Fajardose
+    url: https://fonts.google.com/specimen/Miss+Fajardose
+    search: Miss Fajardose font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/missfajardose/OFL.txt
+    install: npm i @fontsource/miss-fajardose
+    note: by Sudtipos, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Molle
+    url: https://fonts.google.com/specimen/Molle
+    search: Molle font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/molle/OFL.txt
+    install: npm i @fontsource/molle
+    note: by Elena Albertoni, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Monsieur La Doulaise
+    url: https://fonts.google.com/specimen/Monsieur+La+Doulaise
+    search: Monsieur La Doulaise font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/monsieurladoulaise/OFL.txt
+    install: npm i @fontsource/monsieur-la-doulaise
+    note: by Sudtipos, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: MonteCarlo
+    url: https://fonts.google.com/specimen/MonteCarlo
+    search: MonteCarlo font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/montecarlo/OFL.txt
+    install: npm i @fontsource/montecarlo
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Montez
+    url: https://fonts.google.com/specimen/Montez
+    search: Montez font
+    license: Apache-2.0
+    license_url: https://github.com/google/fonts/blob/main/apache/montez/LICENSE.txt
+    install: npm i @fontsource/montez
+    note: by Astigmatic, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Moon Dance
+    url: https://fonts.google.com/specimen/Moon+Dance
+    search: Moon Dance font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/moondance/OFL.txt
+    install: npm i @fontsource/moon-dance
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Mr Bedfort
+    url: https://fonts.google.com/specimen/Mr+Bedfort
+    search: Mr Bedfort font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/mrbedfort/OFL.txt
+    install: npm i @fontsource/mr-bedfort
+    note: by Sudtipos, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Mr Dafoe
+    url: https://fonts.google.com/specimen/Mr+Dafoe
+    search: Mr Dafoe font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/mrdafoe/OFL.txt
+    install: npm i @fontsource/mr-dafoe
+    note: by Sudtipos, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Mr De Haviland
+    url: https://fonts.google.com/specimen/Mr+De+Haviland
+    search: Mr De Haviland font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/mrdehaviland/OFL.txt
+    install: npm i @fontsource/mr-de-haviland
+    note: by Sudtipos, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Mrs Saint Delafield
+    url: https://fonts.google.com/specimen/Mrs+Saint+Delafield
+    search: Mrs Saint Delafield font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/mrssaintdelafield/OFL.txt
+    install: npm i @fontsource/mrs-saint-delafield
+    note: by Sudtipos, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Mrs Sheppards
+    url: https://fonts.google.com/specimen/Mrs+Sheppards
+    search: Mrs Sheppards font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/mrssheppards/OFL.txt
+    install: npm i @fontsource/mrs-sheppards
+    note: by Sudtipos, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Ms Madi
+    url: https://fonts.google.com/specimen/Ms+Madi
+    search: Ms Madi font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/msmadi/OFL.txt
+    install: npm i @fontsource/ms-madi
+    note: by Robert Leuschke, added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: My Soul
+    url: https://fonts.google.com/specimen/My+Soul
+    search: My Soul font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/mysoul/OFL.txt
+    install: npm i @fontsource/my-soul
+    note: by Robert Leuschke, added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Mynerve
+    url: https://fonts.google.com/specimen/Mynerve
+    search: Mynerve font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/mynerve/OFL.txt
+    install: npm i @fontsource/mynerve
+    note: by Carolina Short, added 2023
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Neonderthaw
+    url: https://fonts.google.com/specimen/Neonderthaw
+    search: Neonderthaw font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/neonderthaw/OFL.txt
+    install: npm i @fontsource/neonderthaw
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Nerko One
+    url: https://fonts.google.com/specimen/Nerko+One
+    search: Nerko One font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/nerkoone/OFL.txt
+    install: npm i @fontsource/nerko-one
+    note: by Nermin Kahrimanovic, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Neucha
+    url: https://fonts.google.com/specimen/Neucha
+    search: Neucha font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/neucha/OFL.txt
+    install: npm i @fontsource/neucha
+    note: by Jovanny Lemonad, added 2010
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Niconne
+    url: https://fonts.google.com/specimen/Niconne
+    search: Niconne font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/niconne/OFL.txt
+    install: npm i @fontsource/niconne
+    note: by Vernon Adams, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Norican
+    url: https://fonts.google.com/specimen/Norican
+    search: Norican font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/norican/OFL.txt
+    install: npm i @fontsource/norican
+    note: by Vernon Adams, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Nothing You Could Do
+    url: https://fonts.google.com/specimen/Nothing+You+Could+Do
+    search: Nothing You Could Do font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/nothingyoucoulddo/OFL.txt
+    install: npm i @fontsource/nothing-you-could-do
+    note: by Kimberly Geswein, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Ole
+    url: https://fonts.google.com/specimen/Ole
+    search: Ole font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/ole/OFL.txt
+    install: npm i @fontsource/ole
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Oooh Baby
+    url: https://fonts.google.com/specimen/Oooh+Baby
+    search: Oooh Baby font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/ooohbaby/OFL.txt
+    install: npm i @fontsource/oooh-baby
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Over the Rainbow
+    url: https://fonts.google.com/specimen/Over+the+Rainbow
+    search: Over the Rainbow font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/overtherainbow/OFL.txt
+    install: npm i @fontsource/over-the-rainbow
+    note: by Kimberly Geswein, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Pacifico
+    url: https://fonts.google.com/specimen/Pacifico
+    search: Pacifico font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/pacifico/OFL.txt
+    install: npm i @fontsource/pacifico
+    note: by Vernon Adams, Jacques Le Bailly, Botjo Nikoltchev, Ani Petrova, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Pangolin
+    url: https://fonts.google.com/specimen/Pangolin
+    search: Pangolin font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/pangolin/OFL.txt
+    install: npm i @fontsource/pangolin
+    note: by Kevin Burke, added 2017
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Parisienne
+    url: https://fonts.google.com/specimen/Parisienne
+    search: Parisienne font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/parisienne/OFL.txt
+    install: npm i @fontsource/parisienne
+    note: by Astigmatic, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Passions Conflict
+    url: https://fonts.google.com/specimen/Passions+Conflict
+    search: Passions Conflict font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/passionsconflict/OFL.txt
+    install: npm i @fontsource/passions-conflict
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Patrick Hand
+    url: https://fonts.google.com/specimen/Patrick+Hand
+    search: Patrick Hand font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/patrickhand/OFL.txt
+    install: npm i @fontsource/patrick-hand
+    note: by Patrick Wagesreiter, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Patrick Hand SC
+    url: https://fonts.google.com/specimen/Patrick+Hand+SC
+    search: Patrick Hand SC font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/patrickhandsc/OFL.txt
+    install: npm i @fontsource/patrick-hand-sc
+    note: by Patrick Wagesreiter, added 2013
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Permanent Marker
+    url: https://fonts.google.com/specimen/Permanent+Marker
+    search: Permanent Marker font
+    license: Apache-2.0
+    license_url: https://github.com/google/fonts/blob/main/apache/permanentmarker/LICENSE.txt
+    install: npm i @fontsource/permanent-marker
+    note: by Font Diner, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Petemoss
+    url: https://fonts.google.com/specimen/Petemoss
+    search: Petemoss font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/petemoss/OFL.txt
+    install: npm i @fontsource/petemoss
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Petit Formal Script
+    url: https://fonts.google.com/specimen/Petit+Formal+Script
+    search: Petit Formal Script font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/petitformalscript/OFL.txt
+    install: npm i @fontsource/petit-formal-script
+    note: by Impallari Type, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Pinyon Script
+    url: https://fonts.google.com/specimen/Pinyon+Script
+    search: Pinyon Script font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/pinyonscript/OFL.txt
+    install: npm i @fontsource/pinyon-script
+    note: by Nicole Fally, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playpen Sans
+    url: https://fonts.google.com/specimen/Playpen+Sans
+    search: Playpen Sans font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playpensans/OFL.txt
+    install: npm i @fontsource/playpen-sans
+    note: variable, by TypeTogether, Laura Meseguer, Veronika Burian, José Scaglione, Kostas Bartsokas, Vera Evstafieva, Tom Grace, Yorlmar Campos, added 2023
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite AR
+    url: https://fonts.google.com/specimen/Playwrite+AR
+    search: Playwrite AR font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritear/OFL.txt
+    install: npm i @fontsource/playwrite-ar
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite AR Guides
+    url: https://fonts.google.com/specimen/Playwrite+AR+Guides
+    search: Playwrite AR Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritearguides/OFL.txt
+    install: npm i @fontsource/playwrite-ar-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite AT
+    url: https://fonts.google.com/specimen/Playwrite+AT
+    search: Playwrite AT font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwriteat/OFL.txt
+    install: npm i @fontsource/playwrite-at
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite AT Guides
+    url: https://fonts.google.com/specimen/Playwrite+AT+Guides
+    search: Playwrite AT Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwriteatguides/OFL.txt
+    install: npm i @fontsource/playwrite-at-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite AU NSW
+    url: https://fonts.google.com/specimen/Playwrite+AU+NSW
+    search: Playwrite AU NSW font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwriteaunsw/OFL.txt
+    install: npm i @fontsource/playwrite-au-nsw
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite AU NSW Guides
+    url: https://fonts.google.com/specimen/Playwrite+AU+NSW+Guides
+    search: Playwrite AU NSW Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwriteaunswguides/OFL.txt
+    install: npm i @fontsource/playwrite-au-nsw-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite AU QLD
+    url: https://fonts.google.com/specimen/Playwrite+AU+QLD
+    search: Playwrite AU QLD font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwriteauqld/OFL.txt
+    install: npm i @fontsource/playwrite-au-qld
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite AU QLD Guides
+    url: https://fonts.google.com/specimen/Playwrite+AU+QLD+Guides
+    search: Playwrite AU QLD Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwriteauqldguides/OFL.txt
+    install: npm i @fontsource/playwrite-au-qld-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite AU SA
+    url: https://fonts.google.com/specimen/Playwrite+AU+SA
+    search: Playwrite AU SA font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwriteausa/OFL.txt
+    install: npm i @fontsource/playwrite-au-sa
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite AU SA Guides
+    url: https://fonts.google.com/specimen/Playwrite+AU+SA+Guides
+    search: Playwrite AU SA Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwriteausaguides/OFL.txt
+    install: npm i @fontsource/playwrite-au-sa-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite AU TAS
+    url: https://fonts.google.com/specimen/Playwrite+AU+TAS
+    search: Playwrite AU TAS font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwriteautas/OFL.txt
+    install: npm i @fontsource/playwrite-au-tas
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite AU TAS Guides
+    url: https://fonts.google.com/specimen/Playwrite+AU+TAS+Guides
+    search: Playwrite AU TAS Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwriteautasguides/OFL.txt
+    install: npm i @fontsource/playwrite-au-tas-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite AU VIC
+    url: https://fonts.google.com/specimen/Playwrite+AU+VIC
+    search: Playwrite AU VIC font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwriteauvic/OFL.txt
+    install: npm i @fontsource/playwrite-au-vic
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite AU VIC Guides
+    url: https://fonts.google.com/specimen/Playwrite+AU+VIC+Guides
+    search: Playwrite AU VIC Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwriteauvicguides/OFL.txt
+    install: npm i @fontsource/playwrite-au-vic-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite BE VLG
+    url: https://fonts.google.com/specimen/Playwrite+BE+VLG
+    search: Playwrite BE VLG font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritebevlg/OFL.txt
+    install: npm i @fontsource/playwrite-be-vlg
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite BE VLG Guides
+    url: https://fonts.google.com/specimen/Playwrite+BE+VLG+Guides
+    search: Playwrite BE VLG Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritebevlgguides/OFL.txt
+    install: npm i @fontsource/playwrite-be-vlg-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite BE WAL
+    url: https://fonts.google.com/specimen/Playwrite+BE+WAL
+    search: Playwrite BE WAL font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritebewal/OFL.txt
+    install: npm i @fontsource/playwrite-be-wal
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite BE WAL Guides
+    url: https://fonts.google.com/specimen/Playwrite+BE+WAL+Guides
+    search: Playwrite BE WAL Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritebewalguides/OFL.txt
+    install: npm i @fontsource/playwrite-be-wal-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite BR
+    url: https://fonts.google.com/specimen/Playwrite+BR
+    search: Playwrite BR font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritebr/OFL.txt
+    install: npm i @fontsource/playwrite-br
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite BR Guides
+    url: https://fonts.google.com/specimen/Playwrite+BR+Guides
+    search: Playwrite BR Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritebrguides/OFL.txt
+    install: npm i @fontsource/playwrite-br-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite CA
+    url: https://fonts.google.com/specimen/Playwrite+CA
+    search: Playwrite CA font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwriteca/OFL.txt
+    install: npm i @fontsource/playwrite-ca
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite CA Guides
+    url: https://fonts.google.com/specimen/Playwrite+CA+Guides
+    search: Playwrite CA Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritecaguides/OFL.txt
+    install: npm i @fontsource/playwrite-ca-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite CL
+    url: https://fonts.google.com/specimen/Playwrite+CL
+    search: Playwrite CL font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritecl/OFL.txt
+    install: npm i @fontsource/playwrite-cl
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite CL Guides
+    url: https://fonts.google.com/specimen/Playwrite+CL+Guides
+    search: Playwrite CL Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwriteclguides/OFL.txt
+    install: npm i @fontsource/playwrite-cl-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite CO
+    url: https://fonts.google.com/specimen/Playwrite+CO
+    search: Playwrite CO font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwriteco/OFL.txt
+    install: npm i @fontsource/playwrite-co
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2023
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite CO Guides
+    url: https://fonts.google.com/specimen/Playwrite+CO+Guides
+    search: Playwrite CO Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritecoguides/OFL.txt
+    install: npm i @fontsource/playwrite-co-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite CU
+    url: https://fonts.google.com/specimen/Playwrite+CU
+    search: Playwrite CU font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritecu/OFL.txt
+    install: npm i @fontsource/playwrite-cu
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite CU Guides
+    url: https://fonts.google.com/specimen/Playwrite+CU+Guides
+    search: Playwrite CU Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritecuguides/OFL.txt
+    install: npm i @fontsource/playwrite-cu-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite CZ
+    url: https://fonts.google.com/specimen/Playwrite+CZ
+    search: Playwrite CZ font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritecz/OFL.txt
+    install: npm i @fontsource/playwrite-cz
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite CZ Guides
+    url: https://fonts.google.com/specimen/Playwrite+CZ+Guides
+    search: Playwrite CZ Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwriteczguides/OFL.txt
+    install: npm i @fontsource/playwrite-cz-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite DE Grund
+    url: https://fonts.google.com/specimen/Playwrite+DE+Grund
+    search: Playwrite DE Grund font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritedegrund/OFL.txt
+    install: npm i @fontsource/playwrite-de-grund
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite DE Grund Guides
+    url: https://fonts.google.com/specimen/Playwrite+DE+Grund+Guides
+    search: Playwrite DE Grund Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritedegrundguides/OFL.txt
+    install: npm i @fontsource/playwrite-de-grund-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite DE LA
+    url: https://fonts.google.com/specimen/Playwrite+DE+LA
+    search: Playwrite DE LA font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritedela/OFL.txt
+    install: npm i @fontsource/playwrite-de-la
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite DE LA Guides
+    url: https://fonts.google.com/specimen/Playwrite+DE+LA+Guides
+    search: Playwrite DE LA Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritedelaguides/OFL.txt
+    install: npm i @fontsource/playwrite-de-la-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite DE SAS
+    url: https://fonts.google.com/specimen/Playwrite+DE+SAS
+    search: Playwrite DE SAS font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritedesas/OFL.txt
+    install: npm i @fontsource/playwrite-de-sas
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite DE SAS Guides
+    url: https://fonts.google.com/specimen/Playwrite+DE+SAS+Guides
+    search: Playwrite DE SAS Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritedesasguides/OFL.txt
+    install: npm i @fontsource/playwrite-de-sas-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite DE VA
+    url: https://fonts.google.com/specimen/Playwrite+DE+VA
+    search: Playwrite DE VA font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritedeva/OFL.txt
+    install: npm i @fontsource/playwrite-de-va
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite DE VA Guides
+    url: https://fonts.google.com/specimen/Playwrite+DE+VA+Guides
+    search: Playwrite DE VA Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritedevaguides/OFL.txt
+    install: npm i @fontsource/playwrite-de-va-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite DK Loopet
+    url: https://fonts.google.com/specimen/Playwrite+DK+Loopet
+    search: Playwrite DK Loopet font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritedkloopet/OFL.txt
+    install: npm i @fontsource/playwrite-dk-loopet
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite DK Loopet Guides
+    url: https://fonts.google.com/specimen/Playwrite+DK+Loopet+Guides
+    search: Playwrite DK Loopet Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritedkloopetguides/OFL.txt
+    install: npm i @fontsource/playwrite-dk-loopet-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite DK Uloopet
+    url: https://fonts.google.com/specimen/Playwrite+DK+Uloopet
+    search: Playwrite DK Uloopet font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritedkuloopet/OFL.txt
+    install: npm i @fontsource/playwrite-dk-uloopet
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite DK Uloopet Guides
+    url: https://fonts.google.com/specimen/Playwrite+DK+Uloopet+Guides
+    search: Playwrite DK Uloopet Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritedkuloopetguides/OFL.txt
+    install: npm i @fontsource/playwrite-dk-uloopet-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite ES
+    url: https://fonts.google.com/specimen/Playwrite+ES
+    search: Playwrite ES font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritees/OFL.txt
+    install: npm i @fontsource/playwrite-es
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite ES Deco
+    url: https://fonts.google.com/specimen/Playwrite+ES+Deco
+    search: Playwrite ES Deco font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwriteesdeco/OFL.txt
+    install: npm i @fontsource/playwrite-es-deco
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite ES Deco Guides
+    url: https://fonts.google.com/specimen/Playwrite+ES+Deco+Guides
+    search: Playwrite ES Deco Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwriteesdecoguides/OFL.txt
+    install: npm i @fontsource/playwrite-es-deco-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite ES Guides
+    url: https://fonts.google.com/specimen/Playwrite+ES+Guides
+    search: Playwrite ES Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwriteesguides/OFL.txt
+    install: npm i @fontsource/playwrite-es-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite FR Moderne
+    url: https://fonts.google.com/specimen/Playwrite+FR+Moderne
+    search: Playwrite FR Moderne font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritefrmoderne/OFL.txt
+    install: npm i @fontsource/playwrite-fr-moderne
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite FR Moderne Guides
+    url: https://fonts.google.com/specimen/Playwrite+FR+Moderne+Guides
+    search: Playwrite FR Moderne Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritefrmoderneguides/OFL.txt
+    install: npm i @fontsource/playwrite-fr-moderne-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite FR Trad
+    url: https://fonts.google.com/specimen/Playwrite+FR+Trad
+    search: Playwrite FR Trad font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritefrtrad/OFL.txt
+    install: npm i @fontsource/playwrite-fr-trad
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2023
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite FR Trad Guides
+    url: https://fonts.google.com/specimen/Playwrite+FR+Trad+Guides
+    search: Playwrite FR Trad Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritefrtradguides/OFL.txt
+    install: npm i @fontsource/playwrite-fr-trad-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite GB J
+    url: https://fonts.google.com/specimen/Playwrite+GB+J
+    search: Playwrite GB J font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritegbj/OFL.txt
+    install: npm i @fontsource/playwrite-gb-j
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite GB J Guides
+    url: https://fonts.google.com/specimen/Playwrite+GB+J+Guides
+    search: Playwrite GB J Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritegbjguides/OFL.txt
+    install: npm i @fontsource/playwrite-gb-j-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite GB S
+    url: https://fonts.google.com/specimen/Playwrite+GB+S
+    search: Playwrite GB S font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritegbs/OFL.txt
+    install: npm i @fontsource/playwrite-gb-s
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite GB S Guides
+    url: https://fonts.google.com/specimen/Playwrite+GB+S+Guides
+    search: Playwrite GB S Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritegbsguides/OFL.txt
+    install: npm i @fontsource/playwrite-gb-s-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite HR
+    url: https://fonts.google.com/specimen/Playwrite+HR
+    search: Playwrite HR font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritehr/OFL.txt
+    install: npm i @fontsource/playwrite-hr
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite HR Guides
+    url: https://fonts.google.com/specimen/Playwrite+HR+Guides
+    search: Playwrite HR Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritehrguides/OFL.txt
+    install: npm i @fontsource/playwrite-hr-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite HR Lijeva
+    url: https://fonts.google.com/specimen/Playwrite+HR+Lijeva
+    search: Playwrite HR Lijeva font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritehrlijeva/OFL.txt
+    install: npm i @fontsource/playwrite-hr-lijeva
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite HR Lijeva Guides
+    url: https://fonts.google.com/specimen/Playwrite+HR+Lijeva+Guides
+    search: Playwrite HR Lijeva Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritehrlijevaguides/OFL.txt
+    install: npm i @fontsource/playwrite-hr-lijeva-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite HU
+    url: https://fonts.google.com/specimen/Playwrite+HU
+    search: Playwrite HU font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritehu/OFL.txt
+    install: npm i @fontsource/playwrite-hu
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite HU Guides
+    url: https://fonts.google.com/specimen/Playwrite+HU+Guides
+    search: Playwrite HU Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritehuguides/OFL.txt
+    install: npm i @fontsource/playwrite-hu-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite ID
+    url: https://fonts.google.com/specimen/Playwrite+ID
+    search: Playwrite ID font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwriteid/OFL.txt
+    install: npm i @fontsource/playwrite-id
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite ID Guides
+    url: https://fonts.google.com/specimen/Playwrite+ID+Guides
+    search: Playwrite ID Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwriteidguides/OFL.txt
+    install: npm i @fontsource/playwrite-id-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite IE
+    url: https://fonts.google.com/specimen/Playwrite+IE
+    search: Playwrite IE font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwriteie/OFL.txt
+    install: npm i @fontsource/playwrite-ie
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite IE Guides
+    url: https://fonts.google.com/specimen/Playwrite+IE+Guides
+    search: Playwrite IE Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwriteieguides/OFL.txt
+    install: npm i @fontsource/playwrite-ie-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite IN
+    url: https://fonts.google.com/specimen/Playwrite+IN
+    search: Playwrite IN font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritein/OFL.txt
+    install: npm i @fontsource/playwrite-in
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite IN Guides
+    url: https://fonts.google.com/specimen/Playwrite+IN+Guides
+    search: Playwrite IN Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwriteinguides/OFL.txt
+    install: npm i @fontsource/playwrite-in-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite IS
+    url: https://fonts.google.com/specimen/Playwrite+IS
+    search: Playwrite IS font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwriteis/OFL.txt
+    install: npm i @fontsource/playwrite-is
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite IS Guides
+    url: https://fonts.google.com/specimen/Playwrite+IS+Guides
+    search: Playwrite IS Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwriteisguides/OFL.txt
+    install: npm i @fontsource/playwrite-is-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite IT Moderna
+    url: https://fonts.google.com/specimen/Playwrite+IT+Moderna
+    search: Playwrite IT Moderna font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwriteitmoderna/OFL.txt
+    install: npm i @fontsource/playwrite-it-moderna
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite IT Moderna Guides
+    url: https://fonts.google.com/specimen/Playwrite+IT+Moderna+Guides
+    search: Playwrite IT Moderna Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwriteitmodernaguides/OFL.txt
+    install: npm i @fontsource/playwrite-it-moderna-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite IT Trad
+    url: https://fonts.google.com/specimen/Playwrite+IT+Trad
+    search: Playwrite IT Trad font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwriteittrad/OFL.txt
+    install: npm i @fontsource/playwrite-it-trad
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite IT Trad Guides
+    url: https://fonts.google.com/specimen/Playwrite+IT+Trad+Guides
+    search: Playwrite IT Trad Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwriteittradguides/OFL.txt
+    install: npm i @fontsource/playwrite-it-trad-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite MX
+    url: https://fonts.google.com/specimen/Playwrite+MX
+    search: Playwrite MX font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritemx/OFL.txt
+    install: npm i @fontsource/playwrite-mx
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite MX Guides
+    url: https://fonts.google.com/specimen/Playwrite+MX+Guides
+    search: Playwrite MX Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritemxguides/OFL.txt
+    install: npm i @fontsource/playwrite-mx-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite NG Modern
+    url: https://fonts.google.com/specimen/Playwrite+NG+Modern
+    search: Playwrite NG Modern font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritengmodern/OFL.txt
+    install: npm i @fontsource/playwrite-ng-modern
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite NG Modern Guides
+    url: https://fonts.google.com/specimen/Playwrite+NG+Modern+Guides
+    search: Playwrite NG Modern Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritengmodernguides/OFL.txt
+    install: npm i @fontsource/playwrite-ng-modern-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite NL
+    url: https://fonts.google.com/specimen/Playwrite+NL
+    search: Playwrite NL font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritenl/OFL.txt
+    install: npm i @fontsource/playwrite-nl
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite NL Guides
+    url: https://fonts.google.com/specimen/Playwrite+NL+Guides
+    search: Playwrite NL Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritenlguides/OFL.txt
+    install: npm i @fontsource/playwrite-nl-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite NO
+    url: https://fonts.google.com/specimen/Playwrite+NO
+    search: Playwrite NO font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwriteno/OFL.txt
+    install: npm i @fontsource/playwrite-no
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite NO Guides
+    url: https://fonts.google.com/specimen/Playwrite+NO+Guides
+    search: Playwrite NO Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritenoguides/OFL.txt
+    install: npm i @fontsource/playwrite-no-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite NZ
+    url: https://fonts.google.com/specimen/Playwrite+NZ
+    search: Playwrite NZ font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritenz/OFL.txt
+    install: npm i @fontsource/playwrite-nz
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite NZ Basic
+    url: https://fonts.google.com/specimen/Playwrite+NZ+Basic
+    search: Playwrite NZ Basic font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritenzbasic/OFL.txt
+    install: npm i @fontsource/playwrite-nz-basic
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2026
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite NZ Basic Guides
+    url: https://fonts.google.com/specimen/Playwrite+NZ+Basic+Guides
+    search: Playwrite NZ Basic Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritenzbasicguides/OFL.txt
+    install: npm i @fontsource/playwrite-nz-basic-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2026
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite NZ Guides
+    url: https://fonts.google.com/specimen/Playwrite+NZ+Guides
+    search: Playwrite NZ Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritenzguides/OFL.txt
+    install: npm i @fontsource/playwrite-nz-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite PE
+    url: https://fonts.google.com/specimen/Playwrite+PE
+    search: Playwrite PE font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritepe/OFL.txt
+    install: npm i @fontsource/playwrite-pe
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite PE Guides
+    url: https://fonts.google.com/specimen/Playwrite+PE+Guides
+    search: Playwrite PE Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritepeguides/OFL.txt
+    install: npm i @fontsource/playwrite-pe-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite PL
+    url: https://fonts.google.com/specimen/Playwrite+PL
+    search: Playwrite PL font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritepl/OFL.txt
+    install: npm i @fontsource/playwrite-pl
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite PL Guides
+    url: https://fonts.google.com/specimen/Playwrite+PL+Guides
+    search: Playwrite PL Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwriteplguides/OFL.txt
+    install: npm i @fontsource/playwrite-pl-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite PT
+    url: https://fonts.google.com/specimen/Playwrite+PT
+    search: Playwrite PT font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritept/OFL.txt
+    install: npm i @fontsource/playwrite-pt
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite PT Guides
+    url: https://fonts.google.com/specimen/Playwrite+PT+Guides
+    search: Playwrite PT Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwriteptguides/OFL.txt
+    install: npm i @fontsource/playwrite-pt-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite RO
+    url: https://fonts.google.com/specimen/Playwrite+RO
+    search: Playwrite RO font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritero/OFL.txt
+    install: npm i @fontsource/playwrite-ro
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite RO Guides
+    url: https://fonts.google.com/specimen/Playwrite+RO+Guides
+    search: Playwrite RO Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwriteroguides/OFL.txt
+    install: npm i @fontsource/playwrite-ro-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite SK
+    url: https://fonts.google.com/specimen/Playwrite+SK
+    search: Playwrite SK font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritesk/OFL.txt
+    install: npm i @fontsource/playwrite-sk
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite SK Guides
+    url: https://fonts.google.com/specimen/Playwrite+SK+Guides
+    search: Playwrite SK Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwriteskguides/OFL.txt
+    install: npm i @fontsource/playwrite-sk-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite TZ
+    url: https://fonts.google.com/specimen/Playwrite+TZ
+    search: Playwrite TZ font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritetz/OFL.txt
+    install: npm i @fontsource/playwrite-tz
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite TZ Guides
+    url: https://fonts.google.com/specimen/Playwrite+TZ+Guides
+    search: Playwrite TZ Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritetzguides/OFL.txt
+    install: npm i @fontsource/playwrite-tz-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite US Modern
+    url: https://fonts.google.com/specimen/Playwrite+US+Modern
+    search: Playwrite US Modern font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwriteusmodern/OFL.txt
+    install: npm i @fontsource/playwrite-us-modern
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite US Modern Guides
+    url: https://fonts.google.com/specimen/Playwrite+US+Modern+Guides
+    search: Playwrite US Modern Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwriteusmodernguides/OFL.txt
+    install: npm i @fontsource/playwrite-us-modern-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite US Trad
+    url: https://fonts.google.com/specimen/Playwrite+US+Trad
+    search: Playwrite US Trad font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwriteustrad/OFL.txt
+    install: npm i @fontsource/playwrite-us-trad
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite US Trad Guides
+    url: https://fonts.google.com/specimen/Playwrite+US+Trad+Guides
+    search: Playwrite US Trad Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwriteustradguides/OFL.txt
+    install: npm i @fontsource/playwrite-us-trad-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite VN
+    url: https://fonts.google.com/specimen/Playwrite+VN
+    search: Playwrite VN font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritevn/OFL.txt
+    install: npm i @fontsource/playwrite-vn
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite VN Guides
+    url: https://fonts.google.com/specimen/Playwrite+VN+Guides
+    search: Playwrite VN Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritevnguides/OFL.txt
+    install: npm i @fontsource/playwrite-vn-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite ZA
+    url: https://fonts.google.com/specimen/Playwrite+ZA
+    search: Playwrite ZA font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwriteza/OFL.txt
+    install: npm i @fontsource/playwrite-za
+    note: variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playwrite ZA Guides
+    url: https://fonts.google.com/specimen/Playwrite+ZA+Guides
+    search: Playwrite ZA Guides font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playwritezaguides/OFL.txt
+    install: npm i @fontsource/playwrite-za-guides
+    note: by TypeTogether, Veronika Burian, José Scaglione, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Praise
+    url: https://fonts.google.com/specimen/Praise
+    search: Praise font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/praise/OFL.txt
+    install: npm i @fontsource/praise
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Princess Sofia
+    url: https://fonts.google.com/specimen/Princess+Sofia
+    search: Princess Sofia font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/princesssofia/OFL.txt
+    install: npm i @fontsource/princess-sofia
+    note: by Tart Workshop, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Puppies Play
+    url: https://fonts.google.com/specimen/Puppies+Play
+    search: Puppies Play font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/puppiesplay/OFL.txt
+    install: npm i @fontsource/puppies-play
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Quintessential
+    url: https://fonts.google.com/specimen/Quintessential
+    search: Quintessential font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/quintessential/OFL.txt
+    install: npm i @fontsource/quintessential
+    note: by Astigmatic, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Qwigley
+    url: https://fonts.google.com/specimen/Qwigley
+    search: Qwigley font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/qwigley/OFL.txt
+    install: npm i @fontsource/qwigley
+    note: by Robert Leuschke, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Qwitcher Grypen
+    url: https://fonts.google.com/specimen/Qwitcher+Grypen
+    search: Qwitcher Grypen font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/qwitchergrypen/OFL.txt
+    install: npm i @fontsource/qwitcher-grypen
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Rancho
+    url: https://fonts.google.com/specimen/Rancho
+    search: Rancho font
+    license: Apache-2.0
+    license_url: https://github.com/google/fonts/blob/main/apache/rancho/LICENSE.txt
+    install: npm i @fontsource/rancho
+    note: by Sideshow, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Redressed
+    url: https://fonts.google.com/specimen/Redressed
+    search: Redressed font
+    license: Apache-2.0
+    license_url: https://github.com/google/fonts/blob/main/apache/redressed/LICENSE.txt
+    install: npm i @fontsource/redressed
+    note: by Astigmatic, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Reenie Beanie
+    url: https://fonts.google.com/specimen/Reenie+Beanie
+    search: Reenie Beanie font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/reeniebeanie/OFL.txt
+    install: npm i @fontsource/reenie-beanie
+    note: by James Grieshaber, added 2010
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Rochester
+    url: https://fonts.google.com/specimen/Rochester
+    search: Rochester font
+    license: Apache-2.0
+    license_url: https://github.com/google/fonts/blob/main/apache/rochester/LICENSE.txt
+    install: npm i @fontsource/rochester
+    note: by Sideshow, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Rock Salt
+    url: https://fonts.google.com/specimen/Rock+Salt
+    search: Rock Salt font
+    license: Apache-2.0
+    license_url: https://github.com/google/fonts/blob/main/apache/rocksalt/LICENSE.txt
+    install: npm i @fontsource/rock-salt
+    note: by Sideshow, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Romanesco
+    url: https://fonts.google.com/specimen/Romanesco
+    search: Romanesco font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/romanesco/OFL.txt
+    install: npm i @fontsource/romanesco
+    note: by Astigmatic, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Rouge Script
+    url: https://fonts.google.com/specimen/Rouge+Script
+    search: Rouge Script font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/rougescript/OFL.txt
+    install: npm i @fontsource/rouge-script
+    note: by Sabrina Mariela Lopez, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Ruge Boogie
+    url: https://fonts.google.com/specimen/Ruge+Boogie
+    search: Ruge Boogie font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/rugeboogie/OFL.txt
+    install: npm i @fontsource/ruge-boogie
+    note: by Robert Leuschke, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Ruthie
+    url: https://fonts.google.com/specimen/Ruthie
+    search: Ruthie font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/ruthie/OFL.txt
+    install: npm i @fontsource/ruthie
+    note: by Robert Leuschke, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Sacramento
+    url: https://fonts.google.com/specimen/Sacramento
+    search: Sacramento font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/sacramento/OFL.txt
+    install: npm i @fontsource/sacramento
+    note: by Astigmatic, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Sassy Frass
+    url: https://fonts.google.com/specimen/Sassy+Frass
+    search: Sassy Frass font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/sassyfrass/OFL.txt
+    install: npm i @fontsource/sassy-frass
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Satisfy
+    url: https://fonts.google.com/specimen/Satisfy
+    search: Satisfy font
+    license: Apache-2.0
+    license_url: https://github.com/google/fonts/blob/main/apache/satisfy/LICENSE.txt
+    install: npm i @fontsource/satisfy
+    note: by Sideshow, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Schoolbell
+    url: https://fonts.google.com/specimen/Schoolbell
+    search: Schoolbell font
+    license: Apache-2.0
+    license_url: https://github.com/google/fonts/blob/main/apache/schoolbell/LICENSE.txt
+    install: npm i @fontsource/schoolbell
+    note: by Font Diner, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Sedgwick Ave
+    url: https://fonts.google.com/specimen/Sedgwick+Ave
+    search: Sedgwick Ave font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/sedgwickave/OFL.txt
+    install: npm i @fontsource/sedgwick-ave
+    note: by Pedro Vergani, Kevin Burke, added 2017
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Sedgwick Ave Display
+    url: https://fonts.google.com/specimen/Sedgwick+Ave+Display
+    search: Sedgwick Ave Display font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/sedgwickavedisplay/OFL.txt
+    install: npm i @fontsource/sedgwick-ave-display
+    note: by Pedro Vergani, Kevin Burke, added 2017
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Send Flowers
+    url: https://fonts.google.com/specimen/Send+Flowers
+    search: Send Flowers font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/sendflowers/OFL.txt
+    install: npm i @fontsource/send-flowers
+    note: by Robert Leuschke, added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Shadows Into Light
+    url: https://fonts.google.com/specimen/Shadows+Into+Light
+    search: Shadows Into Light font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/shadowsintolight/OFL.txt
+    install: npm i @fontsource/shadows-into-light
+    note: by Kimberly Geswein, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Shadows Into Light Two
+    url: https://fonts.google.com/specimen/Shadows+Into+Light+Two
+    search: Shadows Into Light Two font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/shadowsintolighttwo/OFL.txt
+    install: npm i @fontsource/shadows-into-light-two
+    note: by Kimberly Geswein, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Shalimar
+    url: https://fonts.google.com/specimen/Shalimar
+    search: Shalimar font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/shalimar/OFL.txt
+    install: npm i @fontsource/shalimar
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Short Stack
+    url: https://fonts.google.com/specimen/Short+Stack
+    search: Short Stack font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/shortstack/OFL.txt
+    install: npm i @fontsource/short-stack
+    note: by James Grieshaber, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Smooch
+    url: https://fonts.google.com/specimen/Smooch
+    search: Smooch font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/smooch/OFL.txt
+    install: npm i @fontsource/smooch
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Sofia
+    url: https://fonts.google.com/specimen/Sofia
+    search: Sofia font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/sofia/OFL.txt
+    install: npm i @fontsource/sofia
+    note: by LatinoType, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Splash
+    url: https://fonts.google.com/specimen/Splash
+    search: Splash font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/splash/OFL.txt
+    install: npm i @fontsource/splash
+    note: by Robert Leuschke, added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Square Peg
+    url: https://fonts.google.com/specimen/Square+Peg
+    search: Square Peg font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/squarepeg/OFL.txt
+    install: npm i @fontsource/square-peg
+    note: by Robert Leuschke, added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Stalemate
+    url: https://fonts.google.com/specimen/Stalemate
+    search: Stalemate font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/stalemate/OFL.txt
+    install: npm i @fontsource/stalemate
+    note: by Astigmatic, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Style Script
+    url: https://fonts.google.com/specimen/Style+Script
+    search: Style Script font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/stylescript/OFL.txt
+    install: npm i @fontsource/style-script
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Sue Ellen Francisco
+    url: https://fonts.google.com/specimen/Sue+Ellen+Francisco
+    search: Sue Ellen Francisco font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/sueellenfrancisco/OFL.txt
+    install: npm i @fontsource/sue-ellen-francisco
+    note: by Kimberly Geswein, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Sunshiney
+    url: https://fonts.google.com/specimen/Sunshiney
+    search: Sunshiney font
+    license: Apache-2.0
+    license_url: https://github.com/google/fonts/blob/main/apache/sunshiney/LICENSE.txt
+    install: npm i @fontsource/sunshiney
+    note: by Sideshow, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Swanky and Moo Moo
+    url: https://fonts.google.com/specimen/Swanky+and+Moo+Moo
+    search: Swanky and Moo Moo font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/swankyandmoomoo/OFL.txt
+    install: npm i @fontsource/swanky-and-moo-moo
+    note: by Kimberly Geswein, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Tangerine
+    url: https://fonts.google.com/specimen/Tangerine
+    search: Tangerine font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/tangerine/OFL.txt
+    install: npm i @fontsource/tangerine
+    note: by Toshi Omagari, added 2010
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Tapestry
+    url: https://fonts.google.com/specimen/Tapestry
+    search: Tapestry font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/tapestry/OFL.txt
+    install: npm i @fontsource/tapestry
+    note: by Robert Leuschke, added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: The Girl Next Door
+    url: https://fonts.google.com/specimen/The+Girl+Next+Door
+    search: The Girl Next Door font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/thegirlnextdoor/OFL.txt
+    install: npm i @fontsource/the-girl-next-door
+    note: by Kimberly Geswein, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: The Nautigal
+    url: https://fonts.google.com/specimen/The+Nautigal
+    search: The Nautigal font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/thenautigal/OFL.txt
+    install: npm i @fontsource/the-nautigal
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Twinkle Star
+    url: https://fonts.google.com/specimen/Twinkle+Star
+    search: Twinkle Star font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/twinklestar/OFL.txt
+    install: npm i @fontsource/twinkle-star
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Updock
+    url: https://fonts.google.com/specimen/Updock
+    search: Updock font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/updock/OFL.txt
+    install: npm i @fontsource/updock
+    note: by Robert Leuschke, added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Vibur
+    url: https://fonts.google.com/specimen/Vibur
+    search: Vibur font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/vibur/OFL.txt
+    install: npm i @fontsource/vibur
+    note: by Johan Kallas, added 2010
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Vujahday Script
+    url: https://fonts.google.com/specimen/Vujahday+Script
+    search: Vujahday Script font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/vujahdayscript/OFL.txt
+    install: npm i @fontsource/vujahday-script
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Waiting for the Sunrise
+    url: https://fonts.google.com/specimen/Waiting+for+the+Sunrise
+    search: Waiting for the Sunrise font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/waitingforthesunrise/OFL.txt
+    install: npm i @fontsource/waiting-for-the-sunrise
+    note: by Kimberly Geswein, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Walter Turncoat
+    url: https://fonts.google.com/specimen/Walter+Turncoat
+    search: Walter Turncoat font
+    license: Apache-2.0
+    license_url: https://github.com/google/fonts/blob/main/apache/walterturncoat/LICENSE.txt
+    install: npm i @fontsource/walter-turncoat
+    note: by Sideshow, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Water Brush
+    url: https://fonts.google.com/specimen/Water+Brush
+    search: Water Brush font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/waterbrush/OFL.txt
+    install: npm i @fontsource/water-brush
+    note: by Robert Leuschke, added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Waterfall
+    url: https://fonts.google.com/specimen/Waterfall
+    search: Waterfall font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/waterfall/OFL.txt
+    install: npm i @fontsource/waterfall
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Whisper
+    url: https://fonts.google.com/specimen/Whisper
+    search: Whisper font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/whisper/OFL.txt
+    install: npm i @fontsource/whisper
+    note: by Robert Leuschke, added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: WindSong
+    url: https://fonts.google.com/specimen/WindSong
+    search: WindSong font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/windsong/OFL.txt
+    install: npm i @fontsource/windsong
+    note: by Robert Leuschke, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Yellowtail
+    url: https://fonts.google.com/specimen/Yellowtail
+    search: Yellowtail font
+    license: Apache-2.0
+    license_url: https://github.com/google/fonts/blob/main/apache/yellowtail/LICENSE.txt
+    install: npm i @fontsource/yellowtail
+    note: by Astigmatic, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Yesteryear
+    url: https://fonts.google.com/specimen/Yesteryear
+    search: Yesteryear font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/yesteryear/OFL.txt
+    install: npm i @fontsource/yesteryear
+    note: by Astigmatic, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Yomogi
+    url: https://fonts.google.com/specimen/Yomogi
+    search: Yomogi font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/yomogi/OFL.txt
+    install: npm i @fontsource/yomogi
+    note: by Satsuyako, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Yuyu
+    url: https://fonts.google.com/specimen/Yuyu
+    search: Yuyu font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/yuyu/OFL.txt
+    install: npm i @fontsource/yuyu
+    note: by Julia García López, added 2026
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Yuyu Short
+    url: https://fonts.google.com/specimen/Yuyu+Short
+    search: Yuyu Short font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/yuyushort/OFL.txt
+    install: npm i @fontsource/yuyu-short
+    note: by Julia García López, added 2026
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Zeyada
+    url: https://fonts.google.com/specimen/Zeyada
+    search: Zeyada font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/zeyada/OFL.txt
+    install: npm i @fontsource/zeyada
+    note: by Kimberly Geswein, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+- name: Other scripts (38)
+  list:
+  - name: Amita
+    url: https://fonts.google.com/specimen/Amita
+    search: Amita font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/amita/OFL.txt
+    install: npm i @fontsource/amita
+    note: script Deva, by Eduardo Tunni, Brian Bonislawsky, added 2015
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Bad Script
+    url: https://fonts.google.com/specimen/Bad+Script
+    search: Bad Script font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/badscript/OFL.txt
+    install: npm i @fontsource/bad-script
+    note: script Latn, by Gaslight, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Bpmf Iansui
+    url: https://fonts.google.com/specimen/Bpmf+Iansui
+    search: Bpmf Iansui font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/bpmfiansui/OFL.txt
+    install: npm i @fontsource/bpmf-iansui
+    note: script Hant, by But Ko, added 2026
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Charm
+    url: https://fonts.google.com/specimen/Charm
+    search: Charm font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/charm/OFL.txt
+    install: npm i @fontsource/charm
+    note: script Thai, by Cadson Demak, added 2018
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Charmonman
+    url: https://fonts.google.com/specimen/Charmonman
+    search: Charmonman font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/charmonman/OFL.txt
+    install: npm i @fontsource/charmonman
+    note: script Thai, by Cadson Demak, added 2018
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Chilanka
+    url: https://fonts.google.com/specimen/Chilanka
+    search: Chilanka font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/chilanka/OFL.txt
+    install: npm i @fontsource/chilanka
+    note: script Mlym, by SMC, Santhosh Thottingal, added 2019
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Dekko
+    url: https://fonts.google.com/specimen/Dekko
+    search: Dekko font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/dekko/OFL.txt
+    install: npm i @fontsource/dekko
+    note: script Deva, by Sorkin Type, added 2015
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: East Sea Dokdo
+    url: https://fonts.google.com/specimen/East+Sea+Dokdo
+    search: East Sea Dokdo font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/eastseadokdo/OFL.txt
+    install: npm i @fontsource/east-sea-dokdo
+    note: script Kore, by YoonDesign Inc, added 2018
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Gaegu
+    url: https://fonts.google.com/specimen/Gaegu
+    search: Gaegu font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/gaegu/OFL.txt
+    install: npm i @fontsource/gaegu
+    note: script Kore, by JIKJI SOFT, added 2018
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Gamja Flower
+    url: https://fonts.google.com/specimen/Gamja+Flower
+    search: Gamja Flower font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/gamjaflower/OFL.txt
+    install: npm i @fontsource/gamja-flower
+    note: script Kore, by YoonDesign Inc, added 2018
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Gveret Levin
+    url: https://fonts.google.com/specimen/Gveret+Levin
+    search: Gveret Levin font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/gveretlevin/OFL.txt
+    install: npm i @fontsource/gveret-levin
+    note: script Hebr, by AlefAlefAlef, added 2025
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Hachi Maru Pop
+    url: https://fonts.google.com/specimen/Hachi+Maru+Pop
+    search: Hachi Maru Pop font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/hachimarupop/OFL.txt
+    install: npm i @fontsource/hachi-maru-pop
+    note: script Jpan, by Nonty, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Hi Melody
+    url: https://fonts.google.com/specimen/Hi+Melody
+    search: Hi Melody font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/himelody/OFL.txt
+    install: npm i @fontsource/hi-melody
+    note: script Kore, by YoonDesign Inc, added 2018
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Iansui
+    url: https://fonts.google.com/specimen/Iansui
+    search: Iansui font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/iansui/OFL.txt
+    install: npm i @fontsource/iansui
+    note: script Hant, by But Ko, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Itim
+    url: https://fonts.google.com/specimen/Itim
+    search: Itim font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/itim/OFL.txt
+    install: npm i @fontsource/itim
+    note: script Thai, by Cadson Demak, added 2015
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Kalam
+    url: https://fonts.google.com/specimen/Kalam
+    search: Kalam font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/kalam/OFL.txt
+    install: npm i @fontsource/kalam
+    note: script Deva, by Indian Type Foundry, added 2014
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Kapakana
+    url: https://fonts.google.com/specimen/Kapakana
+    search: Kapakana font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/kapakana/OFL.txt
+    install: npm i @fontsource/kapakana
+    note: variable, script Hira, by Kousuke Nagai, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Kavivanar
+    url: https://fonts.google.com/specimen/Kavivanar
+    search: Kavivanar font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/kavivanar/OFL.txt
+    install: npm i @fontsource/kavivanar
+    note: script Taml, by Tharique Azeez, added 2016
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Klee One
+    url: https://fonts.google.com/specimen/Klee+One
+    search: Klee One font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/kleeone/OFL.txt
+    install: npm i @fontsource/klee-one
+    note: script Jpan, by Fontworks Inc., added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Lakki Reddy
+    url: https://fonts.google.com/specimen/Lakki+Reddy
+    search: Lakki Reddy font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/lakkireddy/OFL.txt
+    install: npm i @fontsource/lakki-reddy
+    note: script Telu, by Appaji Ambarisha Darbha, added 2015
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Liu Jian Mao Cao
+    url: https://fonts.google.com/specimen/Liu+Jian+Mao+Cao
+    search: Liu Jian Mao Cao font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/liujianmaocao/OFL.txt
+    install: npm i @fontsource/liu-jian-mao-cao
+    note: script Hans, by Liu Zhengjiang, Kimberly Geswein, ZhongQi, added 2019
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Long Cang
+    url: https://fonts.google.com/specimen/Long+Cang
+    search: Long Cang font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/longcang/OFL.txt
+    install: npm i @fontsource/long-cang
+    note: script Hans, by Chen Xiaomin, added 2019
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: LXGW WenKai TC
+    url: https://fonts.google.com/specimen/LXGW+WenKai+TC
+    search: LXGW WenKai TC font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/lxgwwenkaitc/OFL.txt
+    install: npm i @fontsource/lxgw-wenkai-tc
+    note: script Hant, by LXGW, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Ma Shan Zheng
+    url: https://fonts.google.com/specimen/Ma+Shan+Zheng
+    search: Ma Shan Zheng font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/mashanzheng/OFL.txt
+    install: npm i @fontsource/ma-shan-zheng
+    note: script Hans, by Ma ShanZheng, added 2019
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Mali
+    url: https://fonts.google.com/specimen/Mali
+    search: Mali font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/mali/OFL.txt
+    install: npm i @fontsource/mali
+    note: script Thai, by Cadson Demak, added 2018
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Nanum Brush Script
+    url: https://fonts.google.com/specimen/Nanum+Brush+Script
+    search: Nanum Brush Script font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/nanumbrushscript/OFL.txt
+    install: npm i @fontsource/nanum-brush-script
+    note: script Kore, by Sandoll Communication, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Nanum Gothic Coding
+    url: https://fonts.google.com/specimen/Nanum+Gothic+Coding
+    search: Nanum Gothic Coding font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/nanumgothiccoding/OFL.txt
+    install: npm i @fontsource/nanum-gothic-coding
+    note: script Kore, by Sandoll Communication, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Nanum Pen Script
+    url: https://fonts.google.com/specimen/Nanum+Pen+Script
+    search: Nanum Pen Script font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/nanumpenscript/OFL.txt
+    install: npm i @fontsource/nanum-pen-script
+    note: script Kore, by Sandoll Communication, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playpen Sans Arabic
+    url: https://fonts.google.com/specimen/Playpen+Sans+Arabic
+    search: Playpen Sans Arabic font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playpensansarabic/OFL.txt
+    install: npm i @fontsource/playpen-sans-arabic
+    note: variable, script Arab, by TypeTogether, Azza Alameddine, Laura Meseguer, Veronika Burian, José Scaglione, added 2025
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playpen Sans Deva
+    url: https://fonts.google.com/specimen/Playpen+Sans+Deva
+    search: Playpen Sans Deva font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playpensansdeva/OFL.txt
+    install: npm i @fontsource/playpen-sans-deva
+    note: variable, script Deva, by TypeTogether, Pooja Saxena, Gunjan Panchal, Laura Meseguer, Veronika Burian, José Scaglione, added 2025
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playpen Sans Hebrew
+    url: https://fonts.google.com/specimen/Playpen+Sans+Hebrew
+    search: Playpen Sans Hebrew font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playpensanshebrew/OFL.txt
+    install: npm i @fontsource/playpen-sans-hebrew
+    note: variable, script Hebr, by TypeTogether, Tom Grace, Laura Meseguer, Veronika Burian, José Scaglione, added 2025
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playpen Sans Thai
+    url: https://fonts.google.com/specimen/Playpen+Sans+Thai
+    search: Playpen Sans Thai font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playpensansthai/OFL.txt
+    install: npm i @fontsource/playpen-sans-thai
+    note: variable, script Thai, by TypeTogether, Sirin Gunkloy, Laura Meseguer, Veronika Burian, José Scaglione, added 2025
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Slackside One
+    url: https://fonts.google.com/specimen/Slackside+One
+    search: Slackside One font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/slacksideone/OFL.txt
+    install: npm i @fontsource/slackside-one
+    note: script Hira, by Maniackers Design, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Solitreo
+    url: https://fonts.google.com/specimen/Solitreo
+    search: Solitreo font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/solitreo/OFL.txt
+    install: npm i @fontsource/solitreo
+    note: script Hebr, by Nathan Gross, Bryan Kirschen, added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Sriracha
+    url: https://fonts.google.com/specimen/Sriracha
+    search: Sriracha font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/sriracha/OFL.txt
+    install: npm i @fontsource/sriracha
+    note: script Thai, by Cadson Demak, added 2015
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Yuji Hentaigana Akari
+    url: https://fonts.google.com/specimen/Yuji+Hentaigana+Akari
+    search: Yuji Hentaigana Akari font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/yujihentaiganaakari/OFL.txt
+    install: npm i @fontsource/yuji-hentaigana-akari
+    note: script Hira, by Kinuta Font Factory, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Yuji Hentaigana Akebono
+    url: https://fonts.google.com/specimen/Yuji+Hentaigana+Akebono
+    search: Yuji Hentaigana Akebono font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/yujihentaiganaakebono/OFL.txt
+    install: npm i @fontsource/yuji-hentaigana-akebono
+    note: script Hira, by Kinuta Font Factory, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Zhi Mang Xing
+    url: https://fonts.google.com/specimen/Zhi+Mang+Xing
+    search: Zhi Mang Xing font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/zhimangxing/OFL.txt
+    install: npm i @fontsource/zhi-mang-xing
+    note: script Hans, by Wei Zhimang, added 2019
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'

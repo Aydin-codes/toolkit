@@ -1,0 +1,523 @@
+# All Google Fonts: display (509 families)
+
+<!-- Generated from catalog/frontend/fonts/display.yaml. Edit the YAML, then run: python scripts/build.py -->
+
+Every family in this style on Google Fonts, imported from Google's own metadata (github.com/google/fonts). Open the specimen and test with real text before choosing. Fonts marked common AI pick are fine on purpose but shouldn't be a default. For curated starting picks, see reference/frontend/type.md.
+
+## Latin families, A-Z (422)
+
+- [Aboreto](https://fonts.google.com/specimen/Aboreto): by Dominik Jáger, added 2022. OFL-1.1. `npm i @fontsource/aboreto`
+- [Abril Fatface](https://fonts.google.com/specimen/Abril+Fatface): by TypeTogether, added 2011. OFL-1.1. `npm i @fontsource/abril-fatface`
+- [Agbalumo](https://fonts.google.com/specimen/Agbalumo): by Raphael Alẹ́gbẹ́lẹ́yẹ̀, Sorkin Type, Eben Sorkin, added 2023. OFL-1.1. `npm i @fontsource/agbalumo`
+- [Agu Display](https://fonts.google.com/specimen/Agu+Display): variable, by Seun Badejo, added 2024. OFL-1.1. `npm i @fontsource/agu-display`
+- [Akronim](https://fonts.google.com/specimen/Akronim): by Grzegorz Klimczewski, added 2012. OFL-1.1. `npm i @fontsource/akronim`
+- [Aladin](https://fonts.google.com/specimen/Aladin): by Sudtipos, added 2011. OFL-1.1. `npm i @fontsource/aladin`
+- [Alfa Slab One](https://fonts.google.com/specimen/Alfa+Slab+One): by JM Solé, added 2011. OFL-1.1. `npm i @fontsource/alfa-slab-one`
+- [Alien Block](https://fonts.google.com/specimen/Alien+Block): by Kensuke Uchida, added 2026. OFL-1.1. `npm i @fontsource/alien-block`
+- [Alkatra](https://fonts.google.com/specimen/Alkatra): variable, by Suman Bhandary, added 2023. OFL-1.1. `npm i @fontsource/alkatra`
+- [Allan](https://fonts.google.com/specimen/Allan): by Anton Koovit, added 2012. OFL-1.1. `npm i @fontsource/allan`
+- [Allkin](https://fonts.google.com/specimen/Allkin): by Monotype Imaging Inc., added 2026. OFL-1.1. `npm i @fontsource/allkin`
+- [Almendra Display](https://fonts.google.com/specimen/Almendra+Display): by Ana Sanfelippo, added 2012. OFL-1.1. `npm i @fontsource/almendra-display`
+- [Alumni Sans Collegiate One](https://fonts.google.com/specimen/Alumni+Sans+Collegiate+One): by Robert Leuschke, added 2022. OFL-1.1. `npm i @fontsource/alumni-sans-collegiate-one`
+- [Alumni Sans Collegiate One SC](https://fonts.google.com/specimen/Alumni+Sans+Collegiate+One+SC): by Robert Leuschke, added 2024. OFL-1.1. `npm i @fontsource/alumni-sans-collegiate-one-sc`
+- [Alumni Sans Pinstripe](https://fonts.google.com/specimen/Alumni+Sans+Pinstripe): by Robert Leuschke, added 2022. OFL-1.1. `npm i @fontsource/alumni-sans-pinstripe`
+- [Amarante](https://fonts.google.com/specimen/Amarante): by Karolina Lach, added 2012. OFL-1.1. `npm i @fontsource/amarante`
+- [Anton](https://fonts.google.com/specimen/Anton): by Vernon Adams, added 2011. OFL-1.1. `npm i @fontsource/anton`
+- [Anton SC](https://fonts.google.com/specimen/Anton+SC): by Vernon Adams, added 2024. OFL-1.1. `npm i @fontsource/anton-sc`
+- [Antonio](https://fonts.google.com/specimen/Antonio): variable, by Vernon Adams, added 2013. OFL-1.1. `npm i @fontsource/antonio`
+- [Arima](https://fonts.google.com/specimen/Arima): variable, by Natanael Gama, Joana Correia, Rosalie Wagner, added 2022. OFL-1.1. `npm i @fontsource/arima`
+- [Asset](https://fonts.google.com/specimen/Asset): by Riccardo De Franceschi, Eben Sorkin, added 2011. OFL-1.1. `npm i @fontsource/asset`
+- [Astloch](https://fonts.google.com/specimen/Astloch): by Dan Rhatigan, added 2011. OFL-1.1. `npm i @fontsource/astloch`
+- [Atomic Age](https://fonts.google.com/specimen/Atomic+Age): by James Grieshaber, added 2011. OFL-1.1. `npm i @fontsource/atomic-age`
+- [Aubrey](https://fonts.google.com/specimen/Aubrey): by Cyreal, added 2011. OFL-1.1. `npm i @fontsource/aubrey`
+- [Audiowide](https://fonts.google.com/specimen/Audiowide): by Astigmatic, added 2012. OFL-1.1. `npm i @fontsource/audiowide`
+- [Autour One](https://fonts.google.com/specimen/Autour+One): by Sorkin Type, added 2012. OFL-1.1. `npm i @fontsource/autour-one`
+- [Averia Gruesa Libre](https://fonts.google.com/specimen/Averia+Gruesa+Libre): by Dan Sayers, added 2012. OFL-1.1. `npm i @fontsource/averia-gruesa-libre`
+- [Averia Libre](https://fonts.google.com/specimen/Averia+Libre): by Dan Sayers, added 2012. OFL-1.1. `npm i @fontsource/averia-libre`
+- [Averia Sans Libre](https://fonts.google.com/specimen/Averia+Sans+Libre): by Dan Sayers, added 2012. OFL-1.1. `npm i @fontsource/averia-sans-libre`
+- [Averia Serif Libre](https://fonts.google.com/specimen/Averia+Serif+Libre): by Dan Sayers, added 2012. OFL-1.1. `npm i @fontsource/averia-serif-libre`
+- [Bahiana](https://fonts.google.com/specimen/Bahiana): by Omnibus-Type, added 2016. OFL-1.1. `npm i @fontsource/bahiana`
+- [Bahianita](https://fonts.google.com/specimen/Bahianita): by Omnibus-Type, added 2019. OFL-1.1. `npm i @fontsource/bahianita`
+- [Balsamiq Sans](https://fonts.google.com/specimen/Balsamiq+Sans): by Michael Angeles, added 2020. OFL-1.1. `npm i @fontsource/balsamiq-sans`
+- [Bangers](https://fonts.google.com/specimen/Bangers): by Vernon Adams, added 2011. OFL-1.1. `npm i @fontsource/bangers`
+- [Barriecito](https://fonts.google.com/specimen/Barriecito): by Omnibus-Type, added 2019. OFL-1.1. `npm i @fontsource/barriecito`
+- [Barrio](https://fonts.google.com/specimen/Barrio): by Omnibus-Type, added 2016. OFL-1.1. `npm i @fontsource/barrio`
+- [Baumans](https://fonts.google.com/specimen/Baumans): by Cyreal, added 2011. OFL-1.1. `npm i @fontsource/baumans`
+- [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue): by Ryoichi Tsunekawa, added 2019. OFL-1.1. `npm i @fontsource/bebas-neue`
+- [Belanosima](https://fonts.google.com/specimen/Belanosima): by The DocRepair Project, Santiago Orozco, added 2023. OFL-1.1. `npm i @fontsource/belanosima`
+- [Bellota](https://fonts.google.com/specimen/Bellota): by Kemie Guaida, added 2020. OFL-1.1. `npm i @fontsource/bellota`
+- [Bellota Text](https://fonts.google.com/specimen/Bellota+Text): by Kemie Guaida, added 2020. OFL-1.1. `npm i @fontsource/bellota-text`
+- [Betania Patmos Guide Line](https://fonts.google.com/specimen/Betania+Patmos+Guide+Line): by Carolina Giovagnoli, added 2026. OFL-1.1. `npm i @fontsource/betania-patmos-guide-line`
+- [Bhavuka](https://fonts.google.com/specimen/Bhavuka): by Multiple Designers, added 2014. OFL-1.1. `npm i @fontsource/bhavuka`
+- [Big Shoulders](https://fonts.google.com/specimen/Big+Shoulders): variable, by Patric King, added 2025. OFL-1.1. `npm i @fontsource/big-shoulders`
+- [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display): variable, by Patric King, added 2019. OFL-1.1. `npm i @fontsource/big-shoulders-display`
+- [Big Shoulders Display SC](https://fonts.google.com/specimen/Big+Shoulders+Display+SC): variable, by Patric King, added 2024. OFL-1.1. `npm i @fontsource/big-shoulders-display-sc`
+- [Big Shoulders Inline](https://fonts.google.com/specimen/Big+Shoulders+Inline): variable, by Patric King, added 2025. OFL-1.1. `npm i @fontsource/big-shoulders-inline`
+- [Big Shoulders Inline Display](https://fonts.google.com/specimen/Big+Shoulders+Inline+Display): variable, by Patric King, added 2020. OFL-1.1. `npm i @fontsource/big-shoulders-inline-display`
+- [Big Shoulders Inline Display SC](https://fonts.google.com/specimen/Big+Shoulders+Inline+Display+SC): variable, by Patric King, added 2024. OFL-1.1. `npm i @fontsource/big-shoulders-inline-display-sc`
+- [Big Shoulders Inline Text](https://fonts.google.com/specimen/Big+Shoulders+Inline+Text): variable, by Patric King, added 2020. OFL-1.1. `npm i @fontsource/big-shoulders-inline-text`
+- [Big Shoulders Inline Text SC](https://fonts.google.com/specimen/Big+Shoulders+Inline+Text+SC): variable, by Patric King, added 2024. OFL-1.1. `npm i @fontsource/big-shoulders-inline-text-sc`
+- [Big Shoulders Stencil](https://fonts.google.com/specimen/Big+Shoulders+Stencil): variable, by Patric King, added 2025. OFL-1.1. `npm i @fontsource/big-shoulders-stencil`
+- [Big Shoulders Stencil Display](https://fonts.google.com/specimen/Big+Shoulders+Stencil+Display): variable, by Patric King, added 2020. OFL-1.1. `npm i @fontsource/big-shoulders-stencil-display`
+- [Big Shoulders Stencil Display SC](https://fonts.google.com/specimen/Big+Shoulders+Stencil+Display+SC): variable, by Patric King, added 2024. OFL-1.1. `npm i @fontsource/big-shoulders-stencil-display-sc`
+- [Big Shoulders Stencil Text](https://fonts.google.com/specimen/Big+Shoulders+Stencil+Text): variable, by Patric King, added 2020. OFL-1.1. `npm i @fontsource/big-shoulders-stencil-text`
+- [Big Shoulders Stencil Text SC](https://fonts.google.com/specimen/Big+Shoulders+Stencil+Text+SC): variable, by Patric King, added 2024. OFL-1.1. `npm i @fontsource/big-shoulders-stencil-text-sc`
+- [Big Shoulders Text](https://fonts.google.com/specimen/Big+Shoulders+Text): variable, by Patric King, added 2019. OFL-1.1. `npm i @fontsource/big-shoulders-text`
+- [Big Shoulders Text SC](https://fonts.google.com/specimen/Big+Shoulders+Text+SC): variable, by Patric King, added 2024. OFL-1.1. `npm i @fontsource/big-shoulders-text-sc`
+- [Bigelow Rules](https://fonts.google.com/specimen/Bigelow+Rules): by Astigmatic, added 2012. OFL-1.1. `npm i @fontsource/bigelow-rules`
+- [Bigshot One](https://fonts.google.com/specimen/Bigshot+One): by Gesine Todt, added 2011. OFL-1.1. `npm i @fontsource/bigshot-one`
+- [Bitcount](https://fonts.google.com/specimen/Bitcount): variable, by Petr van Blokland, added 2025. OFL-1.1. `npm i @fontsource/bitcount`
+- [Bitcount Grid Double](https://fonts.google.com/specimen/Bitcount+Grid+Double): variable, by Petr van Blokland, added 2025. OFL-1.1. `npm i @fontsource/bitcount-grid-double`
+- [Bitcount Grid Double Ink](https://fonts.google.com/specimen/Bitcount+Grid+Double+Ink): variable, by Petr van Blokland, added 2025. OFL-1.1. `npm i @fontsource/bitcount-grid-double-ink`
+- [Bitcount Grid Single](https://fonts.google.com/specimen/Bitcount+Grid+Single): variable, by Petr van Blokland, added 2025. OFL-1.1. `npm i @fontsource/bitcount-grid-single`
+- [Bitcount Grid Single Ink](https://fonts.google.com/specimen/Bitcount+Grid+Single+Ink): variable, by Petr van Blokland, added 2025. OFL-1.1. `npm i @fontsource/bitcount-grid-single-ink`
+- [Bitcount Ink](https://fonts.google.com/specimen/Bitcount+Ink): variable, by Petr van Blokland, added 2025. OFL-1.1. `npm i @fontsource/bitcount-ink`
+- [Bitcount Prop Double](https://fonts.google.com/specimen/Bitcount+Prop+Double): variable, by Petr van Blokland, added 2025. OFL-1.1. `npm i @fontsource/bitcount-prop-double`
+- [Bitcount Prop Double Ink](https://fonts.google.com/specimen/Bitcount+Prop+Double+Ink): variable, by Petr van Blokland, added 2025. OFL-1.1. `npm i @fontsource/bitcount-prop-double-ink`
+- [Bitcount Prop Single](https://fonts.google.com/specimen/Bitcount+Prop+Single): variable, by Petr van Blokland, added 2025. OFL-1.1. `npm i @fontsource/bitcount-prop-single`
+- [Bitcount Prop Single Ink](https://fonts.google.com/specimen/Bitcount+Prop+Single+Ink): variable, by Petr van Blokland, added 2025. OFL-1.1. `npm i @fontsource/bitcount-prop-single-ink`
+- [Bitcount Single](https://fonts.google.com/specimen/Bitcount+Single): variable, by Petr van Blokland, added 2025. OFL-1.1. `npm i @fontsource/bitcount-single`
+- [Bitcount Single Ink](https://fonts.google.com/specimen/Bitcount+Single+Ink): variable, by Petr van Blokland, added 2025. OFL-1.1. `npm i @fontsource/bitcount-single-ink`
+- [Black Ops One](https://fonts.google.com/specimen/Black+Ops+One): by James Grieshaber, Eben Sorkin, added 2011. OFL-1.1. `npm i @fontsource/black-ops-one`
+- [Boldonse](https://fonts.google.com/specimen/Boldonse): by Universitype, added 2025. OFL-1.1. `npm i @fontsource/boldonse`
+- [Boogaloo](https://fonts.google.com/specimen/Boogaloo): by John Vargas Beltrán, added 2011. OFL-1.1. `npm i @fontsource/boogaloo`
+- [Bowlby One](https://fonts.google.com/specimen/Bowlby+One): by Vernon Adams, added 2011. OFL-1.1. `npm i @fontsource/bowlby-one`
+- [Bowlby One SC](https://fonts.google.com/specimen/Bowlby+One+SC): by Vernon Adams, added 2011. OFL-1.1. `npm i @fontsource/bowlby-one-sc`
+- [Bruno Ace](https://fonts.google.com/specimen/Bruno+Ace): by Astigmatic, added 2012. OFL-1.1. `npm i @fontsource/bruno-ace`
+- [Bruno Ace SC](https://fonts.google.com/specimen/Bruno+Ace+SC): by Astigmatic, added 2012. OFL-1.1. `npm i @fontsource/bruno-ace-sc`
+- [Bubblegum Sans](https://fonts.google.com/specimen/Bubblegum+Sans): by Sudtipos, added 2011. OFL-1.1. `npm i @fontsource/bubblegum-sans`
+- [Buda](https://fonts.google.com/specimen/Buda): by Adèle Antignac, added 2010. OFL-1.1. `npm i @fontsource/buda`
+- [Bungee](https://fonts.google.com/specimen/Bungee): by David Jonathan Ross, added 2016. OFL-1.1. `npm i @fontsource/bungee`
+- [Bungee Color](https://fonts.google.com/specimen/Bungee+Color): by David Jonathan Ross, added 2022. OFL-1.1. `npm i @fontsource/bungee-color`
+- [Bungee Hairline](https://fonts.google.com/specimen/Bungee+Hairline): by David Jonathan Ross, added 2016. OFL-1.1. `npm i @fontsource/bungee-hairline`
+- [Bungee Inline](https://fonts.google.com/specimen/Bungee+Inline): by David Jonathan Ross, added 2016. OFL-1.1. `npm i @fontsource/bungee-inline`
+- [Bungee Outline](https://fonts.google.com/specimen/Bungee+Outline): by David Jonathan Ross, added 2016. OFL-1.1. `npm i @fontsource/bungee-outline`
+- [Bungee Shade](https://fonts.google.com/specimen/Bungee+Shade): by David Jonathan Ross, added 2016. OFL-1.1. `npm i @fontsource/bungee-shade`
+- [Bungee Spice](https://fonts.google.com/specimen/Bungee+Spice): by David Jonathan Ross, added 2022. OFL-1.1. `npm i @fontsource/bungee-spice`
+- [Bungee Tint](https://fonts.google.com/specimen/Bungee+Tint): by David Jonathan Ross, added 2024. OFL-1.1. `npm i @fontsource/bungee-tint`
+- [Butcherman](https://fonts.google.com/specimen/Butcherman): by Typomondo, added 2011. OFL-1.1. `npm i @fontsource/butcherman`
+- [Caacupe One](https://fonts.google.com/specimen/Caacupe+One): by Magdalena Alonso Rebollo, added 2026. OFL-1.1. `npm i @fontsource/caacupe-one`
+- [Cabin Sketch](https://fonts.google.com/specimen/Cabin+Sketch): by Impallari Type, added 2011. OFL-1.1. `npm i @fontsource/cabin-sketch`
+- [Caesar Dressing](https://fonts.google.com/specimen/Caesar+Dressing): by Open Window, added 2011. OFL-1.1. `npm i @fontsource/caesar-dressing`
+- [Calistoga](https://fonts.google.com/specimen/Calistoga): by Yvonne Schüttler, Sorkin Type, Eben Sorkin, added 2019. OFL-1.1. `npm i @fontsource/calistoga`
+- [Caprasimo](https://fonts.google.com/specimen/Caprasimo): by The DocRepair Project, Phaedra Charles, Flavia Zimbardi, added 2023. OFL-1.1. `npm i @fontsource/caprasimo`
+- [Carter One](https://fonts.google.com/specimen/Carter+One): by Vernon Adams, added 2011. OFL-1.1. `npm i @fontsource/carter-one`
+- [Ceviche One](https://fonts.google.com/specimen/Ceviche+One): by Miguel Hernandez, added 2011. OFL-1.1. `npm i @fontsource/ceviche-one`
+- [Changa One](https://fonts.google.com/specimen/Changa+One): by Eduardo Tunni, added 2011. OFL-1.1. `npm i @fontsource/changa-one`
+- [Chango](https://fonts.google.com/specimen/Chango): by Fontstage, added 2011. OFL-1.1. `npm i @fontsource/chango`
+- [Chela One](https://fonts.google.com/specimen/Chela+One): by Miguel Hernandez, added 2012. OFL-1.1. `npm i @fontsource/chela-one`
+- [Chelsea Market](https://fonts.google.com/specimen/Chelsea+Market): by Tart Workshop, added 2012. OFL-1.1. `npm i @fontsource/chelsea-market`
+- [Cherry Cream Soda](https://fonts.google.com/specimen/Cherry+Cream+Soda): by Font Diner, added 2011. Apache-2.0. `npm i @fontsource/cherry-cream-soda`
+- [Cherry Swash](https://fonts.google.com/specimen/Cherry+Swash): by Nataliya Kasatkina, added 2012. OFL-1.1. `npm i @fontsource/cherry-swash`
+- [Chewy](https://fonts.google.com/specimen/Chewy): by Sideshow, added 2011. Apache-2.0. `npm i @fontsource/chewy`
+- [Chicle](https://fonts.google.com/specimen/Chicle): by Sudtipos, added 2011. OFL-1.1. `npm i @fontsource/chicle`
+- [Cinzel Decorative](https://fonts.google.com/specimen/Cinzel+Decorative): by Natanael Gama, added 2012. OFL-1.1. `npm i @fontsource/cinzel-decorative`
+- [Climate Crisis](https://fonts.google.com/specimen/Climate+Crisis): variable, by Daniel Coull, Eino Korkala, added 2022. OFL-1.1. `npm i @fontsource/climate-crisis`
+- [Coda](https://fonts.google.com/specimen/Coda): by Vernon Adams, added 2010. OFL-1.1. `npm i @fontsource/coda`
+- [Codystar](https://fonts.google.com/specimen/Codystar): by Neapolitan, added 2012. OFL-1.1. `npm i @fontsource/codystar`
+- [Coiny](https://fonts.google.com/specimen/Coiny): by Marcelo Magalhães, added 2016. OFL-1.1. `npm i @fontsource/coiny`
+- [Combo](https://fonts.google.com/specimen/Combo): by Eduardo Tunni, added 2012. OFL-1.1. `npm i @fontsource/combo`
+- [Comfortaa](https://fonts.google.com/specimen/Comfortaa): variable, by Johan Aakerlund, added 2011. OFL-1.1. `npm i @fontsource/comfortaa`
+- [Comic Relief](https://fonts.google.com/specimen/Comic+Relief): by Jeff Davis, added 2025. OFL-1.1. `npm i @fontsource/comic-relief`
+- [Concert One](https://fonts.google.com/specimen/Concert+One): by Johan Kallas, Mihkel Virkus, added 2011. OFL-1.1. `npm i @fontsource/concert-one`
+- [Contrail One](https://fonts.google.com/specimen/Contrail+One): by Riccardo De Franceschi, added 2011. OFL-1.1. `npm i @fontsource/contrail-one`
+- [Coral Pixels](https://fonts.google.com/specimen/Coral+Pixels): by Tanukizamurai, added 2025. OFL-1.1. `npm i @fontsource/coral-pixels`
+- [Corben](https://fonts.google.com/specimen/Corben): by Vernon Adams, added 2010. OFL-1.1. `npm i @fontsource/corben`
+- [Creepster](https://fonts.google.com/specimen/Creepster): by Sideshow, added 2011. OFL-1.1. `npm i @fontsource/creepster`
+- [Creepster Caps](https://fonts.google.com/specimen/Creepster+Caps): by Sideshow, added 2011. Apache-2.0. `npm i @fontsource/creepster-caps`
+- [Croissant One](https://fonts.google.com/specimen/Croissant+One): by Eduardo Tunni, added 2012. OFL-1.1. `npm i @fontsource/croissant-one`
+- [Crushed](https://fonts.google.com/specimen/Crushed): by Astigmatic, added 2011. Apache-2.0. `npm i @fontsource/crushed`
+- [Diplomata](https://fonts.google.com/specimen/Diplomata): by Eduardo Tunni, added 2012. OFL-1.1. `npm i @fontsource/diplomata`
+- [Diplomata SC](https://fonts.google.com/specimen/Diplomata+SC): by Eduardo Tunni, added 2012. OFL-1.1. `npm i @fontsource/diplomata-sc`
+- [Dynalight](https://fonts.google.com/specimen/Dynalight): by Astigmatic, added 2011. OFL-1.1. `npm i @fontsource/dynalight`
+- [DynaPuff](https://fonts.google.com/specimen/DynaPuff): variable, by Toshi Omagari, Jennifer Daniel, added 2022. OFL-1.1. `npm i @fontsource/dynapuff`
+- [Eater](https://fonts.google.com/specimen/Eater): by Typomondo, added 2011. OFL-1.1. `npm i @fontsource/eater`
+- [Elsie](https://fonts.google.com/specimen/Elsie): by Alejandro Inler, added 2012. OFL-1.1. `npm i @fontsource/elsie`
+- [Elsie Swash Caps](https://fonts.google.com/specimen/Elsie+Swash+Caps): by Alejandro Inler, added 2012. OFL-1.1. `npm i @fontsource/elsie-swash-caps`
+- [Emblema One](https://fonts.google.com/specimen/Emblema+One): by Riccardo De Franceschi, added 2012. OFL-1.1. `npm i @fontsource/emblema-one`
+- [Emilys Candy](https://fonts.google.com/specimen/Emilys+Candy): by Neapolitan, added 2012. OFL-1.1. `npm i @fontsource/emilys-candy`
+- [Erica One](https://fonts.google.com/specimen/Erica+One): by Miguel Hernandez, added 2012. OFL-1.1. `npm i @fontsource/erica-one`
+- [Ewert](https://fonts.google.com/specimen/Ewert): by Johan Kallas, Mihkel Virkus, added 2012. OFL-1.1. `npm i @fontsource/ewert`
+- [Exile](https://fonts.google.com/specimen/Exile): by Bartłomiej Rózga, added 2025. OFL-1.1. `npm i @fontsource/exile`
+- [Expletus Sans](https://fonts.google.com/specimen/Expletus+Sans): variable, by Designtown, added 2011. OFL-1.1. `npm i @fontsource/expletus-sans`
+- [Fascinate](https://fonts.google.com/specimen/Fascinate): by Astigmatic, added 2011. OFL-1.1. `npm i @fontsource/fascinate`
+- [Fascinate Inline](https://fonts.google.com/specimen/Fascinate+Inline): by Astigmatic, added 2011. OFL-1.1. `npm i @fontsource/fascinate-inline`
+- [Faster One](https://fonts.google.com/specimen/Faster+One): by Eduardo Tunni, added 2012. OFL-1.1. `npm i @fontsource/faster-one`
+- [Federant](https://fonts.google.com/specimen/Federant): by Cyreal, added 2011. OFL-1.1. `npm i @fontsource/federant`
+- [Finger Paint](https://fonts.google.com/specimen/Finger+Paint): by Carrois Apostrophe, added 2012. OFL-1.1. `npm i @fontsource/finger-paint`
+- [Flamenco](https://fonts.google.com/specimen/Flamenco): by LatinoType, added 2011. OFL-1.1. `npm i @fontsource/flamenco`
+- [Flavors](https://fonts.google.com/specimen/Flavors): by Sideshow, added 2011. OFL-1.1. `npm i @fontsource/flavors`
+- [Flow Block](https://fonts.google.com/specimen/Flow+Block): by Dan Ross, added 2021. OFL-1.1. `npm i @fontsource/flow-block`
+- [Flow Circular](https://fonts.google.com/specimen/Flow+Circular): by Dan Ross, added 2021. OFL-1.1. `npm i @fontsource/flow-circular`
+- [Flow Rounded](https://fonts.google.com/specimen/Flow+Rounded): by Dan Ross, added 2021. OFL-1.1. `npm i @fontsource/flow-rounded`
+- [Foldit](https://fonts.google.com/specimen/Foldit): variable, by Sophia Tai, added 2022. OFL-1.1. `npm i @fontsource/foldit`
+- [Fontdiner Swanky](https://fonts.google.com/specimen/Fontdiner+Swanky): by Font Diner, added 2011. Apache-2.0. `npm i @fontsource/fontdiner-swanky`
+- [Forum](https://fonts.google.com/specimen/Forum): by Denis Masharov, added 2011. OFL-1.1. `npm i @fontsource/forum`
+- [Freckle Face](https://fonts.google.com/specimen/Freckle+Face): by Astigmatic, added 2012. OFL-1.1. `npm i @fontsource/freckle-face`
+- [Fredericka the Great](https://fonts.google.com/specimen/Fredericka+the+Great): by Tart Workshop, added 2011. OFL-1.1. `npm i @fontsource/fredericka-the-great`
+- [Freeman](https://fonts.google.com/specimen/Freeman): by Rodrigo Fuenzalida, Aoife Mooney, Vernon Adams, added 2024. OFL-1.1. `npm i @fontsource/freeman`
+- [Frijole](https://fonts.google.com/specimen/Frijole): by Sideshow, added 2011. OFL-1.1. `npm i @fontsource/frijole`
+- [Fruktur](https://fonts.google.com/specimen/Fruktur): by Viktoriya Grabowska, Eben Sorkin, added 2013. OFL-1.1. `npm i @fontsource/fruktur`
+- [Fugaz One](https://fonts.google.com/specimen/Fugaz+One): by LatinoType, added 2011. OFL-1.1. `npm i @fontsource/fugaz-one`
+- [Funnel Display](https://fonts.google.com/specimen/Funnel+Display): variable, by NORD ID, Kristian Möller, added 2024. OFL-1.1. `npm i @fontsource/funnel-display`
+- [Ga Maamli](https://fonts.google.com/specimen/Ga+Maamli): by Afotey Clement Nii Odai, Ama Diaka, David Abbey-Thompson, added 2024. OFL-1.1. `npm i @fontsource/ga-maamli`
+- [Gabarito](https://fonts.google.com/specimen/Gabarito): variable, by Naipe Foundry, Leandro Assis, Álvaro Franca, Felipe Casaprima, added 2023. OFL-1.1. `npm i @fontsource/gabarito`
+- [Galindo](https://fonts.google.com/specimen/Galindo): by Astigmatic, added 2012. OFL-1.1. `npm i @fontsource/galindo`
+- [Geostar](https://fonts.google.com/specimen/Geostar): by Joe Prince, added 2011. OFL-1.1. `npm i @fontsource/geostar`
+- [Geostar Fill](https://fonts.google.com/specimen/Geostar+Fill): by Joe Prince, added 2011. OFL-1.1. `npm i @fontsource/geostar-fill`
+- [Germania One](https://fonts.google.com/specimen/Germania+One): by John Vargas Beltrán, added 2012. OFL-1.1. `npm i @fontsource/germania-one`
+- [Gideon Roman](https://fonts.google.com/specimen/Gideon+Roman): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/gideon-roman`
+- [Girassol](https://fonts.google.com/specimen/Girassol): by Liam Spradlin, added 2019. OFL-1.1. `npm i @fontsource/girassol`
+- [Glass Antiqua](https://fonts.google.com/specimen/Glass+Antiqua): by Denis Masharov, added 2012. OFL-1.1. `npm i @fontsource/glass-antiqua`
+- [Gloock](https://fonts.google.com/specimen/Gloock): by Duarte Pinto, added 2023. OFL-1.1. `npm i @fontsource/gloock`
+- [Gluten](https://fonts.google.com/specimen/Gluten): variable, by Tyler Finck, ETC, added 2021. OFL-1.1. `npm i @fontsource/gluten`
+- [Goblin One](https://fonts.google.com/specimen/Goblin+One): by Riccardo De Franceschi, added 2011. OFL-1.1. `npm i @fontsource/goblin-one`
+- [Goldman](https://fonts.google.com/specimen/Goldman): by Jaikishan Patel, added 2020. OFL-1.1. `npm i @fontsource/goldman`
+- [Gorditas](https://fonts.google.com/specimen/Gorditas): by Gustavo Dipre, added 2012. OFL-1.1. `npm i @fontsource/gorditas`
+- [Grandstander](https://fonts.google.com/specimen/Grandstander): variable, by Tyler Finck, ETC, added 2020. OFL-1.1. `npm i @fontsource/grandstander`
+- [Gravitas One](https://fonts.google.com/specimen/Gravitas+One): by Riccardo De Franceschi, added 2011. OFL-1.1. `npm i @fontsource/gravitas-one`
+- [Grenze Gotisch](https://fonts.google.com/specimen/Grenze+Gotisch): variable, by Omnibus-Type, added 2020. OFL-1.1. `npm i @fontsource/grenze-gotisch`
+- [Griffy](https://fonts.google.com/specimen/Griffy): by Neapolitan, added 2012. OFL-1.1. `npm i @fontsource/griffy`
+- [Gruppo](https://fonts.google.com/specimen/Gruppo): by Vernon Adams, added 2010. OFL-1.1. `npm i @fontsource/gruppo`
+- [Hanalei](https://fonts.google.com/specimen/Hanalei): by Astigmatic, added 2012. OFL-1.1. `npm i @fontsource/hanalei`
+- [Hanalei Fill](https://fonts.google.com/specimen/Hanalei+Fill): by Astigmatic, added 2012. OFL-1.1. `npm i @fontsource/hanalei-fill`
+- [Handjet](https://fonts.google.com/specimen/Handjet): variable, by Rosetta, David Březina, added 2020. OFL-1.1. `npm i @fontsource/handjet`
+- [Happy Monkey](https://fonts.google.com/specimen/Happy+Monkey): by Brenda Gallo, added 2012. OFL-1.1. `npm i @fontsource/happy-monkey`
+- [Henny Penny](https://fonts.google.com/specimen/Henny+Penny): by Brownfox, added 2012. OFL-1.1. `npm i @fontsource/henny-penny`
+- [Honk](https://fonts.google.com/specimen/Honk): variable, by Ek Type, added 2023. OFL-1.1. `npm i @fontsource/honk`
+- [Iceberg](https://fonts.google.com/specimen/Iceberg): by Cyreal, added 2012. OFL-1.1. `npm i @fontsource/iceberg`
+- [Iceland](https://fonts.google.com/specimen/Iceland): by Cyreal, added 2011. OFL-1.1. `npm i @fontsource/iceland`
+- [Irish Grover](https://fonts.google.com/specimen/Irish+Grover): by Sideshow, added 2011. Apache-2.0. `npm i @fontsource/irish-grover`
+- [Jacquard 12](https://fonts.google.com/specimen/Jacquard+12): by Sarah Cadigan-Fried, added 2024. OFL-1.1. `npm i @fontsource/jacquard-12`
+- [Jacquard 12 Charted](https://fonts.google.com/specimen/Jacquard+12+Charted): by Sarah Cadigan-Fried, added 2024. OFL-1.1. `npm i @fontsource/jacquard-12-charted`
+- [Jacquard 24](https://fonts.google.com/specimen/Jacquard+24): by Sarah Cadigan-Fried, added 2024. OFL-1.1. `npm i @fontsource/jacquard-24`
+- [Jacquard 24 Charted](https://fonts.google.com/specimen/Jacquard+24+Charted): by Sarah Cadigan-Fried, added 2024. OFL-1.1. `npm i @fontsource/jacquard-24-charted`
+- [Jacquarda Bastarda 9](https://fonts.google.com/specimen/Jacquarda+Bastarda+9): by Sarah Cadigan-Fried, added 2024. OFL-1.1. `npm i @fontsource/jacquarda-bastarda-9`
+- [Jacquarda Bastarda 9 Charted](https://fonts.google.com/specimen/Jacquarda+Bastarda+9+Charted): by Sarah Cadigan-Fried, added 2024. OFL-1.1. `npm i @fontsource/jacquarda-bastarda-9-charted`
+- [Jacques Francois Shadow](https://fonts.google.com/specimen/Jacques+Francois+Shadow): by Cyreal, added 2012. OFL-1.1. `npm i @fontsource/jacques-francois-shadow`
+- [Jersey 10](https://fonts.google.com/specimen/Jersey+10): by Sarah Cadigan-Fried, added 2024. OFL-1.1. `npm i @fontsource/jersey-10`
+- [Jersey 10 Charted](https://fonts.google.com/specimen/Jersey+10+Charted): by Sarah Cadigan-Fried, added 2024. OFL-1.1. `npm i @fontsource/jersey-10-charted`
+- [Jersey 15](https://fonts.google.com/specimen/Jersey+15): by Sarah Cadigan-Fried, added 2024. OFL-1.1. `npm i @fontsource/jersey-15`
+- [Jersey 15 Charted](https://fonts.google.com/specimen/Jersey+15+Charted): by Sarah Cadigan-Fried, added 2024. OFL-1.1. `npm i @fontsource/jersey-15-charted`
+- [Jersey 20](https://fonts.google.com/specimen/Jersey+20): by Sarah Cadigan-Fried, added 2024. OFL-1.1. `npm i @fontsource/jersey-20`
+- [Jersey 20 Charted](https://fonts.google.com/specimen/Jersey+20+Charted): by Sarah Cadigan-Fried, added 2024. OFL-1.1. `npm i @fontsource/jersey-20-charted`
+- [Jersey 25](https://fonts.google.com/specimen/Jersey+25): by Sarah Cadigan-Fried, added 2024. OFL-1.1. `npm i @fontsource/jersey-25`
+- [Jersey 25 Charted](https://fonts.google.com/specimen/Jersey+25+Charted): by Sarah Cadigan-Fried, added 2024. OFL-1.1. `npm i @fontsource/jersey-25-charted`
+- [Jolly Lodger](https://fonts.google.com/specimen/Jolly+Lodger): by Font Diner, added 2012. OFL-1.1. `npm i @fontsource/jolly-lodger`
+- [Joti One](https://fonts.google.com/specimen/Joti+One): by Eduardo Tunni, added 2012. OFL-1.1. `npm i @fontsource/joti-one`
+- [Kablammo](https://fonts.google.com/specimen/Kablammo): variable, by Vectro Type Foundry, Travis Kochel, Lizy Gershenzon, Daria Cohen, Ethan Cohen, added 2023. OFL-1.1. `npm i @fontsource/kablammo`
+- [Kalnia Glaze](https://fonts.google.com/specimen/Kalnia+Glaze): variable, by Frida Medrano, added 2024. OFL-1.1. `npm i @fontsource/kalnia-glaze`
+- [Kavoon](https://fonts.google.com/specimen/Kavoon): by Viktoriya Grabowska, added 2013. OFL-1.1. `npm i @fontsource/kavoon`
+- [Keania One](https://fonts.google.com/specimen/Keania+One): by Julia Petretta, added 2012. OFL-1.1. `npm i @fontsource/keania-one`
+- [Kelly Slab](https://fonts.google.com/specimen/Kelly+Slab): by Denis Masharov, added 2011. OFL-1.1. `npm i @fontsource/kelly-slab`
+- [Kenia](https://fonts.google.com/specimen/Kenia): by Julia Petretta, added 2010. OFL-1.1. `npm i @fontsource/kenia`
+- [Knewave](https://fonts.google.com/specimen/Knewave): by Tyler Finck, added 2011. OFL-1.1. `npm i @fontsource/knewave`
+- [Kranky](https://fonts.google.com/specimen/Kranky): by Sideshow, added 2011. Apache-2.0. `npm i @fontsource/kranky`
+- [Kumar One Outline](https://fonts.google.com/specimen/Kumar+One+Outline): by Indian Type Foundry, added 2016. OFL-1.1. `npm i @fontsource/kumar-one-outline`
+- [Lacquer](https://fonts.google.com/specimen/Lacquer): by Niki Polyocan, Eli Block, added 2019. OFL-1.1. `npm i @fontsource/lacquer`
+- [Lancelot](https://fonts.google.com/specimen/Lancelot): by Marion Kadi, added 2011. OFL-1.1. `npm i @fontsource/lancelot`
+- [Lemon](https://fonts.google.com/specimen/Lemon): by Eduardo Tunni, added 2011. OFL-1.1. `npm i @fontsource/lemon`
+- [Libertinus Keyboard](https://fonts.google.com/specimen/Libertinus+Keyboard): by Philipp H. Poll, added 2025. OFL-1.1. `npm i @fontsource/libertinus-keyboard`
+- [Libertinus Math](https://fonts.google.com/specimen/Libertinus+Math): by Philipp H. Poll, added 2025. OFL-1.1. `npm i @fontsource/libertinus-math`
+- [Libertinus Serif Display](https://fonts.google.com/specimen/Libertinus+Serif+Display): by Philipp H. Poll, added 2025. OFL-1.1. `npm i @fontsource/libertinus-serif-display`
+- [Libre Barcode 128](https://fonts.google.com/specimen/Libre+Barcode+128): by Lasse Fister, added 2017. OFL-1.1. `npm i @fontsource/libre-barcode-128`
+- [Libre Barcode 128 Text](https://fonts.google.com/specimen/Libre+Barcode+128+Text): by Lasse Fister, added 2017. OFL-1.1. `npm i @fontsource/libre-barcode-128-text`
+- [Libre Barcode 39](https://fonts.google.com/specimen/Libre+Barcode+39): by Lasse Fister, added 2017. OFL-1.1. `npm i @fontsource/libre-barcode-39`
+- [Libre Barcode 39 Extended](https://fonts.google.com/specimen/Libre+Barcode+39+Extended): by Lasse Fister, added 2017. OFL-1.1. `npm i @fontsource/libre-barcode-39-extended`
+- [Libre Barcode 39 Extended Text](https://fonts.google.com/specimen/Libre+Barcode+39+Extended+Text): by Lasse Fister, added 2017. OFL-1.1. `npm i @fontsource/libre-barcode-39-extended-text`
+- [Libre Barcode 39 Text](https://fonts.google.com/specimen/Libre+Barcode+39+Text): by Lasse Fister, added 2017. OFL-1.1. `npm i @fontsource/libre-barcode-39-text`
+- [Libre Barcode EAN13 Text](https://fonts.google.com/specimen/Libre+Barcode+EAN13+Text): by Lasse Fister, added 2020. OFL-1.1. `npm i @fontsource/libre-barcode-ean13-text`
+- [Life Savers](https://fonts.google.com/specimen/Life+Savers): by Impallari Type, added 2012. OFL-1.1. `npm i @fontsource/life-savers`
+- [Lilita One](https://fonts.google.com/specimen/Lilita+One): by Juan Montoreano, added 2012. OFL-1.1. `npm i @fontsource/lilita-one`
+- [Lily Script One](https://fonts.google.com/specimen/Lily+Script+One): by Julia Petretta, added 2013. OFL-1.1. `npm i @fontsource/lily-script-one`
+- [Limelight](https://fonts.google.com/specimen/Limelight): by Nicole Fally, Sorkin Type, added 2011. OFL-1.1. `npm i @fontsource/limelight`
+- [Linefont](https://fonts.google.com/specimen/Linefont): variable, by Dmitry Ivanov, added 2023. OFL-1.1. `npm i @fontsource/linefont`
+- [Lobster](https://fonts.google.com/specimen/Lobster): by Impallari Type, added 2010. OFL-1.1. `npm i @fontsource/lobster`
+- [Lobster Two](https://fonts.google.com/specimen/Lobster+Two): by Impallari Type, added 2011. OFL-1.1. `npm i @fontsource/lobster-two`
+- [Londrina Outline](https://fonts.google.com/specimen/Londrina+Outline): by Marcelo Magalhães, added 2012. OFL-1.1. `npm i @fontsource/londrina-outline`
+- [Londrina Shadow](https://fonts.google.com/specimen/Londrina+Shadow): by Marcelo Magalhães, added 2012. OFL-1.1. `npm i @fontsource/londrina-shadow`
+- [Londrina Sketch](https://fonts.google.com/specimen/Londrina+Sketch): by Marcelo Magalhães, added 2012. OFL-1.1. `npm i @fontsource/londrina-sketch`
+- [Londrina Solid](https://fonts.google.com/specimen/Londrina+Solid): by Marcelo Magalhães, added 2012. OFL-1.1. `npm i @fontsource/londrina-solid`
+- [Love Ya Like A Sister](https://fonts.google.com/specimen/Love+Ya+Like+A+Sister): by Kimberly Geswein, added 2011. OFL-1.1. `npm i @fontsource/love-ya-like-a-sister`
+- [Luckiest Guy](https://fonts.google.com/specimen/Luckiest+Guy): by Astigmatic, added 2011. Apache-2.0. `npm i @fontsource/luckiest-guy`
+- [Luxurious Roman](https://fonts.google.com/specimen/Luxurious+Roman): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/luxurious-roman`
+- [Macondo](https://fonts.google.com/specimen/Macondo): by John Vargas Beltrán, added 2012. OFL-1.1. `npm i @fontsource/macondo`
+- [Macondo Swash Caps](https://fonts.google.com/specimen/Macondo+Swash+Caps): by John Vargas Beltrán, added 2012. OFL-1.1. `npm i @fontsource/macondo-swash-caps`
+- [Manufacturing Consent](https://fonts.google.com/specimen/Manufacturing+Consent): by Fredrick Brennan, added 2025. OFL-1.1. `npm i @fontsource/manufacturing-consent`
+- [Margarine](https://fonts.google.com/specimen/Margarine): by Astigmatic, added 2012. OFL-1.1. `npm i @fontsource/margarine`
+- [McLaren](https://fonts.google.com/specimen/McLaren): by Astigmatic, added 2012. OFL-1.1. `npm i @fontsource/mclaren`
+- [MedievalSharp](https://fonts.google.com/specimen/MedievalSharp): by Wojciech Kalinowski, added 2011. OFL-1.1. `npm i @fontsource/medievalsharp`
+- [Medula One](https://fonts.google.com/specimen/Medula+One): by LatinoType, added 2011. OFL-1.1. `npm i @fontsource/medula-one`
+- [Megrim](https://fonts.google.com/specimen/Megrim): by Daniel Johnson, added 2011. OFL-1.1. `npm i @fontsource/megrim`
+- [Metal Mania](https://fonts.google.com/specimen/Metal+Mania): by Open Window, added 2012. OFL-1.1. `npm i @fontsource/metal-mania`
+- [Metamorphous](https://fonts.google.com/specimen/Metamorphous): by James Grieshaber, added 2011. OFL-1.1. `npm i @fontsource/metamorphous`
+- [Micro 5](https://fonts.google.com/specimen/Micro+5): by Sarah Cadigan-Fried, added 2024. OFL-1.1. `npm i @fontsource/micro-5`
+- [Micro 5 Charted](https://fonts.google.com/specimen/Micro+5+Charted): by Sarah Cadigan-Fried, added 2024. OFL-1.1. `npm i @fontsource/micro-5-charted`
+- [Milonga](https://fonts.google.com/specimen/Milonga): by Impallari Type, added 2012. OFL-1.1. `npm i @fontsource/milonga`
+- [Miltonian](https://fonts.google.com/specimen/Miltonian): by Impallari Type, added 2011. OFL-1.1. `npm i @fontsource/miltonian`
+- [Miltonian Tattoo](https://fonts.google.com/specimen/Miltonian+Tattoo): by Impallari Type, added 2011. OFL-1.1. `npm i @fontsource/miltonian-tattoo`
+- [Miniver](https://fonts.google.com/specimen/Miniver): by Open Window, added 2011. OFL-1.1. `npm i @fontsource/miniver`
+- [Modern Antiqua](https://fonts.google.com/specimen/Modern+Antiqua): by Wojciech Kalinowski, added 2011. OFL-1.1. `npm i @fontsource/modern-antiqua`
+- [Monoton](https://fonts.google.com/specimen/Monoton): by Vernon Adams, added 2011. OFL-1.1. `npm i @fontsource/monoton`
+- [Moo Lah Lah](https://fonts.google.com/specimen/Moo+Lah+Lah): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/moo-lah-lah`
+- [Mountains of Christmas](https://fonts.google.com/specimen/Mountains+of+Christmas): by Tart Workshop, added 2010. Apache-2.0. `npm i @fontsource/mountains-of-christmas`
+- [MuseoModerno](https://fonts.google.com/specimen/MuseoModerno): variable, by Omnibus-Type, added 2020. OFL-1.1. `npm i @fontsource/museomoderno`
+- [Mystery Quest](https://fonts.google.com/specimen/Mystery+Quest): by Sideshow, added 2012. OFL-1.1. `npm i @fontsource/mystery-quest`
+- [Nabla](https://fonts.google.com/specimen/Nabla): variable, by Arthur Reinders Folmer, Just van Rossum, added 2022. OFL-1.1. `npm i @fontsource/nabla`
+- [New Rocker](https://fonts.google.com/specimen/New+Rocker): by Impallari Type, added 2012. OFL-1.1. `npm i @fontsource/new-rocker`
+- [Nixie One](https://fonts.google.com/specimen/Nixie+One): by Jovanny Lemonad, added 2011. OFL-1.1. `npm i @fontsource/nixie-one`
+- [Nosifer](https://fonts.google.com/specimen/Nosifer): by Typomondo, added 2011. OFL-1.1. `npm i @fontsource/nosifer`
+- [Nosifer Caps](https://fonts.google.com/specimen/Nosifer+Caps): by Typomondo, added 2011. OFL-1.1. `npm i @fontsource/nosifer-caps`
+- [Nova Cut](https://fonts.google.com/specimen/Nova+Cut): by Wojciech Kalinowski, added 2011. OFL-1.1. `npm i @fontsource/nova-cut`
+- [Nova Flat](https://fonts.google.com/specimen/Nova+Flat): by Wojciech Kalinowski, added 2011. OFL-1.1. `npm i @fontsource/nova-flat`
+- [Nova Oval](https://fonts.google.com/specimen/Nova+Oval): by Wojciech Kalinowski, added 2011. OFL-1.1. `npm i @fontsource/nova-oval`
+- [Nova Round](https://fonts.google.com/specimen/Nova+Round): by Wojciech Kalinowski, added 2011. OFL-1.1. `npm i @fontsource/nova-round`
+- [Nova Script](https://fonts.google.com/specimen/Nova+Script): by Wojciech Kalinowski, added 2011. OFL-1.1. `npm i @fontsource/nova-script`
+- [Nova Slim](https://fonts.google.com/specimen/Nova+Slim): by Wojciech Kalinowski, added 2011. OFL-1.1. `npm i @fontsource/nova-slim`
+- [Nova Square](https://fonts.google.com/specimen/Nova+Square): by Wojciech Kalinowski, added 2011. OFL-1.1. `npm i @fontsource/nova-square`
+- [Odibee Sans](https://fonts.google.com/specimen/Odibee+Sans): by James Barnard, added 2019. OFL-1.1. `npm i @fontsource/odibee-sans`
+- [Offside](https://fonts.google.com/specimen/Offside): by Eduardo Tunni, added 2012. OFL-1.1. `npm i @fontsource/offside`
+- [Oi](https://fonts.google.com/specimen/Oi): by Kostas Bartsokas, added 2021. OFL-1.1. `npm i @fontsource/oi`
+- [Oldenburg](https://fonts.google.com/specimen/Oldenburg): by Nicole Fally, added 2011. OFL-1.1. `npm i @fontsource/oldenburg`
+- [Oleo Script](https://fonts.google.com/specimen/Oleo+Script): by soytutype fonts, added 2012. OFL-1.1. `npm i @fontsource/oleo-script`
+- [Oleo Script Swash Caps](https://fonts.google.com/specimen/Oleo+Script+Swash+Caps): by soytutype fonts, added 2012. OFL-1.1. `npm i @fontsource/oleo-script-swash-caps`
+- [Oregano](https://fonts.google.com/specimen/Oregano): by Astigmatic, added 2012. OFL-1.1. `npm i @fontsource/oregano`
+- [Orelega One](https://fonts.google.com/specimen/Orelega+One): by Haruki Wakamatsu, added 2021. OFL-1.1. `npm i @fontsource/orelega-one`
+- [Original Surfer](https://fonts.google.com/specimen/Original+Surfer): by Astigmatic, added 2011. OFL-1.1. `npm i @fontsource/original-surfer`
+- [Overlock](https://fonts.google.com/specimen/Overlock): by Dario Manuel Muhafara, added 2011. OFL-1.1. `npm i @fontsource/overlock`
+- [Overlock SC](https://fonts.google.com/specimen/Overlock+SC): by Dario Manuel Muhafara, added 2011. OFL-1.1. `npm i @fontsource/overlock-sc`
+- [Oxanium](https://fonts.google.com/specimen/Oxanium): variable, by Severin Meyer, added 2020. OFL-1.1. `npm i @fontsource/oxanium`
+- [Paprika](https://fonts.google.com/specimen/Paprika): by Eduardo Tunni, added 2012. OFL-1.1. `npm i @fontsource/paprika`
+- [Passero One](https://fonts.google.com/specimen/Passero+One): by Viktoriya Grabowska, added 2011. OFL-1.1. `npm i @fontsource/passero-one`
+- [Passion One](https://fonts.google.com/specimen/Passion+One): by Fontstage, added 2011. OFL-1.1. `npm i @fontsource/passion-one`
+- [Pathway Extreme](https://fonts.google.com/specimen/Pathway+Extreme): variable, by Eduardo Tunni, added 2023. OFL-1.1. `npm i @fontsource/pathway-extreme`
+- [Patua One](https://fonts.google.com/specimen/Patua+One): by LatinoType, added 2011. OFL-1.1. `npm i @fontsource/patua-one`
+- [Phudu](https://fonts.google.com/specimen/Phudu): variable, by Dương Trần, added 2023. OFL-1.1. `npm i @fontsource/phudu`
+- [Piedra](https://fonts.google.com/specimen/Piedra): by Sudtipos, added 2011. OFL-1.1. `npm i @fontsource/piedra`
+- [Pirata One](https://fonts.google.com/specimen/Pirata+One): by Rodrigo Fuenzalida, Nicolas Massi, added 2012. OFL-1.1. `npm i @fontsource/pirata-one`
+- [Pixelify Sans](https://fonts.google.com/specimen/Pixelify+Sans): variable, by Stefie Justprince, added 2023. OFL-1.1. `npm i @fontsource/pixelify-sans`
+- [Plaster](https://fonts.google.com/specimen/Plaster): by Sorkin Type, added 2011. OFL-1.1. `npm i @fontsource/plaster`
+- [Playball](https://fonts.google.com/specimen/Playball): by Robert Leuschke, added 2011. OFL-1.1. `npm i @fontsource/playball`
+- [Playfair](https://fonts.google.com/specimen/Playfair): variable, by Claus Eggers Sørensen, added 2023. OFL-1.1. `npm i @fontsource/playfair`
+- [Poetsen One](https://fonts.google.com/specimen/Poetsen+One): by Rodrigo Fuenzalida, Pablo Impallari, added 2012. OFL-1.1. `npm i @fontsource/poetsen-one`
+- [Poiret One](https://fonts.google.com/specimen/Poiret+One): by Denis Masharov, added 2012. OFL-1.1. `npm i @fontsource/poiret-one`
+- [Poller One](https://fonts.google.com/specimen/Poller+One): by Yvonne Schüttler, added 2011. OFL-1.1. `npm i @fontsource/poller-one`
+- [Pompiere](https://fonts.google.com/specimen/Pompiere): by Karolina Lach, added 2011. OFL-1.1. `npm i @fontsource/pompiere`
+- [Porter Sans Block](https://fonts.google.com/specimen/Porter+Sans+Block): by Tyler Finck, added 2013. OFL-1.1. `npm i @fontsource/porter-sans-block`
+- [Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P): by CodeMan38, added 2012. OFL-1.1. `npm i @fontsource/press-start-2p`
+- [Prosto One](https://fonts.google.com/specimen/Prosto+One): by Jovanny Lemonad, Pavel Emelyanov, added 2012. OFL-1.1. `npm i @fontsource/prosto-one`
+- [Protest Guerrilla](https://fonts.google.com/specimen/Protest+Guerrilla): by Octavio Pardo, added 2023. OFL-1.1. `npm i @fontsource/protest-guerrilla`
+- [Protest Revolution](https://fonts.google.com/specimen/Protest+Revolution): by Octavio Pardo, added 2023. OFL-1.1. `npm i @fontsource/protest-revolution`
+- [Protest Riot](https://fonts.google.com/specimen/Protest+Riot): by Octavio Pardo, added 2023. OFL-1.1. `npm i @fontsource/protest-riot`
+- [Protest Strike](https://fonts.google.com/specimen/Protest+Strike): by Octavio Pardo, added 2023. OFL-1.1. `npm i @fontsource/protest-strike`
+- [Purple Purse](https://fonts.google.com/specimen/Purple+Purse): by Astigmatic, added 2012. OFL-1.1. `npm i @fontsource/purple-purse`
+- [Racing Sans One](https://fonts.google.com/specimen/Racing+Sans+One): by Impallari Type, added 2012. OFL-1.1. `npm i @fontsource/racing-sans-one`
+- [Raleway Dots](https://fonts.google.com/specimen/Raleway+Dots): by Matt McInerney, Pablo Impallari, Rodrigo Fuenzalida, Brenda Gallo, added 2012. OFL-1.1. `npm i @fontsource/raleway-dots`
+- [Rammetto One](https://fonts.google.com/specimen/Rammetto+One): by Vernon Adams, added 2011. OFL-1.1. `npm i @fontsource/rammetto-one`
+- [Ranchers](https://fonts.google.com/specimen/Ranchers): by Impallari Type, added 2012. OFL-1.1. `npm i @fontsource/ranchers`
+- [Red Rose](https://fonts.google.com/specimen/Red+Rose): variable, by Jaikishan Patel, added 2020. OFL-1.1. `npm i @fontsource/red-rose`
+- [Redacted](https://fonts.google.com/specimen/Redacted): by Christian Naths, added 2013. OFL-1.1. `npm i @fontsource/redacted`
+- [Redacted Script](https://fonts.google.com/specimen/Redacted+Script): by Christian Naths, added 2013. OFL-1.1. `npm i @fontsource/redacted-script`
+- [Redaction 100](https://fonts.google.com/specimen/Redaction+100): by MCKL, added 2026. OFL-1.1. `npm i @fontsource/redaction-100`
+- [Redaction 35](https://fonts.google.com/specimen/Redaction+35): by MCKL, added 2026. OFL-1.1. `npm i @fontsource/redaction-35`
+- [Redaction 50](https://fonts.google.com/specimen/Redaction+50): by MCKL, added 2026. OFL-1.1. `npm i @fontsource/redaction-50`
+- [Redaction 70](https://fonts.google.com/specimen/Redaction+70): by MCKL, added 2026. OFL-1.1. `npm i @fontsource/redaction-70`
+- [Revalia](https://fonts.google.com/specimen/Revalia): by Johan Kallas, Mihkel Virkus, added 2012. OFL-1.1. `npm i @fontsource/revalia`
+- [Ribeye](https://fonts.google.com/specimen/Ribeye): by Astigmatic, added 2011. OFL-1.1. `npm i @fontsource/ribeye`
+- [Ribeye Marrow](https://fonts.google.com/specimen/Ribeye+Marrow): by Astigmatic, added 2011. OFL-1.1. `npm i @fontsource/ribeye-marrow`
+- [Righteous](https://fonts.google.com/specimen/Righteous): by Astigmatic, added 2011. OFL-1.1. `npm i @fontsource/righteous`
+- [Risque](https://fonts.google.com/specimen/Risque): by Astigmatic, added 2012. OFL-1.1. `npm i @fontsource/risque`
+- [Road Rage](https://fonts.google.com/specimen/Road+Rage): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/road-rage`
+- [Rowdies](https://fonts.google.com/specimen/Rowdies): by Jaikishan Patel, added 2019. OFL-1.1. `npm i @fontsource/rowdies`
+- [Rubik 80s Fade](https://fonts.google.com/specimen/Rubik+80s+Fade): by NaN, Luke Prowse, added 2022. OFL-1.1. `npm i @fontsource/rubik-80s-fade`
+- [Rubik Beastly](https://fonts.google.com/specimen/Rubik+Beastly): by NaN, Luke Prowse, added 2021. OFL-1.1. `npm i @fontsource/rubik-beastly`
+- [Rubik Broken Fax](https://fonts.google.com/specimen/Rubik+Broken+Fax): by NaN, Luke Prowse, added 2023. OFL-1.1. `npm i @fontsource/rubik-broken-fax`
+- [Rubik Bubbles](https://fonts.google.com/specimen/Rubik+Bubbles): by NaN, Luke Prowse, added 2022. OFL-1.1. `npm i @fontsource/rubik-bubbles`
+- [Rubik Burned](https://fonts.google.com/specimen/Rubik+Burned): by NaN, Luke Prowse, added 2022. OFL-1.1. `npm i @fontsource/rubik-burned`
+- [Rubik Dirt](https://fonts.google.com/specimen/Rubik+Dirt): by NaN, Luke Prowse, added 2022. OFL-1.1. `npm i @fontsource/rubik-dirt`
+- [Rubik Distressed](https://fonts.google.com/specimen/Rubik+Distressed): by NaN, Luke Prowse, added 2022. OFL-1.1. `npm i @fontsource/rubik-distressed`
+- [Rubik Doodle Shadow](https://fonts.google.com/specimen/Rubik+Doodle+Shadow): by NaN, Luke Prowse, added 2023. OFL-1.1. `npm i @fontsource/rubik-doodle-shadow`
+- [Rubik Doodle Triangles](https://fonts.google.com/specimen/Rubik+Doodle+Triangles): by NaN, Luke Prowse, added 2023. OFL-1.1. `npm i @fontsource/rubik-doodle-triangles`
+- [Rubik Gemstones](https://fonts.google.com/specimen/Rubik+Gemstones): by NaN, Luke Prowse, added 2022. OFL-1.1. `npm i @fontsource/rubik-gemstones`
+- [Rubik Glitch](https://fonts.google.com/specimen/Rubik+Glitch): by NaN, Luke Prowse, added 2022. OFL-1.1. `npm i @fontsource/rubik-glitch`
+- [Rubik Glitch Pop](https://fonts.google.com/specimen/Rubik+Glitch+Pop): by NaN, Luke Prowse, added 2023. OFL-1.1. `npm i @fontsource/rubik-glitch-pop`
+- [Rubik Iso](https://fonts.google.com/specimen/Rubik+Iso): by NaN, Luke Prowse, added 2022. OFL-1.1. `npm i @fontsource/rubik-iso`
+- [Rubik Lines](https://fonts.google.com/specimen/Rubik+Lines): by NaN, Luke Prowse, added 2023. OFL-1.1. `npm i @fontsource/rubik-lines`
+- [Rubik Maps](https://fonts.google.com/specimen/Rubik+Maps): by NaN, Luke Prowse, added 2023. OFL-1.1. `npm i @fontsource/rubik-maps`
+- [Rubik Marker Hatch](https://fonts.google.com/specimen/Rubik+Marker+Hatch): by NaN, Luke Prowse, added 2022. OFL-1.1. `npm i @fontsource/rubik-marker-hatch`
+- [Rubik Maze](https://fonts.google.com/specimen/Rubik+Maze): by NaN, Luke Prowse, added 2022. OFL-1.1. `npm i @fontsource/rubik-maze`
+- [Rubik Microbe](https://fonts.google.com/specimen/Rubik+Microbe): by NaN, Luke Prowse, added 2022. OFL-1.1. `npm i @fontsource/rubik-microbe`
+- [Rubik Moonrocks](https://fonts.google.com/specimen/Rubik+Moonrocks): by NaN, Luke Prowse, added 2022. OFL-1.1. `npm i @fontsource/rubik-moonrocks`
+- [Rubik Pixels](https://fonts.google.com/specimen/Rubik+Pixels): by NaN, Luke Prowse, added 2022. OFL-1.1. `npm i @fontsource/rubik-pixels`
+- [Rubik Puddles](https://fonts.google.com/specimen/Rubik+Puddles): by NaN, Luke Prowse, added 2022. OFL-1.1. `npm i @fontsource/rubik-puddles`
+- [Rubik Scribble](https://fonts.google.com/specimen/Rubik+Scribble): by NaN, Luke Prowse, added 2023. OFL-1.1. `npm i @fontsource/rubik-scribble`
+- [Rubik Spray Paint](https://fonts.google.com/specimen/Rubik+Spray+Paint): by NaN, Luke Prowse, added 2022. OFL-1.1. `npm i @fontsource/rubik-spray-paint`
+- [Rubik Storm](https://fonts.google.com/specimen/Rubik+Storm): by NaN, Luke Prowse, added 2022. OFL-1.1. `npm i @fontsource/rubik-storm`
+- [Rubik Vinyl](https://fonts.google.com/specimen/Rubik+Vinyl): by NaN, Luke Prowse, added 2022. OFL-1.1. `npm i @fontsource/rubik-vinyl`
+- [Rubik Wet Paint](https://fonts.google.com/specimen/Rubik+Wet+Paint): by NaN, Luke Prowse, added 2022. OFL-1.1. `npm i @fontsource/rubik-wet-paint`
+- [Ruslan Display](https://fonts.google.com/specimen/Ruslan+Display): by Oleg Snarsky, Denis Masharov, Vladimir Rabdu, added 2011. OFL-1.1. `npm i @fontsource/ruslan-display`
+- [Rye](https://fonts.google.com/specimen/Rye): by Nicole Fally, added 2012. OFL-1.1. `npm i @fontsource/rye`
+- [Sail](https://fonts.google.com/specimen/Sail): by Miguel Hernandez, added 2011. OFL-1.1. `npm i @fontsource/sail`
+- [Saira Stencil](https://fonts.google.com/specimen/Saira+Stencil): variable, by Hector Gatti, Omnibus-Type, added 2026. OFL-1.1. `npm i @fontsource/saira-stencil`
+- [Saira Stencil One](https://fonts.google.com/specimen/Saira+Stencil+One): by Hector Gatti, Omnibus-Type, added 2019. OFL-1.1. `npm i @fontsource/saira-stencil-one`
+- [Salsa](https://fonts.google.com/specimen/Salsa): by John Vargas Beltrán, added 2011. OFL-1.1. `npm i @fontsource/salsa`
+- [Sancreek](https://fonts.google.com/specimen/Sancreek): by Vernon Adams, added 2011. OFL-1.1. `npm i @fontsource/sancreek`
+- [Sansita One](https://fonts.google.com/specimen/Sansita+One): by Omnibus-Type, added 2011. OFL-1.1. `npm i @fontsource/sansita-one`
+- [Sansita Swashed](https://fonts.google.com/specimen/Sansita+Swashed): variable, by Omnibus-Type, added 2020. OFL-1.1. `npm i @fontsource/sansita-swashed`
+- [Sarina](https://fonts.google.com/specimen/Sarina): by James Grieshaber, added 2011. OFL-1.1. `npm i @fontsource/sarina`
+- [Seaweed Script](https://fonts.google.com/specimen/Seaweed+Script): by Neapolitan, added 2012. OFL-1.1. `npm i @fontsource/seaweed-script`
+- [Sekuya](https://fonts.google.com/specimen/Sekuya): by SEKUYA, added 2025. OFL-1.1. `npm i @fontsource/sekuya`
+- [Sevillana](https://fonts.google.com/specimen/Sevillana): by Brownfox, added 2012. OFL-1.1. `npm i @fontsource/sevillana`
+- [Shantell Sans](https://fonts.google.com/specimen/Shantell+Sans): variable, by Shantell Martin, Arrow Type, Anya Danilova, added 2023. OFL-1.1. `npm i @fontsource/shantell-sans`
+- [Shojumaru](https://fonts.google.com/specimen/Shojumaru): by Astigmatic, added 2012. OFL-1.1. `npm i @fontsource/shojumaru`
+- [Sigmar](https://fonts.google.com/specimen/Sigmar): by Vernon Adams, added 2023. OFL-1.1. `npm i @fontsource/sigmar`
+- [Sigmar One](https://fonts.google.com/specimen/Sigmar+One): by Vernon Adams, added 2011. OFL-1.1. `npm i @fontsource/sigmar-one`
+- [Silkscreen](https://fonts.google.com/specimen/Silkscreen): by Jason Kottke, added 2022. OFL-1.1. `npm i @fontsource/silkscreen`
+- [Simonetta](https://fonts.google.com/specimen/Simonetta): by Brownfox, added 2012. OFL-1.1. `npm i @fontsource/simonetta`
+- [Single Day](https://fonts.google.com/specimen/Single+Day): by DXKorea Inc, added 2018. OFL-1.1. `npm i @fontsource/single-day`
+- [Sirin Stencil](https://fonts.google.com/specimen/Sirin+Stencil): by Cyreal, added 2012. OFL-1.1. `npm i @fontsource/sirin-stencil`
+- [Skranji](https://fonts.google.com/specimen/Skranji): by Neapolitan, added 2012. OFL-1.1. `npm i @fontsource/skranji`
+- [Slackey](https://fonts.google.com/specimen/Slackey): by Sideshow, added 2011. Apache-2.0. `npm i @fontsource/slackey`
+- [Smokum](https://fonts.google.com/specimen/Smokum): by Astigmatic, added 2011. Apache-2.0. `npm i @fontsource/smokum`
+- [Smythe](https://fonts.google.com/specimen/Smythe): by Vernon Adams, added 2011. OFL-1.1. `npm i @fontsource/smythe`
+- [Sniglet](https://fonts.google.com/specimen/Sniglet): by Multiple Designers, added 2010. OFL-1.1. `npm i @fontsource/sniglet`
+- [Snowburst One](https://fonts.google.com/specimen/Snowburst+One): by Annet Stirling, added 2012. OFL-1.1. `npm i @fontsource/snowburst-one`
+- [Sofadi One](https://fonts.google.com/specimen/Sofadi+One): by Botjo Nikoltchev, added 2012. OFL-1.1. `npm i @fontsource/sofadi-one`
+- [Sonsie One](https://fonts.google.com/specimen/Sonsie+One): by Riccardo De Franceschi, added 2012. OFL-1.1. `npm i @fontsource/sonsie-one`
+- [Special Elite](https://fonts.google.com/specimen/Special+Elite): by Astigmatic, added 2011. Apache-2.0. `npm i @fontsource/special-elite`
+- [Spicy Rice](https://fonts.google.com/specimen/Spicy+Rice): by Astigmatic, added 2011. OFL-1.1. `npm i @fontsource/spicy-rice`
+- [Spirax](https://fonts.google.com/specimen/Spirax): by Brenda Gallo, added 2011. OFL-1.1. `npm i @fontsource/spirax`
+- [Squada One](https://fonts.google.com/specimen/Squada+One): by Joe Prince, added 2011. OFL-1.1. `npm i @fontsource/squada-one`
+- [Staatliches](https://fonts.google.com/specimen/Staatliches): by Brian LaRossa, Erica Carras, added 2018. OFL-1.1. `npm i @fontsource/staatliches`
+- [Stalinist One](https://fonts.google.com/specimen/Stalinist+One): by Alexey Maslov, Jovanny Lemonad, added 2012. OFL-1.1. `npm i @fontsource/stalinist-one`
+- [Stardos Stencil](https://fonts.google.com/specimen/Stardos+Stencil): by Vernon Adams, added 2011. OFL-1.1. `npm i @fontsource/stardos-stencil`
+- [Supermercado One](https://fonts.google.com/specimen/Supermercado+One): by James Grieshaber, added 2011. OFL-1.1. `npm i @fontsource/supermercado-one`
+- [Syne](https://fonts.google.com/specimen/Syne): variable, by Bonjour Monde, Lucas Descroix, George Triantafyllakos, added 2020. OFL-1.1. `npm i @fontsource/syne`
+- [Syne Tactile](https://fonts.google.com/specimen/Syne+Tactile): by Bonjour Monde, Lucas Descroix, added 2020. OFL-1.1. `npm i @fontsource/syne-tactile`
+- [Tagesschrift](https://fonts.google.com/specimen/Tagesschrift): by Yanone, added 2024. OFL-1.1. `npm i @fontsource/tagesschrift`
+- [Tilt Neon](https://fonts.google.com/specimen/Tilt+Neon): variable, by Andy Clymer, added 2022. OFL-1.1. `npm i @fontsource/tilt-neon`
+- [Tilt Prism](https://fonts.google.com/specimen/Tilt+Prism): variable, by Andy Clymer, added 2022. OFL-1.1. `npm i @fontsource/tilt-prism`
+- [Tilt Warp](https://fonts.google.com/specimen/Tilt+Warp): variable, by Andy Clymer, added 2022. OFL-1.1. `npm i @fontsource/tilt-warp`
+- [Tiny5](https://fonts.google.com/specimen/Tiny5): variable, by Stefan Schmidt, added 2024. OFL-1.1. `npm i @fontsource/tiny5`
+- [Tiny5 Duo](https://fonts.google.com/specimen/Tiny5+Duo): variable, by Stefan Schmidt, added 2026. OFL-1.1. `npm i @fontsource/tiny5-duo`
+- [Titan One](https://fonts.google.com/specimen/Titan+One): by Rodrigo Fuenzalida, added 2012. OFL-1.1. `npm i @fontsource/titan-one`
+- [Tourney](https://fonts.google.com/specimen/Tourney): variable, by Tyler Finck, ETC, added 2021. OFL-1.1. `npm i @fontsource/tourney`
+- [Trade Winds](https://fonts.google.com/specimen/Trade+Winds): by Sideshow, added 2011. OFL-1.1. `npm i @fontsource/trade-winds`
+- [Trochut](https://fonts.google.com/specimen/Trochut): by Andreu Balius, added 2012. OFL-1.1. `npm i @fontsource/trochut`
+- [Tulpen One](https://fonts.google.com/specimen/Tulpen+One): by Naima Ben Ayed, added 2011. OFL-1.1. `npm i @fontsource/tulpen-one`
+- [Turret Road](https://fonts.google.com/specimen/Turret+Road): by Dale Sattler, added 2019. OFL-1.1. `npm i @fontsource/turret-road`
+- [Uncial Antiqua](https://fonts.google.com/specimen/Uncial+Antiqua): by Astigmatic, added 2011. OFL-1.1. `npm i @fontsource/uncial-antiqua`
+- [Underdog](https://fonts.google.com/specimen/Underdog): by Sergey Steblina, Jovanny Lemonad, added 2012. OFL-1.1. `npm i @fontsource/underdog`
+- [Unica One](https://fonts.google.com/specimen/Unica+One): by Eduardo Tunni, added 2012. OFL-1.1. `npm i @fontsource/unica-one`
+- [UnifrakturCook](https://fonts.google.com/specimen/UnifrakturCook): by j. \'mach\' wust, added 2010. OFL-1.1. `npm i @fontsource/unifrakturcook`
+- [UnifrakturMaguntia](https://fonts.google.com/specimen/UnifrakturMaguntia): by j. \'mach\' wust, added 2010. OFL-1.1. `npm i @fontsource/unifrakturmaguntia`
+- [Unkempt](https://fonts.google.com/specimen/Unkempt): by Sideshow, added 2011. Apache-2.0. `npm i @fontsource/unkempt`
+- [Unlock](https://fonts.google.com/specimen/Unlock): by Eduardo Tunni, added 2011. OFL-1.1. `npm i @fontsource/unlock`
+- [Vampiro One](https://fonts.google.com/specimen/Vampiro+One): by Riccardo De Franceschi, added 2012. OFL-1.1. `npm i @fontsource/vampiro-one`
+- [Viaoda Libre](https://fonts.google.com/specimen/Viaoda+Libre): by Gydient, ViệtAnh Nguyễn, added 2019. OFL-1.1. `npm i @fontsource/viaoda-libre`
+- [Vina Sans](https://fonts.google.com/specimen/Vina+Sans): by Nguyen Type, added 2023. OFL-1.1. `npm i @fontsource/vina-sans`
+- [Wallpoet](https://fonts.google.com/specimen/Wallpoet): by Lars Berggren, added 2011. OFL-1.1. `npm i @fontsource/wallpoet`
+- [Warnes](https://fonts.google.com/specimen/Warnes): by Eduardo Tunni, added 2012. OFL-1.1. `npm i @fontsource/warnes`
+- [Wavefont](https://fonts.google.com/specimen/Wavefont): variable, by Dmitry Ivanov, added 2023. OFL-1.1. `npm i @fontsource/wavefont`
+- [Yarndings 12](https://fonts.google.com/specimen/Yarndings+12): by Sarah Cadigan-Fried, added 2024. OFL-1.1. `npm i @fontsource/yarndings-12`
+- [Yarndings 12 Charted](https://fonts.google.com/specimen/Yarndings+12+Charted): by Sarah Cadigan-Fried, added 2024. OFL-1.1. `npm i @fontsource/yarndings-12-charted`
+- [Yarndings 20](https://fonts.google.com/specimen/Yarndings+20): by Sarah Cadigan-Fried, added 2024. OFL-1.1. `npm i @fontsource/yarndings-20`
+- [Yarndings 20 Charted](https://fonts.google.com/specimen/Yarndings+20+Charted): by Sarah Cadigan-Fried, added 2024. OFL-1.1. `npm i @fontsource/yarndings-20-charted`
+- [Yeseva One](https://fonts.google.com/specimen/Yeseva+One): by Jovanny Lemonad, added 2011. OFL-1.1. `npm i @fontsource/yeseva-one`
+- [Yinmar](https://fonts.google.com/specimen/Yinmar): by Danh Hong, added 2016. OFL-1.1. `npm i @fontsource/yinmar`
+- [Zen Dots](https://fonts.google.com/specimen/Zen+Dots): by Yoshimichi Ohira, added 2021. OFL-1.1. `npm i @fontsource/zen-dots`
+- [Zen Loop](https://fonts.google.com/specimen/Zen+Loop): by Yoshimichi Ohira, added 2021. OFL-1.1. `npm i @fontsource/zen-loop`
+- [Zen Tokyo Zoo](https://fonts.google.com/specimen/Zen+Tokyo+Zoo): by Yoshimichi Ohira, added 2021. OFL-1.1. `npm i @fontsource/zen-tokyo-zoo`
+
+## Other scripts (85)
+
+- [ADLaM Display](https://fonts.google.com/specimen/ADLaM+Display): script Adlm, by Mark Jamra, Neil Patel, Andrew Footit, added 2023. OFL-1.1. `npm i @fontsource/adlam-display`
+- [Akaya Kanadaka](https://fonts.google.com/specimen/Akaya+Kanadaka): script Knda, by Vaishnavi Murthy, Juan Luis Blanco, added 2021. OFL-1.1. `npm i @fontsource/akaya-kanadaka`
+- [Akaya Telivigala](https://fonts.google.com/specimen/Akaya+Telivigala): script Telu, by Vaishnavi Murthy, Juan Luis Blanco, added 2021. OFL-1.1. `npm i @fontsource/akaya-telivigala`
+- [Angkor](https://fonts.google.com/specimen/Angkor): script Khmr, by Danh Hong, added 2011. OFL-1.1. `npm i @fontsource/angkor`
+- [Atma](https://fonts.google.com/specimen/Atma): script Beng, by Black Foundry, added 2017. OFL-1.1. `npm i @fontsource/atma`
+- [Badeen Display](https://fonts.google.com/specimen/Badeen+Display): script Arab, by Hani Alasadi, added 2024. OFL-1.1. `npm i @fontsource/badeen-display`
+- [Bagel Fat One](https://fonts.google.com/specimen/Bagel+Fat+One): script Kore, by Kyungwon Kim, JAMO, added 2023. OFL-1.1. `npm i @fontsource/bagel-fat-one`
+- [Bakbak One](https://fonts.google.com/specimen/Bakbak+One): script Deva, by Saumya Kishore, Sanchit Sawaria, added 2021. OFL-1.1. `npm i @fontsource/bakbak-one`
+- [Baloo 2](https://fonts.google.com/specimen/Baloo+2): variable, script Deva, by Ek Type, added 2016. OFL-1.1. `npm i @fontsource/baloo-2`
+- [Baloo Bhai 2](https://fonts.google.com/specimen/Baloo+Bhai+2): variable, script Gujr, by Ek Type, added 2016. OFL-1.1. `npm i @fontsource/baloo-bhai-2`
+- [Baloo Bhaijaan 2](https://fonts.google.com/specimen/Baloo+Bhaijaan+2): variable, script Arab, by Ek Type, added 2021. OFL-1.1. `npm i @fontsource/baloo-bhaijaan-2`
+- [Baloo Bhaina 2](https://fonts.google.com/specimen/Baloo+Bhaina+2): variable, script Orya, by Ek Type, added 2016. OFL-1.1. `npm i @fontsource/baloo-bhaina-2`
+- [Baloo Chettan 2](https://fonts.google.com/specimen/Baloo+Chettan+2): variable, script Mlym, by Ek Type, added 2016. OFL-1.1. `npm i @fontsource/baloo-chettan-2`
+- [Baloo Da 2](https://fonts.google.com/specimen/Baloo+Da+2): variable, script Beng, by Ek Type, added 2016. OFL-1.1. `npm i @fontsource/baloo-da-2`
+- [Baloo Paaji 2](https://fonts.google.com/specimen/Baloo+Paaji+2): variable, script Guru, by Ek Type, added 2016. OFL-1.1. `npm i @fontsource/baloo-paaji-2`
+- [Baloo Tamma 2](https://fonts.google.com/specimen/Baloo+Tamma+2): variable, script Knda, by Ek Type, added 2016. OFL-1.1. `npm i @fontsource/baloo-tamma-2`
+- [Baloo Tammudu 2](https://fonts.google.com/specimen/Baloo+Tammudu+2): variable, script Telu, by Ek Type, added 2016. OFL-1.1. `npm i @fontsource/baloo-tammudu-2`
+- [Baloo Thambi 2](https://fonts.google.com/specimen/Baloo+Thambi+2): variable, script Taml, by Ek Type, added 2016. OFL-1.1. `npm i @fontsource/baloo-thambi-2`
+- [Battambang](https://fonts.google.com/specimen/Battambang): script Khmr, by Danh Hong, added 2011. OFL-1.1. `npm i @fontsource/battambang`
+- [Black And White Picture](https://fonts.google.com/specimen/Black+And+White+Picture): script Kore, by AsiaSoft Inc., added 2018. OFL-1.1. `npm i @fontsource/black-and-white-picture`
+- [Blaka](https://fonts.google.com/specimen/Blaka): script Arab, by Mohamed Gaber, added 2022. OFL-1.1. `npm i @fontsource/blaka`
+- [Blaka Hollow](https://fonts.google.com/specimen/Blaka+Hollow): script Arab, by Mohamed Gaber, added 2022. OFL-1.1. `npm i @fontsource/blaka-hollow`
+- [Blaka Ink](https://fonts.google.com/specimen/Blaka+Ink): script Arab, by Mohamed Gaber, added 2022. OFL-1.1. `npm i @fontsource/blaka-ink`
+- [Bokor](https://fonts.google.com/specimen/Bokor): script Khmr, by Danh Hong, added 2011. OFL-1.1. `npm i @fontsource/bokor`
+- [Cairo](https://fonts.google.com/specimen/Cairo): variable, script Arab, by Mohamed Gaber, Accademia di Belle Arti di Urbino, added 2019. OFL-1.1. `npm i @fontsource/cairo`
+- [Cairo Play](https://fonts.google.com/specimen/Cairo+Play): variable, script Arab, by Mohamed Gaber, Accademia di Belle Arti di Urbino, added 2022. OFL-1.1. `npm i @fontsource/cairo-play`
+- [Chenla](https://fonts.google.com/specimen/Chenla): script Khmr, by Danh Hong, added 2011. OFL-1.1. `npm i @fontsource/chenla`
+- [Cherry Bomb One](https://fonts.google.com/specimen/Cherry+Bomb+One): script Hira, by Satsuyako, added 2020. OFL-1.1. `npm i @fontsource/cherry-bomb-one`
+- [Chokokutai](https://fonts.google.com/specimen/Chokokutai): script Hira, by Font Zone 108, added 2020. OFL-1.1. `npm i @fontsource/chokokutai`
+- [Chonburi](https://fonts.google.com/specimen/Chonburi): script Thai, by Cadson Demak, added 2015. OFL-1.1. `npm i @fontsource/chonburi`
+- [Content](https://fonts.google.com/specimen/Content): script Khmr, by Danh Hong, added 2011. OFL-1.1. `npm i @fontsource/content`
+- [Cute Font](https://fonts.google.com/specimen/Cute+Font): script Kore, by TypoDesign Lab. Inc, added 2018. OFL-1.1. `npm i @fontsource/cute-font`
+- [Dangrek](https://fonts.google.com/specimen/Dangrek): script Khmr, by Danh Hong, added 2011. OFL-1.1. `npm i @fontsource/dangrek`
+- [Darumadrop One](https://fonts.google.com/specimen/Darumadrop+One): script Hira, by Maniackers Design, added 2020. OFL-1.1. `npm i @fontsource/darumadrop-one`
+- [Dela Gothic One](https://fonts.google.com/specimen/Dela+Gothic+One): script Jpan, by artakana, added 2020. OFL-1.1. `npm i @fontsource/dela-gothic-one`
+- [Dokdo](https://fonts.google.com/specimen/Dokdo): script Kore, by FONTRIX, added 2018. OFL-1.1. `npm i @fontsource/dokdo`
+- [Farsan](https://fonts.google.com/specimen/Farsan): script Gujr, by Pooja Saxena, added 2016. OFL-1.1. `npm i @fontsource/farsan`
+- [Fasthand](https://fonts.google.com/specimen/Fasthand): script Khmr, by Danh Hong, Neapolitan, added 2012. OFL-1.1. `npm i @fontsource/fasthand`
+- [Freehand](https://fonts.google.com/specimen/Freehand): script Khmr, by Danh Hong, added 2011. OFL-1.1. `npm i @fontsource/freehand`
+- [Gajraj One](https://fonts.google.com/specimen/Gajraj+One): script Deva, by Saurabh Sharma, added 2023. OFL-1.1. `npm i @fontsource/gajraj-one`
+- [Galada](https://fonts.google.com/specimen/Galada): script Beng, by Black Foundry, added 2016. OFL-1.1. `npm i @fontsource/galada`
+- [Geist Pixel](https://fonts.google.com/specimen/Geist+Pixel): variable, script Latn, by Andrés Briganti, Evil Rabbit, Guillermo Rauch, added 2026. OFL-1.1. `npm i @fontsource/geist-pixel`
+- [Gugi](https://fonts.google.com/specimen/Gugi): script Kore, by TAE System & Typefaces Co., added 2018. OFL-1.1. `npm i @fontsource/gugi`
+- [Jaini](https://fonts.google.com/specimen/Jaini): script Deva, by Ek Type, added 2024. OFL-1.1. `npm i @fontsource/jaini`
+- [Jaini Purva](https://fonts.google.com/specimen/Jaini+Purva): script Deva, by Ek Type, added 2024. OFL-1.1. `npm i @fontsource/jaini-purva`
+- [Jomhuria](https://fonts.google.com/specimen/Jomhuria): script Arab, by KB Studio, added 2016. OFL-1.1. `npm i @fontsource/jomhuria`
+- [Karantina](https://fonts.google.com/specimen/Karantina): script Hebr, by Rony Koch, added 2021. OFL-1.1. `npm i @fontsource/karantina`
+- [Katibeh](https://fonts.google.com/specimen/Katibeh): script Arab, by KB Studio, added 2016. OFL-1.1. `npm i @fontsource/katibeh`
+- [Kirang Haerang](https://fonts.google.com/specimen/Kirang+Haerang): script Kore, by Woowahan Brothers, added 2018. OFL-1.1. `npm i @fontsource/kirang-haerang`
+- [Konkhmer Sleokchher](https://fonts.google.com/specimen/Konkhmer+Sleokchher): script Khmr, by Suon May Sophanith, added 2023. OFL-1.1. `npm i @fontsource/konkhmer-sleokchher`
+- [Koulen](https://fonts.google.com/specimen/Koulen): script Khmr, by Danh Hong, added 2011. OFL-1.1. `npm i @fontsource/koulen`
+- [Kumar One](https://fonts.google.com/specimen/Kumar+One): script Gujr, by Indian Type Foundry, added 2016. OFL-1.1. `npm i @fontsource/kumar-one`
+- [Langar](https://fonts.google.com/specimen/Langar): script Guru, by Typeland, Alessia Mazzarella, added 2020. OFL-1.1. `npm i @fontsource/langar`
+- [Lemonada](https://fonts.google.com/specimen/Lemonada): variable, script Arab, by Mohamed Gaber, Eduardo Tunni, added 2016. OFL-1.1. `npm i @fontsource/lemonada`
+- [Marhey](https://fonts.google.com/specimen/Marhey): variable, script Arab, by Nur Syamsi, Bustanul Arifin, added 2022. OFL-1.1. `npm i @fontsource/marhey`
+- [Metal](https://fonts.google.com/specimen/Metal): script Khmr, by Danh Hong, added 2011. OFL-1.1. `npm i @fontsource/metal`
+- [Modak](https://fonts.google.com/specimen/Modak): script Deva, by Ek Type, added 2015. OFL-1.1. `npm i @fontsource/modak`
+- [Mogra](https://fonts.google.com/specimen/Mogra): script Gujr, by Lipi Raval, added 2017. OFL-1.1. `npm i @fontsource/mogra`
+- [Moirai One](https://fonts.google.com/specimen/Moirai+One): script Kore, by Jiyeon Park, JAMO, added 2023. OFL-1.1. `npm i @fontsource/moirai-one`
+- [Monomakh](https://fonts.google.com/specimen/Monomakh): script Cyrl, by Aleksandr Andreev, Nikita Simmons, added 2025. OFL-1.1. `npm i @fontsource/monomakh`
+- [Moul](https://fonts.google.com/specimen/Moul): script Khmr, by Danh Hong, added 2011. OFL-1.1. `npm i @fontsource/moul`
+- [Palette Mosaic](https://fonts.google.com/specimen/Palette+Mosaic): script Hira, by Shibuya Font, added 2021. OFL-1.1. `npm i @fontsource/palette-mosaic`
+- [Pochaevsk](https://fonts.google.com/specimen/Pochaevsk): script Cyrl, by Aleksandr Andreev, added 2024. OFL-1.1. `npm i @fontsource/pochaevsk`
+- [Ponnala](https://fonts.google.com/specimen/Ponnala): script Telu, by Appaji Ambarisha Darbha, added 2014. OFL-1.1. `npm i @fontsource/ponnala`
+- [Ponomar](https://fonts.google.com/specimen/Ponomar): script Cyrl, by Aleksandr Andreev, added 2024. OFL-1.1. `npm i @fontsource/ponomar`
+- [Poor Story](https://fonts.google.com/specimen/Poor+Story): script Kore, by Yoon Design, added 2018. OFL-1.1. `npm i @fontsource/poor-story`
+- [Potta One](https://fonts.google.com/specimen/Potta+One): script Jpan, by Font Zone 108, added 2020. OFL-1.1. `npm i @fontsource/potta-one`
+- [Pushster](https://fonts.google.com/specimen/Pushster): script Thai, by Sir Andyj, added 2019. OFL-1.1. `npm i @fontsource/pushster`
+- [Rakkas](https://fonts.google.com/specimen/Rakkas): script Arab, by Zeynep Akay, added 2016. OFL-1.1. `npm i @fontsource/rakkas`
+- [Rampart One](https://fonts.google.com/specimen/Rampart+One): script Jpan, by Fontworks Inc., added 2021. OFL-1.1. `npm i @fontsource/rampart-one`
+- [Ranga](https://fonts.google.com/specimen/Ranga): script Deva, by TipTopTyp, added 2015. OFL-1.1. `npm i @fontsource/ranga`
+- [Ravi Prakash](https://fonts.google.com/specimen/Ravi+Prakash): script Telu, by Appaji Ambarisha Darbha, added 2015. OFL-1.1. `npm i @fontsource/ravi-prakash`
+- [Reggae One](https://fonts.google.com/specimen/Reggae+One): script Jpan, by Fontworks Inc., added 2020. OFL-1.1. `npm i @fontsource/reggae-one`
+- [Rock 3D](https://fonts.google.com/specimen/Rock+3D): script Hira, by Shibuya Font, added 2020. OFL-1.1. `npm i @fontsource/rock-3d`
+- [Shafarik](https://fonts.google.com/specimen/Shafarik): script Cyrl, by Aleksandr Andreev, added 2024. OFL-1.1. `npm i @fontsource/shafarik`
+- [Shizuru](https://fonts.google.com/specimen/Shizuru): script Hira, by Shibuya Font, added 2020. OFL-1.1. `npm i @fontsource/shizuru`
+- [Shrikhand](https://fonts.google.com/specimen/Shrikhand): script Gujr, by Jonny Pinhorn, added 2016. OFL-1.1. `npm i @fontsource/shrikhand`
+- [Srisakdi](https://fonts.google.com/specimen/Srisakdi): script Thai, by Cadson Demak, added 2018. OFL-1.1. `npm i @fontsource/srisakdi`
+- [Taprom](https://fonts.google.com/specimen/Taprom): script Khmr, by Danh Hong, Neapolitan, added 2011. OFL-1.1. `npm i @fontsource/taprom`
+- [Tillana](https://fonts.google.com/specimen/Tillana): script Deva, by Indian Type Foundry, added 2015. OFL-1.1. `npm i @fontsource/tillana`
+- [Train One](https://fonts.google.com/specimen/Train+One): script Jpan, by Fontworks Inc., added 2020. OFL-1.1. `npm i @fontsource/train-one`
+- [Triodion](https://fonts.google.com/specimen/Triodion): script Cyrl, by Aleksandr Andreev, added 2024. OFL-1.1. `npm i @fontsource/triodion`
+- [Vibes](https://fonts.google.com/specimen/Vibes): script Arab, by AbdElmomen Kadhim (blueMix), added 2019. OFL-1.1. `npm i @fontsource/vibes`
+- [Yatra One](https://fonts.google.com/specimen/Yatra+One): script Deva, by Catherine Leigh Schmidt, added 2016. OFL-1.1. `npm i @fontsource/yatra-one`
+- [Yeon Sung](https://fonts.google.com/specimen/Yeon+Sung): script Kore, by Woowahan brothers, added 2018. OFL-1.1. `npm i @fontsource/yeon-sung`
+
+## Noto (language coverage) (2)
+
+- [Noto Sans Display](https://fonts.google.com/specimen/Noto+Sans+Display): variable, by Google, added 2020. OFL-1.1. `npm i @fontsource/noto-sans-display`
+- [Noto Serif Display](https://fonts.google.com/specimen/Noto+Serif+Display): variable, by Google, added 2020. OFL-1.1. `npm i @fontsource/noto-serif-display`

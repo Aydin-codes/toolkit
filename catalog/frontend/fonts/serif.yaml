@@ -1,0 +1,4060 @@
+branch: frontend/fonts/serif
+title: 'All Google Fonts: serif (368 families)'
+intro: Every family in this style on Google Fonts, imported from Google's own metadata (github.com/google/fonts). Open the specimen and test with real text before choosing. Fonts marked common AI pick are
+  fine on purpose but shouldn't be a default. For curated starting picks, see reference/frontend/type.md.
+compact: true
+sections:
+- name: Latin families, A-Z (217)
+  list:
+  - name: Adamina
+    url: https://fonts.google.com/specimen/Adamina
+    search: Adamina font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/adamina/OFL.txt
+    install: npm i @fontsource/adamina
+    note: by Cyreal, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Alegreya
+    url: https://fonts.google.com/specimen/Alegreya
+    search: Alegreya font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/alegreya/OFL.txt
+    install: npm i @fontsource/alegreya
+    note: variable, by Juan Pablo del Peral, HT Fonts, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Alegreya SC
+    url: https://fonts.google.com/specimen/Alegreya+SC
+    search: Alegreya SC font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/alegreyasc/OFL.txt
+    install: npm i @fontsource/alegreya-sc
+    note: by Juan Pablo del Peral, HT Fonts, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Aleo
+    url: https://fonts.google.com/specimen/Aleo
+    search: Aleo font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/aleo/OFL.txt
+    install: npm i @fontsource/aleo
+    note: variable, by Alessio Laiso, added 2018
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Alice
+    url: https://fonts.google.com/specimen/Alice
+    search: Alice font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/alice/OFL.txt
+    install: npm i @fontsource/alice
+    note: by Ksenya Erulevich, Cyreal, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Alike
+    url: https://fonts.google.com/specimen/Alike
+    search: Alike font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/alike/OFL.txt
+    install: npm i @fontsource/alike
+    note: by Sveta Sebyakina, Cyreal, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Alike Angular
+    url: https://fonts.google.com/specimen/Alike+Angular
+    search: Alike Angular font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/alikeangular/OFL.txt
+    install: npm i @fontsource/alike-angular
+    note: by Sveta Sebyakina, Cyreal, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Almendra
+    url: https://fonts.google.com/specimen/Almendra
+    search: Almendra font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/almendra/OFL.txt
+    install: npm i @fontsource/almendra
+    note: by Ana Sanfelippo, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Almendra SC
+    url: https://fonts.google.com/specimen/Almendra+SC
+    search: Almendra SC font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/almendrasc/OFL.txt
+    install: npm i @fontsource/almendra-sc
+    note: by Ana Sanfelippo, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Amethysta
+    url: https://fonts.google.com/specimen/Amethysta
+    search: Amethysta font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/amethysta/OFL.txt
+    install: npm i @fontsource/amethysta
+    note: by Cyreal, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Ancizar Serif
+    url: https://fonts.google.com/specimen/Ancizar+Serif
+    search: Ancizar Serif font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/ancizarserif/OFL.txt
+    install: npm i @fontsource/ancizar-serif
+    note: variable, by Universidad Nacional de Colombia (UNAL), César Puertas, Viviana Monsalve, Julián Moncada, added 2025
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Andada Pro
+    url: https://fonts.google.com/specimen/Andada+Pro
+    search: Andada Pro font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/andadapro/OFL.txt
+    install: npm i @fontsource/andada-pro
+    note: variable, by HT Fonts, Carolina Giovagnoli, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Antic Didone
+    url: https://fonts.google.com/specimen/Antic+Didone
+    search: Antic Didone font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/anticdidone/OFL.txt
+    install: npm i @fontsource/antic-didone
+    note: by Santiago Orozco, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Antic Slab
+    url: https://fonts.google.com/specimen/Antic+Slab
+    search: Antic Slab font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/anticslab/OFL.txt
+    install: npm i @fontsource/antic-slab
+    note: by Santiago Orozco, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Arapey
+    url: https://fonts.google.com/specimen/Arapey
+    search: Arapey font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/arapey/OFL.txt
+    install: npm i @fontsource/arapey
+    note: by Eduardo Tunni, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Arbutus
+    url: https://fonts.google.com/specimen/Arbutus
+    search: Arbutus font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/arbutus/OFL.txt
+    install: npm i @fontsource/arbutus
+    note: by Karolina Lach, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Arbutus Slab
+    url: https://fonts.google.com/specimen/Arbutus+Slab
+    search: Arbutus Slab font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/arbutusslab/OFL.txt
+    install: npm i @fontsource/arbutus-slab
+    note: by Karolina Lach, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Artifika
+    url: https://fonts.google.com/specimen/Artifika
+    search: Artifika font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/artifika/OFL.txt
+    install: npm i @fontsource/artifika
+    note: by Cyreal, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Arvo
+    url: https://fonts.google.com/specimen/Arvo
+    search: Arvo font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/arvo/OFL.txt
+    install: npm i @fontsource/arvo
+    note: by Anton Koovit, added 2010
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Asul
+    url: https://fonts.google.com/specimen/Asul
+    search: Asul font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/asul/OFL.txt
+    install: npm i @fontsource/asul
+    note: by Mariela Monsalve, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Average
+    url: https://fonts.google.com/specimen/Average
+    search: Average font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/average/OFL.txt
+    install: npm i @fontsource/average
+    note: by Eduardo Tunni, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Bacasime Antique
+    url: https://fonts.google.com/specimen/Bacasime+Antique
+    search: Bacasime Antique font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/bacasimeantique/OFL.txt
+    install: npm i @fontsource/bacasime-antique
+    note: by The DocRepair Project, Claus Eggers Sørensen, added 2023
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Balthazar
+    url: https://fonts.google.com/specimen/Balthazar
+    search: Balthazar font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/balthazar/OFL.txt
+    install: npm i @fontsource/balthazar
+    note: by Dario Manuel Muhafara, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Baskervville
+    url: https://fonts.google.com/specimen/Baskervville
+    search: Baskervville font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/baskervville/OFL.txt
+    install: npm i @fontsource/baskervville
+    note: variable, by ANRT, added 2019
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Baskervville SC
+    url: https://fonts.google.com/specimen/Baskervville+SC
+    search: Baskervville SC font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/baskervvillesc/OFL.txt
+    install: npm i @fontsource/baskervville-sc
+    note: variable, by ANRT, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Belgrano
+    url: https://fonts.google.com/specimen/Belgrano
+    search: Belgrano font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/belgrano/OFL.txt
+    install: npm i @fontsource/belgrano
+    note: by LatinoType, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Bellefair
+    url: https://fonts.google.com/specimen/Bellefair
+    search: Bellefair font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/bellefair/OFL.txt
+    install: npm i @fontsource/bellefair
+    note: by Nick Shinn, Liron Lavi Turkenic, added 2017
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Bentham
+    url: https://fonts.google.com/specimen/Bentham
+    search: Bentham font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/bentham/OFL.txt
+    install: npm i @fontsource/bentham
+    note: by Ben Weiner, added 2010
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Besley
+    url: https://fonts.google.com/specimen/Besley
+    search: Besley font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/besley/OFL.txt
+    install: npm i @fontsource/besley
+    note: variable, by Owen Earl, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Bevan
+    url: https://fonts.google.com/specimen/Bevan
+    search: Bevan font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/bevan/OFL.txt
+    install: npm i @fontsource/bevan
+    note: by Vernon Adams, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: BioRhyme
+    url: https://fonts.google.com/specimen/BioRhyme
+    search: BioRhyme font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/biorhyme/OFL.txt
+    install: npm i @fontsource/biorhyme
+    note: variable, by Aoife Mooney, added 2016
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: BioRhyme Expanded
+    url: https://fonts.google.com/specimen/BioRhyme+Expanded
+    search: BioRhyme Expanded font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/biorhymeexpanded/OFL.txt
+    install: npm i @fontsource/biorhyme-expanded
+    note: by Aoife Mooney, added 2016
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Bitter
+    url: https://fonts.google.com/specimen/Bitter
+    search: Bitter font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/bitter/OFL.txt
+    install: npm i @fontsource/bitter
+    note: variable, by Sol Matas, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Bodoni Moda
+    url: https://fonts.google.com/specimen/Bodoni+Moda
+    search: Bodoni Moda font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/bodonimoda/OFL.txt
+    install: npm i @fontsource/bodoni-moda
+    note: variable, by Owen Earl, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Bodoni Moda SC
+    url: https://fonts.google.com/specimen/Bodoni+Moda+SC
+    search: Bodoni Moda SC font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/bodonimodasc/OFL.txt
+    install: npm i @fontsource/bodoni-moda-sc
+    note: variable, by Owen Earl, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Bona Nova
+    url: https://fonts.google.com/specimen/Bona+Nova
+    search: Bona Nova font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/bonanova/OFL.txt
+    install: npm i @fontsource/bona-nova
+    note: by Capitalics, Mateusz Machalski, Andrzej Heidrich, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Bona Nova SC
+    url: https://fonts.google.com/specimen/Bona+Nova+SC
+    search: Bona Nova SC font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/bonanovasc/OFL.txt
+    install: npm i @fontsource/bona-nova-sc
+    note: by Capitalics, Mateusz Machalski, Andrzej Heidrich, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Brawler
+    url: https://fonts.google.com/specimen/Brawler
+    search: Brawler font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/brawler/OFL.txt
+    install: npm i @fontsource/brawler
+    note: by Cyreal, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Bree Serif
+    url: https://fonts.google.com/specimen/Bree+Serif
+    search: Bree Serif font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/breeserif/OFL.txt
+    install: npm i @fontsource/bree-serif
+    note: by TypeTogether, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Brygada 1918
+    url: https://fonts.google.com/specimen/Brygada+1918
+    search: Brygada 1918 font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/brygada1918/OFL.txt
+    install: npm i @fontsource/brygada-1918
+    note: variable, by Capitalics, Mateusz Machalski, Borys Kosmynka, Ania Wieluńska, Przemysław Hoffer, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Buenard
+    url: https://fonts.google.com/specimen/Buenard
+    search: Buenard font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/buenard/OFL.txt
+    install: npm i @fontsource/buenard
+    note: variable, by Gustavo Ibarra, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Caladea
+    url: https://fonts.google.com/specimen/Caladea
+    search: Caladea font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/caladea/OFL.txt
+    install: npm i @fontsource/caladea
+    note: by HT Fonts, Carolina Giovagnoli, Andrés Torresi, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Cambo
+    url: https://fonts.google.com/specimen/Cambo
+    search: Cambo font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/cambo/OFL.txt
+    install: npm i @fontsource/cambo
+    note: by HT Fonts, Carolina Giovagnoli, Andres Torresi, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Cantata One
+    url: https://fonts.google.com/specimen/Cantata+One
+    search: Cantata One font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/cantataone/OFL.txt
+    install: npm i @fontsource/cantata-one
+    note: by Joana Correia, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Cardo
+    url: https://fonts.google.com/specimen/Cardo
+    search: Cardo font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/cardo/OFL.txt
+    install: npm i @fontsource/cardo
+    note: by David Perry, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Castoro
+    url: https://fonts.google.com/specimen/Castoro
+    search: Castoro font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/castoro/OFL.txt
+    install: npm i @fontsource/castoro
+    note: variable, by Tiro Typeworks, John Hudson, Paul Hanslow, Kaja Słojewska, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Castoro Titling
+    url: https://fonts.google.com/specimen/Castoro+Titling
+    search: Castoro Titling font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/castorotitling/OFL.txt
+    install: npm i @fontsource/castoro-titling
+    note: by Tiro Typeworks, John Hudson, added 2023
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Caudex
+    url: https://fonts.google.com/specimen/Caudex
+    search: Caudex font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/caudex/OFL.txt
+    install: npm i @fontsource/caudex
+    note: by Nidud, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Charis SIL
+    url: https://fonts.google.com/specimen/Charis+SIL
+    search: Charis SIL font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/charissil/OFL.txt
+    install: npm i @fontsource/charis-sil
+    note: by SIL International, added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Cinzel
+    url: https://fonts.google.com/specimen/Cinzel
+    search: Cinzel font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/cinzel/OFL.txt
+    install: npm i @fontsource/cinzel
+    note: variable, by Natanael Gama, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Copse
+    url: https://fonts.google.com/specimen/Copse
+    search: Copse font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/copse/OFL.txt
+    install: npm i @fontsource/copse
+    note: by Dan Rhatigan, added 2010
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Cormorant
+    url: https://fonts.google.com/specimen/Cormorant
+    search: Cormorant font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/cormorant/OFL.txt
+    install: npm i @fontsource/cormorant
+    note: variable, by Christian Thalmann, added 2017
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Cormorant Garamond
+    url: https://fonts.google.com/specimen/Cormorant+Garamond
+    search: Cormorant Garamond font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/cormorantgaramond/OFL.txt
+    install: npm i @fontsource/cormorant-garamond
+    note: variable, by Christian Thalmann, added 2017
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Cormorant Infant
+    url: https://fonts.google.com/specimen/Cormorant+Infant
+    search: Cormorant Infant font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/cormorantinfant/OFL.txt
+    install: npm i @fontsource/cormorant-infant
+    note: variable, by Christian Thalmann, added 2017
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Cormorant SC
+    url: https://fonts.google.com/specimen/Cormorant+SC
+    search: Cormorant SC font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/cormorantsc/OFL.txt
+    install: npm i @fontsource/cormorant-sc
+    note: by Christian Thalmann, added 2017
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Cormorant Unicase
+    url: https://fonts.google.com/specimen/Cormorant+Unicase
+    search: Cormorant Unicase font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/cormorantunicase/OFL.txt
+    install: npm i @fontsource/cormorant-unicase
+    note: by Christian Thalmann, added 2017
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Cormorant Upright
+    url: https://fonts.google.com/specimen/Cormorant+Upright
+    search: Cormorant Upright font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/cormorantupright/OFL.txt
+    install: npm i @fontsource/cormorant-upright
+    note: by Christian Thalmann, added 2017
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Coustard
+    url: https://fonts.google.com/specimen/Coustard
+    search: Coustard font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/coustard/OFL.txt
+    install: npm i @fontsource/coustard
+    note: by Vernon Adams, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Crete Round
+    url: https://fonts.google.com/specimen/Crete+Round
+    search: Crete Round font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/creteround/OFL.txt
+    install: npm i @fontsource/crete-round
+    note: by TypeTogether, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Crimson Pro
+    url: https://fonts.google.com/specimen/Crimson+Pro
+    search: Crimson Pro font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/crimsonpro/OFL.txt
+    install: npm i @fontsource/crimson-pro
+    note: variable, by Jacques Le Bailly, added 2018
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Crimson Text
+    url: https://fonts.google.com/specimen/Crimson+Text
+    search: Crimson Text font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/crimsontext/OFL.txt
+    install: npm i @fontsource/crimson-text
+    note: by Sebastian Kosch, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Cutive
+    url: https://fonts.google.com/specimen/Cutive
+    search: Cutive font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/cutive/OFL.txt
+    install: npm i @fontsource/cutive
+    note: by Vernon Adams, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Danfo
+    url: https://fonts.google.com/specimen/Danfo
+    search: Danfo font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/danfo/OFL.txt
+    install: npm i @fontsource/danfo
+    note: variable, by Afrotype, Seyi Olusanya, Eyiyemi Adegbite, David Udoh, Mirko Velimirović, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Della Respira
+    url: https://fonts.google.com/specimen/Della+Respira
+    search: Della Respira font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/dellarespira/OFL.txt
+    install: npm i @fontsource/della-respira
+    note: by Nathan Willis, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: DM Serif Display
+    url: https://fonts.google.com/specimen/DM+Serif+Display
+    search: DM Serif Display font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/dmserifdisplay/OFL.txt
+    install: npm i @fontsource/dm-serif-display
+    note: by Colophon Foundry, added 2019
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: DM Serif Text
+    url: https://fonts.google.com/specimen/DM+Serif+Text
+    search: DM Serif Text font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/dmseriftext/OFL.txt
+    install: npm i @fontsource/dm-serif-text
+    note: by Colophon Foundry, added 2019
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Domine
+    url: https://fonts.google.com/specimen/Domine
+    search: Domine font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/domine/OFL.txt
+    install: npm i @fontsource/domine
+    note: variable, by Impallari Type, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Donegal One
+    url: https://fonts.google.com/specimen/Donegal+One
+    search: Donegal One font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/donegalone/OFL.txt
+    install: npm i @fontsource/donegal-one
+    note: by Gary Lonergan, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: EB Garamond
+    url: https://fonts.google.com/specimen/EB+Garamond
+    search: EB Garamond font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/ebgaramond/OFL.txt
+    install: npm i @fontsource/eb-garamond
+    note: variable, by Georg Duffner, Octavio Pardo, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Enriqueta
+    url: https://fonts.google.com/specimen/Enriqueta
+    search: Enriqueta font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/enriqueta/OFL.txt
+    install: npm i @fontsource/enriqueta
+    note: by FontFuror, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Epunda Slab
+    url: https://fonts.google.com/specimen/Epunda+Slab
+    search: Epunda Slab font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/epundaslab/OFL.txt
+    install: npm i @fontsource/epunda-slab
+    note: variable, by Typofactur, added 2025
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Esteban
+    url: https://fonts.google.com/specimen/Esteban
+    search: Esteban font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/esteban/OFL.txt
+    install: npm i @fontsource/esteban
+    note: by Angélica Díaz, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Fanwood Text
+    url: https://fonts.google.com/specimen/Fanwood+Text
+    search: Fanwood Text font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/fanwoodtext/OFL.txt
+    install: npm i @fontsource/fanwood-text
+    note: by Barry Schwartz, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Fauna One
+    url: https://fonts.google.com/specimen/Fauna+One
+    search: Fauna One font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/faunaone/OFL.txt
+    install: npm i @fontsource/fauna-one
+    note: by Eduardo Tunni, added 2013
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Faustina
+    url: https://fonts.google.com/specimen/Faustina
+    search: Faustina font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/faustina/OFL.txt
+    install: npm i @fontsource/faustina
+    note: variable, by Omnibus-Type, added 2016
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Fenix
+    url: https://fonts.google.com/specimen/Fenix
+    search: Fenix font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/fenix/OFL.txt
+    install: npm i @fontsource/fenix
+    note: by Fernando Díaz, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Fjord One
+    url: https://fonts.google.com/specimen/Fjord+One
+    search: Fjord One font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/fjordone/OFL.txt
+    install: npm i @fontsource/fjord-one
+    note: by Viktoriya Grabowska, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Fraunces
+    url: https://fonts.google.com/specimen/Fraunces
+    search: Fraunces font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/fraunces/OFL.txt
+    install: npm i @fontsource/fraunces
+    note: variable, by Undercase Type, Phaedra Charles, Flavia Zimbardi, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Gabriela
+    url: https://fonts.google.com/specimen/Gabriela
+    search: Gabriela font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/gabriela/OFL.txt
+    install: npm i @fontsource/gabriela
+    note: by Eduardo Tunni, added 2013
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Gelasio
+    url: https://fonts.google.com/specimen/Gelasio
+    search: Gelasio font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/gelasio/OFL.txt
+    install: npm i @fontsource/gelasio
+    note: variable, by Eben Sorkin, added 2019
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Gentium Book Plus
+    url: https://fonts.google.com/specimen/Gentium+Book+Plus
+    search: Gentium Book Plus font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/gentiumbookplus/OFL.txt
+    install: npm i @fontsource/gentium-book-plus
+    note: by SIL International, added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Gentium Plus
+    url: https://fonts.google.com/specimen/Gentium+Plus
+    search: Gentium Plus font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/gentiumplus/OFL.txt
+    install: npm i @fontsource/gentium-plus
+    note: by SIL International, added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: GFS Didot
+    url: https://fonts.google.com/specimen/GFS+Didot
+    search: GFS Didot font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/gfsdidot/OFL.txt
+    install: npm i @fontsource/gfs-didot
+    note: by Greek Font Society, added 2010
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Gilda Display
+    url: https://fonts.google.com/specimen/Gilda+Display
+    search: Gilda Display font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/gildadisplay/OFL.txt
+    install: npm i @fontsource/gilda-display
+    note: by Eduardo Tunni, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Glegoo
+    url: https://fonts.google.com/specimen/Glegoo
+    search: Glegoo font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/glegoo/OFL.txt
+    install: npm i @fontsource/glegoo
+    note: by Eduardo Tunni, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Goudy Bookletter 1911
+    url: https://fonts.google.com/specimen/Goudy+Bookletter+1911
+    search: Goudy Bookletter 1911 font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/goudybookletter1911/OFL.txt
+    install: npm i @fontsource/goudy-bookletter-1911
+    note: by Barry Schwartz, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Graduate
+    url: https://fonts.google.com/specimen/Graduate
+    search: Graduate font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/graduate/OFL.txt
+    install: npm i @fontsource/graduate
+    note: by Eduardo Tunni, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Grenze
+    url: https://fonts.google.com/specimen/Grenze
+    search: Grenze font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/grenze/OFL.txt
+    install: npm i @fontsource/grenze
+    note: variable, by Omnibus-Type, added 2018
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Gupter
+    url: https://fonts.google.com/specimen/Gupter
+    search: Gupter font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/gupter/OFL.txt
+    install: npm i @fontsource/gupter
+    note: by Octavio Pardo, added 2019
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Habibi
+    url: https://fonts.google.com/specimen/Habibi
+    search: Habibi font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/habibi/OFL.txt
+    install: npm i @fontsource/habibi
+    note: by Magnus Gaarde, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Headland One
+    url: https://fonts.google.com/specimen/Headland+One
+    search: Headland One font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/headlandone/OFL.txt
+    install: npm i @fontsource/headland-one
+    note: by Gary Lonergan, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Hedvig Letters Serif
+    url: https://fonts.google.com/specimen/Hedvig+Letters+Serif
+    search: Hedvig Letters Serif font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/hedviglettersserif/OFL.txt
+    install: npm i @fontsource/hedvig-letters-serif
+    note: variable, by Kanon Foundry, Alexander Örn, Tor Weibull, Hedvig, added 2023
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Hepta Slab
+    url: https://fonts.google.com/specimen/Hepta+Slab
+    search: Hepta Slab font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/heptaslab/OFL.txt
+    install: npm i @fontsource/hepta-slab
+    note: variable, by Mike LaGattuta, added 2018
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Holtwood One SC
+    url: https://fonts.google.com/specimen/Holtwood+One+SC
+    search: Holtwood One SC font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/holtwoodonesc/OFL.txt
+    install: npm i @fontsource/holtwood-one-sc
+    note: by Vernon Adams, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Ibarra Real Nova
+    url: https://fonts.google.com/specimen/Ibarra+Real+Nova
+    search: Ibarra Real Nova font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/ibarrarealnova/OFL.txt
+    install: npm i @fontsource/ibarra-real-nova
+    note: variable, by José María Ribagorda, Octavio Pardo, added 2019
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: IBM Plex Serif
+    url: https://fonts.google.com/specimen/IBM+Plex+Serif
+    search: IBM Plex Serif font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/ibmplexserif/OFL.txt
+    install: npm i @fontsource/ibm-plex-serif
+    note: by Mike Abbink, Bold Monday, added 2018
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: IM Fell Double Pica
+    url: https://fonts.google.com/specimen/IM+Fell+Double+Pica
+    search: IM Fell Double Pica font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/imfelldoublepica/OFL.txt
+    install: npm i @fontsource/im-fell-double-pica
+    note: by Igino Marini, added 2010
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: IM Fell Double Pica SC
+    url: https://fonts.google.com/specimen/IM+Fell+Double+Pica+SC
+    search: IM Fell Double Pica SC font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/imfelldoublepicasc/OFL.txt
+    install: npm i @fontsource/im-fell-double-pica-sc
+    note: by Igino Marini, added 2010
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: IM Fell DW Pica
+    url: https://fonts.google.com/specimen/IM+Fell+DW+Pica
+    search: IM Fell DW Pica font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/imfelldwpica/OFL.txt
+    install: npm i @fontsource/im-fell-dw-pica
+    note: by Igino Marini, added 2010
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: IM Fell DW Pica SC
+    url: https://fonts.google.com/specimen/IM+Fell+DW+Pica+SC
+    search: IM Fell DW Pica SC font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/imfelldwpicasc/OFL.txt
+    install: npm i @fontsource/im-fell-dw-pica-sc
+    note: by Igino Marini, added 2010
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: IM Fell English
+    url: https://fonts.google.com/specimen/IM+Fell+English
+    search: IM Fell English font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/imfellenglish/OFL.txt
+    install: npm i @fontsource/im-fell-english
+    note: by Igino Marini, added 2010
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: IM Fell English SC
+    url: https://fonts.google.com/specimen/IM+Fell+English+SC
+    search: IM Fell English SC font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/imfellenglishsc/OFL.txt
+    install: npm i @fontsource/im-fell-english-sc
+    note: by Igino Marini, added 2010
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: IM Fell French Canon
+    url: https://fonts.google.com/specimen/IM+Fell+French+Canon
+    search: IM Fell French Canon font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/imfellfrenchcanon/OFL.txt
+    install: npm i @fontsource/im-fell-french-canon
+    note: by Igino Marini, added 2010
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: IM Fell French Canon SC
+    url: https://fonts.google.com/specimen/IM+Fell+French+Canon+SC
+    search: IM Fell French Canon SC font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/imfellfrenchcanonsc/OFL.txt
+    install: npm i @fontsource/im-fell-french-canon-sc
+    note: by Igino Marini, added 2010
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: IM Fell Great Primer
+    url: https://fonts.google.com/specimen/IM+Fell+Great+Primer
+    search: IM Fell Great Primer font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/imfellgreatprimer/OFL.txt
+    install: npm i @fontsource/im-fell-great-primer
+    note: by Igino Marini, added 2010
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: IM Fell Great Primer SC
+    url: https://fonts.google.com/specimen/IM+Fell+Great+Primer+SC
+    search: IM Fell Great Primer SC font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/imfellgreatprimersc/OFL.txt
+    install: npm i @fontsource/im-fell-great-primer-sc
+    note: by Igino Marini, added 2010
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Imbue
+    url: https://fonts.google.com/specimen/Imbue
+    search: Imbue font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/imbue/OFL.txt
+    install: npm i @fontsource/imbue
+    note: variable, by Tyler Finck, ETC, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Inika
+    url: https://fonts.google.com/specimen/Inika
+    search: Inika font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/inika/OFL.txt
+    install: npm i @fontsource/inika
+    note: by Constanza Artigas, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Inria Serif
+    url: https://fonts.google.com/specimen/Inria+Serif
+    search: Inria Serif font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/inriaserif/OFL.txt
+    install: npm i @fontsource/inria-serif
+    note: by Grégori Vincens, Jérémie Hornus, added 2019
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Instrument Serif
+    url: https://fonts.google.com/specimen/Instrument+Serif
+    search: Instrument Serif font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/instrumentserif/OFL.txt
+    install: npm i @fontsource/instrument-serif
+    note: by Rodrigo Fuenzalida, Jordan Egstad, added 2023, **common AI pick**
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Isometra
+    url: https://fonts.google.com/specimen/Isometra
+    search: Isometra font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/isometra/OFL.txt
+    install: npm i @fontsource/isometra
+    note: by Ben Dunkle, added 2026
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Jacques Francois
+    url: https://fonts.google.com/specimen/Jacques+Francois
+    search: Jacques Francois font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/jacquesfrancois/OFL.txt
+    install: npm i @fontsource/jacques-francois
+    note: by Cyreal, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Joan
+    url: https://fonts.google.com/specimen/Joan
+    search: Joan font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/joan/OFL.txt
+    install: npm i @fontsource/joan
+    note: by Paolo Biagini, added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Josefin Slab
+    url: https://fonts.google.com/specimen/Josefin+Slab
+    search: Josefin Slab font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/josefinslab/OFL.txt
+    install: npm i @fontsource/josefin-slab
+    note: variable, by Santiago Orozco, added 2010
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: jsMath cmbx10
+    url: https://fonts.google.com/specimen/jsMath+cmbx10
+    search: jsMath cmbx10 font
+    license: Apache-2.0
+    license_url: https://github.com/google/fonts/blob/main/apache/jsmathcmbx10/LICENSE.txt
+    install: npm i @fontsource/jsmath-cmbx10
+    note: by Donald Knuth, added 2010
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: jsMath cmex10
+    url: https://fonts.google.com/specimen/jsMath+cmex10
+    search: jsMath cmex10 font
+    license: Apache-2.0
+    license_url: https://github.com/google/fonts/blob/main/apache/jsmathcmex10/LICENSE.txt
+    install: npm i @fontsource/jsmath-cmex10
+    note: by Donald Knuth, added 2010
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: jsMath cmmi10
+    url: https://fonts.google.com/specimen/jsMath+cmmi10
+    search: jsMath cmmi10 font
+    license: Apache-2.0
+    license_url: https://github.com/google/fonts/blob/main/apache/jsmathcmmi10/LICENSE.txt
+    install: npm i @fontsource/jsmath-cmmi10
+    note: by Donald Knuth, added 2010
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: jsMath cmr10
+    url: https://fonts.google.com/specimen/jsMath+cmr10
+    search: jsMath cmr10 font
+    license: Apache-2.0
+    license_url: https://github.com/google/fonts/blob/main/apache/jsmathcmr10/LICENSE.txt
+    install: npm i @fontsource/jsmath-cmr10
+    note: by Donald Knuth, added 2010
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: jsMath cmsy10
+    url: https://fonts.google.com/specimen/jsMath+cmsy10
+    search: jsMath cmsy10 font
+    license: Apache-2.0
+    license_url: https://github.com/google/fonts/blob/main/apache/jsmathcmsy10/LICENSE.txt
+    install: npm i @fontsource/jsmath-cmsy10
+    note: by Donald Knuth, added 2010
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: jsMath cmti10
+    url: https://fonts.google.com/specimen/jsMath+cmti10
+    search: jsMath cmti10 font
+    license: Apache-2.0
+    license_url: https://github.com/google/fonts/blob/main/apache/jsmathcmti10/LICENSE.txt
+    install: npm i @fontsource/jsmath-cmti10
+    note: by Donald Knuth, added 2010
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Judson
+    url: https://fonts.google.com/specimen/Judson
+    search: Judson font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/judson/OFL.txt
+    install: npm i @fontsource/judson
+    note: by Daniel Johnson, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Junge
+    url: https://fonts.google.com/specimen/Junge
+    search: Junge font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/junge/OFL.txt
+    install: npm i @fontsource/junge
+    note: by Cyreal, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Kalnia
+    url: https://fonts.google.com/specimen/Kalnia
+    search: Kalnia font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/kalnia/OFL.txt
+    install: npm i @fontsource/kalnia
+    note: variable, by Frida Medrano, added 2023
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Kameron
+    url: https://fonts.google.com/specimen/Kameron
+    search: Kameron font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/kameron/OFL.txt
+    install: npm i @fontsource/kameron
+    note: variable, by Vernon Adams, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Kotta One
+    url: https://fonts.google.com/specimen/Kotta+One
+    search: Kotta One font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/kottaone/OFL.txt
+    install: npm i @fontsource/kotta-one
+    note: by Ania Kruk, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Kreon
+    url: https://fonts.google.com/specimen/Kreon
+    search: Kreon font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/kreon/OFL.txt
+    install: npm i @fontsource/kreon
+    note: variable, by Julia Petretta, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Labrada
+    url: https://fonts.google.com/specimen/Labrada
+    search: Labrada font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/labrada/OFL.txt
+    install: npm i @fontsource/labrada
+    note: variable, by Mercedes Jáuregui, Omnibus-Type, added 2023
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Ledger
+    url: https://fonts.google.com/specimen/Ledger
+    search: Ledger font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/ledger/OFL.txt
+    install: npm i @fontsource/ledger
+    note: by Denis Masharov, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Libertinus Serif
+    url: https://fonts.google.com/specimen/Libertinus+Serif
+    search: Libertinus Serif font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/libertinusserif/OFL.txt
+    install: npm i @fontsource/libertinus-serif
+    note: by Philipp H. Poll, added 2025
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Libre Baskerville
+    url: https://fonts.google.com/specimen/Libre+Baskerville
+    search: Libre Baskerville font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/librebaskerville/OFL.txt
+    install: npm i @fontsource/libre-baskerville
+    note: variable, by Impallari Type, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Libre Bodoni
+    url: https://fonts.google.com/specimen/Libre+Bodoni
+    search: Libre Bodoni font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/librebodoni/OFL.txt
+    install: npm i @fontsource/libre-bodoni
+    note: variable, by Pablo Impallari, Rodrigo Fuenzalida, added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Libre Caslon Condensed
+    url: https://fonts.google.com/specimen/Libre+Caslon+Condensed
+    search: Libre Caslon Condensed font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/librecasloncondensed/OFL.txt
+    install: npm i @fontsource/libre-caslon-condensed
+    note: variable, by Pablo Impallari, Rodrigo Fuenzalida, Ertekin Erdin, added 2026
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Libre Caslon Display
+    url: https://fonts.google.com/specimen/Libre+Caslon+Display
+    search: Libre Caslon Display font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/librecaslondisplay/OFL.txt
+    install: npm i @fontsource/libre-caslon-display
+    note: by Impallari Type, added 2017
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Libre Caslon Text
+    url: https://fonts.google.com/specimen/Libre+Caslon+Text
+    search: Libre Caslon Text font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/librecaslontext/OFL.txt
+    install: npm i @fontsource/libre-caslon-text
+    note: variable, by Pablo Impallari, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Linden Hill
+    url: https://fonts.google.com/specimen/Linden+Hill
+    search: Linden Hill font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/lindenhill/OFL.txt
+    install: npm i @fontsource/linden-hill
+    note: by Barry Schwartz, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Literata
+    url: https://fonts.google.com/specimen/Literata
+    search: Literata font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/literata/OFL.txt
+    install: npm i @fontsource/literata
+    note: variable, by TypeTogether, added 2018
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Lora
+    url: https://fonts.google.com/specimen/Lora
+    search: Lora font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/lora/OFL.txt
+    install: npm i @fontsource/lora
+    note: variable, by Cyreal, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Lusitana
+    url: https://fonts.google.com/specimen/Lusitana
+    search: Lusitana font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/lusitana/OFL.txt
+    install: npm i @fontsource/lusitana
+    note: by Ana Paula Megda, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Lustria
+    url: https://fonts.google.com/specimen/Lustria
+    search: Lustria font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/lustria/OFL.txt
+    install: npm i @fontsource/lustria
+    note: by MADType, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Maiden Orange
+    url: https://fonts.google.com/specimen/Maiden+Orange
+    search: Maiden Orange font
+    license: Apache-2.0
+    license_url: https://github.com/google/fonts/blob/main/apache/maidenorange/LICENSE.txt
+    install: npm i @fontsource/maiden-orange
+    note: by Astigmatic, added 2010
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Manuale
+    url: https://fonts.google.com/specimen/Manuale
+    search: Manuale font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/manuale/OFL.txt
+    install: npm i @fontsource/manuale
+    note: variable, by Omnibus-Type, added 2016
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Marcellus
+    url: https://fonts.google.com/specimen/Marcellus
+    search: Marcellus font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/marcellus/OFL.txt
+    install: npm i @fontsource/marcellus
+    note: by Astigmatic, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Marcellus SC
+    url: https://fonts.google.com/specimen/Marcellus+SC
+    search: Marcellus SC font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/marcellussc/OFL.txt
+    install: npm i @fontsource/marcellus-sc
+    note: by Astigmatic, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Marko One
+    url: https://fonts.google.com/specimen/Marko+One
+    search: Marko One font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/markoone/OFL.txt
+    install: npm i @fontsource/marko-one
+    note: by Cyreal, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Mate
+    url: https://fonts.google.com/specimen/Mate
+    search: Mate font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/mate/OFL.txt
+    install: npm i @fontsource/mate
+    note: by Eduardo Tunni, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Mate SC
+    url: https://fonts.google.com/specimen/Mate+SC
+    search: Mate SC font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/matesc/OFL.txt
+    install: npm i @fontsource/mate-sc
+    note: by Eduardo Tunni, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Merriweather
+    url: https://fonts.google.com/specimen/Merriweather
+    search: Merriweather font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/merriweather/OFL.txt
+    install: npm i @fontsource/merriweather
+    note: variable, by Sorkin Type, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Montaga
+    url: https://fonts.google.com/specimen/Montaga
+    search: Montaga font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/montaga/OFL.txt
+    install: npm i @fontsource/montaga
+    note: by Alejandra Rodriguez, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Montagu Slab
+    url: https://fonts.google.com/specimen/Montagu+Slab
+    search: Montagu Slab font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/montaguslab/OFL.txt
+    install: npm i @fontsource/montagu-slab
+    note: variable, by Florian Karsten, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Montenegrin Gothic One
+    url: https://fonts.google.com/specimen/Montenegrin+Gothic+One
+    search: Montenegrin Gothic One font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/montenegringothicone/OFL.txt
+    install: npm i @fontsource/montenegrin-gothic-one
+    note: by Žarko Banović, added 2026
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Neuton
+    url: https://fonts.google.com/specimen/Neuton
+    search: Neuton font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/neuton/OFL.txt
+    install: npm i @fontsource/neuton
+    note: by Brian Zick, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Newsreader
+    url: https://fonts.google.com/specimen/Newsreader
+    search: Newsreader font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/newsreader/OFL.txt
+    install: npm i @fontsource/newsreader
+    note: variable, by Production Type, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Noticia Text
+    url: https://fonts.google.com/specimen/Noticia+Text
+    search: Noticia Text font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/noticiatext/OFL.txt
+    install: npm i @fontsource/noticia-text
+    note: by JM Solé, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: OFL Sorts Mill Goudy TT
+    url: https://fonts.google.com/specimen/OFL+Sorts+Mill+Goudy+TT
+    search: OFL Sorts Mill Goudy TT font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/oflsortsmillgoudytt/OFL.txt
+    install: npm i @fontsource/ofl-sorts-mill-goudy-tt
+    note: by Barry Schwartz, added 2010
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Old Standard TT
+    url: https://fonts.google.com/specimen/Old+Standard+TT
+    search: Old Standard TT font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/oldstandardtt/OFL.txt
+    install: npm i @fontsource/old-standard-tt
+    note: by Alexey Kryukov, added 2010
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Oranienbaum
+    url: https://fonts.google.com/specimen/Oranienbaum
+    search: Oranienbaum font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/oranienbaum/OFL.txt
+    install: npm i @fontsource/oranienbaum
+    note: by Oleg Pospelov, Jovanny Lemonad, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Ovo
+    url: https://fonts.google.com/specimen/Ovo
+    search: Ovo font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/ovo/OFL.txt
+    install: npm i @fontsource/ovo
+    note: by Nicole Fally, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Peralta
+    url: https://fonts.google.com/specimen/Peralta
+    search: Peralta font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/peralta/OFL.txt
+    install: npm i @fontsource/peralta
+    note: by Astigmatic, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Petrona
+    url: https://fonts.google.com/specimen/Petrona
+    search: Petrona font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/petrona/OFL.txt
+    install: npm i @fontsource/petrona
+    note: variable, by Ringo R. Seeber, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Piazzolla
+    url: https://fonts.google.com/specimen/Piazzolla
+    search: Piazzolla font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/piazzolla/OFL.txt
+    install: npm i @fontsource/piazzolla
+    note: variable, by Juan Pablo del Peral, HT Fonts, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Platypi
+    url: https://fonts.google.com/specimen/Platypi
+    search: Platypi font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/platypi/OFL.txt
+    install: npm i @fontsource/platypi
+    note: variable, by David Sargent, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playfair Display
+    url: https://fonts.google.com/specimen/Playfair+Display
+    search: Playfair Display font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playfairdisplay/OFL.txt
+    install: npm i @fontsource/playfair-display
+    note: variable, by Claus Eggers Sørensen, added 2011, **common AI pick**
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Playfair Display SC
+    url: https://fonts.google.com/specimen/Playfair+Display+SC
+    search: Playfair Display SC font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/playfairdisplaysc/OFL.txt
+    install: npm i @fontsource/playfair-display-sc
+    note: by Claus Eggers Sørensen, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Podkova
+    url: https://fonts.google.com/specimen/Podkova
+    search: Podkova font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/podkova/OFL.txt
+    install: npm i @fontsource/podkova
+    note: variable, by Cyreal, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Poltawski Nowy
+    url: https://fonts.google.com/specimen/Poltawski+Nowy
+    search: Poltawski Nowy font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/poltawskinowy/OFL.txt
+    install: npm i @fontsource/poltawski-nowy
+    note: variable, by Adam Półtawski, Mateusz Machalski, Borys Kosmynka, Ania Wieluńska, added 2023
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Poly
+    url: https://fonts.google.com/specimen/Poly
+    search: Poly font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/poly/OFL.txt
+    install: npm i @fontsource/poly
+    note: by Nicolás Silva, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Port Lligat Slab
+    url: https://fonts.google.com/specimen/Port+Lligat+Slab
+    search: Port Lligat Slab font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/portlligatslab/OFL.txt
+    install: npm i @fontsource/port-lligat-slab
+    note: by Tipo, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Prata
+    url: https://fonts.google.com/specimen/Prata
+    search: Prata font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/prata/OFL.txt
+    install: npm i @fontsource/prata
+    note: by Cyreal, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Prociono
+    url: https://fonts.google.com/specimen/Prociono
+    search: Prociono font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/prociono/OFL.txt
+    install: npm i @fontsource/prociono
+    note: by Barry Schwartz, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: PT Serif
+    url: https://fonts.google.com/specimen/PT+Serif
+    search: PT Serif font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/ptserif/OFL.txt
+    install: npm i @fontsource/pt-serif
+    note: by ParaType, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: PT Serif Caption
+    url: https://fonts.google.com/specimen/PT+Serif+Caption
+    search: PT Serif Caption font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/ptserifcaption/OFL.txt
+    install: npm i @fontsource/pt-serif-caption
+    note: by ParaType, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Quando
+    url: https://fonts.google.com/specimen/Quando
+    search: Quando font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/quando/OFL.txt
+    install: npm i @fontsource/quando
+    note: by Joana Correia, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Quattrocento
+    url: https://fonts.google.com/specimen/Quattrocento
+    search: Quattrocento font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/quattrocento/OFL.txt
+    install: npm i @fontsource/quattrocento
+    note: by Impallari Type, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Radley
+    url: https://fonts.google.com/specimen/Radley
+    search: Radley font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/radley/OFL.txt
+    install: npm i @fontsource/radley
+    note: by Vernon Adams, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Redaction
+    url: https://fonts.google.com/specimen/Redaction
+    search: Redaction font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/redaction/OFL.txt
+    install: npm i @fontsource/redaction
+    note: by MCKL, added 2026
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Redaction 10
+    url: https://fonts.google.com/specimen/Redaction+10
+    search: Redaction 10 font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/redaction10/OFL.txt
+    install: npm i @fontsource/redaction-10
+    note: by MCKL, added 2026
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Redaction 20
+    url: https://fonts.google.com/specimen/Redaction+20
+    search: Redaction 20 font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/redaction20/OFL.txt
+    install: npm i @fontsource/redaction-20
+    note: by MCKL, added 2026
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Rhodium Libre
+    url: https://fonts.google.com/specimen/Rhodium+Libre
+    search: Rhodium Libre font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/rhodiumlibre/OFL.txt
+    install: npm i @fontsource/rhodium-libre
+    note: by James Puckett, added 2015
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Roboto Serif
+    url: https://fonts.google.com/specimen/Roboto+Serif
+    search: Roboto Serif font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/robotoserif/OFL.txt
+    install: npm i @fontsource/roboto-serif
+    note: variable, by Commercial Type, Greg Gazdowicz, added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Roboto Slab
+    url: https://fonts.google.com/specimen/Roboto+Slab
+    search: Roboto Slab font
+    license: Apache-2.0
+    license_url: https://github.com/google/fonts/blob/main/apache/robotoslab/LICENSE.txt
+    install: npm i @fontsource/roboto-slab
+    note: variable, by Christian Robertson, added 2013
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Rokkitt
+    url: https://fonts.google.com/specimen/Rokkitt
+    search: Rokkitt font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/rokkitt/OFL.txt
+    install: npm i @fontsource/rokkitt
+    note: variable, by Vernon Adams, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Rosarivo
+    url: https://fonts.google.com/specimen/Rosarivo
+    search: Rosarivo font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/rosarivo/OFL.txt
+    install: npm i @fontsource/rosarivo
+    note: by Pablo Ugerman, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Rufina
+    url: https://fonts.google.com/specimen/Rufina
+    search: Rufina font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/rufina/OFL.txt
+    install: npm i @fontsource/rufina
+    note: by Martin Sommaruga, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Sanchez
+    url: https://fonts.google.com/specimen/Sanchez
+    search: Sanchez font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/sanchez/OFL.txt
+    install: npm i @fontsource/sanchez
+    note: by Daniel Hernandez, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Scope One
+    url: https://fonts.google.com/specimen/Scope+One
+    search: Scope One font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/scopeone/OFL.txt
+    install: npm i @fontsource/scope-one
+    note: by Dalton Maag, added 2016
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Sedan
+    url: https://fonts.google.com/specimen/Sedan
+    search: Sedan font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/sedan/OFL.txt
+    install: npm i @fontsource/sedan
+    note: by Sebastián Salazar, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Sedan SC
+    url: https://fonts.google.com/specimen/Sedan+SC
+    search: Sedan SC font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/sedansc/OFL.txt
+    install: npm i @fontsource/sedan-sc
+    note: by Sebastián Salazar, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Sitara
+    url: https://fonts.google.com/specimen/Sitara
+    search: Sitara font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/sitara/OFL.txt
+    install: npm i @fontsource/sitara
+    note: by Neelakash Kshetrimayum, added 2015
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Slabo 13px
+    url: https://fonts.google.com/specimen/Slabo+13px
+    search: Slabo 13px font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/slabo13px/OFL.txt
+    install: npm i @fontsource/slabo-13px
+    note: by John Hudson, added 2014
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Slabo 27px
+    url: https://fonts.google.com/specimen/Slabo+27px
+    search: Slabo 27px font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/slabo27px/OFL.txt
+    install: npm i @fontsource/slabo-27px
+    note: by John Hudson, added 2014
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Solway
+    url: https://fonts.google.com/specimen/Solway
+    search: Solway font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/solway/OFL.txt
+    install: npm i @fontsource/solway
+    note: by Mariya Lish, The Northern Block, added 2018
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Sorts Mill Goudy
+    url: https://fonts.google.com/specimen/Sorts+Mill+Goudy
+    search: Sorts Mill Goudy font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/sortsmillgoudy/OFL.txt
+    install: npm i @fontsource/sorts-mill-goudy
+    note: by Barry Schwartz, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Source Serif 4
+    url: https://fonts.google.com/specimen/Source+Serif+4
+    search: Source Serif 4 font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/sourceserif4/OFL.txt
+    install: npm i @fontsource/source-serif-4
+    note: variable, by Frank Grießhammer, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Stint Ultra Condensed
+    url: https://fonts.google.com/specimen/Stint+Ultra+Condensed
+    search: Stint Ultra Condensed font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/stintultracondensed/OFL.txt
+    install: npm i @fontsource/stint-ultra-condensed
+    note: by Astigmatic, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Stint Ultra Expanded
+    url: https://fonts.google.com/specimen/Stint+Ultra+Expanded
+    search: Stint Ultra Expanded font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/stintultraexpanded/OFL.txt
+    install: npm i @fontsource/stint-ultra-expanded
+    note: by Astigmatic, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: STIX Two Math
+    url: https://fonts.google.com/specimen/STIX+Two+Math
+    search: STIX Two Math font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/stixtwomath/OFL.txt
+    install: npm i @fontsource/stix-two-math
+    note: by Tiro Typeworks, Ross Mills, John Hudson, Paul Hanslow, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: STIX Two Text
+    url: https://fonts.google.com/specimen/STIX+Two+Text
+    search: STIX Two Text font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/stixtwotext/OFL.txt
+    install: npm i @fontsource/stix-two-text
+    note: variable, by Tiro Typeworks, Ross Mills, John Hudson, Paul Hanslow, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Stoke
+    url: https://fonts.google.com/specimen/Stoke
+    search: Stoke font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/stoke/OFL.txt
+    install: npm i @fontsource/stoke
+    note: by Nicole Fally, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Texturina
+    url: https://fonts.google.com/specimen/Texturina
+    search: Texturina font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/texturina/OFL.txt
+    install: npm i @fontsource/texturina
+    note: variable, by Guillermo Torres, Omnibus-Type, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Thabit
+    url: https://fonts.google.com/specimen/Thabit
+    search: Thabit font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/thabit/OFL.txt
+    install: npm i @fontsource/thabit
+    note: by Khaled Hosny, added 2010
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Tienne
+    url: https://fonts.google.com/specimen/Tienne
+    search: Tienne font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/tienne/OFL.txt
+    install: npm i @fontsource/tienne
+    note: by Vernon Adams, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Tinos
+    url: https://fonts.google.com/specimen/Tinos
+    search: Tinos font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/tinos/OFL.txt
+    install: npm i @fontsource/tinos
+    note: by Steve Matteson, added 2010
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Trocchi
+    url: https://fonts.google.com/specimen/Trocchi
+    search: Trocchi font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/trocchi/OFL.txt
+    install: npm i @fontsource/trocchi
+    note: by Vernon Adams, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Trykker
+    url: https://fonts.google.com/specimen/Trykker
+    search: Trykker font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/trykker/OFL.txt
+    install: npm i @fontsource/trykker
+    note: by Magnus Gaarde, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Ultra
+    url: https://fonts.google.com/specimen/Ultra
+    search: Ultra font
+    license: Apache-2.0
+    license_url: https://github.com/google/fonts/blob/main/apache/ultra/LICENSE.txt
+    install: npm i @fontsource/ultra
+    note: by Astigmatic, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Unna
+    url: https://fonts.google.com/specimen/Unna
+    search: Unna font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/unna/OFL.txt
+    install: npm i @fontsource/unna
+    note: by Omnibus-Type, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Vast Shadow
+    url: https://fonts.google.com/specimen/Vast+Shadow
+    search: Vast Shadow font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/vastshadow/OFL.txt
+    install: npm i @fontsource/vast-shadow
+    note: by Nicole Fally, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Vidaloka
+    url: https://fonts.google.com/specimen/Vidaloka
+    search: Vidaloka font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/vidaloka/OFL.txt
+    install: npm i @fontsource/vidaloka
+    note: by Cyreal, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Volkhov
+    url: https://fonts.google.com/specimen/Volkhov
+    search: Volkhov font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/volkhov/OFL.txt
+    install: npm i @fontsource/volkhov
+    note: by Cyreal, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Vollkorn
+    url: https://fonts.google.com/specimen/Vollkorn
+    search: Vollkorn font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/vollkorn/OFL.txt
+    install: npm i @fontsource/vollkorn
+    note: variable, by Friedrich Althausen, added 2010
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Vollkorn SC
+    url: https://fonts.google.com/specimen/Vollkorn+SC
+    search: Vollkorn SC font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/vollkornsc/OFL.txt
+    install: npm i @fontsource/vollkorn-sc
+    note: by Friedrich Althausen, added 2017
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Wellfleet
+    url: https://fonts.google.com/specimen/Wellfleet
+    search: Wellfleet font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/wellfleet/OFL.txt
+    install: npm i @fontsource/wellfleet
+    note: by Riccardo De Franceschi, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Wittgenstein
+    url: https://fonts.google.com/specimen/Wittgenstein
+    search: Wittgenstein font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/wittgenstein/OFL.txt
+    install: npm i @fontsource/wittgenstein
+    note: variable, by Jörg Drees, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Young Serif
+    url: https://fonts.google.com/specimen/Young+Serif
+    search: Young Serif font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/youngserif/OFL.txt
+    install: npm i @fontsource/young-serif
+    note: by Bastien Sozeau, added 2023
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Yrsa
+    url: https://fonts.google.com/specimen/Yrsa
+    search: Yrsa font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/yrsa/OFL.txt
+    install: npm i @fontsource/yrsa
+    note: variable, by Rosetta, Anna Giedryś, David Březina, added 2016
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Zilla Slab
+    url: https://fonts.google.com/specimen/Zilla+Slab
+    search: Zilla Slab font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/zillaslab/OFL.txt
+    install: npm i @fontsource/zilla-slab
+    note: by Typotheque, added 2017
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Zilla Slab Highlight
+    url: https://fonts.google.com/specimen/Zilla+Slab+Highlight
+    search: Zilla Slab Highlight font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/zillaslabhighlight/OFL.txt
+    install: npm i @fontsource/zilla-slab-highlight
+    note: by Typotheque, added 2017
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+- name: Other scripts (105)
+  list:
+  - name: Abhaya Libre
+    url: https://fonts.google.com/specimen/Abhaya+Libre
+    search: Abhaya Libre font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/abhayalibre/OFL.txt
+    install: npm i @fontsource/abhaya-libre
+    note: script Sinh, by Mooniak, added 2016
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Abyssinica SIL
+    url: https://fonts.google.com/specimen/Abyssinica+SIL
+    search: Abyssinica SIL font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/abyssinicasil/OFL.txt
+    install: npm i @fontsource/abyssinica-sil
+    note: script Ethi, by SIL International, added 2016
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Alkalami
+    url: https://fonts.google.com/specimen/Alkalami
+    search: Alkalami font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/alkalami/OFL.txt
+    install: npm i @fontsource/alkalami
+    note: script Arab, by SIL International, added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Alyamama
+    url: https://fonts.google.com/specimen/Alyamama
+    search: Alyamama font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/alyamama/OFL.txt
+    install: npm i @fontsource/alyamama
+    note: variable, script Arab, by Yazeed Omar, added 2026
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Amiri
+    url: https://fonts.google.com/specimen/Amiri
+    search: Amiri font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/amiri/OFL.txt
+    install: npm i @fontsource/amiri
+    note: script Arab, by Khaled Hosny, Sebastian Kosch, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Amiri Quran
+    url: https://fonts.google.com/specimen/Amiri+Quran
+    search: Amiri Quran font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/amiriquran/OFL.txt
+    install: npm i @fontsource/amiri-quran
+    note: script Arab, by Khaled Hosny, Sebastian Kosch, added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Annapurna SIL
+    url: https://fonts.google.com/specimen/Annapurna+SIL
+    search: Annapurna SIL font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/annapurnasil/OFL.txt
+    install: npm i @fontsource/annapurna-sil
+    note: script Deva, by SIL International, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Aoboshi One
+    url: https://fonts.google.com/specimen/Aoboshi+One
+    search: Aoboshi One font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/aoboshione/OFL.txt
+    install: npm i @fontsource/aoboshi-one
+    note: script Hira, by Natsumi Matsuba, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Aref Ruqaa
+    url: https://fonts.google.com/specimen/Aref+Ruqaa
+    search: Aref Ruqaa font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/arefruqaa/OFL.txt
+    install: npm i @fontsource/aref-ruqaa
+    note: script Arab, by Abdullah Aref, Khaled Hosny, Hermann Zapf, added 2016
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Aref Ruqaa Ink
+    url: https://fonts.google.com/specimen/Aref+Ruqaa+Ink
+    search: Aref Ruqaa Ink font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/arefruqaaink/OFL.txt
+    install: npm i @fontsource/aref-ruqaa-ink
+    note: script Arab, by Abdullah Aref, Khaled Hosny, Hermann Zapf, added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Asar
+    url: https://fonts.google.com/specimen/Asar
+    search: Asar font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/asar/OFL.txt
+    install: npm i @fontsource/asar
+    note: script Deva, by Sorkin Type, added 2015
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Batang
+    url: https://fonts.google.com/specimen/Batang
+    search: Batang font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/batang/OFL.txt
+    install: npm i @fontsource/batang
+    note: script Kore, by HanYang I&C Co., added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: BatangChe
+    url: https://fonts.google.com/specimen/BatangChe
+    search: BatangChe font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/batangche/OFL.txt
+    install: npm i @fontsource/batangche
+    note: script Kore, by HanYang I&C Co., added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Benne
+    url: https://fonts.google.com/specimen/Benne
+    search: Benne font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/benne/OFL.txt
+    install: npm i @fontsource/benne
+    note: script Knda, by John Harrington, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: BhuTuka Expanded One
+    url: https://fonts.google.com/specimen/BhuTuka+Expanded+One
+    search: BhuTuka Expanded One font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/bhutukaexpandedone/OFL.txt
+    install: npm i @fontsource/bhutuka-expanded-one
+    note: script Guru, by Erin McLaughlin, added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: BIZ UDMincho
+    url: https://fonts.google.com/specimen/BIZ+UDMincho
+    search: BIZ UDMincho font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/bizudmincho/OFL.txt
+    install: npm i @fontsource/biz-udmincho
+    note: script Jpan, by Type Bank Co., Morisawa Inc., added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: BIZ UDPMincho
+    url: https://fonts.google.com/specimen/BIZ+UDPMincho
+    search: BIZ UDPMincho font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/bizudpmincho/OFL.txt
+    install: npm i @fontsource/biz-udpmincho
+    note: script Jpan, by Type Bank Co., Morisawa Inc., added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: BJCree
+    url: https://fonts.google.com/specimen/BJCree
+    search: BJCree font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/bjcree/OFL.txt
+    install: npm i @fontsource/bjcree
+    note: script Cans, by SIL International, added 2026
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Cactus Classical Serif
+    url: https://fonts.google.com/specimen/Cactus+Classical+Serif
+    search: Cactus Classical Serif font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/cactusclassicalserif/OFL.txt
+    install: npm i @fontsource/cactus-classical-serif
+    note: script Hant, by Henry Chan, Tian Haidong, Moonlit Owen, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Chiron Sung HK
+    url: https://fonts.google.com/specimen/Chiron+Sung+HK
+    search: Chiron Sung HK font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/chironsunghk/OFL.txt
+    install: npm i @fontsource/chiron-sung-hk
+    note: variable, script Hant, by Tamcy, added 2025
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Dai Banna SIL
+    url: https://fonts.google.com/specimen/Dai+Banna+SIL
+    search: Dai Banna SIL font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/daibannasil/OFL.txt
+    install: npm i @fontsource/dai-banna-sil
+    note: script Talu, by SIL International, added 2023
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: David Libre
+    url: https://fonts.google.com/specimen/David+Libre
+    search: David Libre font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/davidlibre/OFL.txt
+    install: npm i @fontsource/david-libre
+    note: script Hebr, by Monotype Imaging Inc., SIL International, Meir Sadan, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Diphylleia
+    url: https://fonts.google.com/specimen/Diphylleia
+    search: Diphylleia font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/diphylleia/OFL.txt
+    install: npm i @fontsource/diphylleia
+    note: script Kore, by Minha Hyung, JAMO, added 2023
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Eczar
+    url: https://fonts.google.com/specimen/Eczar
+    search: Eczar font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/eczar/OFL.txt
+    install: npm i @fontsource/eczar
+    note: variable, script Deva, by Rosetta, Vaibhav Singh, added 2015
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Frank Ruhl Libre
+    url: https://fonts.google.com/specimen/Frank+Ruhl+Libre
+    search: Frank Ruhl Libre font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/frankruhllibre/OFL.txt
+    install: npm i @fontsource/frank-ruhl-libre
+    note: variable, script Hebr, by Yanek Iontef, added 2016
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Geist Serif
+    url: https://fonts.google.com/specimen/Geist+Serif
+    search: Geist Serif font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/geistserif/OFL.txt
+    install: npm i @fontsource/geist-serif
+    note: variable, script Latn, by Andrés Briganti, Mark Davis, Evil Rabbit, Guillermo Rauch, added 2026
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Gowun Batang
+    url: https://fonts.google.com/specimen/Gowun+Batang
+    search: Gowun Batang font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/gowunbatang/OFL.txt
+    install: npm i @fontsource/gowun-batang
+    note: script Kore, by Yanghee Ryu, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Grandiflora One
+    url: https://fonts.google.com/specimen/Grandiflora+One
+    search: Grandiflora One font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/grandifloraone/OFL.txt
+    install: npm i @fontsource/grandiflora-one
+    note: script Kore, by Haesung Cho, JAMO, added 2023
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Gulzar
+    url: https://fonts.google.com/specimen/Gulzar
+    search: Gulzar font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/gulzar/OFL.txt
+    install: npm i @fontsource/gulzar
+    note: script Arab, by Borna Izadpanah, Fiona Ross, Alice Savoie, Simon Cozens, added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Gungsuh
+    url: https://fonts.google.com/specimen/Gungsuh
+    search: Gungsuh font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/gungsuh/OFL.txt
+    install: npm i @fontsource/gungsuh
+    note: script Kore, by HanYang I&C Co., added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: GungsuhChe
+    url: https://fonts.google.com/specimen/GungsuhChe
+    search: GungsuhChe font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/gungsuhche/OFL.txt
+    install: npm i @fontsource/gungsuhche
+    note: script Kore, by HanYang I&C Co., added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Hahmlet
+    url: https://fonts.google.com/specimen/Hahmlet
+    search: Hahmlet font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/hahmlet/OFL.txt
+    install: npm i @fontsource/hahmlet
+    note: variable, script Kore, by Hypertype, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Halant
+    url: https://fonts.google.com/specimen/Halant
+    search: Halant font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/halant/OFL.txt
+    install: npm i @fontsource/halant
+    note: script Deva, by Indian Type Foundry, added 2014
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Hanuman
+    url: https://fonts.google.com/specimen/Hanuman
+    search: Hanuman font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/hanuman/OFL.txt
+    install: npm i @fontsource/hanuman
+    note: variable, script Khmr, by Danh Hong, added 2010
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Hina Mincho
+    url: https://fonts.google.com/specimen/Hina+Mincho
+    search: Hina Mincho font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/hinamincho/OFL.txt
+    install: npm i @fontsource/hina-mincho
+    note: script Jpan, by Satsuyako, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Idiqlat
+    url: https://fonts.google.com/specimen/Idiqlat
+    search: Idiqlat font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/idiqlat/OFL.txt
+    install: npm i @fontsource/idiqlat
+    note: script Syrc, by SIL International, added 2026
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Inknut Antiqua
+    url: https://fonts.google.com/specimen/Inknut+Antiqua
+    search: Inknut Antiqua font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/inknutantiqua/OFL.txt
+    install: npm i @fontsource/inknut-antiqua
+    note: script Deva, by Claus Eggers Sørensen, added 2015
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Jomolhari
+    url: https://fonts.google.com/specimen/Jomolhari
+    search: Jomolhari font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/jomolhari/OFL.txt
+    install: npm i @fontsource/jomolhari
+    note: script Tibt, by Christopher J. Fynn, added 2019
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Kadwa
+    url: https://fonts.google.com/specimen/Kadwa
+    search: Kadwa font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/kadwa/OFL.txt
+    install: npm i @fontsource/kadwa
+    note: script Deva, by Sol Matas, added 2015
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Kaisei Decol
+    url: https://fonts.google.com/specimen/Kaisei+Decol
+    search: Kaisei Decol font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/kaiseidecol/OFL.txt
+    install: npm i @fontsource/kaisei-decol
+    note: script Jpan, by Font-Kai, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Kaisei HarunoUmi
+    url: https://fonts.google.com/specimen/Kaisei+HarunoUmi
+    search: Kaisei HarunoUmi font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/kaiseiharunoumi/OFL.txt
+    install: npm i @fontsource/kaisei-harunoumi
+    note: script Jpan, by Font-Kai, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Kaisei Opti
+    url: https://fonts.google.com/specimen/Kaisei+Opti
+    search: Kaisei Opti font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/kaiseiopti/OFL.txt
+    install: npm i @fontsource/kaisei-opti
+    note: script Jpan, by Font-Kai, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Kaisei Tokumin
+    url: https://fonts.google.com/specimen/Kaisei+Tokumin
+    search: Kaisei Tokumin font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/kaiseitokumin/OFL.txt
+    install: npm i @fontsource/kaisei-tokumin
+    note: script Jpan, by Font-Kai, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Karma
+    url: https://fonts.google.com/specimen/Karma
+    search: Karma font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/karma/OFL.txt
+    install: npm i @fontsource/karma
+    note: script Deva, by Indian Type Foundry, added 2014
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Kay Pho Du
+    url: https://fonts.google.com/specimen/Kay+Pho+Du
+    search: Kay Pho Du font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/kayphodu/OFL.txt
+    install: npm i @fontsource/kay-pho-du
+    note: script Kali, by SIL International, added 2023
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Kiwi Maru
+    url: https://fonts.google.com/specimen/Kiwi+Maru
+    search: Kiwi Maru font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/kiwimaru/OFL.txt
+    install: npm i @fontsource/kiwi-maru
+    note: script Jpan, by Hiroki-Chan, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Koh Santepheap
+    url: https://fonts.google.com/specimen/Koh+Santepheap
+    search: Koh Santepheap font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/kohsantepheap/OFL.txt
+    install: npm i @fontsource/koh-santepheap
+    note: script Khmr, by Danh Hong, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Kurale
+    url: https://fonts.google.com/specimen/Kurale
+    search: Kurale font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/kurale/OFL.txt
+    install: npm i @fontsource/kurale
+    note: script Deva, by Eduardo Tunni, added 2015
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Laila
+    url: https://fonts.google.com/specimen/Laila
+    search: Laila font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/laila/OFL.txt
+    install: npm i @fontsource/laila
+    note: script Deva, by Indian Type Foundry, added 2014
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Lateef
+    url: https://fonts.google.com/specimen/Lateef
+    search: Lateef font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/lateef/OFL.txt
+    install: npm i @fontsource/lateef
+    note: script Arab, by SIL International, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Lisu Bosa
+    url: https://fonts.google.com/specimen/Lisu+Bosa
+    search: Lisu Bosa font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/lisubosa/OFL.txt
+    install: npm i @fontsource/lisu-bosa
+    note: script Lisu, by SIL International, added 2023
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Maitree
+    url: https://fonts.google.com/specimen/Maitree
+    search: Maitree font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/maitree/OFL.txt
+    install: npm i @fontsource/maitree
+    note: script Thai, by Cadson Demak, added 2016
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Maname
+    url: https://fonts.google.com/specimen/Maname
+    search: Maname font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/maname/OFL.txt
+    install: npm i @fontsource/maname
+    note: script Sinh, by Pathum Egodawatta, Mooniak, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Markazi Text
+    url: https://fonts.google.com/specimen/Markazi+Text
+    search: Markazi Text font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/markazitext/OFL.txt
+    install: npm i @fontsource/markazi-text
+    note: variable, script Arab, by Borna Izadpanah, Florian Runge, Fiona Ross, added 2018
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Martel
+    url: https://fonts.google.com/specimen/Martel
+    search: Martel font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/martel/OFL.txt
+    install: npm i @fontsource/martel
+    note: script Deva, by Dan Reynolds, added 2015
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Mirza
+    url: https://fonts.google.com/specimen/Mirza
+    search: Mirza font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/mirza/OFL.txt
+    install: npm i @fontsource/mirza
+    note: script Arab, by KB Studio, added 2016
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Namdhinggo
+    url: https://fonts.google.com/specimen/Namdhinggo
+    search: Namdhinggo font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/namdhinggo/OFL.txt
+    install: npm i @fontsource/namdhinggo
+    note: script Limb, by SIL International, added 2023
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Nanum Myeongjo
+    url: https://fonts.google.com/specimen/Nanum+Myeongjo
+    search: Nanum Myeongjo font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/nanummyeongjo/OFL.txt
+    install: npm i @fontsource/nanum-myeongjo
+    note: script Kore, by Sandoll Communication, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: New Tegomin
+    url: https://fonts.google.com/specimen/New+Tegomin
+    search: New Tegomin font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/newtegomin/OFL.txt
+    install: npm i @fontsource/new-tegomin
+    note: script Jpan, by Kousuke Nagai, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Noto Serif Dives Akuru
+    url: https://fonts.google.com/specimen/Noto+Serif+Dives+Akuru
+    search: Noto Serif Dives Akuru font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/notoserifdivesakuru/OFL.txt
+    install: npm i @fontsource/noto-serif-dives-akuru
+    note: script Diak, by Google, added 2025
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Odor Mean Chey
+    url: https://fonts.google.com/specimen/Odor+Mean+Chey
+    search: Odor Mean Chey font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/odormeanchey/OFL.txt
+    install: npm i @fontsource/odor-mean-chey
+    note: script Khmr, by Danh Hong, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Padyakke Expanded One
+    url: https://fonts.google.com/specimen/Padyakke+Expanded+One
+    search: Padyakke Expanded One font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/padyakkeexpandedone/OFL.txt
+    install: npm i @fontsource/padyakke-expanded-one
+    note: script Knda, by James Puckett, added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Parastoo
+    url: https://fonts.google.com/specimen/Parastoo
+    search: Parastoo font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/parastoo/OFL.txt
+    install: npm i @fontsource/parastoo
+    note: variable, script Arab, by Saber Rastikerdar, added 2025
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Peddana
+    url: https://fonts.google.com/specimen/Peddana
+    search: Peddana font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/peddana/OFL.txt
+    install: npm i @fontsource/peddana
+    note: script Telu, by Appaji Ambarisha Darbha, added 2014
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Pridi
+    url: https://fonts.google.com/specimen/Pridi
+    search: Pridi font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/pridi/OFL.txt
+    install: npm i @fontsource/pridi
+    note: script Thai, by Cadson Demak, added 2016
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Ramaraja
+    url: https://fonts.google.com/specimen/Ramaraja
+    search: Ramaraja font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/ramaraja/OFL.txt
+    install: npm i @fontsource/ramaraja
+    note: script Telu, by Appaji Ambarisha Darbha, added 2015
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Ramsina
+    url: https://fonts.google.com/specimen/Ramsina
+    search: Ramsina font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/ramsina/OFL.txt
+    install: npm i @fontsource/ramsina
+    note: script Syrc, by SIL International, added 2026
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Rasa
+    url: https://fonts.google.com/specimen/Rasa
+    search: Rasa font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/rasa/OFL.txt
+    install: npm i @fontsource/rasa
+    note: variable, script Gujr, by Rosetta, Anna Giedryś, David Březina, added 2016
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Rozha One
+    url: https://fonts.google.com/specimen/Rozha+One
+    search: Rozha One font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/rozhaone/OFL.txt
+    install: npm i @fontsource/rozha-one
+    note: script Deva, by Indian Type Foundry, added 2014
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Ruwudu
+    url: https://fonts.google.com/specimen/Ruwudu
+    search: Ruwudu font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/ruwudu/OFL.txt
+    install: npm i @fontsource/ruwudu
+    note: script Arab, by SIL International, added 2023
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Sahitya
+    url: https://fonts.google.com/specimen/Sahitya
+    search: Sahitya font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/sahitya/OFL.txt
+    install: npm i @fontsource/sahitya
+    note: script Deva, by Juan Pablo del Peral, added 2015
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Sawarabi Mincho
+    url: https://fonts.google.com/specimen/Sawarabi+Mincho
+    search: Sawarabi Mincho font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/sawarabimincho/OFL.txt
+    install: npm i @fontsource/sawarabi-mincho
+    note: script Jpan, by mshio, added 2018
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Scheherazade New
+    url: https://fonts.google.com/specimen/Scheherazade+New
+    search: Scheherazade New font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/scheherazadenew/OFL.txt
+    install: npm i @fontsource/scheherazade-new
+    note: script Arab, by SIL International, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Shippori Mincho
+    url: https://fonts.google.com/specimen/Shippori+Mincho
+    search: Shippori Mincho font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/shipporimincho/OFL.txt
+    install: npm i @fontsource/shippori-mincho
+    note: script Jpan, by FONTDASU, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Shippori Mincho B1
+    url: https://fonts.google.com/specimen/Shippori+Mincho+B1
+    search: Shippori Mincho B1 font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/shipporiminchob1/OFL.txt
+    install: npm i @fontsource/shippori-mincho-b1
+    note: script Jpan, by FONTDASU, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Song Myung
+    url: https://fonts.google.com/specimen/Song+Myung
+    search: Song Myung font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/songmyung/OFL.txt
+    install: npm i @fontsource/song-myung
+    note: script Kore, by JIKJI, added 2018
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Spectral
+    url: https://fonts.google.com/specimen/Spectral
+    search: Spectral font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/spectral/OFL.txt
+    install: npm i @fontsource/spectral
+    note: script Latn, by Production Type, added 2017
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Spectral SC
+    url: https://fonts.google.com/specimen/Spectral+SC
+    search: Spectral SC font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/spectralsc/OFL.txt
+    install: npm i @fontsource/spectral-sc
+    note: script Latn, by Production Type, added 2017
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Sree Krushnadevaraya
+    url: https://fonts.google.com/specimen/Sree+Krushnadevaraya
+    search: Sree Krushnadevaraya font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/sreekrushnadevaraya/OFL.txt
+    install: npm i @fontsource/sree-krushnadevaraya
+    note: script Telu, by Purushoth Kumar Guttula, added 2015
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Suez One
+    url: https://fonts.google.com/specimen/Suez+One
+    search: Suez One font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/suezone/OFL.txt
+    install: npm i @fontsource/suez-one
+    note: script Hebr, by Michal Sahar, added 2016
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Sumana
+    url: https://fonts.google.com/specimen/Sumana
+    search: Sumana font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/sumana/OFL.txt
+    install: npm i @fontsource/sumana
+    note: script Deva, by Cyreal, added 2015
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Sura
+    url: https://fonts.google.com/specimen/Sura
+    search: Sura font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/sura/OFL.txt
+    install: npm i @fontsource/sura
+    note: script Deva, by Carolina Giovagnoli, added 2015
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Suranna
+    url: https://fonts.google.com/specimen/Suranna
+    search: Suranna font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/suranna/OFL.txt
+    install: npm i @fontsource/suranna
+    note: script Telu, by Purushoth Kumar Guttula, added 2015
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Suravaram
+    url: https://fonts.google.com/specimen/Suravaram
+    search: Suravaram font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/suravaram/OFL.txt
+    install: npm i @fontsource/suravaram
+    note: script Telu, by Purushoth Kumar Guttula, added 2015
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Suwannaphum
+    url: https://fonts.google.com/specimen/Suwannaphum
+    search: Suwannaphum font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/suwannaphum/OFL.txt
+    install: npm i @fontsource/suwannaphum
+    note: script Khmr, by Danh Hong, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Tai Heritage Pro
+    url: https://fonts.google.com/specimen/Tai+Heritage+Pro
+    search: Tai Heritage Pro font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/taiheritagepro/OFL.txt
+    install: npm i @fontsource/tai-heritage-pro
+    note: script Tavt, by SIL International, added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Taviraj
+    url: https://fonts.google.com/specimen/Taviraj
+    search: Taviraj font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/taviraj/OFL.txt
+    install: npm i @fontsource/taviraj
+    note: script Thai, by Cadson Demak, added 2016
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Tiro Bangla
+    url: https://fonts.google.com/specimen/Tiro+Bangla
+    search: Tiro Bangla font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/tirobangla/OFL.txt
+    install: npm i @fontsource/tiro-bangla
+    note: script Beng, by Tiro Typeworks, John Hudson, Fiona Ross, Neelakash Kshetrimayum, added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Tiro Devanagari Hindi
+    url: https://fonts.google.com/specimen/Tiro+Devanagari+Hindi
+    search: Tiro Devanagari Hindi font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/tirodevanagarihindi/OFL.txt
+    install: npm i @fontsource/tiro-devanagari-hindi
+    note: script Deva, by Tiro Typeworks, John Hudson, Fiona Ross, Paul Hanslow, added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Tiro Devanagari Marathi
+    url: https://fonts.google.com/specimen/Tiro+Devanagari+Marathi
+    search: Tiro Devanagari Marathi font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/tirodevanagarimarathi/OFL.txt
+    install: npm i @fontsource/tiro-devanagari-marathi
+    note: script Deva, by Tiro Typeworks, John Hudson, Fiona Ross, Paul Hanslow, added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Tiro Devanagari Sanskrit
+    url: https://fonts.google.com/specimen/Tiro+Devanagari+Sanskrit
+    search: Tiro Devanagari Sanskrit font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/tirodevanagarisanskrit/OFL.txt
+    install: npm i @fontsource/tiro-devanagari-sanskrit
+    note: script Deva, by Tiro Typeworks, John Hudson, Fiona Ross, Paul Hanslow, added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Tiro Gurmukhi
+    url: https://fonts.google.com/specimen/Tiro+Gurmukhi
+    search: Tiro Gurmukhi font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/tirogurmukhi/OFL.txt
+    install: npm i @fontsource/tiro-gurmukhi
+    note: script Guru, by Tiro Typeworks, John Hudson, Fiona Ross, Paul Hanslow, added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Tiro Kannada
+    url: https://fonts.google.com/specimen/Tiro+Kannada
+    search: Tiro Kannada font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/tirokannada/OFL.txt
+    install: npm i @fontsource/tiro-kannada
+    note: script Knda, by Tiro Typeworks, John Hudson, Fiona Ross, Kaja Słojewska, added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Tiro Tamil
+    url: https://fonts.google.com/specimen/Tiro+Tamil
+    search: Tiro Tamil font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/tirotamil/OFL.txt
+    install: npm i @fontsource/tiro-tamil
+    note: script Taml, by Tiro Typeworks, Fernando Mello, Fiona Ross, Kaja Słojewska, added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Tiro Telugu
+    url: https://fonts.google.com/specimen/Tiro+Telugu
+    search: Tiro Telugu font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/tirotelugu/OFL.txt
+    install: npm i @fontsource/tiro-telugu
+    note: script Telu, by Tiro Typeworks, John Hudson, Fiona Ross, Kaja Słojewska, added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Trirong
+    url: https://fonts.google.com/specimen/Trirong
+    search: Trirong font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/trirong/OFL.txt
+    install: npm i @fontsource/trirong
+    note: script Thai, by Cadson Demak, added 2016
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Uchen
+    url: https://fonts.google.com/specimen/Uchen
+    search: Uchen font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/uchen/OFL.txt
+    install: npm i @fontsource/uchen
+    note: script Tibt, by Christopher J. Fynn, added 2019
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: UoqMunThenKhung
+    url: https://fonts.google.com/specimen/UoqMunThenKhung
+    search: UoqMunThenKhung font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/uoqmunthenkhung/OFL.txt
+    install: npm i @fontsource/uoqmunthenkhung
+    note: script Hant, by Moonlit Owen, added 2025
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Vesper Libre
+    url: https://fonts.google.com/specimen/Vesper+Libre
+    search: Vesper Libre font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/vesperlibre/OFL.txt
+    install: npm i @fontsource/vesper-libre
+    note: script Deva, by Mota Italic, added 2014
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Yuji Boku
+    url: https://fonts.google.com/specimen/Yuji+Boku
+    search: Yuji Boku font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/yujiboku/OFL.txt
+    install: npm i @fontsource/yuji-boku
+    note: script Jpan, by Kinuta Font Factory, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Yuji Mai
+    url: https://fonts.google.com/specimen/Yuji+Mai
+    search: Yuji Mai font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/yujimai/OFL.txt
+    install: npm i @fontsource/yuji-mai
+    note: script Jpan, by Kinuta Font Factory, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Yuji Syuku
+    url: https://fonts.google.com/specimen/Yuji+Syuku
+    search: Yuji Syuku font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/yujisyuku/OFL.txt
+    install: npm i @fontsource/yuji-syuku
+    note: script Jpan, by Kinuta Font Factory, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Zen Antique
+    url: https://fonts.google.com/specimen/Zen+Antique
+    search: Zen Antique font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/zenantique/OFL.txt
+    install: npm i @fontsource/zen-antique
+    note: script Jpan, by Yoshimichi Ohira, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Zen Antique Soft
+    url: https://fonts.google.com/specimen/Zen+Antique+Soft
+    search: Zen Antique Soft font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/zenantiquesoft/OFL.txt
+    install: npm i @fontsource/zen-antique-soft
+    note: script Jpan, by Yoshimichi Ohira, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Zen Old Mincho
+    url: https://fonts.google.com/specimen/Zen+Old+Mincho
+    search: Zen Old Mincho font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/zenoldmincho/OFL.txt
+    install: npm i @fontsource/zen-old-mincho
+    note: script Jpan, by Yoshimichi Ohira, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+- name: Noto (language coverage) (46)
+  list:
+  - name: Noto Naskh Arabic
+    url: https://fonts.google.com/specimen/Noto+Naskh+Arabic
+    search: Noto Naskh Arabic font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/notonaskharabic/OFL.txt
+    install: npm i @fontsource/noto-naskh-arabic
+    note: variable, script Arab, by Google, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Noto Naskh Arabic UI
+    url: https://fonts.google.com/specimen/Noto+Naskh+Arabic+UI
+    search: Noto Naskh Arabic UI font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/notonaskharabicui/OFL.txt
+    install: npm i @fontsource/noto-naskh-arabic-ui
+    note: variable, script Arab, by Google, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Noto Nastaliq Urdu
+    url: https://fonts.google.com/specimen/Noto+Nastaliq+Urdu
+    search: Noto Nastaliq Urdu font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/notonastaliqurdu/OFL.txt
+    install: npm i @fontsource/noto-nastaliq-urdu
+    note: variable, script Arab, by Google, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Noto Rashi Hebrew
+    url: https://fonts.google.com/specimen/Noto+Rashi+Hebrew
+    search: Noto Rashi Hebrew font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/notorashihebrew/OFL.txt
+    install: npm i @fontsource/noto-rashi-hebrew
+    note: variable, script Hebr, by Google, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Noto Serif
+    url: https://fonts.google.com/specimen/Noto+Serif
+    search: Noto Serif font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/notoserif/OFL.txt
+    install: npm i @fontsource/noto-serif
+    note: variable, by Google, added 2013
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Noto Serif Ahom
+    url: https://fonts.google.com/specimen/Noto+Serif+Ahom
+    search: Noto Serif Ahom font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/notoserifahom/OFL.txt
+    install: npm i @fontsource/noto-serif-ahom
+    note: script Ahom, by Google, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Noto Serif Armenian
+    url: https://fonts.google.com/specimen/Noto+Serif+Armenian
+    search: Noto Serif Armenian font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/notoserifarmenian/OFL.txt
+    install: npm i @fontsource/noto-serif-armenian
+    note: variable, script Armn, by Google, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Noto Serif Balinese
+    url: https://fonts.google.com/specimen/Noto+Serif+Balinese
+    search: Noto Serif Balinese font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/notoserifbalinese/OFL.txt
+    install: npm i @fontsource/noto-serif-balinese
+    note: script Bali, by Google, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Noto Serif Bengali
+    url: https://fonts.google.com/specimen/Noto+Serif+Bengali
+    search: Noto Serif Bengali font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/notoserifbengali/OFL.txt
+    install: npm i @fontsource/noto-serif-bengali
+    note: variable, script Beng, by Google, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Noto Serif Devanagari
+    url: https://fonts.google.com/specimen/Noto+Serif+Devanagari
+    search: Noto Serif Devanagari font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/notoserifdevanagari/OFL.txt
+    install: npm i @fontsource/noto-serif-devanagari
+    note: variable, script Deva, by Google, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Noto Serif Dogra
+    url: https://fonts.google.com/specimen/Noto+Serif+Dogra
+    search: Noto Serif Dogra font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/notoserifdogra/OFL.txt
+    install: npm i @fontsource/noto-serif-dogra
+    note: script Dogr, by Google, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Noto Serif Ethiopic
+    url: https://fonts.google.com/specimen/Noto+Serif+Ethiopic
+    search: Noto Serif Ethiopic font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/notoserifethiopic/OFL.txt
+    install: npm i @fontsource/noto-serif-ethiopic
+    note: variable, script Ethi, by Google, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Noto Serif Georgian
+    url: https://fonts.google.com/specimen/Noto+Serif+Georgian
+    search: Noto Serif Georgian font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/notoserifgeorgian/OFL.txt
+    install: npm i @fontsource/noto-serif-georgian
+    note: variable, script Geor, by Google, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Noto Serif Grantha
+    url: https://fonts.google.com/specimen/Noto+Serif+Grantha
+    search: Noto Serif Grantha font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/notoserifgrantha/OFL.txt
+    install: npm i @fontsource/noto-serif-grantha
+    note: script Gran, by Google, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Noto Serif Gujarati
+    url: https://fonts.google.com/specimen/Noto+Serif+Gujarati
+    search: Noto Serif Gujarati font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/notoserifgujarati/OFL.txt
+    install: npm i @fontsource/noto-serif-gujarati
+    note: variable, script Gujr, by Google, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Noto Serif Gurmukhi
+    url: https://fonts.google.com/specimen/Noto+Serif+Gurmukhi
+    search: Noto Serif Gurmukhi font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/notoserifgurmukhi/OFL.txt
+    install: npm i @fontsource/noto-serif-gurmukhi
+    note: variable, script Guru, by Google, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Noto Serif Hebrew
+    url: https://fonts.google.com/specimen/Noto+Serif+Hebrew
+    search: Noto Serif Hebrew font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/notoserifhebrew/OFL.txt
+    install: npm i @fontsource/noto-serif-hebrew
+    note: variable, script Hebr, by Google, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Noto Serif Hentaigana
+    url: https://fonts.google.com/specimen/Noto+Serif+Hentaigana
+    search: Noto Serif Hentaigana font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/notoserifhentaigana/OFL.txt
+    install: npm i @fontsource/noto-serif-hentaigana
+    note: variable, by Google, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Noto Serif HK
+    url: https://fonts.google.com/specimen/Noto+Serif+HK
+    search: Noto Serif HK font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/notoserifhk/OFL.txt
+    install: npm i @fontsource/noto-serif-hk
+    note: variable, script Hant, by Google, added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Noto Serif JP
+    url: https://fonts.google.com/specimen/Noto+Serif+JP
+    search: Noto Serif JP font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/notoserifjp/OFL.txt
+    install: npm i @fontsource/noto-serif-jp
+    note: variable, script Jpan, by Google, added 2018
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Noto Serif Kannada
+    url: https://fonts.google.com/specimen/Noto+Serif+Kannada
+    search: Noto Serif Kannada font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/notoserifkannada/OFL.txt
+    install: npm i @fontsource/noto-serif-kannada
+    note: variable, script Knda, by Google, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Noto Serif Khitan Small Script
+    url: https://fonts.google.com/specimen/Noto+Serif+Khitan+Small+Script
+    search: Noto Serif Khitan Small Script font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/notoserifkhitansmallscript/OFL.txt
+    install: npm i @fontsource/noto-serif-khitan-small-script
+    note: script Kits, by Google, added 2023
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Noto Serif Khmer
+    url: https://fonts.google.com/specimen/Noto+Serif+Khmer
+    search: Noto Serif Khmer font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/notoserifkhmer/OFL.txt
+    install: npm i @fontsource/noto-serif-khmer
+    note: variable, script Khmr, by Google, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Noto Serif Khojki
+    url: https://fonts.google.com/specimen/Noto+Serif+Khojki
+    search: Noto Serif Khojki font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/notoserifkhojki/OFL.txt
+    install: npm i @fontsource/noto-serif-khojki
+    note: variable, script Khoj, by Google, added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Noto Serif KR
+    url: https://fonts.google.com/specimen/Noto+Serif+KR
+    search: Noto Serif KR font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/notoserifkr/OFL.txt
+    install: npm i @fontsource/noto-serif-kr
+    note: variable, script Kore, by Google, added 2018
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Noto Serif Lao
+    url: https://fonts.google.com/specimen/Noto+Serif+Lao
+    search: Noto Serif Lao font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/notoseriflao/OFL.txt
+    install: npm i @fontsource/noto-serif-lao
+    note: variable, script Laoo, by Google, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Noto Serif Makasar
+    url: https://fonts.google.com/specimen/Noto+Serif+Makasar
+    search: Noto Serif Makasar font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/notoserifmakasar/OFL.txt
+    install: npm i @fontsource/noto-serif-makasar
+    note: script Maka, by Google, added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Noto Serif Malayalam
+    url: https://fonts.google.com/specimen/Noto+Serif+Malayalam
+    search: Noto Serif Malayalam font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/notoserifmalayalam/OFL.txt
+    install: npm i @fontsource/noto-serif-malayalam
+    note: variable, script Mlym, by Google, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Noto Serif Myanmar
+    url: https://fonts.google.com/specimen/Noto+Serif+Myanmar
+    search: Noto Serif Myanmar font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/notoserifmyanmar/OFL.txt
+    install: npm i @fontsource/noto-serif-myanmar
+    note: script Mymr, by Google, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Noto Serif NP Hmong
+    url: https://fonts.google.com/specimen/Noto+Serif+NP+Hmong
+    search: Noto Serif NP Hmong font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/notoserifnphmong/OFL.txt
+    install: npm i @fontsource/noto-serif-np-hmong
+    note: variable, script Hmnp, by Google, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Noto Serif Nyiakeng Puachue Hmong
+    url: https://fonts.google.com/specimen/Noto+Serif+Nyiakeng+Puachue+Hmong
+    search: Noto Serif Nyiakeng Puachue Hmong font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/notoserifnyiakengpuachuehmong/OFL.txt
+    install: npm i @fontsource/noto-serif-nyiakeng-puachue-hmong
+    note: variable, script Hmnp, by Google, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Noto Serif Old Uyghur
+    url: https://fonts.google.com/specimen/Noto+Serif+Old+Uyghur
+    search: Noto Serif Old Uyghur font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/notoserifolduyghur/OFL.txt
+    install: npm i @fontsource/noto-serif-old-uyghur
+    note: script Ougr, by Google, added 2023
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Noto Serif Oriya
+    url: https://fonts.google.com/specimen/Noto+Serif+Oriya
+    search: Noto Serif Oriya font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/notoseriforiya/OFL.txt
+    install: npm i @fontsource/noto-serif-oriya
+    note: variable, script Orya, by Google, added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Noto Serif Ottoman Siyaq
+    url: https://fonts.google.com/specimen/Noto+Serif+Ottoman+Siyaq
+    search: Noto Serif Ottoman Siyaq font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/notoserifottomansiyaq/OFL.txt
+    install: npm i @fontsource/noto-serif-ottoman-siyaq
+    note: by Google, added 2023
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Noto Serif SC
+    url: https://fonts.google.com/specimen/Noto+Serif+SC
+    search: Noto Serif SC font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/notoserifsc/OFL.txt
+    install: npm i @fontsource/noto-serif-sc
+    note: variable, script Hans, by Google, added 2018
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Noto Serif Sinhala
+    url: https://fonts.google.com/specimen/Noto+Serif+Sinhala
+    search: Noto Serif Sinhala font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/notoserifsinhala/OFL.txt
+    install: npm i @fontsource/noto-serif-sinhala
+    note: variable, script Sinh, by Google, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Noto Serif Tamil
+    url: https://fonts.google.com/specimen/Noto+Serif+Tamil
+    search: Noto Serif Tamil font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/notoseriftamil/OFL.txt
+    install: npm i @fontsource/noto-serif-tamil
+    note: variable, script Taml, by Google, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Noto Serif Tangut
+    url: https://fonts.google.com/specimen/Noto+Serif+Tangut
+    search: Noto Serif Tangut font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/notoseriftangut/OFL.txt
+    install: npm i @fontsource/noto-serif-tangut
+    note: script Tang, by Google, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Noto Serif TC
+    url: https://fonts.google.com/specimen/Noto+Serif+TC
+    search: Noto Serif TC font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/notoseriftc/OFL.txt
+    install: npm i @fontsource/noto-serif-tc
+    note: variable, script Hant, by Google, added 2018
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Noto Serif Telugu
+    url: https://fonts.google.com/specimen/Noto+Serif+Telugu
+    search: Noto Serif Telugu font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/notoseriftelugu/OFL.txt
+    install: npm i @fontsource/noto-serif-telugu
+    note: variable, script Telu, by Google, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Noto Serif Thai
+    url: https://fonts.google.com/specimen/Noto+Serif+Thai
+    search: Noto Serif Thai font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/notoserifthai/OFL.txt
+    install: npm i @fontsource/noto-serif-thai
+    note: variable, script Thai, by Google, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Noto Serif Tibetan
+    url: https://fonts.google.com/specimen/Noto+Serif+Tibetan
+    search: Noto Serif Tibetan font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/notoseriftibetan/OFL.txt
+    install: npm i @fontsource/noto-serif-tibetan
+    note: variable, script Tibt, by Google, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Noto Serif Todhri
+    url: https://fonts.google.com/specimen/Noto+Serif+Todhri
+    search: Noto Serif Todhri font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/notoseriftodhri/OFL.txt
+    install: npm i @fontsource/noto-serif-todhri
+    note: script Todr, by Google, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Noto Serif Toto
+    url: https://fonts.google.com/specimen/Noto+Serif+Toto
+    search: Noto Serif Toto font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/notoseriftoto/OFL.txt
+    install: npm i @fontsource/noto-serif-toto
+    note: variable, script Toto, by Google, added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Noto Serif Vithkuqi
+    url: https://fonts.google.com/specimen/Noto+Serif+Vithkuqi
+    search: Noto Serif Vithkuqi font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/notoserifvithkuqi/OFL.txt
+    install: npm i @fontsource/noto-serif-vithkuqi
+    note: variable, script Vith, by Google, added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Noto Serif Yezidi
+    url: https://fonts.google.com/specimen/Noto+Serif+Yezidi
+    search: Noto Serif Yezidi font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/notoserifyezidi/OFL.txt
+    install: npm i @fontsource/noto-serif-yezidi
+    note: variable, script Yezi, by Google, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'

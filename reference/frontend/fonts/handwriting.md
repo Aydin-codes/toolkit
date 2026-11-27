@@ -1,0 +1,367 @@
+# All Google Fonts: handwriting (356 families)
+
+<!-- Generated from catalog/frontend/fonts/handwriting.yaml. Edit the YAML, then run: python scripts/build.py -->
+
+Every family in this style on Google Fonts, imported from Google's own metadata (github.com/google/fonts). Open the specimen and test with real text before choosing. Fonts marked common AI pick are fine on purpose but shouldn't be a default. For curated starting picks, see reference/frontend/type.md.
+
+## Latin families, A-Z (318)
+
+- [Agrave Pro](https://fonts.google.com/specimen/Agrave+Pro): variable, by Daan Jobsis, added 2026. OFL-1.1. `npm i @fontsource/agrave-pro`
+- [Aguafina Script](https://fonts.google.com/specimen/Aguafina+Script): by Sudtipos, added 2011. OFL-1.1. `npm i @fontsource/aguafina-script`
+- [Alex Brush](https://fonts.google.com/specimen/Alex+Brush): by Robert Leuschke, added 2011. OFL-1.1. `npm i @fontsource/alex-brush`
+- [Allison](https://fonts.google.com/specimen/Allison): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/allison`
+- [Allura](https://fonts.google.com/specimen/Allura): by Robert Leuschke, added 2012. OFL-1.1. `npm i @fontsource/allura`
+- [Amatic SC](https://fonts.google.com/specimen/Amatic+SC): by Vernon Adams, Ben Nathan, Thomas Jockin, added 2011. OFL-1.1. `npm i @fontsource/amatic-sc`
+- [Annie Use Your Telescope](https://fonts.google.com/specimen/Annie+Use+Your+Telescope): by Kimberly Geswein, added 2011. OFL-1.1. `npm i @fontsource/annie-use-your-telescope`
+- [Architects Daughter](https://fonts.google.com/specimen/Architects+Daughter): by Kimberly Geswein, added 2011. OFL-1.1. `npm i @fontsource/architects-daughter`
+- [Are You Serious](https://fonts.google.com/specimen/Are+You+Serious): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/are-you-serious`
+- [Arizonia](https://fonts.google.com/specimen/Arizonia): by Robert Leuschke, added 2011. OFL-1.1. `npm i @fontsource/arizonia`
+- [Babylonica](https://fonts.google.com/specimen/Babylonica): by Robert Leuschke, added 2022. OFL-1.1. `npm i @fontsource/babylonica`
+- [Ballet](https://fonts.google.com/specimen/Ballet): variable, by Omnibus-Type, Maximiliano Sproviero, added 2020. OFL-1.1. `npm i @fontsource/ballet`
+- [Beau Rivage](https://fonts.google.com/specimen/Beau+Rivage): by Robert Leuschke, added 2022. OFL-1.1. `npm i @fontsource/beau-rivage`
+- [Berkshire Swash](https://fonts.google.com/specimen/Berkshire+Swash): by Astigmatic, added 2012. OFL-1.1. `npm i @fontsource/berkshire-swash`
+- [Betania Patmos](https://fonts.google.com/specimen/Betania+Patmos): by Carolina Giovagnoli, added 2026. OFL-1.1. `npm i @fontsource/betania-patmos`
+- [Betania Patmos GDL](https://fonts.google.com/specimen/Betania+Patmos+GDL): by Carolina Giovagnoli, added 2026. OFL-1.1. `npm i @fontsource/betania-patmos-gdl`
+- [Betania Patmos In](https://fonts.google.com/specimen/Betania+Patmos+In): by Carolina Giovagnoli, added 2026. OFL-1.1. `npm i @fontsource/betania-patmos-in`
+- [Betania Patmos In GDL](https://fonts.google.com/specimen/Betania+Patmos+In+GDL): by Carolina Giovagnoli, added 2026. OFL-1.1. `npm i @fontsource/betania-patmos-in-gdl`
+- [Beth Ellen](https://fonts.google.com/specimen/Beth+Ellen): by Rob Jelinski, Alyson Fraser Diaz, added 2019. OFL-1.1. `npm i @fontsource/beth-ellen`
+- [Bilbo](https://fonts.google.com/specimen/Bilbo): by Robert Leuschke, added 2011. OFL-1.1. `npm i @fontsource/bilbo`
+- [Bilbo Swash Caps](https://fonts.google.com/specimen/Bilbo+Swash+Caps): by TypeSETit, added 2011. OFL-1.1. `npm i @fontsource/bilbo-swash-caps`
+- [Birthstone](https://fonts.google.com/specimen/Birthstone): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/birthstone`
+- [Birthstone Bounce](https://fonts.google.com/specimen/Birthstone+Bounce): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/birthstone-bounce`
+- [Bonbon](https://fonts.google.com/specimen/Bonbon): by Cyreal, added 2011. OFL-1.1. `npm i @fontsource/bonbon`
+- [Bonheur Royale](https://fonts.google.com/specimen/Bonheur+Royale): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/bonheur-royale`
+- [Borel](https://fonts.google.com/specimen/Borel): by Rosalie Wagner, added 2023. OFL-1.1. `npm i @fontsource/borel`
+- [Briem Hand](https://fonts.google.com/specimen/Briem+Hand): variable, by Gunnlaugur SE Briem, Eben Sorkin, added 2024. OFL-1.1. `npm i @fontsource/briem-hand`
+- [Butterfly Kids](https://fonts.google.com/specimen/Butterfly+Kids): by Tart Workshop, added 2012. OFL-1.1. `npm i @fontsource/butterfly-kids`
+- [Calligraffitti](https://fonts.google.com/specimen/Calligraffitti): by Open Window, added 2011. Apache-2.0. `npm i @fontsource/calligraffitti`
+- [Caramel](https://fonts.google.com/specimen/Caramel): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/caramel`
+- [Carattere](https://fonts.google.com/specimen/Carattere): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/carattere`
+- [Cause](https://fonts.google.com/specimen/Cause): variable, by Saurabh Sharma, added 2025. OFL-1.1. `npm i @fontsource/cause`
+- [Caveat](https://fonts.google.com/specimen/Caveat): variable, by Impallari Type, added 2015. OFL-1.1. `npm i @fontsource/caveat`
+- [Caveat Brush](https://fonts.google.com/specimen/Caveat+Brush): by Impallari Type, added 2015. OFL-1.1. `npm i @fontsource/caveat-brush`
+- [Cedarville Cursive](https://fonts.google.com/specimen/Cedarville+Cursive): by Kimberly Geswein, added 2011. OFL-1.1. `npm i @fontsource/cedarville-cursive`
+- [Cherish](https://fonts.google.com/specimen/Cherish): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/cherish`
+- [Clicker Script](https://fonts.google.com/specimen/Clicker+Script): by Astigmatic, added 2012. OFL-1.1. `npm i @fontsource/clicker-script`
+- [Comforter](https://fonts.google.com/specimen/Comforter): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/comforter`
+- [Comforter Brush](https://fonts.google.com/specimen/Comforter+Brush): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/comforter-brush`
+- [Comic Neue](https://fonts.google.com/specimen/Comic+Neue): by Craig Rozynski, Hrant Papazian, added 2020. OFL-1.1. `npm i @fontsource/comic-neue`
+- [Coming Soon](https://fonts.google.com/specimen/Coming+Soon): by Open Window, added 2011. Apache-2.0. `npm i @fontsource/coming-soon`
+- [Condiment](https://fonts.google.com/specimen/Condiment): by Sudtipos, added 2012. OFL-1.1. `npm i @fontsource/condiment`
+- [Cookie](https://fonts.google.com/specimen/Cookie): by Ania Kruk, added 2011. OFL-1.1. `npm i @fontsource/cookie`
+- [Corinthia](https://fonts.google.com/specimen/Corinthia): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/corinthia`
+- [Courgette](https://fonts.google.com/specimen/Courgette): by Karolina Lach, added 2012. OFL-1.1. `npm i @fontsource/courgette`
+- [Covered By Your Grace](https://fonts.google.com/specimen/Covered+By+Your+Grace): by Kimberly Geswein, added 2010. OFL-1.1. `npm i @fontsource/covered-by-your-grace`
+- [Crafty Girls](https://fonts.google.com/specimen/Crafty+Girls): by Tart Workshop, added 2011. Apache-2.0. `npm i @fontsource/crafty-girls`
+- [Damion](https://fonts.google.com/specimen/Damion): by Vernon Adams, added 2011. OFL-1.1. `npm i @fontsource/damion`
+- [Dancing Script](https://fonts.google.com/specimen/Dancing+Script): variable, by Impallari Type, added 2011. OFL-1.1. `npm i @fontsource/dancing-script`
+- [Dawning of a New Day](https://fonts.google.com/specimen/Dawning+of+a+New+Day): by Kimberly Geswein, added 2011. OFL-1.1. `npm i @fontsource/dawning-of-a-new-day`
+- [Delicious Handrawn](https://fonts.google.com/specimen/Delicious+Handrawn): by Agung Rohmat, added 2023. OFL-1.1. `npm i @fontsource/delicious-handrawn`
+- [Delius](https://fonts.google.com/specimen/Delius): by Natalia Raices, added 2011. OFL-1.1. `npm i @fontsource/delius`
+- [Delius Swash Caps](https://fonts.google.com/specimen/Delius+Swash+Caps): by Natalia Raices, added 2011. OFL-1.1. `npm i @fontsource/delius-swash-caps`
+- [Delius Unicase](https://fonts.google.com/specimen/Delius+Unicase): by Natalia Raices, added 2011. OFL-1.1. `npm i @fontsource/delius-unicase`
+- [Devonshire](https://fonts.google.com/specimen/Devonshire): by Astigmatic, added 2011. OFL-1.1. `npm i @fontsource/devonshire`
+- [Dr Sugiyama](https://fonts.google.com/specimen/Dr+Sugiyama): by Sudtipos, added 2011. OFL-1.1. `npm i @fontsource/dr-sugiyama`
+- [Eagle Lake](https://fonts.google.com/specimen/Eagle+Lake): by Astigmatic, added 2012. OFL-1.1. `npm i @fontsource/eagle-lake`
+- [Edu AU VIC WA NT Arrows](https://fonts.google.com/specimen/Edu+AU+VIC+WA+NT+Arrows): variable, by Tina Anderson, Corey Anderson, added 2024. OFL-1.1. `npm i @fontsource/edu-au-vic-wa-nt-arrows`
+- [Edu AU VIC WA NT Dots](https://fonts.google.com/specimen/Edu+AU+VIC+WA+NT+Dots): variable, by Tina Anderson, Corey Anderson, added 2024. OFL-1.1. `npm i @fontsource/edu-au-vic-wa-nt-dots`
+- [Edu AU VIC WA NT Guides](https://fonts.google.com/specimen/Edu+AU+VIC+WA+NT+Guides): variable, by Tina Anderson, Corey Anderson, added 2024. OFL-1.1. `npm i @fontsource/edu-au-vic-wa-nt-guides`
+- [Edu AU VIC WA NT Hand](https://fonts.google.com/specimen/Edu+AU+VIC+WA+NT+Hand): variable, by Tina Anderson, Corey Anderson, added 2024. OFL-1.1. `npm i @fontsource/edu-au-vic-wa-nt-hand`
+- [Edu AU VIC WA NT Pre](https://fonts.google.com/specimen/Edu+AU+VIC+WA+NT+Pre): variable, by Tina Anderson, Corey Anderson, added 2024. OFL-1.1. `npm i @fontsource/edu-au-vic-wa-nt-pre`
+- [Edu NSW ACT Foundation](https://fonts.google.com/specimen/Edu+NSW+ACT+Foundation): variable, by Tina Anderson, Corey Anderson, added 2022. OFL-1.1. `npm i @fontsource/edu-nsw-act-foundation`
+- [Edu QLD Beginner](https://fonts.google.com/specimen/Edu+QLD+Beginner): variable, by Tina Anderson, Corey Anderson, added 2022. OFL-1.1. `npm i @fontsource/edu-qld-beginner`
+- [Edu SA Beginner](https://fonts.google.com/specimen/Edu+SA+Beginner): variable, by Tina Anderson, Corey Anderson, added 2022. OFL-1.1. `npm i @fontsource/edu-sa-beginner`
+- [Edu TAS Beginner](https://fonts.google.com/specimen/Edu+TAS+Beginner): variable, by Tina Anderson, Corey Anderson, added 2022. OFL-1.1. `npm i @fontsource/edu-tas-beginner`
+- [Edu VIC WA NT Beginner](https://fonts.google.com/specimen/Edu+VIC+WA+NT+Beginner): variable, by Tina Anderson, Corey Anderson, added 2022. OFL-1.1. `npm i @fontsource/edu-vic-wa-nt-beginner`
+- [Engagement](https://fonts.google.com/specimen/Engagement): by Astigmatic, added 2011. OFL-1.1. `npm i @fontsource/engagement`
+- [Ephesis](https://fonts.google.com/specimen/Ephesis): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/ephesis`
+- [Estonia](https://fonts.google.com/specimen/Estonia): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/estonia`
+- [Euphoria Script](https://fonts.google.com/specimen/Euphoria+Script): by Sabrina Mariela Lopez, added 2012. OFL-1.1. `npm i @fontsource/euphoria-script`
+- [Explora](https://fonts.google.com/specimen/Explora): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/explora`
+- [Felipa](https://fonts.google.com/specimen/Felipa): by Fontstage, added 2012. OFL-1.1. `npm i @fontsource/felipa`
+- [Festive](https://fonts.google.com/specimen/Festive): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/festive`
+- [Fleur De Leah](https://fonts.google.com/specimen/Fleur+De+Leah): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/fleur-de-leah`
+- [Fondamento](https://fonts.google.com/specimen/Fondamento): by Astigmatic, added 2011. OFL-1.1. `npm i @fontsource/fondamento`
+- [Fuggles](https://fonts.google.com/specimen/Fuggles): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/fuggles`
+- [Fuzzy Bubbles](https://fonts.google.com/specimen/Fuzzy+Bubbles): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/fuzzy-bubbles`
+- [Give You Glory](https://fonts.google.com/specimen/Give+You+Glory): by Kimberly Geswein, added 2011. OFL-1.1. `npm i @fontsource/give-you-glory`
+- [Gloria Hallelujah](https://fonts.google.com/specimen/Gloria+Hallelujah): by Kimberly Geswein, added 2011. OFL-1.1. `npm i @fontsource/gloria-hallelujah`
+- [Gochi Hand](https://fonts.google.com/specimen/Gochi+Hand): by HT Fonts, added 2011. OFL-1.1. `npm i @fontsource/gochi-hand`
+- [Grand Hotel](https://fonts.google.com/specimen/Grand+Hotel): by Astigmatic, added 2012. OFL-1.1. `npm i @fontsource/grand-hotel`
+- [Grape Nuts](https://fonts.google.com/specimen/Grape+Nuts): by Robert Leuschke, added 2022. OFL-1.1. `npm i @fontsource/grape-nuts`
+- [Great Vibes](https://fonts.google.com/specimen/Great+Vibes): by Robert Leuschke, added 2012. OFL-1.1. `npm i @fontsource/great-vibes`
+- [Grechen Fuemen](https://fonts.google.com/specimen/Grechen+Fuemen): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/grechen-fuemen`
+- [Grey Qo](https://fonts.google.com/specimen/Grey+Qo): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/grey-qo`
+- [Gwendolyn](https://fonts.google.com/specimen/Gwendolyn): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/gwendolyn`
+- [Handlee](https://fonts.google.com/specimen/Handlee): by Joe Prince, added 2011. OFL-1.1. `npm i @fontsource/handlee`
+- [Herr Von Muellerhoff](https://fonts.google.com/specimen/Herr+Von+Muellerhoff): by Sudtipos, added 2011. OFL-1.1. `npm i @fontsource/herr-von-muellerhoff`
+- [Homemade Apple](https://fonts.google.com/specimen/Homemade+Apple): by Font Diner, added 2011. Apache-2.0. `npm i @fontsource/homemade-apple`
+- [Hurricane](https://fonts.google.com/specimen/Hurricane): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/hurricane`
+- [Imperial Script](https://fonts.google.com/specimen/Imperial+Script): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/imperial-script`
+- [Indie Flower](https://fonts.google.com/specimen/Indie+Flower): by Kimberly Geswein, added 2011. OFL-1.1. `npm i @fontsource/indie-flower`
+- [Ingrid Darling](https://fonts.google.com/specimen/Ingrid+Darling): by Robert Leuschke, added 2022. OFL-1.1. `npm i @fontsource/ingrid-darling`
+- [Inspiration](https://fonts.google.com/specimen/Inspiration): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/inspiration`
+- [Island Moments](https://fonts.google.com/specimen/Island+Moments): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/island-moments`
+- [Italianno](https://fonts.google.com/specimen/Italianno): by Robert Leuschke, added 2011. OFL-1.1. `npm i @fontsource/italianno`
+- [Jim Nightshade](https://fonts.google.com/specimen/Jim+Nightshade): by Astigmatic, added 2012. OFL-1.1. `npm i @fontsource/jim-nightshade`
+- [Julee](https://fonts.google.com/specimen/Julee): by Julián Tunni, added 2011. OFL-1.1. `npm i @fontsource/julee`
+- [Just Another Hand](https://fonts.google.com/specimen/Just+Another+Hand): by Astigmatic, added 2010. Apache-2.0. `npm i @fontsource/just-another-hand`
+- [Just Me Again Down Here](https://fonts.google.com/specimen/Just+Me+Again+Down+Here): by Kimberly Geswein, added 2010. OFL-1.1. `npm i @fontsource/just-me-again-down-here`
+- [Kaushan Script](https://fonts.google.com/specimen/Kaushan+Script): by Impallari Type, added 2012. OFL-1.1. `npm i @fontsource/kaushan-script`
+- [Kings](https://fonts.google.com/specimen/Kings): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/kings`
+- [Kolker Brush](https://fonts.google.com/specimen/Kolker+Brush): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/kolker-brush`
+- [Kristi](https://fonts.google.com/specimen/Kristi): by Birgit Pulk, added 2010. OFL-1.1. `npm i @fontsource/kristi`
+- [La Belle Aurore](https://fonts.google.com/specimen/La+Belle+Aurore): by Kimberly Geswein, added 2011. OFL-1.1. `npm i @fontsource/la-belle-aurore`
+- [Lavishly Yours](https://fonts.google.com/specimen/Lavishly+Yours): by Robert Leuschke, added 2022. OFL-1.1. `npm i @fontsource/lavishly-yours`
+- [League Script](https://fonts.google.com/specimen/League+Script): by Haley Fiege, added 2011. OFL-1.1. `npm i @fontsource/league-script`
+- [Leckerli One](https://fonts.google.com/specimen/Leckerli+One): by Gesine Todt, added 2011. OFL-1.1. `npm i @fontsource/leckerli-one`
+- [Licorice](https://fonts.google.com/specimen/Licorice): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/licorice`
+- [Love Light](https://fonts.google.com/specimen/Love+Light): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/love-light`
+- [Loved by the King](https://fonts.google.com/specimen/Loved+by+the+King): by Kimberly Geswein, added 2011. OFL-1.1. `npm i @fontsource/loved-by-the-king`
+- [Lovers Quarrel](https://fonts.google.com/specimen/Lovers+Quarrel): by Robert Leuschke, added 2012. OFL-1.1. `npm i @fontsource/lovers-quarrel`
+- [Lugrasimo](https://fonts.google.com/specimen/Lugrasimo): by The DocRepair Project, Astigmatic, added 2023. OFL-1.1. `npm i @fontsource/lugrasimo`
+- [Lumanosimo](https://fonts.google.com/specimen/Lumanosimo): by The DocRepair Project, Eduardo Tunni, added 2023. OFL-1.1. `npm i @fontsource/lumanosimo`
+- [Luxurious Script](https://fonts.google.com/specimen/Luxurious+Script): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/luxurious-script`
+- [Mansalva](https://fonts.google.com/specimen/Mansalva): by Carolina Short, added 2019. OFL-1.1. `npm i @fontsource/mansalva`
+- [Marck Script](https://fonts.google.com/specimen/Marck+Script): by Denis Masharov, added 2011. OFL-1.1. `npm i @fontsource/marck-script`
+- [Mea Culpa](https://fonts.google.com/specimen/Mea+Culpa): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/mea-culpa`
+- [Meddon](https://fonts.google.com/specimen/Meddon): by Vernon Adams, added 2011. OFL-1.1. `npm i @fontsource/meddon`
+- [Meie Script](https://fonts.google.com/specimen/Meie+Script): by Johan Kallas, Mihkel Virkus, added 2012. OFL-1.1. `npm i @fontsource/meie-script`
+- [Meow Script](https://fonts.google.com/specimen/Meow+Script): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/meow-script`
+- [Merienda](https://fonts.google.com/specimen/Merienda): variable, by Eduardo Tunni, added 2012. OFL-1.1. `npm i @fontsource/merienda`
+- [Mervale Script](https://fonts.google.com/specimen/Mervale+Script): by Astigmatic, added 2012. OFL-1.1. `npm i @fontsource/mervale-script`
+- [Miama](https://fonts.google.com/specimen/Miama): by Linus Romer, added 2012. OFL-1.1. `npm i @fontsource/miama`
+- [Miss Fajardose](https://fonts.google.com/specimen/Miss+Fajardose): by Sudtipos, added 2011. OFL-1.1. `npm i @fontsource/miss-fajardose`
+- [Molle](https://fonts.google.com/specimen/Molle): by Elena Albertoni, added 2012. OFL-1.1. `npm i @fontsource/molle`
+- [Monsieur La Doulaise](https://fonts.google.com/specimen/Monsieur+La+Doulaise): by Sudtipos, added 2011. OFL-1.1. `npm i @fontsource/monsieur-la-doulaise`
+- [MonteCarlo](https://fonts.google.com/specimen/MonteCarlo): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/montecarlo`
+- [Montez](https://fonts.google.com/specimen/Montez): by Astigmatic, added 2011. Apache-2.0. `npm i @fontsource/montez`
+- [Moon Dance](https://fonts.google.com/specimen/Moon+Dance): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/moon-dance`
+- [Mr Bedfort](https://fonts.google.com/specimen/Mr+Bedfort): by Sudtipos, added 2012. OFL-1.1. `npm i @fontsource/mr-bedfort`
+- [Mr Dafoe](https://fonts.google.com/specimen/Mr+Dafoe): by Sudtipos, added 2011. OFL-1.1. `npm i @fontsource/mr-dafoe`
+- [Mr De Haviland](https://fonts.google.com/specimen/Mr+De+Haviland): by Sudtipos, added 2011. OFL-1.1. `npm i @fontsource/mr-de-haviland`
+- [Mrs Saint Delafield](https://fonts.google.com/specimen/Mrs+Saint+Delafield): by Sudtipos, added 2012. OFL-1.1. `npm i @fontsource/mrs-saint-delafield`
+- [Mrs Sheppards](https://fonts.google.com/specimen/Mrs+Sheppards): by Sudtipos, added 2011. OFL-1.1. `npm i @fontsource/mrs-sheppards`
+- [Ms Madi](https://fonts.google.com/specimen/Ms+Madi): by Robert Leuschke, added 2022. OFL-1.1. `npm i @fontsource/ms-madi`
+- [My Soul](https://fonts.google.com/specimen/My+Soul): by Robert Leuschke, added 2022. OFL-1.1. `npm i @fontsource/my-soul`
+- [Mynerve](https://fonts.google.com/specimen/Mynerve): by Carolina Short, added 2023. OFL-1.1. `npm i @fontsource/mynerve`
+- [Neonderthaw](https://fonts.google.com/specimen/Neonderthaw): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/neonderthaw`
+- [Nerko One](https://fonts.google.com/specimen/Nerko+One): by Nermin Kahrimanovic, added 2020. OFL-1.1. `npm i @fontsource/nerko-one`
+- [Neucha](https://fonts.google.com/specimen/Neucha): by Jovanny Lemonad, added 2010. OFL-1.1. `npm i @fontsource/neucha`
+- [Niconne](https://fonts.google.com/specimen/Niconne): by Vernon Adams, added 2011. OFL-1.1. `npm i @fontsource/niconne`
+- [Norican](https://fonts.google.com/specimen/Norican): by Vernon Adams, added 2012. OFL-1.1. `npm i @fontsource/norican`
+- [Nothing You Could Do](https://fonts.google.com/specimen/Nothing+You+Could+Do): by Kimberly Geswein, added 2011. OFL-1.1. `npm i @fontsource/nothing-you-could-do`
+- [Ole](https://fonts.google.com/specimen/Ole): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/ole`
+- [Oooh Baby](https://fonts.google.com/specimen/Oooh+Baby): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/oooh-baby`
+- [Over the Rainbow](https://fonts.google.com/specimen/Over+the+Rainbow): by Kimberly Geswein, added 2011. OFL-1.1. `npm i @fontsource/over-the-rainbow`
+- [Pacifico](https://fonts.google.com/specimen/Pacifico): by Vernon Adams, Jacques Le Bailly, Botjo Nikoltchev, Ani Petrova, added 2011. OFL-1.1. `npm i @fontsource/pacifico`
+- [Pangolin](https://fonts.google.com/specimen/Pangolin): by Kevin Burke, added 2017. OFL-1.1. `npm i @fontsource/pangolin`
+- [Parisienne](https://fonts.google.com/specimen/Parisienne): by Astigmatic, added 2012. OFL-1.1. `npm i @fontsource/parisienne`
+- [Passions Conflict](https://fonts.google.com/specimen/Passions+Conflict): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/passions-conflict`
+- [Patrick Hand](https://fonts.google.com/specimen/Patrick+Hand): by Patrick Wagesreiter, added 2011. OFL-1.1. `npm i @fontsource/patrick-hand`
+- [Patrick Hand SC](https://fonts.google.com/specimen/Patrick+Hand+SC): by Patrick Wagesreiter, added 2013. OFL-1.1. `npm i @fontsource/patrick-hand-sc`
+- [Permanent Marker](https://fonts.google.com/specimen/Permanent+Marker): by Font Diner, added 2011. Apache-2.0. `npm i @fontsource/permanent-marker`
+- [Petemoss](https://fonts.google.com/specimen/Petemoss): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/petemoss`
+- [Petit Formal Script](https://fonts.google.com/specimen/Petit+Formal+Script): by Impallari Type, added 2012. OFL-1.1. `npm i @fontsource/petit-formal-script`
+- [Pinyon Script](https://fonts.google.com/specimen/Pinyon+Script): by Nicole Fally, added 2011. OFL-1.1. `npm i @fontsource/pinyon-script`
+- [Playpen Sans](https://fonts.google.com/specimen/Playpen+Sans): variable, by TypeTogether, Laura Meseguer, Veronika Burian, José Scaglione, Kostas Bartsokas, Vera Evstafieva, Tom Grace, Yorlmar Campos, added 2023. OFL-1.1. `npm i @fontsource/playpen-sans`
+- [Playwrite AR](https://fonts.google.com/specimen/Playwrite+AR): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-ar`
+- [Playwrite AR Guides](https://fonts.google.com/specimen/Playwrite+AR+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-ar-guides`
+- [Playwrite AT](https://fonts.google.com/specimen/Playwrite+AT): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-at`
+- [Playwrite AT Guides](https://fonts.google.com/specimen/Playwrite+AT+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-at-guides`
+- [Playwrite AU NSW](https://fonts.google.com/specimen/Playwrite+AU+NSW): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-au-nsw`
+- [Playwrite AU NSW Guides](https://fonts.google.com/specimen/Playwrite+AU+NSW+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-au-nsw-guides`
+- [Playwrite AU QLD](https://fonts.google.com/specimen/Playwrite+AU+QLD): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-au-qld`
+- [Playwrite AU QLD Guides](https://fonts.google.com/specimen/Playwrite+AU+QLD+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-au-qld-guides`
+- [Playwrite AU SA](https://fonts.google.com/specimen/Playwrite+AU+SA): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-au-sa`
+- [Playwrite AU SA Guides](https://fonts.google.com/specimen/Playwrite+AU+SA+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-au-sa-guides`
+- [Playwrite AU TAS](https://fonts.google.com/specimen/Playwrite+AU+TAS): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-au-tas`
+- [Playwrite AU TAS Guides](https://fonts.google.com/specimen/Playwrite+AU+TAS+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-au-tas-guides`
+- [Playwrite AU VIC](https://fonts.google.com/specimen/Playwrite+AU+VIC): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-au-vic`
+- [Playwrite AU VIC Guides](https://fonts.google.com/specimen/Playwrite+AU+VIC+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-au-vic-guides`
+- [Playwrite BE VLG](https://fonts.google.com/specimen/Playwrite+BE+VLG): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-be-vlg`
+- [Playwrite BE VLG Guides](https://fonts.google.com/specimen/Playwrite+BE+VLG+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-be-vlg-guides`
+- [Playwrite BE WAL](https://fonts.google.com/specimen/Playwrite+BE+WAL): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-be-wal`
+- [Playwrite BE WAL Guides](https://fonts.google.com/specimen/Playwrite+BE+WAL+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-be-wal-guides`
+- [Playwrite BR](https://fonts.google.com/specimen/Playwrite+BR): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-br`
+- [Playwrite BR Guides](https://fonts.google.com/specimen/Playwrite+BR+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-br-guides`
+- [Playwrite CA](https://fonts.google.com/specimen/Playwrite+CA): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-ca`
+- [Playwrite CA Guides](https://fonts.google.com/specimen/Playwrite+CA+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-ca-guides`
+- [Playwrite CL](https://fonts.google.com/specimen/Playwrite+CL): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-cl`
+- [Playwrite CL Guides](https://fonts.google.com/specimen/Playwrite+CL+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-cl-guides`
+- [Playwrite CO](https://fonts.google.com/specimen/Playwrite+CO): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2023. OFL-1.1. `npm i @fontsource/playwrite-co`
+- [Playwrite CO Guides](https://fonts.google.com/specimen/Playwrite+CO+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-co-guides`
+- [Playwrite CU](https://fonts.google.com/specimen/Playwrite+CU): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-cu`
+- [Playwrite CU Guides](https://fonts.google.com/specimen/Playwrite+CU+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-cu-guides`
+- [Playwrite CZ](https://fonts.google.com/specimen/Playwrite+CZ): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-cz`
+- [Playwrite CZ Guides](https://fonts.google.com/specimen/Playwrite+CZ+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-cz-guides`
+- [Playwrite DE Grund](https://fonts.google.com/specimen/Playwrite+DE+Grund): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-de-grund`
+- [Playwrite DE Grund Guides](https://fonts.google.com/specimen/Playwrite+DE+Grund+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-de-grund-guides`
+- [Playwrite DE LA](https://fonts.google.com/specimen/Playwrite+DE+LA): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-de-la`
+- [Playwrite DE LA Guides](https://fonts.google.com/specimen/Playwrite+DE+LA+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-de-la-guides`
+- [Playwrite DE SAS](https://fonts.google.com/specimen/Playwrite+DE+SAS): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-de-sas`
+- [Playwrite DE SAS Guides](https://fonts.google.com/specimen/Playwrite+DE+SAS+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-de-sas-guides`
+- [Playwrite DE VA](https://fonts.google.com/specimen/Playwrite+DE+VA): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-de-va`
+- [Playwrite DE VA Guides](https://fonts.google.com/specimen/Playwrite+DE+VA+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-de-va-guides`
+- [Playwrite DK Loopet](https://fonts.google.com/specimen/Playwrite+DK+Loopet): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-dk-loopet`
+- [Playwrite DK Loopet Guides](https://fonts.google.com/specimen/Playwrite+DK+Loopet+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-dk-loopet-guides`
+- [Playwrite DK Uloopet](https://fonts.google.com/specimen/Playwrite+DK+Uloopet): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-dk-uloopet`
+- [Playwrite DK Uloopet Guides](https://fonts.google.com/specimen/Playwrite+DK+Uloopet+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-dk-uloopet-guides`
+- [Playwrite ES](https://fonts.google.com/specimen/Playwrite+ES): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-es`
+- [Playwrite ES Deco](https://fonts.google.com/specimen/Playwrite+ES+Deco): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-es-deco`
+- [Playwrite ES Deco Guides](https://fonts.google.com/specimen/Playwrite+ES+Deco+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-es-deco-guides`
+- [Playwrite ES Guides](https://fonts.google.com/specimen/Playwrite+ES+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-es-guides`
+- [Playwrite FR Moderne](https://fonts.google.com/specimen/Playwrite+FR+Moderne): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-fr-moderne`
+- [Playwrite FR Moderne Guides](https://fonts.google.com/specimen/Playwrite+FR+Moderne+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-fr-moderne-guides`
+- [Playwrite FR Trad](https://fonts.google.com/specimen/Playwrite+FR+Trad): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2023. OFL-1.1. `npm i @fontsource/playwrite-fr-trad`
+- [Playwrite FR Trad Guides](https://fonts.google.com/specimen/Playwrite+FR+Trad+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-fr-trad-guides`
+- [Playwrite GB J](https://fonts.google.com/specimen/Playwrite+GB+J): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-gb-j`
+- [Playwrite GB J Guides](https://fonts.google.com/specimen/Playwrite+GB+J+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-gb-j-guides`
+- [Playwrite GB S](https://fonts.google.com/specimen/Playwrite+GB+S): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-gb-s`
+- [Playwrite GB S Guides](https://fonts.google.com/specimen/Playwrite+GB+S+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-gb-s-guides`
+- [Playwrite HR](https://fonts.google.com/specimen/Playwrite+HR): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-hr`
+- [Playwrite HR Guides](https://fonts.google.com/specimen/Playwrite+HR+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-hr-guides`
+- [Playwrite HR Lijeva](https://fonts.google.com/specimen/Playwrite+HR+Lijeva): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-hr-lijeva`
+- [Playwrite HR Lijeva Guides](https://fonts.google.com/specimen/Playwrite+HR+Lijeva+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-hr-lijeva-guides`
+- [Playwrite HU](https://fonts.google.com/specimen/Playwrite+HU): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-hu`
+- [Playwrite HU Guides](https://fonts.google.com/specimen/Playwrite+HU+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-hu-guides`
+- [Playwrite ID](https://fonts.google.com/specimen/Playwrite+ID): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-id`
+- [Playwrite ID Guides](https://fonts.google.com/specimen/Playwrite+ID+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-id-guides`
+- [Playwrite IE](https://fonts.google.com/specimen/Playwrite+IE): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-ie`
+- [Playwrite IE Guides](https://fonts.google.com/specimen/Playwrite+IE+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-ie-guides`
+- [Playwrite IN](https://fonts.google.com/specimen/Playwrite+IN): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-in`
+- [Playwrite IN Guides](https://fonts.google.com/specimen/Playwrite+IN+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-in-guides`
+- [Playwrite IS](https://fonts.google.com/specimen/Playwrite+IS): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-is`
+- [Playwrite IS Guides](https://fonts.google.com/specimen/Playwrite+IS+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-is-guides`
+- [Playwrite IT Moderna](https://fonts.google.com/specimen/Playwrite+IT+Moderna): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-it-moderna`
+- [Playwrite IT Moderna Guides](https://fonts.google.com/specimen/Playwrite+IT+Moderna+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-it-moderna-guides`
+- [Playwrite IT Trad](https://fonts.google.com/specimen/Playwrite+IT+Trad): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-it-trad`
+- [Playwrite IT Trad Guides](https://fonts.google.com/specimen/Playwrite+IT+Trad+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-it-trad-guides`
+- [Playwrite MX](https://fonts.google.com/specimen/Playwrite+MX): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-mx`
+- [Playwrite MX Guides](https://fonts.google.com/specimen/Playwrite+MX+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-mx-guides`
+- [Playwrite NG Modern](https://fonts.google.com/specimen/Playwrite+NG+Modern): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-ng-modern`
+- [Playwrite NG Modern Guides](https://fonts.google.com/specimen/Playwrite+NG+Modern+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-ng-modern-guides`
+- [Playwrite NL](https://fonts.google.com/specimen/Playwrite+NL): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-nl`
+- [Playwrite NL Guides](https://fonts.google.com/specimen/Playwrite+NL+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-nl-guides`
+- [Playwrite NO](https://fonts.google.com/specimen/Playwrite+NO): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-no`
+- [Playwrite NO Guides](https://fonts.google.com/specimen/Playwrite+NO+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-no-guides`
+- [Playwrite NZ](https://fonts.google.com/specimen/Playwrite+NZ): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-nz`
+- [Playwrite NZ Basic](https://fonts.google.com/specimen/Playwrite+NZ+Basic): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2026. OFL-1.1. `npm i @fontsource/playwrite-nz-basic`
+- [Playwrite NZ Basic Guides](https://fonts.google.com/specimen/Playwrite+NZ+Basic+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2026. OFL-1.1. `npm i @fontsource/playwrite-nz-basic-guides`
+- [Playwrite NZ Guides](https://fonts.google.com/specimen/Playwrite+NZ+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-nz-guides`
+- [Playwrite PE](https://fonts.google.com/specimen/Playwrite+PE): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-pe`
+- [Playwrite PE Guides](https://fonts.google.com/specimen/Playwrite+PE+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-pe-guides`
+- [Playwrite PL](https://fonts.google.com/specimen/Playwrite+PL): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-pl`
+- [Playwrite PL Guides](https://fonts.google.com/specimen/Playwrite+PL+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-pl-guides`
+- [Playwrite PT](https://fonts.google.com/specimen/Playwrite+PT): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-pt`
+- [Playwrite PT Guides](https://fonts.google.com/specimen/Playwrite+PT+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-pt-guides`
+- [Playwrite RO](https://fonts.google.com/specimen/Playwrite+RO): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-ro`
+- [Playwrite RO Guides](https://fonts.google.com/specimen/Playwrite+RO+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-ro-guides`
+- [Playwrite SK](https://fonts.google.com/specimen/Playwrite+SK): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-sk`
+- [Playwrite SK Guides](https://fonts.google.com/specimen/Playwrite+SK+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-sk-guides`
+- [Playwrite TZ](https://fonts.google.com/specimen/Playwrite+TZ): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-tz`
+- [Playwrite TZ Guides](https://fonts.google.com/specimen/Playwrite+TZ+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-tz-guides`
+- [Playwrite US Modern](https://fonts.google.com/specimen/Playwrite+US+Modern): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-us-modern`
+- [Playwrite US Modern Guides](https://fonts.google.com/specimen/Playwrite+US+Modern+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-us-modern-guides`
+- [Playwrite US Trad](https://fonts.google.com/specimen/Playwrite+US+Trad): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-us-trad`
+- [Playwrite US Trad Guides](https://fonts.google.com/specimen/Playwrite+US+Trad+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-us-trad-guides`
+- [Playwrite VN](https://fonts.google.com/specimen/Playwrite+VN): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-vn`
+- [Playwrite VN Guides](https://fonts.google.com/specimen/Playwrite+VN+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-vn-guides`
+- [Playwrite ZA](https://fonts.google.com/specimen/Playwrite+ZA): variable, by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-za`
+- [Playwrite ZA Guides](https://fonts.google.com/specimen/Playwrite+ZA+Guides): by TypeTogether, Veronika Burian, José Scaglione, added 2024. OFL-1.1. `npm i @fontsource/playwrite-za-guides`
+- [Praise](https://fonts.google.com/specimen/Praise): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/praise`
+- [Princess Sofia](https://fonts.google.com/specimen/Princess+Sofia): by Tart Workshop, added 2012. OFL-1.1. `npm i @fontsource/princess-sofia`
+- [Puppies Play](https://fonts.google.com/specimen/Puppies+Play): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/puppies-play`
+- [Quintessential](https://fonts.google.com/specimen/Quintessential): by Astigmatic, added 2012. OFL-1.1. `npm i @fontsource/quintessential`
+- [Qwigley](https://fonts.google.com/specimen/Qwigley): by Robert Leuschke, added 2011. OFL-1.1. `npm i @fontsource/qwigley`
+- [Qwitcher Grypen](https://fonts.google.com/specimen/Qwitcher+Grypen): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/qwitcher-grypen`
+- [Rancho](https://fonts.google.com/specimen/Rancho): by Sideshow, added 2011. Apache-2.0. `npm i @fontsource/rancho`
+- [Redressed](https://fonts.google.com/specimen/Redressed): by Astigmatic, added 2011. Apache-2.0. `npm i @fontsource/redressed`
+- [Reenie Beanie](https://fonts.google.com/specimen/Reenie+Beanie): by James Grieshaber, added 2010. OFL-1.1. `npm i @fontsource/reenie-beanie`
+- [Rochester](https://fonts.google.com/specimen/Rochester): by Sideshow, added 2011. Apache-2.0. `npm i @fontsource/rochester`
+- [Rock Salt](https://fonts.google.com/specimen/Rock+Salt): by Sideshow, added 2011. Apache-2.0. `npm i @fontsource/rock-salt`
+- [Romanesco](https://fonts.google.com/specimen/Romanesco): by Astigmatic, added 2012. OFL-1.1. `npm i @fontsource/romanesco`
+- [Rouge Script](https://fonts.google.com/specimen/Rouge+Script): by Sabrina Mariela Lopez, added 2012. OFL-1.1. `npm i @fontsource/rouge-script`
+- [Ruge Boogie](https://fonts.google.com/specimen/Ruge+Boogie): by Robert Leuschke, added 2011. OFL-1.1. `npm i @fontsource/ruge-boogie`
+- [Ruthie](https://fonts.google.com/specimen/Ruthie): by Robert Leuschke, added 2011. OFL-1.1. `npm i @fontsource/ruthie`
+- [Sacramento](https://fonts.google.com/specimen/Sacramento): by Astigmatic, added 2012. OFL-1.1. `npm i @fontsource/sacramento`
+- [Sassy Frass](https://fonts.google.com/specimen/Sassy+Frass): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/sassy-frass`
+- [Satisfy](https://fonts.google.com/specimen/Satisfy): by Sideshow, added 2011. Apache-2.0. `npm i @fontsource/satisfy`
+- [Schoolbell](https://fonts.google.com/specimen/Schoolbell): by Font Diner, added 2011. Apache-2.0. `npm i @fontsource/schoolbell`
+- [Sedgwick Ave](https://fonts.google.com/specimen/Sedgwick+Ave): by Pedro Vergani, Kevin Burke, added 2017. OFL-1.1. `npm i @fontsource/sedgwick-ave`
+- [Sedgwick Ave Display](https://fonts.google.com/specimen/Sedgwick+Ave+Display): by Pedro Vergani, Kevin Burke, added 2017. OFL-1.1. `npm i @fontsource/sedgwick-ave-display`
+- [Send Flowers](https://fonts.google.com/specimen/Send+Flowers): by Robert Leuschke, added 2022. OFL-1.1. `npm i @fontsource/send-flowers`
+- [Shadows Into Light](https://fonts.google.com/specimen/Shadows+Into+Light): by Kimberly Geswein, added 2011. OFL-1.1. `npm i @fontsource/shadows-into-light`
+- [Shadows Into Light Two](https://fonts.google.com/specimen/Shadows+Into+Light+Two): by Kimberly Geswein, added 2012. OFL-1.1. `npm i @fontsource/shadows-into-light-two`
+- [Shalimar](https://fonts.google.com/specimen/Shalimar): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/shalimar`
+- [Short Stack](https://fonts.google.com/specimen/Short+Stack): by James Grieshaber, added 2011. OFL-1.1. `npm i @fontsource/short-stack`
+- [Smooch](https://fonts.google.com/specimen/Smooch): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/smooch`
+- [Sofia](https://fonts.google.com/specimen/Sofia): by LatinoType, added 2011. OFL-1.1. `npm i @fontsource/sofia`
+- [Splash](https://fonts.google.com/specimen/Splash): by Robert Leuschke, added 2022. OFL-1.1. `npm i @fontsource/splash`
+- [Square Peg](https://fonts.google.com/specimen/Square+Peg): by Robert Leuschke, added 2022. OFL-1.1. `npm i @fontsource/square-peg`
+- [Stalemate](https://fonts.google.com/specimen/Stalemate): by Astigmatic, added 2012. OFL-1.1. `npm i @fontsource/stalemate`
+- [Style Script](https://fonts.google.com/specimen/Style+Script): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/style-script`
+- [Sue Ellen Francisco](https://fonts.google.com/specimen/Sue+Ellen+Francisco): by Kimberly Geswein, added 2011. OFL-1.1. `npm i @fontsource/sue-ellen-francisco`
+- [Sunshiney](https://fonts.google.com/specimen/Sunshiney): by Sideshow, added 2011. Apache-2.0. `npm i @fontsource/sunshiney`
+- [Swanky and Moo Moo](https://fonts.google.com/specimen/Swanky+and+Moo+Moo): by Kimberly Geswein, added 2011. OFL-1.1. `npm i @fontsource/swanky-and-moo-moo`
+- [Tangerine](https://fonts.google.com/specimen/Tangerine): by Toshi Omagari, added 2010. OFL-1.1. `npm i @fontsource/tangerine`
+- [Tapestry](https://fonts.google.com/specimen/Tapestry): by Robert Leuschke, added 2022. OFL-1.1. `npm i @fontsource/tapestry`
+- [The Girl Next Door](https://fonts.google.com/specimen/The+Girl+Next+Door): by Kimberly Geswein, added 2011. OFL-1.1. `npm i @fontsource/the-girl-next-door`
+- [The Nautigal](https://fonts.google.com/specimen/The+Nautigal): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/the-nautigal`
+- [Twinkle Star](https://fonts.google.com/specimen/Twinkle+Star): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/twinkle-star`
+- [Updock](https://fonts.google.com/specimen/Updock): by Robert Leuschke, added 2022. OFL-1.1. `npm i @fontsource/updock`
+- [Vibur](https://fonts.google.com/specimen/Vibur): by Johan Kallas, added 2010. OFL-1.1. `npm i @fontsource/vibur`
+- [Vujahday Script](https://fonts.google.com/specimen/Vujahday+Script): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/vujahday-script`
+- [Waiting for the Sunrise](https://fonts.google.com/specimen/Waiting+for+the+Sunrise): by Kimberly Geswein, added 2011. OFL-1.1. `npm i @fontsource/waiting-for-the-sunrise`
+- [Walter Turncoat](https://fonts.google.com/specimen/Walter+Turncoat): by Sideshow, added 2011. Apache-2.0. `npm i @fontsource/walter-turncoat`
+- [Water Brush](https://fonts.google.com/specimen/Water+Brush): by Robert Leuschke, added 2022. OFL-1.1. `npm i @fontsource/water-brush`
+- [Waterfall](https://fonts.google.com/specimen/Waterfall): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/waterfall`
+- [Whisper](https://fonts.google.com/specimen/Whisper): by Robert Leuschke, added 2022. OFL-1.1. `npm i @fontsource/whisper`
+- [WindSong](https://fonts.google.com/specimen/WindSong): by Robert Leuschke, added 2021. OFL-1.1. `npm i @fontsource/windsong`
+- [Yellowtail](https://fonts.google.com/specimen/Yellowtail): by Astigmatic, added 2011. Apache-2.0. `npm i @fontsource/yellowtail`
+- [Yesteryear](https://fonts.google.com/specimen/Yesteryear): by Astigmatic, added 2011. OFL-1.1. `npm i @fontsource/yesteryear`
+- [Yomogi](https://fonts.google.com/specimen/Yomogi): by Satsuyako, added 2021. OFL-1.1. `npm i @fontsource/yomogi`
+- [Yuyu](https://fonts.google.com/specimen/Yuyu): by Julia García López, added 2026. OFL-1.1. `npm i @fontsource/yuyu`
+- [Yuyu Short](https://fonts.google.com/specimen/Yuyu+Short): by Julia García López, added 2026. OFL-1.1. `npm i @fontsource/yuyu-short`
+- [Zeyada](https://fonts.google.com/specimen/Zeyada): by Kimberly Geswein, added 2011. OFL-1.1. `npm i @fontsource/zeyada`
+
+## Other scripts (38)
+
+- [Amita](https://fonts.google.com/specimen/Amita): script Deva, by Eduardo Tunni, Brian Bonislawsky, added 2015. OFL-1.1. `npm i @fontsource/amita`
+- [Bad Script](https://fonts.google.com/specimen/Bad+Script): script Latn, by Gaslight, added 2011. OFL-1.1. `npm i @fontsource/bad-script`
+- [Bpmf Iansui](https://fonts.google.com/specimen/Bpmf+Iansui): script Hant, by But Ko, added 2026. OFL-1.1. `npm i @fontsource/bpmf-iansui`
+- [Charm](https://fonts.google.com/specimen/Charm): script Thai, by Cadson Demak, added 2018. OFL-1.1. `npm i @fontsource/charm`
+- [Charmonman](https://fonts.google.com/specimen/Charmonman): script Thai, by Cadson Demak, added 2018. OFL-1.1. `npm i @fontsource/charmonman`
+- [Chilanka](https://fonts.google.com/specimen/Chilanka): script Mlym, by SMC, Santhosh Thottingal, added 2019. OFL-1.1. `npm i @fontsource/chilanka`
+- [Dekko](https://fonts.google.com/specimen/Dekko): script Deva, by Sorkin Type, added 2015. OFL-1.1. `npm i @fontsource/dekko`
+- [East Sea Dokdo](https://fonts.google.com/specimen/East+Sea+Dokdo): script Kore, by YoonDesign Inc, added 2018. OFL-1.1. `npm i @fontsource/east-sea-dokdo`
+- [Gaegu](https://fonts.google.com/specimen/Gaegu): script Kore, by JIKJI SOFT, added 2018. OFL-1.1. `npm i @fontsource/gaegu`
+- [Gamja Flower](https://fonts.google.com/specimen/Gamja+Flower): script Kore, by YoonDesign Inc, added 2018. OFL-1.1. `npm i @fontsource/gamja-flower`
+- [Gveret Levin](https://fonts.google.com/specimen/Gveret+Levin): script Hebr, by AlefAlefAlef, added 2025. OFL-1.1. `npm i @fontsource/gveret-levin`
+- [Hachi Maru Pop](https://fonts.google.com/specimen/Hachi+Maru+Pop): script Jpan, by Nonty, added 2020. OFL-1.1. `npm i @fontsource/hachi-maru-pop`
+- [Hi Melody](https://fonts.google.com/specimen/Hi+Melody): script Kore, by YoonDesign Inc, added 2018. OFL-1.1. `npm i @fontsource/hi-melody`
+- [Iansui](https://fonts.google.com/specimen/Iansui): script Hant, by But Ko, added 2024. OFL-1.1. `npm i @fontsource/iansui`
+- [Itim](https://fonts.google.com/specimen/Itim): script Thai, by Cadson Demak, added 2015. OFL-1.1. `npm i @fontsource/itim`
+- [Kalam](https://fonts.google.com/specimen/Kalam): script Deva, by Indian Type Foundry, added 2014. OFL-1.1. `npm i @fontsource/kalam`
+- [Kapakana](https://fonts.google.com/specimen/Kapakana): variable, script Hira, by Kousuke Nagai, added 2020. OFL-1.1. `npm i @fontsource/kapakana`
+- [Kavivanar](https://fonts.google.com/specimen/Kavivanar): script Taml, by Tharique Azeez, added 2016. OFL-1.1. `npm i @fontsource/kavivanar`
+- [Klee One](https://fonts.google.com/specimen/Klee+One): script Jpan, by Fontworks Inc., added 2021. OFL-1.1. `npm i @fontsource/klee-one`
+- [Lakki Reddy](https://fonts.google.com/specimen/Lakki+Reddy): script Telu, by Appaji Ambarisha Darbha, added 2015. OFL-1.1. `npm i @fontsource/lakki-reddy`
+- [Liu Jian Mao Cao](https://fonts.google.com/specimen/Liu+Jian+Mao+Cao): script Hans, by Liu Zhengjiang, Kimberly Geswein, ZhongQi, added 2019. OFL-1.1. `npm i @fontsource/liu-jian-mao-cao`
+- [Long Cang](https://fonts.google.com/specimen/Long+Cang): script Hans, by Chen Xiaomin, added 2019. OFL-1.1. `npm i @fontsource/long-cang`
+- [LXGW WenKai TC](https://fonts.google.com/specimen/LXGW+WenKai+TC): script Hant, by LXGW, added 2024. OFL-1.1. `npm i @fontsource/lxgw-wenkai-tc`
+- [Ma Shan Zheng](https://fonts.google.com/specimen/Ma+Shan+Zheng): script Hans, by Ma ShanZheng, added 2019. OFL-1.1. `npm i @fontsource/ma-shan-zheng`
+- [Mali](https://fonts.google.com/specimen/Mali): script Thai, by Cadson Demak, added 2018. OFL-1.1. `npm i @fontsource/mali`
+- [Nanum Brush Script](https://fonts.google.com/specimen/Nanum+Brush+Script): script Kore, by Sandoll Communication, added 2012. OFL-1.1. `npm i @fontsource/nanum-brush-script`
+- [Nanum Gothic Coding](https://fonts.google.com/specimen/Nanum+Gothic+Coding): script Kore, by Sandoll Communication, added 2012. OFL-1.1. `npm i @fontsource/nanum-gothic-coding`
+- [Nanum Pen Script](https://fonts.google.com/specimen/Nanum+Pen+Script): script Kore, by Sandoll Communication, added 2012. OFL-1.1. `npm i @fontsource/nanum-pen-script`
+- [Playpen Sans Arabic](https://fonts.google.com/specimen/Playpen+Sans+Arabic): variable, script Arab, by TypeTogether, Azza Alameddine, Laura Meseguer, Veronika Burian, José Scaglione, added 2025. OFL-1.1. `npm i @fontsource/playpen-sans-arabic`
+- [Playpen Sans Deva](https://fonts.google.com/specimen/Playpen+Sans+Deva): variable, script Deva, by TypeTogether, Pooja Saxena, Gunjan Panchal, Laura Meseguer, Veronika Burian, José Scaglione, added 2025. OFL-1.1. `npm i @fontsource/playpen-sans-deva`
+- [Playpen Sans Hebrew](https://fonts.google.com/specimen/Playpen+Sans+Hebrew): variable, script Hebr, by TypeTogether, Tom Grace, Laura Meseguer, Veronika Burian, José Scaglione, added 2025. OFL-1.1. `npm i @fontsource/playpen-sans-hebrew`
+- [Playpen Sans Thai](https://fonts.google.com/specimen/Playpen+Sans+Thai): variable, script Thai, by TypeTogether, Sirin Gunkloy, Laura Meseguer, Veronika Burian, José Scaglione, added 2025. OFL-1.1. `npm i @fontsource/playpen-sans-thai`
+- [Slackside One](https://fonts.google.com/specimen/Slackside+One): script Hira, by Maniackers Design, added 2020. OFL-1.1. `npm i @fontsource/slackside-one`
+- [Solitreo](https://fonts.google.com/specimen/Solitreo): script Hebr, by Nathan Gross, Bryan Kirschen, added 2022. OFL-1.1. `npm i @fontsource/solitreo`
+- [Sriracha](https://fonts.google.com/specimen/Sriracha): script Thai, by Cadson Demak, added 2015. OFL-1.1. `npm i @fontsource/sriracha`
+- [Yuji Hentaigana Akari](https://fonts.google.com/specimen/Yuji+Hentaigana+Akari): script Hira, by Kinuta Font Factory, added 2021. OFL-1.1. `npm i @fontsource/yuji-hentaigana-akari`
+- [Yuji Hentaigana Akebono](https://fonts.google.com/specimen/Yuji+Hentaigana+Akebono): script Hira, by Kinuta Font Factory, added 2021. OFL-1.1. `npm i @fontsource/yuji-hentaigana-akebono`
+- [Zhi Mang Xing](https://fonts.google.com/specimen/Zhi+Mang+Xing): script Hans, by Wei Zhimang, added 2019. OFL-1.1. `npm i @fontsource/zhi-mang-xing`

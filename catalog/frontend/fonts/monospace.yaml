@@ -1,0 +1,516 @@
+branch: frontend/fonts/monospace
+title: 'All Google Fonts: monospace (46 families)'
+intro: Every family in this style on Google Fonts, imported from Google's own metadata (github.com/google/fonts). Open the specimen and test with real text before choosing. Fonts marked common AI pick are
+  fine on purpose but shouldn't be a default. For curated starting picks, see reference/frontend/type.md.
+compact: true
+sections:
+- name: Latin families, A-Z (42)
+  list:
+  - name: Adobe Blank
+    url: https://fonts.google.com/specimen/Adobe+Blank
+    search: Adobe Blank font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/adobeblank/OFL.txt
+    install: npm i @fontsource/adobe-blank
+    note: by Dr. Ken Lunde, added 2016
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Anonymous Pro
+    url: https://fonts.google.com/specimen/Anonymous+Pro
+    search: Anonymous Pro font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/anonymouspro/OFL.txt
+    install: npm i @fontsource/anonymous-pro
+    note: by Mark Simonson, added 2010
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Azeret Mono
+    url: https://fonts.google.com/specimen/Azeret+Mono
+    search: Azeret Mono font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/azeretmono/OFL.txt
+    install: npm i @fontsource/azeret-mono
+    note: variable, by Displaay, Martin Vácha, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: B612 Mono
+    url: https://fonts.google.com/specimen/B612+Mono
+    search: B612 Mono font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/b612mono/OFL.txt
+    install: npm i @fontsource/b612-mono
+    note: by Nicolas Chauveau, Thomas Paillot, Jonathan Favre-Lamarine, Jean-Luc Vinot, added 2018
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Courier Prime
+    url: https://fonts.google.com/specimen/Courier+Prime
+    search: Courier Prime font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/courierprime/OFL.txt
+    install: npm i @fontsource/courier-prime
+    note: by Alan Dague-Greene, added 2019
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Cousine
+    url: https://fonts.google.com/specimen/Cousine
+    search: Cousine font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/cousine/OFL.txt
+    install: npm i @fontsource/cousine
+    note: by Steve Matteson, added 2010
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Cutive Mono
+    url: https://fonts.google.com/specimen/Cutive+Mono
+    search: Cutive Mono font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/cutivemono/OFL.txt
+    install: npm i @fontsource/cutive-mono
+    note: by Vernon Adams, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Datatype
+    url: https://fonts.google.com/specimen/Datatype
+    search: Datatype font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/datatype/OFL.txt
+    install: npm i @fontsource/datatype
+    note: variable, by Frank Tisellano, added 2026
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Digital Numbers
+    url: https://fonts.google.com/specimen/Digital+Numbers
+    search: Digital Numbers font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/digitalnumbers/OFL.txt
+    install: npm i @fontsource/digital-numbers
+    note: by Stephan Ahlf, added 2015
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: DM Mono
+    url: https://fonts.google.com/specimen/DM+Mono
+    search: DM Mono font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/dmmono/OFL.txt
+    install: npm i @fontsource/dm-mono
+    note: by Colophon Foundry, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Fira Code
+    url: https://fonts.google.com/specimen/Fira+Code
+    search: Fira Code font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/firacode/OFL.txt
+    install: npm i @fontsource/fira-code
+    note: variable, by The Mozilla Foundation, Telefonica S.A., Nikita Prokopov, added 2019
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Fira Mono
+    url: https://fonts.google.com/specimen/Fira+Mono
+    search: Fira Mono font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/firamono/OFL.txt
+    install: npm i @fontsource/fira-mono
+    note: by Carrois Apostrophe, added 2014
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Google Sans Code
+    url: https://fonts.google.com/specimen/Google+Sans+Code
+    search: Google Sans Code font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/googlesanscode/OFL.txt
+    install: npm i @fontsource/google-sans-code
+    note: variable, by Google, Universal Thirst, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: IBM Plex Mono
+    url: https://fonts.google.com/specimen/IBM+Plex+Mono
+    search: IBM Plex Mono font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/ibmplexmono/OFL.txt
+    install: npm i @fontsource/ibm-plex-mono
+    note: by Mike Abbink, Bold Monday, added 2018, **common AI pick**
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Intel One Mono
+    url: https://fonts.google.com/specimen/Intel+One+Mono
+    search: Intel One Mono font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/intelonemono/OFL.txt
+    install: npm i @fontsource/intel-one-mono
+    note: variable, by Intel Corporation, Frere-Jones Type, added 2025
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Iosevka Charon
+    url: https://fonts.google.com/specimen/Iosevka+Charon
+    search: Iosevka Charon font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/iosevkacharon/OFL.txt
+    install: npm i @fontsource/iosevka-charon
+    note: by Juliette Pluto, added 2026
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Iosevka Charon Mono
+    url: https://fonts.google.com/specimen/Iosevka+Charon+Mono
+    search: Iosevka Charon Mono font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/iosevkacharonmono/OFL.txt
+    install: npm i @fontsource/iosevka-charon-mono
+    note: by Juliette Pluto, added 2026
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: JetBrains Mono
+    url: https://fonts.google.com/specimen/JetBrains+Mono
+    search: JetBrains Mono font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/jetbrainsmono/OFL.txt
+    install: npm i @fontsource/jetbrains-mono
+    note: variable, by JetBrains, Philipp Nurullin, Konstantin Bulenkov, added 2020, **common AI pick**
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Lekton
+    url: https://fonts.google.com/specimen/Lekton
+    search: Lekton font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/lekton/OFL.txt
+    install: npm i @fontsource/lekton
+    note: by ISIA Urbino, added 2010
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Libertinus Mono
+    url: https://fonts.google.com/specimen/Libertinus+Mono
+    search: Libertinus Mono font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/libertinusmono/OFL.txt
+    install: npm i @fontsource/libertinus-mono
+    note: by Philipp H. Poll, added 2025
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Lilex
+    url: https://fonts.google.com/specimen/Lilex
+    search: Lilex font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/lilex/OFL.txt
+    install: npm i @fontsource/lilex
+    note: variable, by Mike Abbink, Paul van der Laan, Pieter van Rosmalen, Mikhael Khrustik, added 2025
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Major Mono Display
+    url: https://fonts.google.com/specimen/Major+Mono+Display
+    search: Major Mono Display font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/majormonodisplay/OFL.txt
+    install: npm i @fontsource/major-mono-display
+    note: by Emre Parlak, added 2018
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Monofett
+    url: https://fonts.google.com/specimen/Monofett
+    search: Monofett font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/monofett/OFL.txt
+    install: npm i @fontsource/monofett
+    note: by Vernon Adams, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Nova Mono
+    url: https://fonts.google.com/specimen/Nova+Mono
+    search: Nova Mono font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/novamono/OFL.txt
+    install: npm i @fontsource/nova-mono
+    note: by Wojciech Kalinowski, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Overpass Mono
+    url: https://fonts.google.com/specimen/Overpass+Mono
+    search: Overpass Mono font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/overpassmono/OFL.txt
+    install: npm i @fontsource/overpass-mono
+    note: variable, by Delve Withrington, Dave Bailey, Thomas Jockin, added 2016
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Oxygen Mono
+    url: https://fonts.google.com/specimen/Oxygen+Mono
+    search: Oxygen Mono font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/oxygenmono/OFL.txt
+    install: npm i @fontsource/oxygen-mono
+    note: by Vernon Adams, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: PT Mono
+    url: https://fonts.google.com/specimen/PT+Mono
+    search: PT Mono font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/ptmono/OFL.txt
+    install: npm i @fontsource/pt-mono
+    note: by ParaType, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Reddit Mono
+    url: https://fonts.google.com/specimen/Reddit+Mono
+    search: Reddit Mono font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/redditmono/OFL.txt
+    install: npm i @fontsource/reddit-mono
+    note: variable, by Stephen Hutchings, OrangeRed, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Roboto Mono
+    url: https://fonts.google.com/specimen/Roboto+Mono
+    search: Roboto Mono font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/robotomono/OFL.txt
+    install: npm i @fontsource/roboto-mono
+    note: variable, by Christian Robertson, added 2015
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Share Tech Mono
+    url: https://fonts.google.com/specimen/Share+Tech+Mono
+    search: Share Tech Mono font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/sharetechmono/OFL.txt
+    install: npm i @fontsource/share-tech-mono
+    note: by Carrois Apostrophe, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Sixtyfour
+    url: https://fonts.google.com/specimen/Sixtyfour
+    search: Sixtyfour font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/sixtyfour/OFL.txt
+    install: npm i @fontsource/sixtyfour
+    note: variable, by Jens Kutílek, added 2023
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Sixtyfour Convergence
+    url: https://fonts.google.com/specimen/Sixtyfour+Convergence
+    search: Sixtyfour Convergence font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/sixtyfourconvergence/OFL.txt
+    install: npm i @fontsource/sixtyfour-convergence
+    note: variable, by Simon Cozens, Jens Kutílek, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Sometype Mono
+    url: https://fonts.google.com/specimen/Sometype+Mono
+    search: Sometype Mono font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/sometypemono/OFL.txt
+    install: npm i @fontsource/sometype-mono
+    note: variable, by Ryoichi Tsunekawa, added 2019
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Sono
+    url: https://fonts.google.com/specimen/Sono
+    search: Sono font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/sono/OFL.txt
+    install: npm i @fontsource/sono
+    note: variable, by Tyler Finck, added 2022
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Source Code Pro
+    url: https://fonts.google.com/specimen/Source+Code+Pro
+    search: Source Code Pro font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/sourcecodepro/OFL.txt
+    install: npm i @fontsource/source-code-pro
+    note: variable, by Paul D. Hunt, added 2012
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Space Mono
+    url: https://fonts.google.com/specimen/Space+Mono
+    search: Space Mono font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/spacemono/OFL.txt
+    install: npm i @fontsource/space-mono
+    note: by Colophon Foundry, added 2016
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Syne Mono
+    url: https://fonts.google.com/specimen/Syne+Mono
+    search: Syne Mono font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/synemono/OFL.txt
+    install: npm i @fontsource/syne-mono
+    note: by Bonjour Monde, Lucas Descroix, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Ubuntu Mono
+    url: https://fonts.google.com/specimen/Ubuntu+Mono
+    search: Ubuntu Mono font
+    license: UFL-1.0
+    license_url: https://github.com/google/fonts/blob/main/ufl/ubuntumono/UFL.txt
+    install: npm i @fontsource/ubuntu-mono
+    note: by Dalton Maag, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Ubuntu Sans Mono
+    url: https://fonts.google.com/specimen/Ubuntu+Sans+Mono
+    search: Ubuntu Sans Mono font
+    license: UFL-1.0
+    license_url: https://github.com/google/fonts/blob/main/ufl/ubuntusansmono/UFL.txt
+    install: npm i @fontsource/ubuntu-sans-mono
+    note: variable, by Dalton Maag, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: VT323
+    url: https://fonts.google.com/specimen/VT323
+    search: VT323 font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/vt323/OFL.txt
+    install: npm i @fontsource/vt323
+    note: by Peter Hull, added 2011
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Workbench
+    url: https://fonts.google.com/specimen/Workbench
+    search: Workbench font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/workbench/OFL.txt
+    install: npm i @fontsource/workbench
+    note: variable, by Jens Kutílek, added 2023
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Xanh Mono
+    url: https://fonts.google.com/specimen/Xanh+Mono
+    search: Xanh Mono font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/xanhmono/OFL.txt
+    install: npm i @fontsource/xanh-mono
+    note: by Yellow Type, Lâm Bảo, Duy Dao, added 2020
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+- name: Other scripts (4)
+  list:
+  - name: Geist Mono
+    url: https://fonts.google.com/specimen/Geist+Mono
+    search: Geist Mono font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/geistmono/OFL.txt
+    install: npm i @fontsource/geist-mono
+    note: variable, script Latn, by Andrés Briganti, Mateo Zaragoza, Guillermo Rauch, Evil Rabbit, José Rago, Facundo Santana, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: Hibur Mono
+    url: https://fonts.google.com/specimen/Hibur+Mono
+    search: Hibur Mono font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/hiburmono/OFL.txt
+    install: npm i @fontsource/hibur-mono
+    note: script Ethi, by TypeHabesha, Behailu Berento, added 2026
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: LXGW WenKai Mono TC
+    url: https://fonts.google.com/specimen/LXGW+WenKai+Mono+TC
+    search: LXGW WenKai Mono TC font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/lxgwwenkaimonotc/OFL.txt
+    install: npm i @fontsource/lxgw-wenkai-mono-tc
+    note: script Hant, by LXGW, added 2024
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
+  - name: M PLUS 1 Code
+    url: https://fonts.google.com/specimen/M+PLUS+1+Code
+    search: M PLUS 1 Code font
+    license: OFL-1.1
+    license_url: https://github.com/google/fonts/blob/main/ofl/mplus1code/OFL.txt
+    install: npm i @fontsource/m-plus-1-code
+    note: variable, script Jpan, by Coji Morishita, added 2021
+    status: verified
+    verified_by: auto
+    source: google/fonts metadata
+    checked: '2026-11-27'
