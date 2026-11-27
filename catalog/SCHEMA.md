@@ -13,6 +13,7 @@ sections:
     default:  { ...entry }      # one pick
     alternatives: [ entry, ... ] # 3-5, each with use_when
     big_lists: [ entry, ... ]    # bigger lists we link to, not copy
+    more: [ entry, ... ]         # extra options beyond the 5 alternatives (filled by scripts/merge.py)
     paid: [ entry, ... ]         # listed separately, with a free option in `note`
     list: [ entry, ... ]         # plain list, for sections that don't rank (e.g. style buckets)
 ```
@@ -38,3 +39,27 @@ sections:
 3. An agent can install or fetch it.
 4. Works with the stack it's listed under.
 5. A free demo or specimen you can actually see.
+
+## Fields the pipeline adds
+
+| Field | Set by | Meaning |
+| --- | --- | --- |
+| `repo` | harvester | GitHub `owner/name`, so `enrich.py` can read stars, activity and license |
+| `npm` | harvester | npm package name, for license, last publish and weekly downloads |
+| `license_url` | harvester / license-checker | The license page; required evidence for anything that isn't code |
+| `facts` | `scripts/enrich.py` | What the web says: link status, stars, last push, archived, licenses, downloads, date checked |
+| `verified_by` | `scripts/gate.py` or a person | `auto` (passed the gate rules) or `human` (a person checked it) |
+| `problems` | `scripts/gate.py` | Why an entry is still a candidate |
+| `hold` | auditor or a person | Keeps an entry a candidate until a person removes it |
+
+## The pipeline
+
+```
+harvester agents ──► catalog/_inbox/*.yaml
+                         │
+   enrich.py (facts) ──► gate.py (status) ──► merge.py (place or reject) ──► build.py (pages + index.json)
+                                                   │
+                                        catalog/_rejected.yaml
+```
+
+`python scripts/pipeline.py` runs the four scripts and writes a report to `runs/`. The gate rules are at the top of `scripts/gate.py`. `python scripts/find.py "<need>"` searches every entry.

@@ -31,12 +31,12 @@ At the start of a task:
 Use this whenever the user has to choose a tool, library or asset source.
 
 1. **Scope first.** Ask only what you can't infer: what it is, who uses it, what already exists (logo, photos, data, a repo), free only or paid OK, deadline.
-2. **Open one branch file** from **Where to look**. Don't load other branches. If the page is marked *coming soon*, use this file's stack table and rules plus the official docs, and say so.
+2. **Open one branch file** from **Where to look**. Don't load other branches. If the page is marked *coming soon*, use this file's stack table and rules plus the official docs, and say so. If you can run Python, `python scripts/find.py "<need>" --free` searches every page at once.
 3. **Rank** the options in that file by, in order: fits the stack → free → license allows this use → commits in the last 12 months → an agent can install it (npm, shadcn registry, MCP or download) → popularity.
 4. **Answer with 1-3 picks**, one line each: name, link, why it fits, license. Start with the file's **Default** unless there's a reason not to.
 5. If nothing fits, use the file's **Big lists** links, or the Context Awesome MCP if connected, and apply the same ranking.
 
-Each branch file has three tiers: **Default** (one pick), **Strong alternatives** (3-5, each with "use when"), **Big lists** (links to larger awesome lists, not copied in).
+Each branch file has three tiers: **Default** (one pick), **Strong alternatives** (3-5, each with "use when"), **Big lists** (links to larger awesome lists, not copied in). Long sections also have **More options**.
 
 ## Operating rules
 
