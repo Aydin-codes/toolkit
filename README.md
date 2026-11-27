@@ -155,7 +155,7 @@ toolkit/
 | Icon | Name | What it does here |
 |:-:|---|---|
 | <img src=".github/assets/logos/yaml.svg" alt="" width="28"> | YAML | Every entry lives in a small YAML file in `catalog/` |
-| <img src=".github/assets/logos/python.svg" alt="" width="28"> | [Python](https://www.python.org) | Builds the pages from the catalog and checks every link |
+| <img width="28" height="28" alt="image" src="https://github.com/user-attachments/assets/b0d636a0-7753-427e-8bbc-546f1cc4a923" /> | [Python](https://www.python.org) | Builds the pages from the catalog and checks every link |
 | <img src=".github/assets/logos/githubactions.svg" alt="" width="28"> | [GitHub Actions](https://github.com/features/actions) | Checks the skill and the catalog on every push, and the links every Monday |
 | <img src=".github/assets/icons/open-file-folder.png" alt="" width="28"> | [Agent Skills](https://agentskills.io) | The open `SKILL.md` format, so any AI tool that supports skills can load it |
 
