@@ -1,0 +1,527 @@
+proposals:
+  # ---------------- Charts ----------------
+  - branch: frontend/dataviz
+    branch_title: Charts, maps and diagrams
+    section: Charts
+    tier: default
+    name: Recharts
+    url: https://github.com/recharts/recharts
+    repo: recharts/recharts
+    npm: recharts
+    search: Recharts React chart library
+    license: MIT
+    install: npm i recharts
+    use_when: you need standard line, bar, area and pie charts in a React app
+    status: candidate
+  - branch: frontend/dataviz
+    section: Charts
+    tier: alternatives
+    name: Chart.js
+    url: https://www.chartjs.org
+    repo: chartjs/Chart.js
+    npm: chart.js
+    search: Chart.js canvas charts
+    license: MIT
+    install: npm i chart.js (React wrapper - npm i react-chartjs-2)
+    use_when: you want simple canvas charts without a framework, or in plain HTML
+    status: candidate
+  - branch: frontend/dataviz
+    section: Charts
+    tier: alternatives
+    name: Apache ECharts
+    url: https://echarts.apache.org
+    repo: apache/echarts
+    npm: echarts
+    search: Apache ECharts
+    license: Apache-2.0
+    install: npm i echarts (React wrapper - npm i echarts-for-react)
+    use_when: you need many chart types, large datasets, or dashboards with zoom and brushing
+    status: candidate
+  - branch: frontend/dataviz
+    section: Charts
+    tier: alternatives
+    name: Observable Plot
+    url: https://github.com/observablehq/plot
+    repo: observablehq/plot
+    npm: "@observablehq/plot"
+    search: Observable Plot JavaScript library exploratory charts
+    license: ISC
+    install: npm i @observablehq/plot
+    use_when: you want quick, concise exploratory charts from tabular data with little code
+    status: candidate
+  - branch: frontend/dataviz
+    section: Charts
+    tier: alternatives
+    name: D3
+    url: https://d3js.org
+    repo: d3/d3
+    npm: d3
+    search: D3.js data-driven documents
+    license: ISC
+    install: npm i d3
+    use_when: you need a custom or unusual visualization and full control over SVG
+    status: candidate
+  - branch: frontend/dataviz
+    section: Charts
+    tier: alternatives
+    name: visx
+    url: https://github.com/airbnb/visx
+    repo: airbnb/visx
+    npm: "@visx/visx"
+    search: visx airbnb React visualization primitives
+    license: MIT
+    install: npm i @visx/visx (or single packages like @visx/shape)
+    use_when: you want D3-style custom charts built from React components
+    status: candidate
+  - branch: frontend/dataviz
+    section: Charts
+    tier: more
+    name: Nivo
+    url: https://github.com/plouc/nivo
+    repo: plouc/nivo
+    npm: "@nivo/core"
+    search: nivo React dataviz components
+    license: MIT
+    install: npm i @nivo/core @nivo/<chart>, e.g. @nivo/bar
+    use_when: you want ready-made React charts with themes, including heatmaps, sankey and treemaps
+    status: candidate
+  - branch: frontend/dataviz
+    section: Charts
+    tier: more
+    name: Tremor
+    url: https://github.com/tremorlabs/tremor-npm
+    repo: tremorlabs/tremor-npm
+    npm: "@tremor/react"
+    search: Tremor React dashboard components Tailwind
+    license: Apache-2.0
+    install: npm i @tremor/react
+    use_when: you are building a Tailwind dashboard and want KPI cards and charts that match
+    note: Tremor also offers copy-paste components; check which version the project uses.
+    status: candidate
+  - branch: frontend/dataviz
+    section: Charts
+    tier: more
+    name: uPlot
+    url: https://github.com/leeoniya/uPlot
+    repo: leeoniya/uPlot
+    npm: uplot
+    search: uPlot fast time series chart
+    license: MIT
+    install: npm i uplot
+    use_when: you plot large time series and need a very small, fast library
+    status: candidate
+  - branch: frontend/dataviz
+    section: Charts
+    tier: more
+    name: Vega-Lite
+    url: https://vega.github.io/vega-lite/
+    repo: vega/vega-lite
+    npm: vega-lite
+    search: Vega-Lite grammar of interactive graphics JSON spec
+    license: BSD-3-Clause
+    install: npm i vega vega-lite vega-embed
+    use_when: you want charts described as JSON specs that can be stored, generated or shared
+    status: candidate
+  - branch: frontend/dataviz
+    section: Charts
+    tier: more
+    name: Plotly.js
+    url: https://github.com/plotly/plotly.js
+    repo: plotly/plotly.js
+    npm: plotly.js
+    search: plotly.js scientific charts 3D
+    license: MIT
+    install: npm i plotly.js-dist-min
+    use_when: you need scientific or 3D charts, or match charts made with Plotly in Python
+    status: candidate
+  - branch: frontend/dataviz
+    section: Charts
+    tier: paid
+    name: Highcharts
+    url: http://www.highcharts.com
+    npm: highcharts
+    search: Highcharts JavaScript charts license
+    license: paid for commercial use (free for some non-commercial use)
+    license_url: https://www.highcharts.com/license
+    install: npm i highcharts
+    note: "Free option: Apache ECharts or Chart.js."
+    status: candidate
+  - branch: frontend/dataviz
+    section: Charts
+    tier: big_lists
+    name: awesome-dataviz
+    url: https://awesome.ecosyste.ms/projects/github.com%2Fhal9ai%2Fawesome-dataviz
+    repo: hal9ai/awesome-dataviz
+    search: hal9ai awesome-dataviz
+    license: list
+    status: candidate
+  - branch: frontend/dataviz
+    section: Charts
+    tier: big_lists
+    name: awesome-charting
+    url: https://github.com/zingchart/awesome-charting/blob/master/README.md
+    repo: zingchart/awesome-charting
+    search: zingchart awesome-charting
+    license: list
+    status: candidate
+
+  # ---------------- Maps ----------------
+  - branch: frontend/dataviz
+    section: Maps
+    tier: default
+    name: MapLibre GL JS
+    url: https://maplibre.org/
+    repo: maplibre/maplibre-gl-js
+    npm: maplibre-gl
+    search: MapLibre GL JS vector maps
+    license: BSD-3-Clause
+    install: npm i maplibre-gl (React - npm i react-map-gl)
+    use_when: you need an interactive vector map without a paid provider
+    status: candidate
+  - branch: frontend/dataviz
+    section: Maps
+    tier: alternatives
+    name: Leaflet
+    url: https://leafletjs.com/
+    repo: Leaflet/Leaflet
+    npm: leaflet
+    search: Leaflet JavaScript map library
+    license: BSD-2-Clause
+    install: npm i leaflet
+    use_when: you want a small, simple map with raster tiles and markers
+    status: candidate
+  - branch: frontend/dataviz
+    section: Maps
+    tier: alternatives
+    name: deck.gl
+    url: https://deck.gl
+    repo: visgl/deck.gl
+    npm: deck.gl
+    search: deck.gl WebGL large data map layers
+    license: MIT
+    install: npm i deck.gl
+    use_when: you draw very large geo datasets (points, arcs, hexbins) on top of a map
+    status: candidate
+  - branch: frontend/dataviz
+    section: Maps
+    tier: alternatives
+    name: OpenFreeMap
+    url: https://openfreemap.org
+    repo: hyperknot/openfreemap
+    search: OpenFreeMap free vector tiles
+    license: free hosted tiles; map data from OpenStreetMap (ODbL), attribution required
+    license_url: https://www.openstreetmap.org/copyright
+    install: point MapLibre at an OpenFreeMap style URL (see openfreemap.org/quick_start)
+    use_when: you need free hosted map tiles with no API key
+    status: candidate
+  - branch: frontend/dataviz
+    section: Maps
+    tier: alternatives
+    name: Protomaps
+    url: https://protomaps.com/
+    repo: protomaps/basemaps
+    npm: pmtiles
+    search: Protomaps PMTiles basemaps self-host
+    license: BSD-3-Clause (code); map data from OpenStreetMap (ODbL)
+    license_url: https://www.openstreetmap.org/copyright
+    install: npm i pmtiles @protomaps/basemaps
+    use_when: you want to self-host a basemap as one PMTiles file on static storage
+    status: candidate
+  - branch: frontend/dataviz
+    section: Maps
+    tier: alternatives
+    name: OpenLayers
+    url: https://openlayers.org/
+    repo: openlayers/openlayers
+    npm: ol
+    search: OpenLayers web mapping library
+    license: BSD-2-Clause
+    install: npm i ol
+    use_when: you need GIS features such as projections, WMS/WFS and many data formats
+    status: candidate
+  - branch: frontend/dataviz
+    section: Maps
+    tier: more
+    name: react-map-gl
+    url: https://github.com/visgl/react-map-gl
+    repo: visgl/react-map-gl
+    npm: react-map-gl
+    search: react-map-gl MapLibre React wrapper
+    license: MIT
+    install: npm i react-map-gl maplibre-gl
+    use_when: you use MapLibre in React and want it as components
+    status: candidate
+  - branch: frontend/dataviz
+    section: Maps
+    tier: more
+    name: OpenStreetMap
+    url: https://www.openstreetmap.org/copyright
+    search: OpenStreetMap data ODbL attribution
+    license: ODbL (data); attribution required
+    license_url: https://www.openstreetmap.org/copyright
+    install: use through a tile provider or extracts; don't use the openstreetmap.org tile servers for heavy traffic
+    use_when: you need the underlying free map data, or must check attribution rules
+    status: candidate
+  - branch: frontend/dataviz
+    section: Maps
+    tier: more
+    name: React Leaflet
+    url: https://react-leaflet.js.org
+    repo: PaulLeCam/react-leaflet
+    npm: react-leaflet
+    search: React Leaflet components
+    license: Hippocratic-2.1
+    install: npm i react-leaflet leaflet
+    use_when: you use Leaflet in React
+    note: Hippocratic License is not an OSI open-source license; read it before commercial use.
+    status: candidate
+  - branch: frontend/dataviz
+    section: Maps
+    tier: paid
+    name: Mapbox GL JS
+    url: https://github.com/mapbox/mapbox-gl-js
+    repo: mapbox/mapbox-gl-js
+    npm: mapbox-gl
+    search: Mapbox GL JS pricing
+    license: proprietary (Mapbox terms); needs a Mapbox account and token, billed by usage
+    install: npm i mapbox-gl
+    never_copy: true
+    note: "Free option: MapLibre GL JS with OpenFreeMap or Protomaps."
+    status: candidate
+
+  # ---------------- Diagrams ----------------
+  - branch: frontend/dataviz
+    section: Diagrams
+    tier: default
+    name: Mermaid
+    url: https://github.com/mermaid-js/mermaid
+    repo: mermaid-js/mermaid
+    npm: mermaid
+    search: Mermaid diagrams from text
+    license: MIT
+    install: npm i mermaid (CLI - npm i @mermaid-js/mermaid-cli)
+    use_when: you need flowcharts, sequence or ER diagrams written as text, in docs or a page
+    status: candidate
+  - branch: frontend/dataviz
+    section: Diagrams
+    tier: alternatives
+    name: React Flow (xyflow)
+    url: https://reactflow.dev
+    repo: xyflow/xyflow
+    npm: "@xyflow/react"
+    search: React Flow xyflow node editor
+    license: MIT
+    install: npm i @xyflow/react
+    use_when: you need interactive node graphs or editors that users drag and connect
+    status: candidate
+  - branch: frontend/dataviz
+    section: Diagrams
+    tier: alternatives
+    name: Excalidraw
+    url: https://github.com/excalidraw/excalidraw
+    repo: excalidraw/excalidraw
+    npm: "@excalidraw/excalidraw"
+    search: Excalidraw hand-drawn whiteboard React component
+    license: MIT
+    install: npm i @excalidraw/excalidraw
+    use_when: you want a hand-drawn style whiteboard embedded in a React app
+    status: candidate
+  - branch: frontend/dataviz
+    section: Diagrams
+    tier: alternatives
+    name: D2
+    url: https://d2lang.com/
+    repo: d2lang/d2
+    npm: "@terrastruct/d2"
+    search: D2 declarative diagramming language
+    license: MPL-2.0
+    install: CLI install from d2lang.com, or npm i @terrastruct/d2 (WASM)
+    use_when: you want text diagrams with better automatic layout and styling than Mermaid
+    status: candidate
+  - branch: frontend/dataviz
+    section: Diagrams
+    tier: alternatives
+    name: Viz.js (Graphviz in the browser)
+    url: https://github.com/mdaines/viz-js
+    repo: mdaines/viz-js
+    npm: "@viz-js/viz"
+    search: Graphviz DOT viz-js WebAssembly
+    license: MIT
+    install: npm i @viz-js/viz
+    use_when: you have Graphviz DOT graphs and want to render them in JavaScript
+    note: Graphviz itself is the desktop/CLI tool; install it with the OS package manager.
+    status: candidate
+  - branch: frontend/dataviz
+    section: Diagrams
+    tier: more
+    name: Cytoscape.js
+    url: http://js.cytoscape.org
+    repo: cytoscape/cytoscape.js
+    npm: cytoscape
+    search: Cytoscape.js graph network visualization
+    license: MIT
+    install: npm i cytoscape
+    use_when: you visualize and analyze network graphs with many nodes
+    status: candidate
+  - branch: frontend/dataviz
+    section: Diagrams
+    tier: more
+    name: dagre
+    url: https://github.com/dagrejs/dagre
+    repo: dagrejs/dagre
+    npm: "@dagrejs/dagre"
+    search: dagre directed graph layout
+    license: MIT
+    install: npm i @dagrejs/dagre
+    use_when: you need automatic layered layout for nodes, e.g. with React Flow
+    status: candidate
+  - branch: frontend/dataviz
+    section: Diagrams
+    tier: more
+    name: ELK.js
+    url: https://github.com/kieler/elkjs
+    repo: kieler/elkjs
+    npm: elkjs
+    search: elkjs Eclipse Layout Kernel JavaScript
+    license: EPL-2.0 OR GPL-3.0-or-later
+    install: npm i elkjs
+    use_when: you need more layout options than dagre, such as ports and nested groups
+    status: candidate
+  - branch: frontend/dataviz
+    section: Diagrams
+    tier: more
+    name: AntV X6
+    url: https://x6.antv.antgroup.com/tutorial/about
+    repo: antvis/x6
+    npm: "@antv/x6"
+    search: AntV X6 graph editing engine
+    license: MIT
+    install: npm i @antv/x6
+    use_when: you build a diagram editor (flowchart, ER, DAG) outside React or across frameworks
+    status: candidate
+  - branch: frontend/dataviz
+    section: Diagrams
+    tier: paid
+    name: tldraw
+    url: https://tldraw.dev
+    repo: tldraw/tldraw
+    npm: tldraw
+    search: tldraw SDK license key
+    license: tldraw SDK license (source-available); a license key is needed in production
+    license_url: https://tldraw.dev/legal/tldraw-license
+    install: npm i tldraw
+    never_copy: true
+    note: "Free option: Excalidraw (MIT). Hobby licenses exist; see tldraw.dev/sdk-features/license-key."
+    status: candidate
+
+  # ---------------- Tables and grids ----------------
+  - branch: frontend/dataviz
+    section: Tables and grids
+    tier: default
+    name: TanStack Table
+    url: https://tanstack.com/table
+    repo: TanStack/table
+    npm: "@tanstack/react-table"
+    search: TanStack Table headless table
+    license: MIT
+    install: npm i @tanstack/react-table
+    use_when: you need sorting, filtering and pagination with your own table markup and styles
+    status: candidate
+  - branch: frontend/dataviz
+    section: Tables and grids
+    tier: alternatives
+    name: AG Grid Community
+    url: https://www.ag-grid.com/
+    repo: ag-grid/ag-grid
+    npm: ag-grid-community
+    search: AG Grid Community free data grid
+    license: MIT (Community); Enterprise features are paid
+    install: npm i ag-grid-community ag-grid-react
+    use_when: you need a full spreadsheet-like grid with editing and large row counts out of the box
+    status: candidate
+  - branch: frontend/dataviz
+    section: Tables and grids
+    tier: alternatives
+    name: Glide Data Grid
+    url: https://grid.glideapps.com
+    repo: glideapps/glide-data-grid
+    npm: "@glideapps/glide-data-grid"
+    search: Glide Data Grid canvas React
+    license: MIT
+    install: npm i @glideapps/glide-data-grid
+    use_when: you show millions of rows in React and need canvas rendering for speed
+    status: candidate
+  - branch: frontend/dataviz
+    section: Tables and grids
+    tier: alternatives
+    name: react-data-grid
+    url: https://github.com/Comcast/react-data-grid
+    repo: Comcast/react-data-grid
+    npm: react-data-grid
+    search: react-data-grid Excel-like React grid
+    license: MIT
+    install: npm i react-data-grid
+    use_when: you want a lightweight, virtualized editable grid in React
+    note: v7 is still published as beta on npm.
+    status: candidate
+  - branch: frontend/dataviz
+    section: Tables and grids
+    tier: alternatives
+    name: MUI X Data Grid
+    url: https://mui.com/x/react-data-grid/
+    repo: mui/mui-x
+    npm: "@mui/x-data-grid"
+    search: MUI X Data Grid
+    license: MIT (free version); Pro and Premium are paid
+    install: npm i @mui/x-data-grid
+    use_when: the project already uses Material UI
+    status: candidate
+  - branch: frontend/dataviz
+    section: Tables and grids
+    tier: more
+    name: Tabulator
+    url: https://tabulator.info/
+    repo: tabulator-tables/tabulator
+    npm: tabulator-tables
+    search: Tabulator interactive tables JavaScript
+    license: MIT
+    install: npm i tabulator-tables
+    use_when: you need an interactive table without a framework
+    status: candidate
+  - branch: frontend/dataviz
+    section: Tables and grids
+    tier: more
+    name: Material React Table
+    url: https://www.material-react-table.com/
+    repo: KevinVandy/material-react-table
+    npm: material-react-table
+    search: Material React Table TanStack MUI
+    license: MIT
+    install: npm i material-react-table
+    use_when: you want TanStack Table features with ready-made Material UI styling
+    status: candidate
+  - branch: frontend/dataviz
+    section: Tables and grids
+    tier: more
+    name: RevoGrid
+    url: https://rv-grid.com
+    repo: revolist/revogrid
+    npm: "@revolist/revogrid"
+    search: RevoGrid web component data grid
+    license: MIT
+    install: npm i @revolist/revogrid
+    use_when: you need a fast grid as a web component that works in any framework
+    status: candidate
+  - branch: frontend/dataviz
+    section: Tables and grids
+    tier: paid
+    name: Handsontable
+    url: https://handsontable.com/
+    repo: handsontable/handsontable
+    npm: handsontable
+    search: Handsontable spreadsheet grid license
+    license: paid for commercial use (free non-commercial license)
+    install: npm i handsontable
+    never_copy: true
+    note: "Free option: AG Grid Community or react-data-grid."
+    status: candidate

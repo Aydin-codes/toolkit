@@ -1,0 +1,341 @@
+proposals:
+  # ---------- Hosting ----------
+  - branch: ship
+    branch_title: Ship and run
+    section: Hosting
+    tier: default
+    name: Vercel
+    url: https://vercel.com
+    repo: vercel/vercel
+    npm: vercel
+    search: Vercel hosting Hobby plan
+    license: free tier (Hobby), then paid; CLI is Apache-2.0
+    license_url: https://vercel.com/pricing
+    install: npm i -g vercel
+    use_when: you deploy a Next.js or other frontend app and want git push deploys with preview URLs
+    note: "Hobby is $0 with hard caps (1M function invocations, 100 GB transfer, 1 seat a month) and no paid overage; see https://vercel.com/docs/limits/fair-use-guidelines and https://vercel.com/legal/terms."
+    status: candidate
+  - branch: ship
+    section: Hosting
+    tier: alternatives
+    name: Netlify CLI
+    url: https://github.com/netlify/cli
+    repo: netlify/cli
+    npm: netlify-cli
+    search: Netlify hosting netlify-cli
+    license: MIT (CLI); Netlify hosting has a free tier, then paid
+    install: npm i -g netlify-cli
+    use_when: you host a static site or Jamstack app on Netlify and want to deploy from the terminal
+    note: Pricing page URL not checked yet.
+    status: candidate
+  - branch: ship
+    section: Hosting
+    tier: alternatives
+    name: Cloudflare Pages
+    url: https://developers.cloudflare.com/pages/
+    repo: cloudflare/workers-sdk
+    npm: wrangler
+    search: Cloudflare Pages static hosting
+    license: free tier, then paid; Wrangler CLI is MIT OR Apache-2.0
+    install: npm i -D wrangler
+    use_when: you want static or full-stack hosting on Cloudflare's network with a generous free tier
+    note: Free tier limits not checked yet; Cloudflare's own pricing page needed for license_url.
+    status: candidate
+  - branch: ship
+    section: Hosting
+    tier: alternatives
+    name: Cloudflare Workers
+    url: https://developers.cloudflare.com/workers/
+    repo: cloudflare/workers-sdk
+    npm: wrangler
+    search: Cloudflare Workers serverless
+    license: free tier, then paid; Wrangler CLI is MIT OR Apache-2.0
+    install: npm i -D wrangler
+    use_when: you need small serverless functions or APIs that run at the edge
+    note: Free tier limits not checked yet.
+    status: candidate
+  - branch: ship
+    section: Hosting
+    tier: alternatives
+    name: Railway CLI
+    url: https://github.com/railwayapp/cli
+    repo: railwayapp/cli
+    npm: "@railway/cli"
+    search: Railway app hosting CLI
+    license: ISC (CLI); Railway hosting is paid after a trial
+    install: npm i -g @railway/cli
+    use_when: you need a backend, worker or database running next to your app without managing servers
+    note: Pricing page not checked yet.
+    status: candidate
+  - branch: ship
+    section: Hosting
+    tier: more
+    name: Codeberg Pages
+    url: https://codeberg.page/
+    search: Codeberg Pages static hosting
+    license: free (non-profit service)
+    use_when: you want free static hosting from a Codeberg repo instead of GitHub
+    status: candidate
+  - branch: ship
+    section: Hosting
+    tier: big_lists
+    name: free-for-dev
+    url: https://github.com/ripienaar/free-for-dev
+    repo: ripienaar/free-for-dev
+    search: ripienaar free-for-dev list of free tiers
+    license: list
+    note: Long list of SaaS and hosting services with free tiers for developers.
+    status: candidate
+
+  # ---------- CI and automation ----------
+  - branch: ship
+    section: CI and automation
+    tier: alternatives
+    name: Renovate
+    url: https://docs.renovatebot.com/
+    repo: renovatebot/renovate
+    npm: renovate
+    search: Renovate dependency update bot
+    license: AGPL-3.0-only
+    install: Mend Renovate GitHub app (free), or npx renovate
+    use_when: you want automatic dependency update PRs with grouping and schedules, on GitHub, GitLab or others
+    note: "Hosted app: https://docs.renovatebot.com/mend-hosted/overview/ (Community tier is free)."
+    status: candidate
+  - branch: ship
+    section: CI and automation
+    tier: alternatives
+    name: GitLab CI/CD
+    url: https://about.gitlab.com/
+    search: GitLab CI/CD pipelines
+    license: free tier, then paid
+    use_when: your code lives on GitLab and you want built-in pipelines
+    note: Free tier compute minutes not checked yet.
+    status: candidate
+  - branch: ship
+    section: CI and automation
+    tier: alternatives
+    name: gitlab-ci-local
+    url: https://github.com/firecow/gitlab-ci-local
+    repo: firecow/gitlab-ci-local
+    npm: gitlab-ci-local
+    search: gitlab-ci-local run GitLab pipelines locally
+    license: MIT
+    install: npm i -g gitlab-ci-local
+    use_when: you want to run .gitlab-ci.yml jobs on your machine before pushing
+    status: candidate
+  - branch: ship
+    section: CI and automation
+    tier: alternatives
+    name: Changesets
+    url: https://changesets.dev
+    repo: changesets/changesets
+    npm: "@changesets/cli"
+    search: Changesets versioning changelog monorepo
+    license: MIT
+    install: npm i -D @changesets/cli
+    use_when: you publish npm packages (often a monorepo) and want versioning and changelogs from small change files
+    status: candidate
+  - branch: ship
+    section: CI and automation
+    tier: alternatives
+    name: release-please
+    url: https://github.com/googleapis/release-please
+    repo: googleapis/release-please
+    npm: release-please
+    search: release-please conventional commits release PR
+    license: Apache-2.0
+    install: googleapis/release-please-action in GitHub Actions, or npm i -g release-please
+    use_when: you use conventional commits and want a release PR that bumps versions and writes the changelog
+    status: candidate
+  - branch: ship
+    section: CI and automation
+    tier: more
+    name: semantic-release
+    url: https://github.com/semantic-release/semantic-release
+    repo: semantic-release/semantic-release
+    npm: semantic-release
+    search: semantic-release automated versioning
+    license: MIT
+    install: npm i -D semantic-release
+    use_when: you want fully automatic version bumps and publishing on every merge, with no release PR
+    status: candidate
+  - branch: ship
+    section: CI and automation
+    tier: more
+    name: Lighthouse CI
+    url: https://github.com/GoogleChrome/lighthouse-ci
+    repo: GoogleChrome/lighthouse-ci
+    npm: "@lhci/cli"
+    search: Lighthouse CI performance budgets
+    license: Apache-2.0
+    install: npm i -D @lhci/cli
+    use_when: you want Lighthouse scores checked on every PR and fail the build when they drop
+    status: candidate
+
+  # ---------- Analytics ----------
+  - branch: ship
+    section: Analytics
+    tier: default
+    name: Plausible
+    url: https://plausible.io
+    repo: plausible/analytics
+    npm: "@plausible-analytics/tracker"
+    search: Plausible privacy-friendly analytics
+    license: AGPL-3.0 (Community Edition); tracker MIT; cloud is paid
+    license_url: https://plausible.io/#pricing
+    install: script tag, or npm i @plausible-analytics/tracker; self-host with https://github.com/plausible/community-edition/
+    use_when: you want simple, cookie-free page analytics
+    note: Cloud from $9/month with a 30-day free trial; self-hosted Community Edition is free (https://plausible.io/self-hosted-web-analytics).
+    status: candidate
+  - branch: ship
+    section: Analytics
+    tier: alternatives
+    name: PostHog
+    url: https://posthog.com/docs/libraries/js
+    repo: PostHog/posthog-js
+    npm: posthog-js
+    search: PostHog product analytics open source
+    license: free tier, then paid; posthog-js is Apache-2.0 AND MIT
+    install: npm i posthog-js
+    use_when: you need product analytics (funnels, events, session replay, feature flags) rather than only page views
+    note: Free tier limits and pricing page not checked yet.
+    status: candidate
+  - branch: ship
+    section: Analytics
+    tier: alternatives
+    name: Vercel Web Analytics
+    url: https://vercel.com/docs/analytics
+    search: Vercel Web Analytics
+    license: free tier, then paid
+    license_url: https://vercel.com/pricing
+    install: npm i @vercel/analytics
+    use_when: your site is already on Vercel and you want page views with no extra service
+    note: Hobby plan includes 50K events a month.
+    status: candidate
+  - branch: ship
+    section: Analytics
+    tier: more
+    name: Umami Node client
+    url: https://github.com/umami-software/umami-node
+    repo: umami-software/umami-node
+    npm: "@umami/node"
+    search: Umami analytics open source
+    license: MIT
+    install: npm i @umami/node
+    use_when: you run Umami (open-source analytics) and want to send events from a Node server
+    note: Main Umami app repo and homepage still to be added.
+    status: candidate
+
+  # ---------- Error tracking and monitoring ----------
+  - branch: ship
+    section: Error tracking and monitoring
+    tier: default
+    name: Sentry
+    url: https://github.com/getsentry/sentry-javascript
+    repo: getsentry/sentry-javascript
+    npm: "@sentry/browser"
+    search: Sentry error tracking free tier
+    license: free tier, then paid; JS SDK is MIT
+    install: npm i @sentry/browser (or @sentry/nextjs, npx @sentry/wizard)
+    use_when: you want error reports with stack traces from the browser and server
+    note: Free tier limits and pricing page not checked yet.
+    status: candidate
+  - branch: ship
+    section: Error tracking and monitoring
+    tier: alternatives
+    name: Uptime Kuma
+    url: https://github.com/louislam/uptime-kuma
+    repo: louislam/uptime-kuma
+    search: Uptime Kuma self-hosted uptime monitor
+    license: MIT
+    install: docker run -d --restart=always -p 3001:3001 -v uptime-kuma:/app/data --name uptime-kuma louislam/uptime-kuma:2
+    use_when: you want a self-hosted uptime monitor and status page
+    note: "Demo (data wiped after 10 minutes): https://demo.kuma.pet/start-demo"
+    status: candidate
+  - branch: ship
+    section: Error tracking and monitoring
+    tier: alternatives
+    name: LaunchDarkly Observability SDK (Highlight)
+    url: https://github.com/launchdarkly/observability-sdk
+    repo: launchdarkly/observability-sdk
+    npm: "@highlight-run/next"
+    search: Highlight.io LaunchDarkly observability session replay
+    license: Apache-2.0 (SDK); hosted service has a free tier, then paid
+    install: npm i @highlight-run/next
+    use_when: you want session replay, errors and logs together for a Next.js app
+    note: Highlight is now part of LaunchDarkly; check current pricing before relying on it.
+    status: candidate
+  - branch: ship
+    section: Error tracking and monitoring
+    tier: more
+    name: Vercel Observability
+    url: https://vercel.com/products/observability
+    search: Vercel Observability logs traces
+    license: free tier, then paid
+    license_url: https://vercel.com/pricing
+    use_when: your app is on Vercel and you want function logs and traces without another service
+    note: Hobby keeps runtime logs for 1 day and traces for 3 days.
+    status: candidate
+
+  # ---------- SEO and sharing ----------
+  - branch: ship
+    section: SEO and sharing
+    tier: alternatives
+    name: next-sitemap
+    url: https://github.com/iamvishnusankar/next-sitemap
+    repo: iamvishnusankar/next-sitemap
+    npm: next-sitemap
+    search: next-sitemap sitemap robots.txt Next.js
+    license: MIT
+    install: npm i -D next-sitemap
+    use_when: you want sitemap.xml and robots.txt generated at build time for a Next.js site
+    note: Next.js App Router also has a built-in sitemap file convention.
+    status: candidate
+  - branch: ship
+    section: SEO and sharing
+    tier: alternatives
+    name: Satori
+    url: https://github.com/vercel/satori
+    repo: vercel/satori
+    npm: satori
+    search: vercel satori HTML to SVG OG image
+    license: MPL-2.0
+    install: npm i satori
+    use_when: you want to render Open Graph images from JSX/HTML to SVG in any JS runtime
+    status: candidate
+  - branch: ship
+    section: SEO and sharing
+    tier: alternatives
+    name: "@vercel/og"
+    url: https://github.com/vercel/og
+    repo: vercel/og
+    npm: "@vercel/og"
+    search: vercel og ImageResponse Open Graph images
+    license: MPL-2.0
+    install: npm i @vercel/og
+    use_when: you want dynamic OG images as PNG from an edge or serverless route (built on Satori)
+    status: candidate
+  - branch: ship
+    section: SEO and sharing
+    tier: alternatives
+    name: next-seo
+    url: https://github.com/garmeeh/next-seo
+    repo: garmeeh/next-seo
+    npm: next-seo
+    search: next-seo meta tags JSON-LD Next.js
+    license: MIT
+    install: npm i next-seo
+    use_when: you want meta tags and JSON-LD structured data components for Next.js
+    status: candidate
+  - branch: ship
+    section: SEO and sharing
+    tier: more
+    name: schema-dts
+    url: https://opensource.google/projects/schema-dts
+    repo: google/schema-dts
+    npm: schema-dts
+    search: schema-dts TypeScript schema.org JSON-LD types
+    license: Apache-2.0
+    install: npm i -D schema-dts
+    use_when: you write schema.org JSON-LD by hand in TypeScript and want it type-checked
+    status: candidate
