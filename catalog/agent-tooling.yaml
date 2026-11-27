@@ -1,0 +1,237 @@
+branch: agent-tooling
+title: Agent tooling
+intro: ''
+sections:
+- name: MCP servers and connectors
+  alternatives:
+  - name: GitHub MCP Server
+    url: https://github.com/github/github-mcp-server
+    repo: github/github-mcp-server
+    search: github-mcp-server official GitHub MCP
+    license: MIT
+    install: remote https://api.githubcopilot.com/mcp/ or local Docker image with GITHUB_PERSONAL_ACCESS_TOKEN
+    use_when: the agent needs to read and act on GitHub issues, pull requests, code and Actions
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 34807
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+    verified_by: auto
+  - name: Playwright MCP
+    url: https://github.com/microsoft/playwright-mcp
+    repo: microsoft/playwright-mcp
+    npm: '@playwright/mcp'
+    search: microsoft playwright-mcp browser automation MCP
+    license: Apache-2.0
+    install: claude mcp add playwright npx @playwright/mcp@latest
+    use_when: the agent needs to open, click through and check a real browser page through the accessibility tree
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 40219
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: Apache-2.0
+      npm_license: Apache-2.0
+      npm_modified: '2026-11-18'
+      npm_weekly: 9696321
+    verified_by: auto
+  - name: Chrome DevTools MCP
+    url: https://github.com/ChromeDevTools/chrome-devtools-mcp
+    repo: ChromeDevTools/chrome-devtools-mcp
+    npm: chrome-devtools-mcp
+    search: ChromeDevTools chrome-devtools-mcp
+    license: Apache-2.0
+    install: npx chrome-devtools-mcp@latest
+    use_when: you want the agent to read console, network and performance traces from Chrome while debugging
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 59617
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: Apache-2.0
+      npm_license: Apache-2.0
+      npm_modified: '2026-11-24'
+      npm_weekly: 2886356
+    verified_by: auto
+  - name: shadcn MCP server
+    url: https://ui.shadcn.com/docs/mcp
+    repo: shadcn-ui/ui
+    npm: shadcn
+    search: shadcn MCP server registry
+    license: MIT
+    install: npx shadcn@latest mcp init --client claude
+    use_when: you want the agent to browse, search and install components from shadcn and other registries set in components.json
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 129266
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-25'
+      npm_weekly: 17931411
+    verified_by: auto
+  - name: Supabase MCP Server
+    url: https://github.com/supabase/mcp
+    repo: supabase/mcp
+    npm: '@supabase/mcp-server-supabase'
+    search: Supabase MCP server mcp.supabase.com
+    license: Apache-2.0
+    install: remote https://mcp.supabase.com/mcp (OAuth login)
+    use_when: the agent needs to manage tables, read config and query data in a Supabase project
+    note: older links point to supabase-community/supabase-mcp
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 3025
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: Apache-2.0
+      npm_license: Apache-2.0
+      npm_modified: '2026-11-26'
+      npm_weekly: 225520
+    verified_by: auto
+  more:
+  - name: Sentry MCP
+    url: https://github.com/getsentry/sentry-mcp
+    repo: getsentry/sentry-mcp
+    npm: '@sentry/mcp-server'
+    search: getsentry sentry-mcp
+    license: FSL-1.1-ALv2 (source-available, becomes Apache-2.0 later)
+    install: remote https://mcp.sentry.dev/mcp, or npx @sentry/mcp-server@latest --access-token=<token>
+    use_when: the agent should read production errors and issues from Sentry while fixing bugs
+    note: npm package metadata points to getsentry/toolkit; GitHub page is getsentry/sentry-mcp
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 976
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: NOASSERTION
+      npm_license: FSL-1.1-ALv2
+      npm_modified: '2026-11-24'
+      npm_weekly: 231292
+    verified_by: auto
+  - name: Next.js DevTools MCP
+    url: https://github.com/vercel/next-devtools-mcp
+    repo: vercel/next-devtools-mcp
+    npm: next-devtools-mcp
+    search: vercel next-devtools-mcp
+    license: MIT
+    install: npx next-devtools-mcp@latest
+    use_when: you build with Next.js and want the agent to read the dev server's errors and Next.js docs
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 835
+      pushed: '2026-09-15'
+      archived: false
+      gh_license: null
+      npm_license: MIT
+      npm_modified: '2026-06-24'
+      npm_weekly: 175538
+    verified_by: auto
+  paid:
+  - name: Figma MCP server
+    url: https://github.com/figma/mcp-server-guide
+    repo: figma/mcp-server-guide
+    search: Figma MCP server Dev Mode guide
+    license: Figma Developer Terms (not open source); free Starter use limited to 6 tool calls a month
+    license_url: https://www.figma.com/legal/developer-terms/
+    install: claude mcp add --transport http figma https://mcp.figma.com/mcp
+    note: 'Full use needs a Dev or Full seat on a paid plan. Free option: export design tokens and screenshots by hand.'
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      license_link: 200
+      stars: 2242
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: null
+    verified_by: auto
+  big_lists:
+  - name: awesome-mcp-servers (punkpeye)
+    url: https://github.com/punkpeye/awesome-mcp-servers
+    repo: punkpeye/awesome-mcp-servers
+    search: punkpeye awesome-mcp-servers
+    license: MIT
+    note: web directory at https://glama.ai/mcp/servers
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 98578
+      pushed: '2026-11-26'
+      archived: false
+      gh_license: MIT
+    verified_by: auto
+- name: Skills
+  alternatives:
+  - name: Agent Skills specification
+    url: https://agentskills.io
+    repo: agentskills/agentskills
+    search: Agent Skills open standard SKILL.md specification
+    license: Apache-2.0 (code), CC-BY-4.0 (docs)
+    install: read https://agentskills.io/specification.md
+    use_when: you write a SKILL.md and need the exact format rules, best practices and the list of clients that load skills
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 27698
+      pushed: '2026-11-04'
+      archived: false
+      gh_license: Apache-2.0
+    verified_by: auto
+  - name: skills-ref
+    url: https://github.com/agentskills/agentskills
+    repo: agentskills/agentskills
+    search: agentskills skills-ref validator
+    license: Apache-2.0
+    install: from the skills-ref/ folder of agentskills/agentskills
+    use_when: you want to check a skill folder against the spec before publishing it
+    note: an npm package named skills-ref (MIT) exists but its metadata has no repository link; not confirmed to be the same tool
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 27698
+      pushed: '2026-11-04'
+      archived: false
+      gh_license: Apache-2.0
+    verified_by: auto
+- name: Docs for agents
+  default:
+    name: Context7
+    url: https://github.com/upstash/context7
+    repo: upstash/context7
+    npm: '@upstash/context7-mcp'
+    search: Context7 MCP up-to-date code docs
+    license: MIT (MCP server); the API backend and crawler are closed
+    install: npx ctx7 setup, or remote https://mcp.context7.com/mcp (API key recommended for higher limits)
+    use_when: the agent needs current, version-specific docs and code examples for a library instead of its training data
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 65557
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-27'
+      npm_weekly: 964217
+    verified_by: auto

@@ -1,0 +1,466 @@
+branch: frontend/3d
+title: 3D on the web
+intro: ''
+sections:
+- name: Engines
+  default:
+    name: Three.js
+    url: https://threejs.org
+    repo: mrdoob/three.js
+    npm: three
+    search: three.js JavaScript 3D library
+    license: MIT
+    install: npm i three
+    use_when: you need a general WebGL/WebGPU 3D library with the largest ecosystem
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 119564
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-10-30'
+      npm_weekly: 37941583
+    verified_by: auto
+  alternatives:
+  - name: Babylon.js
+    url: https://www.babylonjs.com
+    repo: BabylonJS/Babylon.js
+    npm: '@babylonjs/core'
+    search: Babylon.js web 3D engine
+    license: Apache-2.0
+    install: npm i @babylonjs/core
+    use_when: you want a full engine with built-in physics, GUI, inspector and an online playground
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 26469
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: Apache-2.0
+      npm_license: Apache-2.0
+      npm_modified: '2026-11-26'
+      npm_weekly: 389352
+    verified_by: auto
+  - name: PlayCanvas Engine
+    url: https://playcanvas.com
+    repo: playcanvas/engine
+    npm: playcanvas
+    search: PlayCanvas WebGL game engine open source
+    license: MIT
+    install: npm i playcanvas
+    use_when: you are building a browser game or configurator and want an engine with an optional hosted editor
+    note: The engine is MIT; the hosted editor has free and paid plans.
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 17386
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-27'
+      npm_weekly: 204552
+    verified_by: auto
+  - name: A-Frame
+    url: https://aframe.io
+    repo: aframevr/aframe
+    npm: aframe
+    search: A-Frame WebXR framework HTML
+    license: MIT
+    install: npm i aframe (or a script tag)
+    use_when: you want VR/AR scenes written as HTML tags on top of three.js
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 17723
+      pushed: '2026-07-13'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-06-23'
+      npm_weekly: 35572
+    verified_by: auto
+  - name: model-viewer
+    url: https://modelviewer.dev
+    repo: google/model-viewer
+    npm: '@google/model-viewer'
+    search: Google model-viewer web component glTF
+    license: Apache-2.0
+    install: npm i @google/model-viewer
+    use_when: you only need to show one glTF model with orbit controls and AR, no custom scene code
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 8366
+      pushed: '2026-11-18'
+      archived: false
+      gh_license: Apache-2.0
+      npm_license: Apache-2.0
+      npm_modified: '2026-10-09'
+      npm_weekly: 1026424
+    verified_by: auto
+  more:
+  - name: postprocessing
+    url: https://github.com/pmndrs/postprocessing
+    repo: pmndrs/postprocessing
+    npm: postprocessing
+    search: pmndrs postprocessing three.js effects
+    license: Zlib
+    install: npm i postprocessing
+    use_when: you need bloom, depth of field or other post effects in plain three.js with merged passes
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 3002
+      pushed: '2026-11-22'
+      archived: false
+      gh_license: Zlib
+      npm_license: Zlib
+      npm_modified: '2026-11-01'
+      npm_weekly: 2104339
+    verified_by: auto
+- name: React helpers
+  default:
+    name: React Three Fiber
+    url: https://r3f.docs.pmnd.rs
+    repo: pmndrs/react-three-fiber
+    npm: '@react-three/fiber'
+    search: React Three Fiber pmndrs
+    license: MIT
+    install: npm i three @react-three/fiber
+    use_when: you build three.js scenes inside a React app
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 33986
+      pushed: '2026-10-21'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-10-21'
+      npm_weekly: 8999224
+    verified_by: auto
+  alternatives:
+  - name: drei
+    url: https://drei.docs.pmnd.rs
+    repo: pmndrs/drei
+    npm: '@react-three/drei'
+    search: pmndrs drei React Three Fiber helpers
+    license: MIT
+    install: npm i @react-three/drei
+    use_when: 'you want ready helpers for R3F: controls, loaders, environment maps, text, staging'
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 10213
+      pushed: '2026-11-17'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-09-25'
+      npm_weekly: 6166196
+    verified_by: auto
+  - name: react-postprocessing
+    url: https://react-postprocessing.docs.pmnd.rs
+    repo: pmndrs/react-postprocessing
+    npm: '@react-three/postprocessing'
+    search: react-three postprocessing pmndrs
+    license: MIT
+    install: npm i @react-three/postprocessing
+    use_when: you want post effects (bloom, vignette, SSAO) as R3F components
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 1801
+      pushed: '2026-10-21'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-10-21'
+      npm_weekly: 1661852
+    verified_by: auto
+- name: Physics
+  default:
+    name: react-three-rapier
+    url: https://github.com/pmndrs/react-three-rapier
+    repo: pmndrs/react-three-rapier
+    npm: '@react-three/rapier'
+    search: pmndrs react-three-rapier physics
+    license: MIT
+    install: npm i @react-three/rapier
+    use_when: you need rigid-body physics in a React Three Fiber scene
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 1794
+      pushed: '2026-10-12'
+      archived: false
+      gh_license: MIT
+      npm_license: null
+      npm_modified: '2026-08-07'
+      npm_weekly: 181807
+    verified_by: auto
+  alternatives:
+  - name: JoltPhysics.js
+    url: https://github.com/jrouwe/JoltPhysics.js
+    repo: jrouwe/JoltPhysics.js
+    npm: jolt-physics
+    search: JoltPhysics.js WASM physics
+    license: MIT
+    install: npm i jolt-physics
+    use_when: you need heavier physics (many bodies, vehicles, characters) from the Jolt engine compiled to WASM
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 592
+      pushed: '2026-11-21'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-21'
+      npm_weekly: 19250
+    verified_by: auto
+- name: Model tools and compression
+  default:
+    name: glTF Transform
+    url: https://gltf-transform.dev
+    repo: donmccurdy/glTF-Transform
+    npm: '@gltf-transform/cli'
+    search: glTF Transform CLI optimize glTF
+    license: MIT
+    install: npx @gltf-transform/cli optimize in.glb out.glb
+    use_when: you need to shrink and clean glTF/GLB files (Draco or Meshopt, texture resize, KTX2/WebP)
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 2107
+      pushed: '2026-10-20'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-09-28'
+      npm_weekly: 286117
+    verified_by: auto
+  alternatives:
+  - name: Draco
+    url: https://google.github.io/draco/
+    repo: google/draco
+    npm: draco3d
+    search: Google Draco 3D mesh compression
+    license: Apache-2.0
+    install: npm i draco3d (decoders also ship with three.js)
+    use_when: you want the smallest mesh geometry and accept slower decoding
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 7570
+      pushed: '2026-11-16'
+      archived: false
+      gh_license: Apache-2.0
+      npm_license: Apache-2.0
+      npm_modified: '2026-10-16'
+      npm_weekly: 7707817
+    verified_by: auto
+  - name: meshoptimizer / gltfpack
+    url: https://meshoptimizer.org
+    repo: zeux/meshoptimizer
+    npm: meshoptimizer
+    search: meshoptimizer gltfpack zeux
+    license: MIT
+    install: npm i meshoptimizer; gltfpack from the releases page
+    use_when: you want fast-decoding mesh and animation compression (EXT_meshopt_compression)
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 8965
+      pushed: '2026-11-25'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-09-25'
+      npm_weekly: 25425067
+    verified_by: auto
+  - name: gltf.report
+    url: https://gltf.report
+    search: gltf.report glTF Transform web inspector
+    license: free web app, not open source
+    license_url: https://gltf-transform.dev
+    install: open in browser
+    use_when: you want to inspect a model's size, meshes and textures and run glTF Transform scripts in the browser
+    note: Built on glTF Transform (MIT).
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      license_link: 200
+    verified_by: auto
+  more:
+  - name: gltf-pipeline
+    url: https://github.com/CesiumGS/gltf-pipeline
+    repo: CesiumGS/gltf-pipeline
+    npm: gltf-pipeline
+    search: Cesium gltf-pipeline
+    license: Apache-2.0
+    install: npx gltf-pipeline -i in.gltf -o out.glb -d
+    use_when: you want a simple CLI to convert glTF to GLB and apply Draco
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 2138
+      pushed: '2026-06-23'
+      archived: false
+      gh_license: Apache-2.0
+      npm_license: Apache-2.0
+      npm_modified: '2026-04-03'
+      npm_weekly: 20083
+    verified_by: auto
+  paid:
+  - name: Spline
+    url: https://www.spline.design
+    npm: '@splinetool/react-spline'
+    search: Spline 3D design tool web
+    license: freemium; paid plans remove the web export watermark
+    license_url: https://www.spline.design/pricing
+    install: npm i @splinetool/react-spline
+    never_copy: true
+    note: 'Free option: Blender plus glTF Transform, loaded with three.js or R3F.'
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      license_link: 200
+      npm_license: null
+      npm_modified: '2026-11-05'
+      npm_weekly: 169226
+    verified_by: auto
+- name: Performance and examples
+  default:
+    name: three.js examples
+    url: https://threejs.org/examples/
+    repo: mrdoob/three.js
+    search: three.js official examples
+    license: MIT
+    install: open in browser; source is in the three.js repo under examples/
+    use_when: you want working code for a three.js feature (loaders, materials, post effects, WebGPU)
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 119564
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+    verified_by: auto
+  alternatives:
+  - name: three.js manual
+    url: https://threejs.org/manual
+    repo: mrdoob/three.js
+    search: three.js manual fundamentals
+    license: MIT
+    install: open in browser
+    use_when: you want step-by-step explanations of three.js basics and common tasks
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 119564
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+    verified_by: auto
+  - name: R3F scaling performance
+    url: https://r3f.docs.pmnd.rs/advanced/scaling-performance
+    repo: pmndrs/react-three-fiber
+    search: React Three Fiber scaling performance docs
+    license: MIT
+    install: open in browser
+    use_when: your R3F scene is slow and you need the official advice (on-demand rendering, instancing, LOD)
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 33986
+      pushed: '2026-10-21'
+      archived: false
+      gh_license: MIT
+    verified_by: auto
+  - name: Discover three.js
+    url: https://discoverthreejs.com
+    search: Discover three.js free book Lewy Blue
+    license: free to read, not open source
+    license_url: https://discoverthreejs.com
+    install: read online
+    use_when: you want a free book that teaches three.js app structure from the start
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      license_link: 200
+    verified_by: auto
+  - name: pmndrs examples
+    url: https://pmndrs.github.io/examples
+    repo: pmndrs/examples
+    search: pmndrs examples React Three Fiber
+    license: MIT
+    install: open in browser; clone the repo for source
+    use_when: you want many small R3F demos with source to copy patterns from
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 137
+      pushed: '2026-11-25'
+      archived: false
+      gh_license: MIT
+    verified_by: auto
+  more:
+  - name: three-mesh-bvh
+    url: https://github.com/gkjohnson/three-mesh-bvh
+    repo: gkjohnson/three-mesh-bvh
+    npm: three-mesh-bvh
+    search: three-mesh-bvh raycasting BVH
+    license: MIT
+    install: npm i three-mesh-bvh
+    use_when: raycasting or collision against large meshes is slow
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 3599
+      pushed: '2026-11-25'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-24'
+      npm_error: 429
+    verified_by: auto
+  paid:
+  - name: Three.js Journey
+    url: https://threejs-journey.com/
+    search: Three.js Journey course Bruno Simon
+    license: paid course
+    license_url: https://threejs-journey.com/
+    note: 'Free option: Discover three.js and the three.js manual.'
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      license_link: 200
+    verified_by: auto

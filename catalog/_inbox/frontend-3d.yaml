@@ -2,72 +2,6 @@ proposals:
 - branch: frontend/3d
   branch_title: 3D on the web
   section: Engines
-  tier: default
-  name: Three.js
-  url: https://threejs.org
-  repo: mrdoob/three.js
-  npm: three
-  search: three.js JavaScript 3D library
-  license: MIT
-  install: npm i three
-  use_when: you need a general WebGL/WebGPU 3D library with the largest ecosystem
-  status: candidate
-- branch: frontend/3d
-  branch_title: 3D on the web
-  section: Engines
-  tier: alternatives
-  name: Babylon.js
-  url: https://www.babylonjs.com
-  repo: BabylonJS/Babylon.js
-  npm: '@babylonjs/core'
-  search: Babylon.js web 3D engine
-  license: Apache-2.0
-  install: npm i @babylonjs/core
-  use_when: you want a full engine with built-in physics, GUI, inspector and an online playground
-  status: candidate
-- branch: frontend/3d
-  branch_title: 3D on the web
-  section: Engines
-  tier: alternatives
-  name: PlayCanvas Engine
-  url: https://playcanvas.com
-  repo: playcanvas/engine
-  npm: playcanvas
-  search: PlayCanvas WebGL game engine open source
-  license: MIT
-  install: npm i playcanvas
-  use_when: you are building a browser game or configurator and want an engine with an optional hosted editor
-  note: The engine is MIT; the hosted editor has free and paid plans.
-  status: candidate
-- branch: frontend/3d
-  branch_title: 3D on the web
-  section: Engines
-  tier: alternatives
-  name: A-Frame
-  url: https://aframe.io
-  repo: aframevr/aframe
-  npm: aframe
-  search: A-Frame WebXR framework HTML
-  license: MIT
-  install: npm i aframe (or a script tag)
-  use_when: you want VR/AR scenes written as HTML tags on top of three.js
-  status: candidate
-- branch: frontend/3d
-  branch_title: 3D on the web
-  section: Engines
-  tier: alternatives
-  name: model-viewer
-  url: https://modelviewer.dev
-  repo: google/model-viewer
-  npm: '@google/model-viewer'
-  search: Google model-viewer web component glTF
-  license: Apache-2.0
-  install: npm i @google/model-viewer
-  use_when: you only need to show one glTF model with orbit controls and AR, no custom scene code
-  status: candidate
-- branch: frontend/3d
-  branch_title: 3D on the web
-  section: Engines
   tier: alternatives
   name: OGL
   url: https://github.com/oframe/ogl
@@ -78,19 +12,19 @@ proposals:
   install: npm i ogl
   use_when: you want a very small WebGL library for shader-heavy effects and can do without three.js extras
   status: candidate
-- branch: frontend/3d
-  branch_title: 3D on the web
-  section: Engines
-  tier: more
-  name: postprocessing
-  url: https://github.com/pmndrs/postprocessing
-  repo: pmndrs/postprocessing
-  npm: postprocessing
-  search: pmndrs postprocessing three.js effects
-  license: Zlib
-  install: npm i postprocessing
-  use_when: you need bloom, depth of field or other post effects in plain three.js with merged passes
-  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 4766
+    pushed: '2025-04-13'
+    archived: false
+    gh_license: null
+    npm_license: Unlicense
+    npm_modified: '2025-01-27'
+    npm_weekly: 1063075
+  problems:
+  - no updates in the last year
+  attempts: 1
 - branch: frontend/3d
   branch_title: 3D on the web
   section: Engines
@@ -101,6 +35,16 @@ proposals:
   search: AxiomeCG awesome-threejs
   license: list
   status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 1035
+    pushed: '2026-07-28'
+    archived: false
+    gh_license: CC0-1.0
+  problems:
+  - license says 'list' but gh_license is CC0-1.0
+  attempts: 1
 - branch: frontend/3d
   branch_title: 3D on the web
   section: Engines
@@ -111,59 +55,16 @@ proposals:
   search: sjfricke awesome-webgl
   license: list
   status: candidate
-- branch: frontend/3d
-  branch_title: 3D on the web
-  section: React helpers
-  tier: default
-  name: React Three Fiber
-  url: https://r3f.docs.pmnd.rs
-  repo: pmndrs/react-three-fiber
-  npm: '@react-three/fiber'
-  search: React Three Fiber pmndrs
-  license: MIT
-  install: npm i three @react-three/fiber
-  use_when: you build three.js scenes inside a React app
-  status: candidate
-- branch: frontend/3d
-  branch_title: 3D on the web
-  section: React helpers
-  tier: alternatives
-  name: drei
-  url: https://drei.docs.pmnd.rs
-  repo: pmndrs/drei
-  npm: '@react-three/drei'
-  search: pmndrs drei React Three Fiber helpers
-  license: MIT
-  install: npm i @react-three/drei
-  use_when: 'you want ready helpers for R3F: controls, loaders, environment maps, text, staging'
-  status: candidate
-- branch: frontend/3d
-  branch_title: 3D on the web
-  section: React helpers
-  tier: alternatives
-  name: react-postprocessing
-  url: https://react-postprocessing.docs.pmnd.rs
-  repo: pmndrs/react-postprocessing
-  npm: '@react-three/postprocessing'
-  search: react-three postprocessing pmndrs
-  license: MIT
-  install: npm i @react-three/postprocessing
-  use_when: you want post effects (bloom, vignette, SSAO) as R3F components
-  status: candidate
-- branch: frontend/3d
-  branch_title: 3D on the web
-  section: React helpers
-  tier: alternatives
-  name: Theatre.js
-  url: https://theatrejs.com
-  repo: theatre-js/theatre
-  npm: '@theatre/core'
-  search: Theatre.js motion design editor three.js
-  license: Apache-2.0 (core); studio is AGPL-3.0
-  install: npm i @theatre/core @theatre/studio @theatre/r3f
-  use_when: you need keyframed camera and object animation edited visually in the browser
-  note: Check the studio license before shipping it; usually it is only loaded in development.
-  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 1548
+    pushed: '2026-11-15'
+    archived: false
+    gh_license: CC0-1.0
+  problems:
+  - license says 'list' but gh_license is CC0-1.0
+  attempts: 1
 - branch: frontend/3d
   branch_title: 3D on the web
   section: React helpers
@@ -177,6 +78,19 @@ proposals:
   install: npm i leva
   use_when: you want a quick tweak panel for scene values while developing
   status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 6280
+    pushed: '2025-11-09'
+    archived: false
+    gh_license: MIT
+    npm_license: MIT
+    npm_modified: '2025-10-31'
+    npm_weekly: 1295934
+  problems:
+  - no updates in the last year
+  attempts: 1
 - branch: frontend/3d
   branch_title: 3D on the web
   section: React helpers
@@ -190,71 +104,19 @@ proposals:
   install: npm i r3f-perf
   use_when: you want an on-screen panel of draw calls, FPS and GPU time in an R3F scene
   status: candidate
-- branch: frontend/3d
-  branch_title: 3D on the web
-  section: Physics
-  tier: default
-  name: react-three-rapier
-  url: https://github.com/pmndrs/react-three-rapier
-  repo: pmndrs/react-three-rapier
-  npm: '@react-three/rapier'
-  search: pmndrs react-three-rapier physics
-  license: MIT
-  install: npm i @react-three/rapier
-  use_when: you need rigid-body physics in a React Three Fiber scene
-  status: candidate
-- branch: frontend/3d
-  branch_title: 3D on the web
-  section: Physics
-  tier: alternatives
-  name: Rapier (JS/WASM)
-  url: https://rapier.rs
-  repo: dimforge/rapier.js
-  npm: '@dimforge/rapier3d-compat'
-  search: Rapier physics engine WASM JavaScript dimforge
-  license: Apache-2.0
-  install: npm i @dimforge/rapier3d-compat
-  use_when: you want fast deterministic WASM physics with plain three.js or another engine
-  status: candidate
-- branch: frontend/3d
-  branch_title: 3D on the web
-  section: Physics
-  tier: alternatives
-  name: cannon-es
-  url: https://github.com/pmndrs/cannon-es
-  repo: pmndrs/cannon-es
-  npm: cannon-es
-  search: cannon-es JavaScript physics engine
-  license: MIT
-  install: npm i cannon-es
-  use_when: you want a pure JavaScript physics engine with no WASM, for simple scenes
-  status: candidate
-- branch: frontend/3d
-  branch_title: 3D on the web
-  section: Physics
-  tier: alternatives
-  name: use-cannon
-  url: https://github.com/pmndrs/use-cannon
-  repo: pmndrs/use-cannon
-  npm: '@react-three/cannon'
-  search: pmndrs use-cannon react-three-cannon
-  license: MIT
-  install: npm i @react-three/cannon
-  use_when: you want cannon-es physics in R3F running in a web worker
-  status: candidate
-- branch: frontend/3d
-  branch_title: 3D on the web
-  section: Physics
-  tier: alternatives
-  name: JoltPhysics.js
-  url: https://github.com/jrouwe/JoltPhysics.js
-  repo: jrouwe/JoltPhysics.js
-  npm: jolt-physics
-  search: JoltPhysics.js WASM physics
-  license: MIT
-  install: npm i jolt-physics
-  use_when: you need heavier physics (many bodies, vehicles, characters) from the Jolt engine compiled to WASM
-  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 783
+    pushed: '2024-12-20'
+    archived: false
+    gh_license: MIT
+    npm_license: MIT
+    npm_modified: '2024-11-08'
+    npm_weekly: 47570
+  problems:
+  - no updates in the last year
+  attempts: 1
 - branch: frontend/3d
   branch_title: 3D on the web
   section: Physics
@@ -269,71 +131,19 @@ proposals:
   use_when: you need Bullet features such as soft bodies and accept an older, less active project
   note: The npm package is old; most projects use a build from the repo.
   status: candidate
-- branch: frontend/3d
-  branch_title: 3D on the web
-  section: Model tools and compression
-  tier: default
-  name: glTF Transform
-  url: https://gltf-transform.dev
-  repo: donmccurdy/glTF-Transform
-  npm: '@gltf-transform/cli'
-  search: glTF Transform CLI optimize glTF
-  license: MIT
-  install: npx @gltf-transform/cli optimize in.glb out.glb
-  use_when: you need to shrink and clean glTF/GLB files (Draco or Meshopt, texture resize, KTX2/WebP)
-  status: candidate
-- branch: frontend/3d
-  branch_title: 3D on the web
-  section: Model tools and compression
-  tier: alternatives
-  name: gltfjsx
-  url: https://github.com/pmndrs/gltfjsx
-  repo: pmndrs/gltfjsx
-  npm: gltfjsx
-  search: pmndrs gltfjsx glTF to JSX
-  license: MIT
-  install: npx gltfjsx model.glb --transform
-  use_when: you want a GLB turned into a reusable React Three Fiber component
-  status: candidate
-- branch: frontend/3d
-  branch_title: 3D on the web
-  section: Model tools and compression
-  tier: alternatives
-  name: Draco
-  url: https://google.github.io/draco/
-  repo: google/draco
-  npm: draco3d
-  search: Google Draco 3D mesh compression
-  license: Apache-2.0
-  install: npm i draco3d (decoders also ship with three.js)
-  use_when: you want the smallest mesh geometry and accept slower decoding
-  status: candidate
-- branch: frontend/3d
-  branch_title: 3D on the web
-  section: Model tools and compression
-  tier: alternatives
-  name: meshoptimizer / gltfpack
-  url: https://meshoptimizer.org
-  repo: zeux/meshoptimizer
-  npm: meshoptimizer
-  search: meshoptimizer gltfpack zeux
-  license: MIT
-  install: npm i meshoptimizer; gltfpack from the releases page
-  use_when: you want fast-decoding mesh and animation compression (EXT_meshopt_compression)
-  status: candidate
-- branch: frontend/3d
-  branch_title: 3D on the web
-  section: Model tools and compression
-  tier: alternatives
-  name: gltf.report
-  url: https://gltf.report
-  search: gltf.report glTF Transform web inspector
-  license: free web app, not open source
-  license_url: https://gltf-transform.dev
-  install: open in browser
-  use_when: you want to inspect a model's size, meshes and textures and run glTF Transform scripts in the browser
-  note: Built on glTF Transform (MIT).
-  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 4614
+    pushed: '2026-09-22'
+    archived: false
+    gh_license: NOASSERTION
+    npm_license: null
+    npm_modified: '2022-06-13'
+    npm_weekly: 2162
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1
 - branch: frontend/3d
   branch_title: 3D on the web
   section: Model tools and compression
@@ -347,19 +157,13 @@ proposals:
   use_when: you need to model, fix or bake a model and export it as glTF/GLB
   note: glTF import/export is built in (KhronosGroup/glTF-Blender-IO).
   status: candidate
-- branch: frontend/3d
-  branch_title: 3D on the web
-  section: Model tools and compression
-  tier: more
-  name: gltf-pipeline
-  url: https://github.com/CesiumGS/gltf-pipeline
-  repo: CesiumGS/gltf-pipeline
-  npm: gltf-pipeline
-  search: Cesium gltf-pipeline
-  license: Apache-2.0
-  install: npx gltf-pipeline -i in.gltf -o out.glb -d
-  use_when: you want a simple CLI to convert glTF to GLB and apply Draco
-  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 403
+    license_link: 200
+  problems:
+  - link returned 403
+  attempts: 1
 - branch: frontend/3d
   branch_title: 3D on the web
   section: Model tools and compression
@@ -373,101 +177,16 @@ proposals:
   install: npx obj2gltf -i model.obj -o model.glb
   use_when: you have OBJ files and need glTF/GLB
   status: candidate
-- branch: frontend/3d
-  branch_title: 3D on the web
-  section: Model tools and compression
-  tier: paid
-  name: Spline
-  url: https://www.spline.design
-  npm: '@splinetool/react-spline'
-  search: Spline 3D design tool web
-  license: freemium; paid plans remove the web export watermark
-  license_url: https://www.spline.design/pricing
-  install: npm i @splinetool/react-spline
-  never_copy: true
-  note: 'Free option: Blender plus glTF Transform, loaded with three.js or R3F.'
-  status: candidate
-- branch: frontend/3d
-  branch_title: 3D on the web
-  section: Performance and examples
-  tier: default
-  name: three.js examples
-  url: https://threejs.org/examples/
-  repo: mrdoob/three.js
-  search: three.js official examples
-  license: MIT
-  install: open in browser; source is in the three.js repo under examples/
-  use_when: you want working code for a three.js feature (loaders, materials, post effects, WebGPU)
-  status: candidate
-- branch: frontend/3d
-  branch_title: 3D on the web
-  section: Performance and examples
-  tier: alternatives
-  name: three.js manual
-  url: https://threejs.org/manual
-  repo: mrdoob/three.js
-  search: three.js manual fundamentals
-  license: MIT
-  install: open in browser
-  use_when: you want step-by-step explanations of three.js basics and common tasks
-  status: candidate
-- branch: frontend/3d
-  branch_title: 3D on the web
-  section: Performance and examples
-  tier: alternatives
-  name: R3F scaling performance
-  url: https://r3f.docs.pmnd.rs/advanced/scaling-performance
-  repo: pmndrs/react-three-fiber
-  search: React Three Fiber scaling performance docs
-  license: MIT
-  install: open in browser
-  use_when: your R3F scene is slow and you need the official advice (on-demand rendering, instancing, LOD)
-  status: candidate
-- branch: frontend/3d
-  branch_title: 3D on the web
-  section: Performance and examples
-  tier: alternatives
-  name: Discover three.js
-  url: https://discoverthreejs.com
-  search: Discover three.js free book Lewy Blue
-  license: free to read, not open source
-  license_url: https://discoverthreejs.com
-  install: read online
-  use_when: you want a free book that teaches three.js app structure from the start
-  status: candidate
-- branch: frontend/3d
-  branch_title: 3D on the web
-  section: Performance and examples
-  tier: alternatives
-  name: pmndrs examples
-  url: https://pmndrs.github.io/examples
-  repo: pmndrs/examples
-  search: pmndrs examples React Three Fiber
-  license: MIT
-  install: open in browser; clone the repo for source
-  use_when: you want many small R3F demos with source to copy patterns from
-  status: candidate
-- branch: frontend/3d
-  branch_title: 3D on the web
-  section: Performance and examples
-  tier: more
-  name: three-mesh-bvh
-  url: https://github.com/gkjohnson/three-mesh-bvh
-  repo: gkjohnson/three-mesh-bvh
-  npm: three-mesh-bvh
-  search: three-mesh-bvh raycasting BVH
-  license: MIT
-  install: npm i three-mesh-bvh
-  use_when: raycasting or collision against large meshes is slow
-  status: candidate
-- branch: frontend/3d
-  branch_title: 3D on the web
-  section: Performance and examples
-  tier: paid
-  name: Three.js Journey
-  url: https://threejs-journey.com/
-  search: Three.js Journey course Bruno Simon
-  license: paid course
-  license_url: https://threejs-journey.com/
-  note: 'Free option: Discover three.js and the three.js manual.'
-  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 1855
+    pushed: '2025-11-19'
+    archived: false
+    gh_license: Apache-2.0
+    npm_license: Apache-2.0
+    npm_modified: '2025-11-19'
+    npm_weekly: 26942
+  problems:
+  - no updates in the last year
+  attempts: 1

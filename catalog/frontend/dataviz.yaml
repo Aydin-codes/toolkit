@@ -1,0 +1,696 @@
+branch: frontend/dataviz
+title: Charts, maps and diagrams
+intro: ''
+sections:
+- name: Charts
+  default:
+    name: Recharts
+    url: https://github.com/recharts/recharts
+    repo: recharts/recharts
+    npm: recharts
+    search: Recharts React chart library
+    license: MIT
+    install: npm i recharts
+    use_when: you need standard line, bar, area and pie charts in a React app
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 27777
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-27'
+      npm_error: 429
+    verified_by: auto
+  alternatives:
+  - name: Chart.js
+    url: https://www.chartjs.org
+    repo: chartjs/Chart.js
+    npm: chart.js
+    search: Chart.js canvas charts
+    license: MIT
+    install: npm i chart.js (React wrapper - npm i react-chartjs-2)
+    use_when: you want simple canvas charts without a framework, or in plain HTML
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 67829
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-23'
+      npm_error: 429
+    verified_by: auto
+  - name: Apache ECharts
+    url: https://echarts.apache.org
+    repo: apache/echarts
+    npm: echarts
+    search: Apache ECharts
+    license: Apache-2.0
+    install: npm i echarts (React wrapper - npm i echarts-for-react)
+    use_when: you need many chart types, large datasets, or dashboards with zoom and brushing
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 67817
+      pushed: '2026-11-25'
+      archived: false
+      gh_license: Apache-2.0
+      npm_license: Apache-2.0
+      npm_modified: '2026-05-19'
+      npm_error: 429
+    verified_by: auto
+  - name: Observable Plot
+    url: https://github.com/observablehq/plot
+    repo: observablehq/plot
+    npm: '@observablehq/plot'
+    search: Observable Plot JavaScript library exploratory charts
+    license: ISC
+    install: npm i @observablehq/plot
+    use_when: you want quick, concise exploratory charts from tabular data with little code
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 5437
+      pushed: '2026-11-05'
+      archived: false
+      gh_license: ISC
+      npm_license: ISC
+      npm_modified: '2026-11-05'
+      npm_error: 429
+    verified_by: auto
+  - name: D3
+    url: https://d3js.org
+    repo: d3/d3
+    npm: d3
+    search: D3.js data-driven documents
+    license: ISC
+    install: npm i d3
+    use_when: you need a custom or unusual visualization and full control over SVG
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 114031
+      pushed: '2026-11-23'
+      archived: false
+      gh_license: ISC
+      npm_license: ISC
+      npm_modified: '2026-11-03'
+      npm_weekly: 34118285
+    verified_by: auto
+  - name: visx
+    url: https://github.com/airbnb/visx
+    repo: airbnb/visx
+    npm: '@visx/visx'
+    search: visx airbnb React visualization primitives
+    license: MIT
+    install: npm i @visx/visx (or single packages like @visx/shape)
+    use_when: you want D3-style custom charts built from React components
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 21120
+      pushed: '2026-06-22'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-06-11'
+      npm_error: 429
+    verified_by: auto
+  more:
+  - name: Nivo
+    url: https://github.com/plouc/nivo
+    repo: plouc/nivo
+    npm: '@nivo/core'
+    search: nivo React dataviz components
+    license: MIT
+    install: npm i @nivo/core @nivo/<chart>, e.g. @nivo/bar
+    use_when: you want ready-made React charts with themes, including heatmaps, sankey and treemaps
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 14144
+      pushed: '2026-07-21'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2025-05-23'
+      npm_error: 429
+    verified_by: auto
+  - name: uPlot
+    url: https://github.com/leeoniya/uPlot
+    repo: leeoniya/uPlot
+    npm: uplot
+    search: uPlot fast time series chart
+    license: MIT
+    install: npm i uplot
+    use_when: you plot large time series and need a very small, fast library
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 10677
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2025-03-14'
+      npm_error: 429
+    verified_by: auto
+  - name: Vega-Lite
+    url: https://vega.github.io/vega-lite/
+    repo: vega/vega-lite
+    npm: vega-lite
+    search: Vega-Lite grammar of interactive graphics JSON spec
+    license: BSD-3-Clause
+    install: npm i vega vega-lite vega-embed
+    use_when: you want charts described as JSON specs that can be stored, generated or shared
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 5568
+      pushed: '2026-11-24'
+      archived: false
+      gh_license: BSD-3-Clause
+      npm_license: BSD-3-Clause
+      npm_modified: '2026-10-08'
+      npm_error: 429
+    verified_by: auto
+  - name: Plotly.js
+    url: https://github.com/plotly/plotly.js
+    repo: plotly/plotly.js
+    npm: plotly.js
+    search: plotly.js scientific charts 3D
+    license: MIT
+    install: npm i plotly.js-dist-min
+    use_when: you need scientific or 3D charts, or match charts made with Plotly in Python
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 18392
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-10'
+      npm_error: 429
+    verified_by: auto
+- name: Maps
+  default:
+    name: MapLibre GL JS
+    url: https://maplibre.org/
+    repo: maplibre/maplibre-gl-js
+    npm: maplibre-gl
+    search: MapLibre GL JS vector maps
+    license: BSD-3-Clause
+    install: npm i maplibre-gl (React - npm i react-map-gl)
+    use_when: you need an interactive vector map without a paid provider
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 12192
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: NOASSERTION
+      npm_license: BSD-3-Clause
+      npm_modified: '2026-11-27'
+      npm_error: 429
+    verified_by: auto
+  alternatives:
+  - name: Leaflet
+    url: https://leafletjs.com/
+    repo: Leaflet/Leaflet
+    npm: leaflet
+    search: Leaflet JavaScript map library
+    license: BSD-2-Clause
+    install: npm i leaflet
+    use_when: you want a small, simple map with raster tiles and markers
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 46003
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: BSD-2-Clause
+      npm_license: BSD-2-Clause
+      npm_modified: '2026-11-19'
+      npm_error: 429
+    verified_by: auto
+  - name: deck.gl
+    url: https://deck.gl
+    repo: visgl/deck.gl
+    npm: deck.gl
+    search: deck.gl WebGL large data map layers
+    license: MIT
+    install: npm i deck.gl
+    use_when: you draw very large geo datasets (points, arcs, hexbins) on top of a map
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 14831
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-24'
+      npm_error: 429
+    verified_by: auto
+  - name: OpenFreeMap
+    url: https://openfreemap.org
+    repo: hyperknot/openfreemap
+    search: OpenFreeMap free vector tiles
+    license: free hosted tiles; map data from OpenStreetMap (ODbL), attribution required
+    license_url: https://www.openstreetmap.org/copyright
+    install: point MapLibre at an OpenFreeMap style URL (see openfreemap.org/quick_start)
+    use_when: you need free hosted map tiles with no API key
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      license_link: 200
+      stars: 6532
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: NOASSERTION
+    verified_by: auto
+  - name: Protomaps
+    url: https://protomaps.com/
+    repo: protomaps/basemaps
+    npm: pmtiles
+    search: Protomaps PMTiles basemaps self-host
+    license: BSD-3-Clause (code); map data from OpenStreetMap (ODbL)
+    license_url: https://www.openstreetmap.org/copyright
+    install: npm i pmtiles @protomaps/basemaps
+    use_when: you want to self-host a basemap as one PMTiles file on static storage
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      license_link: 200
+      stars: 781
+      pushed: '2026-09-11'
+      archived: false
+      gh_license: NOASSERTION
+      npm_license: BSD-3-Clause
+      npm_modified: '2026-08-10'
+      npm_error: 429
+    verified_by: auto
+  - name: OpenLayers
+    url: https://openlayers.org/
+    repo: openlayers/openlayers
+    npm: ol
+    search: OpenLayers web mapping library
+    license: BSD-2-Clause
+    install: npm i ol
+    use_when: you need GIS features such as projections, WMS/WFS and many data formats
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 12690
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: BSD-2-Clause
+      npm_license: BSD-2-Clause
+      npm_modified: '2026-11-27'
+      npm_error: 429
+    verified_by: auto
+  more:
+  - name: react-map-gl
+    url: https://github.com/visgl/react-map-gl
+    repo: visgl/react-map-gl
+    npm: react-map-gl
+    search: react-map-gl MapLibre React wrapper
+    license: MIT
+    install: npm i react-map-gl maplibre-gl
+    use_when: you use MapLibre in React and want it as components
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 8512
+      pushed: '2026-10-24'
+      archived: false
+      gh_license: NOASSERTION
+      npm_license: MIT
+      npm_modified: '2026-09-02'
+      npm_error: 429
+    verified_by: auto
+  - name: OpenStreetMap
+    url: https://www.openstreetmap.org/copyright
+    search: OpenStreetMap data ODbL attribution
+    license: ODbL (data); attribution required
+    license_url: https://www.openstreetmap.org/copyright
+    install: use through a tile provider or extracts; don't use the openstreetmap.org tile servers for heavy traffic
+    use_when: you need the underlying free map data, or must check attribution rules
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      license_link: 200
+    verified_by: auto
+  - name: React Leaflet
+    url: https://react-leaflet.js.org
+    repo: PaulLeCam/react-leaflet
+    npm: react-leaflet
+    search: React Leaflet components
+    license: Hippocratic-2.1
+    install: npm i react-leaflet leaflet
+    use_when: you use Leaflet in React
+    note: Hippocratic License is not an OSI open-source license; read it before commercial use.
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 5608
+      pushed: '2026-11-15'
+      archived: false
+      gh_license: NOASSERTION
+      npm_license: Hippocratic-2.1
+      npm_modified: '2024-12-14'
+      npm_error: 429
+    verified_by: auto
+- name: Diagrams
+  default:
+    name: Mermaid
+    url: https://github.com/mermaid-js/mermaid
+    repo: mermaid-js/mermaid
+    npm: mermaid
+    search: Mermaid diagrams from text
+    license: MIT
+    install: npm i mermaid (CLI - npm i @mermaid-js/mermaid-cli)
+    use_when: you need flowcharts, sequence or ER diagrams written as text, in docs or a page
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 91290
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-27'
+      npm_error: 429
+    verified_by: auto
+  alternatives:
+  - name: React Flow (xyflow)
+    url: https://reactflow.dev
+    repo: xyflow/xyflow
+    npm: '@xyflow/react'
+    search: React Flow xyflow node editor
+    license: MIT
+    install: npm i @xyflow/react
+    use_when: you need interactive node graphs or editors that users drag and connect
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 39193
+      pushed: '2026-11-23'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-23'
+      npm_error: 429
+    verified_by: auto
+  - name: D2
+    url: https://d2lang.com/
+    repo: d2lang/d2
+    npm: '@terrastruct/d2'
+    search: D2 declarative diagramming language
+    license: MPL-2.0
+    install: CLI install from d2lang.com, or npm i @terrastruct/d2 (WASM)
+    use_when: you want text diagrams with better automatic layout and styling than Mermaid
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 25976
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MPL-2.0
+      npm_license: MPL-2.0
+      npm_modified: '2026-11-27'
+      npm_error: 429
+    verified_by: auto
+  - name: Viz.js (Graphviz in the browser)
+    url: https://github.com/mdaines/viz-js
+    repo: mdaines/viz-js
+    npm: '@viz-js/viz'
+    search: Graphviz DOT viz-js WebAssembly
+    license: MIT
+    install: npm i @viz-js/viz
+    use_when: you have Graphviz DOT graphs and want to render them in JavaScript
+    note: Graphviz itself is the desktop/CLI tool; install it with the OS package manager.
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 4362
+      pushed: '2026-11-16'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-09-28'
+      npm_error: 429
+    verified_by: auto
+  more:
+  - name: Cytoscape.js
+    url: https://js.cytoscape.org
+    repo: cytoscape/cytoscape.js
+    npm: cytoscape
+    search: Cytoscape.js graph network visualization
+    license: MIT
+    install: npm i cytoscape
+    use_when: you visualize and analyze network graphs with many nodes
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 11315
+      pushed: '2026-11-10'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-10'
+      npm_error: 429
+    verified_by: auto
+  - name: dagre
+    url: https://github.com/dagrejs/dagre
+    repo: dagrejs/dagre
+    npm: '@dagrejs/dagre'
+    search: dagre directed graph layout
+    license: MIT
+    install: npm i @dagrejs/dagre
+    use_when: you need automatic layered layout for nodes, e.g. with React Flow
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 5867
+      pushed: '2026-11-24'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-24'
+      npm_error: 429
+    verified_by: auto
+  - name: ELK.js
+    url: https://github.com/kieler/elkjs
+    repo: kieler/elkjs
+    npm: elkjs
+    search: elkjs Eclipse Layout Kernel JavaScript
+    license: EPL-2.0 OR GPL-3.0-or-later
+    install: npm i elkjs
+    use_when: you need more layout options than dagre, such as ports and nested groups
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 2916
+      pushed: '2026-11-25'
+      archived: false
+      gh_license: NOASSERTION
+      npm_license: EPL-2.0 OR GPL-3.0-or-later
+      npm_modified: '2026-11-25'
+      npm_error: 429
+    verified_by: auto
+- name: Tables and grids
+  default:
+    name: TanStack Table
+    url: https://tanstack.com/table
+    repo: TanStack/table
+    npm: '@tanstack/react-table'
+    search: TanStack Table headless table
+    license: MIT
+    install: npm i @tanstack/react-table
+    use_when: you need sorting, filtering and pagination with your own table markup and styles
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 28639
+      pushed: '2026-11-24'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-10-12'
+      npm_error: 429
+    verified_by: auto
+  alternatives:
+  - name: AG Grid Community
+    url: https://www.ag-grid.com/
+    repo: ag-grid/ag-grid
+    npm: ag-grid-community
+    search: AG Grid Community free data grid
+    license: MIT (Community); Enterprise features are paid
+    install: npm i ag-grid-community ag-grid-react
+    use_when: you need a full spreadsheet-like grid with editing and large row counts out of the box
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 15700
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: NOASSERTION
+      npm_license: MIT
+      npm_modified: '2026-11-04'
+      npm_error: 429
+    verified_by: auto
+  - name: Glide Data Grid
+    url: https://grid.glideapps.com
+    repo: glideapps/glide-data-grid
+    npm: '@glideapps/glide-data-grid'
+    search: Glide Data Grid canvas React
+    license: MIT
+    install: npm i @glideapps/glide-data-grid
+    use_when: you show millions of rows in React and need canvas rendering for speed
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 5459
+      pushed: '2026-11-21'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-09-16'
+      npm_error: 429
+    verified_by: auto
+  - name: react-data-grid
+    url: https://github.com/Comcast/react-data-grid
+    repo: Comcast/react-data-grid
+    npm: react-data-grid
+    search: react-data-grid Excel-like React grid
+    license: MIT
+    install: npm i react-data-grid
+    use_when: you want a lightweight, virtualized editable grid in React
+    note: v7 is still published as beta on npm.
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 7690
+      pushed: '2026-11-25'
+      archived: false
+      gh_license: NOASSERTION
+      npm_license: MIT
+      npm_modified: '2026-11-05'
+      npm_error: 429
+    verified_by: auto
+  - name: MUI X Data Grid
+    url: https://mui.com/x/react-data-grid/
+    repo: mui/mui-x
+    npm: '@mui/x-data-grid'
+    search: MUI X Data Grid
+    license: MIT (free version); Pro and Premium are paid
+    install: npm i @mui/x-data-grid
+    use_when: the project already uses Material UI
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 5883
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: null
+      npm_license: MIT
+      npm_modified: '2026-11-13'
+      npm_error: 429
+    verified_by: auto
+  more:
+  - name: Tabulator
+    url: https://tabulator.info/
+    repo: tabulator-tables/tabulator
+    npm: tabulator-tables
+    search: Tabulator interactive tables JavaScript
+    license: MIT
+    install: npm i tabulator-tables
+    use_when: you need an interactive table without a framework
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 7828
+      pushed: '2026-11-19'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-10-22'
+      npm_error: 429
+    verified_by: auto
+  - name: Material React Table
+    url: https://www.material-react-table.com/
+    repo: KevinVandy/material-react-table
+    npm: material-react-table
+    search: Material React Table TanStack MUI
+    license: MIT
+    install: npm i material-react-table
+    use_when: you want TanStack Table features with ready-made Material UI styling
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 1808
+      pushed: '2026-06-05'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2025-03-01'
+      npm_error: 429
+    verified_by: auto
+  - name: RevoGrid
+    url: https://rv-grid.com
+    repo: revolist/revogrid
+    npm: '@revolist/revogrid'
+    search: RevoGrid web component data grid
+    license: MIT
+    install: npm i @revolist/revogrid
+    use_when: you need a fast grid as a web component that works in any framework
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 3467
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-24'
+      npm_error: 429
+    verified_by: auto

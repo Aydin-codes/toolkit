@@ -1,0 +1,256 @@
+branch: assets/make-your-own
+title: Make your own
+intro: ''
+sections:
+- name: 3D
+  alternatives:
+  - name: Blender MCP
+    url: https://github.com/ahujasid/blender-mcp
+    repo: ahujasid/blender-mcp
+    search: ahujasid blender-mcp MCP for Blender
+    license: MIT
+    install: claude mcp add blender uvx mcp-for-blender, then uvx mcp-for-blender install-addon
+    use_when: you want an agent to drive a running Blender over MCP to build or edit scenes
+    note: PyPI package is mcp-for-blender; needs Blender installed and the add-on enabled
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 36031
+      pushed: '2026-11-26'
+      archived: false
+      gh_license: MIT
+    verified_by: auto
+  - name: Blockbench
+    url: https://www.blockbench.net
+    repo: JannisX11/blockbench
+    search: Blockbench low-poly model editor
+    license: GPL-3.0
+    install: download, or use the web app
+    use_when: you want low-poly or blocky models with pixel-art textures, quick to learn
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 6258
+      pushed: '2026-11-25'
+      archived: false
+      gh_license: GPL-3.0
+    verified_by: auto
+  - name: FreeCAD
+    url: https://www.freecad.org
+    repo: FreeCAD/FreeCAD
+    search: FreeCAD parametric 3D CAD
+    license: LGPL-2.1
+    install: download from freecad.org
+    use_when: you need precise parametric CAD parts rather than artistic models
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 35836
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: LGPL-2.1
+    verified_by: auto
+  big_lists:
+  - name: awesome-blender
+    url: https://github.com/agmmnn/awesome-blender
+    repo: agmmnn/awesome-blender
+    search: agmmnn awesome-blender
+    license: CC0-1.0
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 7776
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: CC0-1.0
+    verified_by: auto
+- name: Vector
+  alternatives:
+  - name: SVGO
+    url: https://svgo.dev
+    repo: svg/svgo
+    npm: svgo
+    search: SVGO SVG optimizer
+    license: MIT
+    install: npm i -D svgo
+    use_when: you want to shrink and clean SVG files from the command line or a build step
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 22845
+      pushed: '2026-11-08'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-08-24'
+      npm_weekly: 50658977
+    verified_by: auto
+- name: Painting and raster
+  default:
+    name: Krita
+    url: https://www.krita.org
+    repo: KDE/krita
+    search: Krita digital painting
+    license: GPL-3.0
+    install: download from krita.org
+    use_when: you need to paint illustrations, textures or concept art with a tablet
+    note: GitHub repo is a mirror of invent.kde.org/graphics/krita
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 10824
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: GPL-3.0
+    verified_by: auto
+  alternatives:
+  - name: Pixelorama
+    url: https://www.pixelorama.org/
+    repo: Orama-Interactive/Pixelorama
+    search: Pixelorama pixel art editor Godot
+    license: MIT
+    install: download, or web build at https://orama-interactive.github.io/Pixelorama/
+    use_when: you want a free open-source pixel art and sprite animation editor
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 11225
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+    verified_by: auto
+  paid:
+  - name: Aseprite
+    url: https://www.aseprite.org
+    repo: aseprite/aseprite
+    search: Aseprite animated sprite editor
+    license: paid; source available under the Aseprite EULA (some modules MIT)
+    license_url: https://github.com/aseprite/aseprite
+    install: buy from aseprite.org or Steam
+    never_copy: true
+    note: 'Free option: Pixelorama.'
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      license_link: 200
+      stars: 41208
+      pushed: '2026-11-20'
+      archived: false
+      gh_license: null
+    verified_by: auto
+- name: Photo editing
+  alternatives:
+  - name: rembg
+    url: https://github.com/danielgatis/rembg
+    repo: danielgatis/rembg
+    search: rembg background removal Python
+    license: MIT
+    install: pip install rembg
+    use_when: you need to remove image backgrounds locally from a script or CLI
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 25715
+      pushed: '2026-11-24'
+      archived: false
+      gh_license: MIT
+    verified_by: auto
+  - name: Squoosh
+    url: https://github.com/GoogleChromeLabs/squoosh
+    repo: GoogleChromeLabs/squoosh
+    search: Squoosh image compression web app
+    license: Apache-2.0
+    install: web app; the npm CLI @squoosh/cli exists but its status was not checked
+    use_when: you want to compress and convert images (WebP, AVIF) and compare quality side by side
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 26235
+      pushed: '2026-10-22'
+      archived: false
+      gh_license: Apache-2.0
+    verified_by: auto
+- name: Design and mockups
+  default:
+    name: Penpot
+    url: https://penpot.app
+    repo: penpot/penpot
+    search: Penpot open source design tool
+    license: MPL-2.0
+    install: web app, or self-host with Docker (https://penpot.app/self-host)
+    use_when: you want an open-source Figma-style design and prototyping tool you can self-host
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 62831
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MPL-2.0
+    verified_by: auto
+  alternatives:
+  - name: Excalidraw
+    url: https://github.com/excalidraw/excalidraw
+    repo: excalidraw/excalidraw
+    npm: '@excalidraw/excalidraw'
+    search: Excalidraw hand-drawn whiteboard
+    license: MIT
+    install: web app, or npm i @excalidraw/excalidraw to embed
+    use_when: you want quick hand-drawn style diagrams and wireframes
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 136409
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-25'
+      npm_weekly: 1681238
+    verified_by: auto
+  - name: tldraw
+    url: https://tldraw.dev
+    repo: tldraw/tldraw
+    npm: tldraw
+    search: tldraw infinite canvas SDK
+    license: custom tldraw license (npm says SEE LICENSE IN LICENSE.md)
+    install: npm i tldraw
+    use_when: you want to embed a whiteboard canvas in your own app
+    note: reported to need a license key in production; license file not read
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 51633
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: NOASSERTION
+      npm_license: SEE LICENSE IN LICENSE.md
+      npm_modified: '2026-11-27'
+      npm_weekly: 698458
+    verified_by: auto
+  paid:
+  - name: Figma
+    url: https://www.figma.com/pricing/
+    search: Figma design tool
+    license: free plan for individuals (3 projects, 2 members, 30-day version history); paid plans beyond that
+    license_url: https://www.figma.com/pricing/
+    install: web app or desktop app
+    note: 'Free option: Penpot.'
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      license_link: 200
+    verified_by: auto

@@ -1,415 +1,151 @@
 proposals:
-  # ---------- Mobile apps ----------
-  - branch: platforms
-    branch_title: Platforms
-    section: Mobile apps
-    tier: default
-    name: Expo
-    url: https://github.com/expo/expo
-    repo: expo/expo
-    npm: expo
-    search: Expo React Native framework
-    license: MIT
-    install: npx create-expo-app@latest
-    use_when: you want iOS and Android apps from one React codebase with managed builds and updates
-    status: candidate
-  - branch: platforms
-    section: Mobile apps
-    tier: alternatives
-    name: React Native
-    url: https://reactnative.dev/
-    repo: react/react-native
-    npm: react-native
-    search: React Native framework
-    license: MIT
-    install: npm i react-native (usually through Expo)
-    use_when: you need the bare React Native runtime without the Expo toolchain
-    status: candidate
-  - branch: platforms
-    section: Mobile apps
-    tier: alternatives
-    name: Flutter
-    url: https://flutter.dev/
-    repo: flutter/flutter
-    search: Flutter SDK Dart cross-platform
-    license: BSD-3-Clause
-    install: download the Flutter SDK
-    use_when: you are fine writing Dart and want one UI toolkit for mobile, web and desktop
-    status: candidate
-  - branch: platforms
-    section: Mobile apps
-    tier: alternatives
-    name: Capacitor
-    url: https://capacitorjs.com
-    repo: ionic-team/capacitor
-    npm: "@capacitor/core"
-    search: Capacitor native runtime web apps
-    license: MIT
-    install: npm i @capacitor/core @capacitor/cli
-    use_when: you already have a web app and want to ship it as a native app with access to device APIs
-    status: candidate
-  - branch: platforms
-    section: Mobile apps
-    tier: alternatives
-    name: Ionic Framework
-    url: https://ionicframework.com/
-    repo: ionic-team/ionic-framework
-    npm: "@ionic/core"
-    search: Ionic Framework mobile UI components
-    license: MIT
-    install: npm i @ionic/core (or @ionic/react, @ionic/vue, @ionic/angular)
-    use_when: you want mobile-styled UI components on top of Capacitor
-    status: candidate
-  - branch: platforms
-    section: Mobile apps
-    tier: more
-    name: NativeScript
-    url: https://nativescript.org
-    repo: NativeScript/NativeScript
-    npm: "@nativescript/core"
-    search: NativeScript native apps JavaScript
-    license: Apache-2.0
-    install: npm i @nativescript/core
-    use_when: you want direct JavaScript access to native iOS and Android APIs without a WebView
-    status: candidate
-  - branch: platforms
-    section: Mobile apps
-    tier: more
-    name: Progressive Web Apps (web.dev)
-    url: https://web.dev/explore/progressive-web-apps
-    search: web.dev progressive web apps guide
-    license: free docs (Google terms; license not stated on page)
-    use_when: an installable web app is enough and you want to skip app stores
-    status: candidate
-  - branch: platforms
-    section: Mobile apps
-    tier: more
-    name: vite-plugin-pwa
-    url: https://github.com/vite-pwa/vite-plugin-pwa
-    repo: vite-pwa/vite-plugin-pwa
-    npm: vite-plugin-pwa
-    search: vite-plugin-pwa service worker manifest
-    license: MIT
-    install: npm i -D vite-plugin-pwa
-    use_when: you build with Vite and want the manifest and service worker generated for a PWA
-    status: candidate
-  - branch: platforms
-    section: Mobile apps
-    tier: paid
-    name: RevenueCat
-    url: https://www.revenuecat.com/pricing/
-    repo: revenuecat/react-native-purchases
-    npm: react-native-purchases
-    search: RevenueCat in-app purchases subscriptions
-    license: SDK MIT; service free up to $2,500 monthly tracked revenue, then 1%
-    install: npm i react-native-purchases
-    note: "Free option: use StoreKit and Google Play Billing directly."
-    status: candidate
-  - branch: platforms
-    section: Mobile apps
-    tier: paid
-    name: Apple Developer Program
-    url: https://developer.apple.com/programs/
-    search: Apple Developer Program membership
-    license: paid ($99 per year)
-    note: "Needed to publish on the App Store. Free option: ship as a PWA."
-    status: candidate
-  # ---------- Desktop apps ----------
-  - branch: platforms
-    section: Desktop apps
-    tier: default
-    name: Tauri
-    url: https://github.com/tauri-apps/tauri
-    repo: tauri-apps/tauri
-    npm: "@tauri-apps/cli"
-    search: Tauri desktop apps Rust web frontend
-    license: Apache-2.0 OR MIT
-    install: npm create tauri-app@latest
-    use_when: you want small, fast desktop apps with a web frontend and a Rust backend
-    status: candidate
-  - branch: platforms
-    section: Desktop apps
-    tier: alternatives
-    name: Electron
-    url: https://github.com/electron/electron
-    repo: electron/electron
-    npm: electron
-    search: Electron desktop apps JavaScript
-    license: MIT
-    install: npm i -D electron
-    use_when: you want a Node.js backend and the same Chromium engine on every OS, and app size matters less
-    status: candidate
-  - branch: platforms
-    section: Desktop apps
-    tier: alternatives
-    name: Wails
-    url: https://wails.io
-    repo: wailsapp/wails
-    search: Wails Go desktop apps
-    license: MIT
-    install: go install github.com/wailsapp/wails/v2/cmd/wails@latest
-    use_when: your backend is in Go and you want a web frontend in a native window
-    status: candidate
-  - branch: platforms
-    section: Desktop apps
-    tier: alternatives
-    name: Neutralinojs
-    url: https://neutralino.js.org/docs/cli/neu-cli
-    repo: neutralinojs/neutralinojs-cli
-    npm: "@neutralinojs/neu"
-    search: Neutralinojs lightweight desktop apps
-    license: MIT
-    install: npm i -g @neutralinojs/neu
-    use_when: you want a very light desktop wrapper for a plain web app with no Rust or Go
-    note: repo listed is the CLI; the framework repo was not checked
-    status: candidate
-  - branch: platforms
-    section: Desktop apps
-    tier: alternatives
-    name: electron-builder
-    url: https://www.electron.build/
-    repo: electron-userland/electron-builder
-    npm: electron-builder
-    search: electron-builder package Electron app
-    license: MIT
-    install: npm i -D electron-builder
-    use_when: you need installers, code signing and auto-update for an Electron app
-    status: candidate
-  - branch: platforms
-    section: Desktop apps
-    tier: more
-    name: Electron Forge
-    url: https://github.com/electron/forge
-    repo: electron/forge
-    npm: "@electron-forge/cli"
-    search: Electron Forge build package publish
-    license: MIT
-    install: npx create-electron-app@latest
-    use_when: you want the Electron team's own tool to scaffold, package and publish
-    status: candidate
-  - branch: platforms
-    section: Desktop apps
-    tier: big_lists
-    name: awesome-tauri
-    url: https://github.com/tauri-apps/awesome-tauri
-    repo: tauri-apps/awesome-tauri
-    search: awesome-tauri list
-    license: MIT
-    status: candidate
-  # ---------- Browser extensions ----------
-  - branch: platforms
-    section: Browser extensions
-    tier: default
-    name: WXT
-    url: https://wxt.dev
-    repo: wxt-dev/wxt
-    npm: wxt
-    search: WXT web extension framework
-    license: MIT
-    install: npx wxt@latest init
-    use_when: you want one Vite-based codebase that builds extensions for Chrome, Firefox, Edge and Safari
-    status: candidate
-  - branch: platforms
-    section: Browser extensions
-    tier: alternatives
-    name: Plasmo
-    url: https://docs.plasmo.com/
-    repo: PlasmoHQ/plasmo
-    npm: plasmo
-    search: Plasmo browser extension framework
-    license: MIT
-    install: npm create plasmo
-    use_when: you want a React-first extension framework with file-based entry points
-    status: candidate
-  - branch: platforms
-    section: Browser extensions
-    tier: alternatives
-    name: CRXJS Vite plugin
-    url: https://crxjs.dev/vite-plugin
-    repo: crxjs/chrome-extension-tools
-    npm: "@crxjs/vite-plugin"
-    search: CRXJS Vite plugin Chrome extension
-    license: MIT
-    install: npm i -D @crxjs/vite-plugin
-    use_when: you have an existing Vite setup and only want extension build support with HMR
-    status: candidate
-  - branch: platforms
-    section: Browser extensions
-    tier: alternatives
-    name: Chrome Extensions docs
-    url: https://developer.chrome.com/docs/extensions
-    search: Chrome for Developers extensions documentation
-    license: free docs (Google terms; license not stated on page)
-    use_when: you need the Manifest V3 API reference and Chrome Web Store publishing rules
-    status: candidate
-  - branch: platforms
-    section: Browser extensions
-    tier: alternatives
-    name: MDN WebExtensions
-    url: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions
-    search: MDN browser extensions WebExtensions API
-    license: Creative Commons (MDN content; version not checked)
-    use_when: you need cross-browser API docs and Firefox-specific differences
-    status: candidate
-  - branch: platforms
-    section: Browser extensions
-    tier: more
-    name: webextension-polyfill
-    url: https://github.com/mozilla/webextension-polyfill
-    repo: mozilla/webextension-polyfill
-    npm: webextension-polyfill
-    search: mozilla webextension-polyfill browser namespace
-    license: MPL-2.0
-    install: npm i webextension-polyfill
-    use_when: you want the promise-based browser.* API in Chrome without a framework
-    status: candidate
-  # ---------- Games ----------
-  - branch: platforms
-    section: Games
-    tier: default
-    name: Phaser
-    url: https://phaser.io
-    repo: phaserjs/phaser
-    npm: phaser
-    search: Phaser HTML5 game framework
-    license: MIT
-    install: npm i phaser
-    use_when: you want a full 2D browser game framework with physics, scenes and input
-    status: candidate
-  - branch: platforms
-    section: Games
-    tier: alternatives
-    name: Godot
-    url: https://godotengine.org
-    repo: godotengine/godot
-    search: Godot game engine
-    license: MIT
-    install: download the editor
-    use_when: you want a full 2D/3D engine with an editor, and can export to web, desktop and mobile
-    status: candidate
-  - branch: platforms
-    section: Games
-    tier: alternatives
-    name: PixiJS
-    url: https://pixijs.com/
-    repo: pixijs/pixijs
-    npm: pixi.js
-    search: PixiJS 2D WebGL renderer
-    license: MIT
-    install: npm i pixi.js
-    use_when: you only need a fast 2D renderer and will write your own game logic
-    status: candidate
-  - branch: platforms
-    section: Games
-    tier: alternatives
-    name: KAPLAY
-    url: https://kaplayjs.com/
-    repo: kaplayjs/kaplay
-    npm: kaplay
-    search: KAPLAY game library (Kaboom successor)
-    license: MIT
-    install: npm i kaplay
-    use_when: you want a small, beginner-friendly API for quick 2D games and jams
-    note: community fork that continues Kaboom.js
-    status: candidate
-  - branch: platforms
-    section: Games
-    tier: alternatives
-    name: Excalibur.js
-    url: https://github.com/excaliburjs/Excalibur
-    repo: excaliburjs/Excalibur
-    npm: excalibur
-    search: Excalibur.js TypeScript game engine
-    license: BSD-2-Clause
-    install: npm i excalibur
-    use_when: you want a 2D engine written in TypeScript with types throughout
-    status: candidate
-  - branch: platforms
-    section: Games
-    tier: more
-    name: Colyseus
-    url: https://colyseus.io/
-    repo: colyseus/colyseus
-    npm: colyseus
-    search: Colyseus multiplayer game server Node.js
-    license: MIT
-    install: npm create colyseus-app@latest
-    use_when: you need an authoritative multiplayer server with room and state sync
-    status: candidate
-  - branch: platforms
-    section: Games
-    tier: more
-    name: itch.io
-    url: https://itch.io/developers
-    search: itch.io publish indie games
-    license: free to upload; seller sets the revenue share (not checked)
-    use_when: you want to publish a browser or downloadable game with a page and pay-what-you-want
-    status: candidate
-  # ---------- MCP servers ----------
-  - branch: platforms
-    section: MCP servers
-    tier: default
-    name: MCP TypeScript SDK
-    url: https://modelcontextprotocol.io
-    repo: modelcontextprotocol/typescript-sdk
-    npm: "@modelcontextprotocol/sdk"
-    search: Model Context Protocol TypeScript SDK
-    license: MIT
-    install: npm i @modelcontextprotocol/sdk
-    use_when: you want to build an MCP server or client in TypeScript with the official SDK
-    status: candidate
-  - branch: platforms
-    section: MCP servers
-    tier: alternatives
-    name: MCP Python SDK
-    url: https://py.sdk.modelcontextprotocol.io/
-    repo: modelcontextprotocol/python-sdk
-    search: Model Context Protocol Python SDK
-    license: MIT
-    install: pip install mcp
-    use_when: your server is in Python and you want the official SDK
-    status: candidate
-  - branch: platforms
-    section: MCP servers
-    tier: alternatives
-    name: FastMCP
-    url: https://gofastmcp.com
-    repo: PrefectHQ/fastmcp
-    search: FastMCP Python MCP framework
-    license: Apache-2.0
-    install: uv add fastmcp
-    use_when: you want a higher-level Python framework with less boilerplate than the official SDK
-    status: candidate
-  - branch: platforms
-    section: MCP servers
-    tier: alternatives
-    name: MCP Inspector
-    url: https://modelcontextprotocol.io/docs/tools/inspector
-    repo: modelcontextprotocol/inspector
-    npm: "@modelcontextprotocol/inspector"
-    search: MCP Inspector debug MCP servers
-    license: see LICENSE in repo (npm says "SEE LICENSE IN LICENSE")
-    install: npx @modelcontextprotocol/inspector
-    use_when: you need to test and debug an MCP server in a browser, CLI or terminal UI
-    status: candidate
-  - branch: platforms
-    section: MCP servers
-    tier: alternatives
-    name: MCP reference servers
-    url: https://github.com/modelcontextprotocol/servers
-    repo: modelcontextprotocol/servers
-    npm: "@modelcontextprotocol/server-filesystem"
-    search: modelcontextprotocol servers reference implementations
-    license: see LICENSE in repo (npm says "SEE LICENSE IN LICENSE")
-    install: npx -y @modelcontextprotocol/server-filesystem <dir>
-    use_when: you want working example servers to copy patterns from or run as-is
-    status: candidate
-  - branch: platforms
-    section: MCP servers
-    tier: big_lists
-    name: awesome-mcp-servers
-    url: https://github.com/punkpeye/awesome-mcp-servers
-    repo: punkpeye/awesome-mcp-servers
-    search: punkpeye awesome-mcp-servers
-    license: MIT
-    status: candidate
+- branch: platforms
+  section: Mobile apps
+  tier: more
+  name: NativeScript
+  url: https://nativescript.org
+  repo: NativeScript/NativeScript
+  npm: '@nativescript/core'
+  search: NativeScript native apps JavaScript
+  license: Apache-2.0
+  install: npm i @nativescript/core
+  use_when: you want direct JavaScript access to native iOS and Android APIs without a WebView
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 25709
+    pushed: '2026-11-27'
+    archived: false
+    gh_license: MIT
+    npm_license: Apache-2.0
+    npm_modified: '2026-11-27'
+    npm_error: 429
+  problems:
+  - license says 'Apache-2.0' but gh_license is MIT
+  attempts: 1
+- branch: platforms
+  section: Mobile apps
+  tier: more
+  name: Progressive Web Apps (web.dev)
+  url: https://web.dev/explore/progressive-web-apps
+  search: web.dev progressive web apps guide
+  license: free docs (Google terms; license not stated on page)
+  use_when: an installable web app is enough and you want to skip app stores
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: platforms
+  section: Mobile apps
+  tier: paid
+  name: Apple Developer Program
+  url: https://developer.apple.com/programs/
+  search: Apple Developer Program membership
+  license: paid ($99 per year)
+  note: 'Needed to publish on the App Store. Free option: ship as a PWA.'
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: platforms
+  section: Browser extensions
+  tier: alternatives
+  name: CRXJS Vite plugin
+  url: https://crxjs.dev/vite-plugin
+  repo: crxjs/chrome-extension-tools
+  npm: '@crxjs/vite-plugin'
+  search: CRXJS Vite plugin Chrome extension
+  license: MIT
+  install: npm i -D @crxjs/vite-plugin
+  use_when: you have an existing Vite setup and only want extension build support with HMR
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: URLError
+    stars: 4185
+    pushed: '2026-11-24'
+    archived: false
+    gh_license: null
+    npm_license: MIT
+    npm_modified: '2026-09-24'
+    npm_error: 429
+  problems:
+  - link returned URLError
+  attempts: 1
+- branch: platforms
+  section: Browser extensions
+  tier: alternatives
+  name: Chrome Extensions docs
+  url: https://developer.chrome.com/docs/extensions
+  search: Chrome for Developers extensions documentation
+  license: free docs (Google terms; license not stated on page)
+  use_when: you need the Manifest V3 API reference and Chrome Web Store publishing rules
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: platforms
+  section: Browser extensions
+  tier: alternatives
+  name: MDN WebExtensions
+  url: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions
+  search: MDN browser extensions WebExtensions API
+  license: Creative Commons (MDN content; version not checked)
+  use_when: you need cross-browser API docs and Firefox-specific differences
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: platforms
+  section: Games
+  tier: default
+  name: Phaser
+  url: https://phaser.io
+  repo: phaserjs/phaser
+  npm: phaser
+  search: Phaser HTML5 game framework
+  license: MIT
+  install: npm i phaser
+  use_when: you want a full 2D browser game framework with physics, scenes and input
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 403
+    stars: 40797
+    pushed: '2026-08-21'
+    archived: false
+    gh_license: MIT
+    npm_license: MIT
+    npm_modified: '2026-07-09'
+    npm_error: 429
+  problems:
+  - link returned 403
+  attempts: 1
+- branch: platforms
+  section: Games
+  tier: more
+  name: itch.io
+  url: https://itch.io/developers
+  search: itch.io publish indie games
+  license: free to upload; seller sets the revenue share (not checked)
+  use_when: you want to publish a browser or downloadable game with a page and pay-what-you-want
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1

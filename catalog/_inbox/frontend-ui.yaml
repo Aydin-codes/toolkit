@@ -2,136 +2,6 @@ proposals:
 - branch: frontend/ui
   branch_title: UI components and icons
   section: Base kits
-  tier: default
-  name: shadcn/ui
-  url: https://ui.shadcn.com
-  repo: shadcn-ui/ui
-  npm: shadcn
-  search: shadcn/ui components
-  license: MIT
-  install: npx shadcn@latest init, then npx shadcn@latest add <component>
-  use_when: you want accessible React components copied into your repo as editable Tailwind source
-  status: candidate
-- branch: frontend/ui
-  branch_title: UI components and icons
-  section: Base kits
-  tier: alternatives
-  name: Radix Primitives
-  url: https://radix-ui.com/primitives
-  repo: radix-ui/primitives
-  npm: radix-ui
-  search: Radix UI Primitives
-  license: MIT
-  install: npm i radix-ui
-  use_when: you want unstyled accessible React primitives and will write all styling yourself
-  status: candidate
-- branch: frontend/ui
-  branch_title: UI components and icons
-  section: Base kits
-  tier: alternatives
-  name: Base UI
-  url: https://base-ui.com
-  repo: mui/base-ui
-  npm: '@base-ui/react'
-  search: Base UI MUI unstyled components
-  license: MIT
-  install: npm i @base-ui/react
-  use_when: you want unstyled accessible React primitives from the Radix/MUI team, and shadcn's Base UI option
-  status: candidate
-- branch: frontend/ui
-  branch_title: UI components and icons
-  section: Base kits
-  tier: alternatives
-  name: React Aria Components
-  url: https://github.com/adobe/react-spectrum
-  repo: adobe/react-spectrum
-  npm: react-aria-components
-  search: React Aria Components Adobe
-  license: Apache-2.0
-  install: npm i react-aria-components
-  use_when: you need the strongest accessibility and internationalization (date pickers, drag and drop, many locales)
-  status: candidate
-- branch: frontend/ui
-  branch_title: UI components and icons
-  section: Base kits
-  tier: alternatives
-  name: Mantine
-  url: https://mantine.dev/
-  repo: mantinedev/mantine
-  npm: '@mantine/core'
-  search: Mantine React components
-  license: MIT
-  install: npm i @mantine/core @mantine/hooks
-  use_when: you want a full styled React kit with forms, dates, notifications and hooks, without Tailwind
-  status: candidate
-- branch: frontend/ui
-  branch_title: UI components and icons
-  section: Base kits
-  tier: alternatives
-  name: daisyUI
-  url: https://daisyui.com
-  repo: saadeghi/daisyui
-  npm: daisyui
-  search: daisyUI Tailwind components
-  license: MIT
-  install: npm i -D daisyui
-  use_when: you want Tailwind component classes and themes that work in any framework, with no JS
-  status: candidate
-- branch: frontend/ui
-  branch_title: UI components and icons
-  section: Base kits
-  tier: more
-  name: Headless UI
-  url: https://github.com/tailwindlabs/headlessui
-  repo: tailwindlabs/headlessui
-  npm: '@headlessui/react'
-  search: Headless UI Tailwind Labs
-  license: MIT
-  install: npm i @headlessui/react
-  use_when: you want a small set of unstyled React or Vue components from the Tailwind team
-  status: candidate
-- branch: frontend/ui
-  branch_title: UI components and icons
-  section: Base kits
-  tier: more
-  name: Ark UI
-  url: https://ark-ui.com
-  repo: chakra-ui/ark
-  npm: '@ark-ui/react'
-  search: Ark UI headless components Zag
-  license: MIT
-  install: npm i @ark-ui/react
-  use_when: you want the same headless components across React, Vue, Solid and Svelte
-  status: candidate
-- branch: frontend/ui
-  branch_title: UI components and icons
-  section: Base kits
-  tier: more
-  name: Chakra UI
-  url: https://chakra-ui.com/
-  repo: chakra-ui/chakra-ui
-  npm: '@chakra-ui/react'
-  search: Chakra UI React
-  license: MIT
-  install: npm i @chakra-ui/react @emotion/react
-  use_when: you want a styled React kit with style props and theming, built on Ark UI
-  status: candidate
-- branch: frontend/ui
-  branch_title: UI components and icons
-  section: Base kits
-  tier: more
-  name: Park UI
-  url: https://park-ui.com
-  repo: cschroeter/park-ui
-  npm: '@park-ui/panda-preset'
-  search: Park UI Ark Panda components
-  license: MIT
-  install: npm i -D @park-ui/panda-preset
-  use_when: you use Ark UI with Panda CSS or Tailwind and want ready styled recipes
-  status: candidate
-- branch: frontend/ui
-  branch_title: UI components and icons
-  section: Base kits
   tier: more
   name: coss ui
   url: https://coss.com/ui
@@ -142,106 +12,16 @@ proposals:
   use_when: you want shadcn-style Tailwind components built on Base UI instead of Radix
   note: License file not read yet.
   status: candidate
-- branch: frontend/ui
-  branch_title: UI components and icons
-  section: Base kits
-  tier: more
-  name: Reka UI
-  url: https://github.com/unovue/reka-ui
-  repo: unovue/reka-ui
-  npm: reka-ui
-  search: Reka UI Vue headless (formerly Radix Vue)
-  license: MIT
-  install: npm i reka-ui
-  use_when: you build in Vue or Nuxt and want Radix-style headless primitives
-  status: candidate
-- branch: frontend/ui
-  branch_title: UI components and icons
-  section: Base kits
-  tier: more
-  name: Bits UI
-  url: https://github.com/huntabyte/bits-ui
-  repo: huntabyte/bits-ui
-  npm: bits-ui
-  search: Bits UI Svelte headless components
-  license: MIT
-  install: npm i bits-ui
-  use_when: you build in Svelte and want headless primitives (used by shadcn-svelte)
-  status: candidate
-- branch: frontend/ui
-  branch_title: UI components and icons
-  section: Animated kits
-  tier: default
-  name: Magic UI
-  url: https://magicui.design
-  repo: magicuidesign/magicui
-  search: Magic UI animated shadcn components
-  license: MIT
-  install: npx shadcn@latest add @magicui/<component>
-  use_when: you want animated marketing components (marquees, number tickers, shimmer buttons) as shadcn source
-  note: Also listed under frontend/motion text effects; Magic UI Pro is a separate paid product.
-  status: candidate
-- branch: frontend/ui
-  branch_title: UI components and icons
-  section: Animated kits
-  tier: alternatives
-  name: Motion Primitives
-  url: https://www.motion-primitives.com
-  repo: ibelick/motion-primitives
-  npm: motion-primitives
-  search: Motion Primitives ibelick
-  license: MIT
-  install: npx shadcn@latest add @motion-primitives/<component>
-  use_when: you want small, plain animated building blocks (text effects, transitions, dialogs) built on Motion
-  status: candidate
-- branch: frontend/ui
-  branch_title: UI components and icons
-  section: Animated kits
-  tier: alternatives
-  name: Cult UI
-  url: https://www.cult-ui.com
-  repo: nolly-studio/cult-ui
-  search: Cult UI shadcn components
-  license: MIT
-  install: npx shadcn@latest add @cult-ui/<component>
-  use_when: you want shadcn-compatible animated components with a more tactile style
-  status: candidate
-- branch: frontend/ui
-  branch_title: UI components and icons
-  section: Animated kits
-  tier: alternatives
-  name: Kokonut UI
-  url: https://kokonutui.com
-  repo: kokonut-labs/kokonutui
-  search: Kokonut UI open source components
-  license: MIT
-  install: npx shadcn@latest add @kokonutui/<component>
-  use_when: you want free animated Tailwind and Motion components for Next.js
-  status: candidate
-- branch: frontend/ui
-  branch_title: UI components and icons
-  section: Animated kits
-  tier: alternatives
-  name: Fancy Components
-  url: https://fancycomponents.dev
-  repo: danielpetho/fancy
-  search: Fancy Components danielpetho
-  license: MIT
-  install: npx shadcn@latest add @fancy/<component>
-  use_when: you want playful, experimental interaction and text components
-  status: candidate
-- branch: frontend/ui
-  branch_title: UI components and icons
-  section: Animated kits
-  tier: more
-  name: Eldora UI
-  url: https://eldoraui.site
-  repo: karthikmudunuri/eldoraui
-  search: Eldora UI animated components
-  license: MIT
-  install: npx shadcn@latest add @eldoraui/<component>
-  use_when: you want another set of free animated Tailwind and Motion components and templates
-  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 11215
+    pushed: '2026-11-26'
+    archived: false
+    gh_license: MIT
+  problems:
+  - license says 'free and open source (check repo license)' but gh_license is MIT
+  attempts: 1
 - branch: frontend/ui
   branch_title: UI components and icons
   section: Animated kits
@@ -255,50 +35,16 @@ proposals:
   use_when: you want animated app components, blocks and dashboards for shadcn/ui
   note: Site links a copyright and attribution policy; read the repo license before copying.
   status: candidate
-- branch: frontend/ui
-  branch_title: UI components and icons
-  section: Animated kits
-  tier: more
-  name: React Bits
-  url: https://reactbits.dev
-  repo: DavidHDev/react-bits
-  search: React Bits animated components DavidHDev
-  license: MIT + Commons Clause
-  license_url: https://raw.githubusercontent.com/DavidHDev/react-bits/main/LICENSE.md
-  install: npx shadcn@latest add @react-bits/<Component>-TS-TW
-  use_when: you want animated text, backgrounds and effects to use inside your own app or site
-  never_copy: true
-  note: 'Commons Clause: use in a product is fine; do not resell or republish the components.'
-  status: candidate
-- branch: frontend/ui
-  branch_title: UI components and icons
-  section: Animated kits
-  tier: more
-  name: Animate UI
-  url: https://animate-ui.com
-  repo: imskyleen/animate-ui
-  search: Animate UI animated shadcn components
-  license: MIT + Commons Clause
-  license_url: https://raw.githubusercontent.com/imskyleen/animate-ui/main/LICENSE.md
-  install: npx shadcn@latest add @animate-ui/<component>
-  use_when: you want animated versions of shadcn/ui components (tabs, dialogs, switches) to use in your product
-  never_copy: true
-  note: 'Commons Clause: use in a product is fine; do not resell or republish the components.'
-  status: candidate
-- branch: frontend/ui
-  branch_title: UI components and icons
-  section: Animated kits
-  tier: more
-  name: Aceternity UI
-  url: https://ui.aceternity.com
-  search: Aceternity UI components
-  license: free and paid items under the Aceternity license; no source redistribution
-  license_url: https://ui.aceternity.com/licence
-  install: npx shadcn@latest add @aceternity/<component>
-  use_when: you want eye-catching hero and card effects copied into a client or personal project
-  never_copy: true
-  note: License forbids redistributing source files, even modified.
-  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 274
+    pushed: '2026-11-27'
+    archived: false
+    gh_license: MIT
+  problems:
+  - license says 'free, open source (license not confirmed)' but gh_license is MIT
+  attempts: 1
 - branch: frontend/ui
   branch_title: UI components and icons
   section: Animated kits
@@ -313,32 +59,13 @@ proposals:
   never_copy: true
   note: Free components need attribution to Skiper UI; no open source license found.
   status: candidate
-- branch: frontend/ui
-  branch_title: UI components and icons
-  section: Blocks and sections
-  tier: default
-  name: shadcn/studio
-  url: https://shadcnstudio.com
-  repo: themeselection/shadcn-studio
-  search: shadcn studio blocks components themes
-  license: MIT (open source part); Pro blocks paid
-  license_url: https://shadcnstudio.com/license
-  install: npx shadcn@latest add @shadcn-studio/<block>
-  use_when: you want free shadcn/ui blocks and component variants as editable source
-  status: candidate
-- branch: frontend/ui
-  branch_title: UI components and icons
-  section: Blocks and sections
-  tier: alternatives
-  name: shadcnblocks
-  url: https://shadcnblocks.com
-  search: shadcnblocks marketing blocks
-  license: free blocks plus paid Pro (shadcnblocks license)
-  license_url: https://www.shadcnblocks.com/license
-  install: npx shadcn@latest add @shadcnblocks/<block>
-  use_when: you want a large set of marketing sections (heroes, pricing, features) for shadcn/ui
-  note: Check which blocks are free; Pro blocks may not be redistributed.
-  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    license_link: URLError
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1
 - branch: frontend/ui
   branch_title: UI components and icons
   section: Blocks and sections
@@ -351,6 +78,12 @@ proposals:
   use_when: you want a free landing-page template and a few sections built with shadcn/ui and Tailwind
   note: 'Free tier: 1 template and 9 blocks; Pro is a one-time purchase.'
   status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1
 - branch: frontend/ui
   branch_title: UI components and icons
   section: Blocks and sections
@@ -363,6 +96,12 @@ proposals:
   use_when: you want marketing page blocks for shadcn/ui on Radix or Base UI
   note: Read the license before copying blocks.
   status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1
 - branch: frontend/ui
   branch_title: UI components and icons
   section: Blocks and sections
@@ -375,150 +114,12 @@ proposals:
   use_when: you want free app-style blocks (dashboards, forms, settings) for shadcn/ui
   note: License not read yet.
   status: candidate
-- branch: frontend/ui
-  branch_title: UI components and icons
-  section: Blocks and sections
-  tier: paid
-  name: Tailwind Plus
-  url: https://tailwindcss.com/plus/license
-  search: Tailwind Plus UI blocks templates
-  license: paid (Tailwind Plus license)
-  license_url: https://tailwindcss.com/plus/license
-  never_copy: true
-  note: 'Free option: shadcn/studio or shadcnblocks free blocks.'
-  status: candidate
-- branch: frontend/ui
-  branch_title: UI components and icons
-  section: Icons
-  tier: default
-  name: Lucide
-  url: https://lucide.dev
-  repo: lucide-icons/lucide
-  npm: lucide-react
-  search: Lucide icons
-  license: ISC
-  install: npm i lucide-react
-  use_when: you want a consistent stroke icon set with packages for every framework (shadcn's default)
-  note: Very common in AI-built UIs; pick another set if you want to look less generic.
-  status: candidate
-- branch: frontend/ui
-  branch_title: UI components and icons
-  section: Icons
-  tier: alternatives
-  name: Phosphor Icons
-  url: https://phosphoricons.com
-  repo: phosphor-icons/react
-  npm: '@phosphor-icons/react'
-  search: Phosphor Icons
-  license: MIT
-  install: npm i @phosphor-icons/react
-  use_when: you want six weights per icon (thin to fill, duotone) from one set
-  status: candidate
-- branch: frontend/ui
-  branch_title: UI components and icons
-  section: Icons
-  tier: alternatives
-  name: Tabler Icons
-  url: https://tabler.io/icons
-  repo: tabler/tabler-icons
-  npm: '@tabler/icons-react'
-  search: Tabler Icons
-  license: MIT
-  install: npm i @tabler/icons-react
-  use_when: you need a very large free stroke set (5000+) with adjustable stroke width
-  status: candidate
-- branch: frontend/ui
-  branch_title: UI components and icons
-  section: Icons
-  tier: alternatives
-  name: Heroicons
-  url: https://github.com/tailwindlabs/heroicons
-  repo: tailwindlabs/heroicons
-  npm: '@heroicons/react'
-  search: Heroicons Tailwind Labs
-  license: MIT
-  install: npm i @heroicons/react
-  use_when: you want a small, clean set from the Tailwind team in outline, solid and mini sizes
-  status: candidate
-- branch: frontend/ui
-  branch_title: UI components and icons
-  section: Icons
-  tier: alternatives
-  name: Iconoir
-  url: https://iconoir.com
-  repo: iconoir-icons/iconoir
-  npm: iconoir-react
-  search: Iconoir icons
-  license: MIT
-  install: npm i iconoir-react
-  use_when: you want a free stroke set with a slightly softer look than Lucide
-  status: candidate
-- branch: frontend/ui
-  branch_title: UI components and icons
-  section: Icons
-  tier: more
-  name: Material Symbols
-  url: https://github.com/google/material-design-icons
-  repo: google/material-design-icons
-  search: Google Material Symbols icons
-  license: Apache-2.0
-  install: npm i material-symbols (self-hosted fonts by marella) or Google Fonts CDN
-  use_when: you want Google's variable icon font (fill, weight, grade) or a Material look
-  note: npm package material-symbols is a community repackage (marella/material-symbols, Apache-2.0).
-  status: candidate
-- branch: frontend/ui
-  branch_title: UI components and icons
-  section: Icons
-  tier: more
-  name: Remix Icon
-  url: https://remixicon.com
-  repo: Remix-Design/remixicon
-  npm: remixicon
-  search: Remix Icon
-  license: Apache-2.0
-  install: npm i remixicon
-  use_when: you want a neutral set with matching line and fill versions of each icon
-  status: candidate
-- branch: frontend/ui
-  branch_title: UI components and icons
-  section: Icons
-  tier: more
-  name: Simple Icons
-  url: https://simpleicons.org
-  repo: simple-icons/simple-icons
-  npm: simple-icons
-  search: Simple Icons brand logos SVG
-  license: CC0-1.0 (the SVG files); logos are trademarks of their owners
-  install: npm i simple-icons
-  use_when: you need SVG brand logos (GitHub, Stripe, etc.) for footers, integrations or login buttons
-  note: CC0 covers the files, not the trademarks; follow each brand's guidelines.
-  status: candidate
-- branch: frontend/ui
-  branch_title: UI components and icons
-  section: Icons
-  tier: more
-  name: Iconify
-  url: https://iconify.design/
-  repo: iconify/iconify
-  npm: '@iconify/react'
-  search: Iconify icon framework
-  license: MIT (framework); each icon set keeps its own license
-  install: npm i @iconify/react
-  use_when: you want one API to load icons from 200+ open sets by name
-  status: candidate
-- branch: frontend/ui
-  branch_title: UI components and icons
-  section: Icons
-  tier: more
-  name: Hugeicons
-  url: https://hugeicons.com
-  repo: hugeicons/hugeicons
-  npm: '@hugeicons/react'
-  search: Hugeicons free icons
-  license: MIT (free set); Pro paid
-  install: npm i @hugeicons/react
-  use_when: you want a large modern set with a free tier and several styles
-  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1
 - branch: frontend/ui
   branch_title: UI components and icons
   section: Icons
@@ -531,19 +132,17 @@ proposals:
   license_url: https://raw.githubusercontent.com/Templarian/MaterialDesign/HEAD/LICENSE
   use_when: you want a very large community icon set in Material style
   status: candidate
-- branch: frontend/ui
-  branch_title: UI components and icons
-  section: Icons
-  tier: more
-  name: react-icons
-  url: https://github.com/react-icons/react-icons
-  repo: react-icons/react-icons
-  npm: react-icons
-  search: react-icons
-  license: MIT (package); each bundled set keeps its own license
-  install: npm i react-icons
-  use_when: you want many popular icon sets in React through one package
-  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    license_link: 200
+    stars: 11315
+    pushed: '2025-01-20'
+    archived: false
+    gh_license: NOASSERTION
+  problems:
+  - no updates in the last year
+  attempts: 1
 - branch: frontend/ui
   branch_title: UI components and icons
   section: Icons
@@ -555,96 +154,19 @@ proposals:
   search: Iconify icon sets browse
   license: list; license shown per set
   status: candidate
-- branch: frontend/ui
-  branch_title: UI components and icons
-  section: Color and tokens
-  tier: default
-  name: tweakcn
-  url: https://github.com/jnsahaj/tweakcn
-  repo: jnsahaj/tweakcn
-  search: tweakcn shadcn theme editor
-  license: Apache-2.0
-  use_when: you want to build and preview a shadcn/ui theme visually and export the CSS variables
-  note: Hosted editor is at tweakcn.com (not opened here). npm package 'tweakcn' is unrelated.
-  status: candidate
-- branch: frontend/ui
-  branch_title: UI components and icons
-  section: Color and tokens
-  tier: alternatives
-  name: Radix Colors
-  url: https://github.com/radix-ui/colors
-  repo: radix-ui/colors
-  npm: '@radix-ui/colors'
-  search: Radix Colors scales
-  license: MIT
-  install: npm i @radix-ui/colors
-  use_when: you want 12-step color scales with light and dark versions designed for UI roles
-  status: candidate
-- branch: frontend/ui
-  branch_title: UI components and icons
-  section: Color and tokens
-  tier: alternatives
-  name: Open Props
-  url: https://github.com/argyleink/open-props
-  repo: argyleink/open-props
-  npm: open-props
-  search: Open Props CSS custom properties
-  license: MIT
-  install: npm i open-props
-  use_when: you want ready CSS variables for colors, spacing, shadows and easing without a framework
-  status: candidate
-- branch: frontend/ui
-  branch_title: UI components and icons
-  section: Color and tokens
-  tier: alternatives
-  name: Color.js
-  url: https://colorjs.io
-  repo: color-js/color.js
-  npm: colorjs.io
-  search: Color.js color science library
-  license: MIT
-  install: npm i colorjs.io
-  use_when: you need to convert, mix or check contrast of colors in OKLCH and other spaces in code
-  status: candidate
-- branch: frontend/ui
-  branch_title: UI components and icons
-  section: Color and tokens
-  tier: more
-  name: Culori
-  url: https://github.com/Evercoder/culori
-  repo: Evercoder/culori
-  npm: culori
-  search: Culori color library
-  license: MIT
-  install: npm i culori
-  use_when: you want a small functional color library for OKLCH scales and interpolation
-  status: candidate
-- branch: frontend/ui
-  branch_title: UI components and icons
-  section: Color and tokens
-  tier: more
-  name: APCA (apca-w3)
-  url: https://git.myndex.com
-  repo: Myndex/apca-w3
-  npm: apca-w3
-  search: APCA contrast algorithm apca-w3
-  license: Limited W3 License (not open source)
-  install: npm i apca-w3
-  use_when: you want the APCA contrast method proposed for WCAG 3 to check text readability
-  note: WCAG 2 contrast ratio is still the legal standard; use APCA as an extra check.
-  status: candidate
-- branch: frontend/ui
-  branch_title: UI components and icons
-  section: Component registries and directories
-  tier: default
-  name: shadcn registry directory
-  url: https://ui.shadcn.com/docs/directory
-  repo: shadcn-ui/ui
-  search: shadcn registry directory community registries
-  license: MIT (site); each registry has its own license
-  use_when: you want to find a shadcn-compatible registry and install from it by namespace (@name/component)
-  note: 'Machine-readable index: https://ui.shadcn.com/r/registries.json. Community registries are third-party; review code before installing.'
-  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 1091
+    pushed: '2026-11-26'
+    archived: false
+    gh_license: null
+    npm_license: MIT
+    npm_modified: '2026-11-26'
+    npm_error: 429
+  problems:
+  - license says 'list; license shown per set' but npm_license is MIT
+  attempts: 1
 - branch: frontend/ui
   branch_title: UI components and icons
   section: Component registries and directories
@@ -656,6 +178,12 @@ proposals:
   use_when: you want to browse many community shadcn-style components with previews and install commands
   note: Free tier is limited; check each component's source license.
   status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1
 - branch: frontend/ui
   branch_title: UI components and icons
   section: Component registries and directories
@@ -668,6 +196,12 @@ proposals:
   use_when: you need larger shadcn-compatible components (kanban, gantt, editors) not in shadcn/ui
   note: License not read yet.
   status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1
 - branch: frontend/ui
   branch_title: UI components and icons
   section: Component registries and directories
@@ -679,6 +213,12 @@ proposals:
   use_when: you want an index of shadcn templates grouped by author
   note: Not affiliated with shadcn/ui.
   status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1
 - branch: frontend/ui
   branch_title: UI components and icons
   section: Component registries and directories
@@ -689,3 +229,9 @@ proposals:
   license: list
   note: Ranks JS projects (including UI kits and icons) by GitHub star trends.
   status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1

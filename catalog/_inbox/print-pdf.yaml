@@ -1,617 +1,279 @@
 proposals:
-  # ---------- Make PDFs ----------
-  - branch: print-pdf
-    branch_title: Docs, print and PDF
-    section: Make PDFs
-    tier: default
-    name: Typst
-    url: https://typst.app
-    repo: typst/typst
-    search: Typst typesetting system
-    license: Apache-2.0
-    install: "cargo install --locked typst-cli, brew install typst, or download a release binary; typst compile doc.typ"
-    use_when: you want a fast, scriptable markup language that compiles straight to PDF with one small binary
-    status: candidate
-  - branch: print-pdf
-    section: Make PDFs
-    tier: alternatives
-    name: WeasyPrint
-    url: https://weasyprint.org/
-    repo: Kozea/WeasyPrint
-    search: WeasyPrint HTML CSS to PDF Python
-    license: BSD-3-Clause
-    install: pip install weasyprint
-    use_when: you already have HTML and CSS and want print-quality PDFs from Python without a browser
-    status: candidate
-  - branch: print-pdf
-    section: Make PDFs
-    tier: alternatives
-    name: Paged.js
-    url: https://pagedjs.org/about
-    repo: pagedjs/pagedjs
-    npm: pagedjs
-    search: Paged.js paged media polyfill
-    license: MIT
-    install: npm i pagedjs
-    use_when: you want CSS Paged Media (running headers, page counters, margin boxes) in a browser, then print to PDF
-    note: Main development has moved to gitlab.coko.foundation/pagedjs/pagedjs; the GitHub repo is a mirror.
-    status: candidate
-  - branch: print-pdf
-    section: Make PDFs
-    tier: alternatives
-    name: React-PDF
-    url: https://github.com/diegomura/react-pdf
-    repo: diegomura/react-pdf
-    npm: "@react-pdf/renderer"
-    search: react-pdf renderer diegomura
-    license: MIT
-    install: npm i @react-pdf/renderer
-    use_when: you build PDFs from React components in the browser or on Node, with its own flexbox layout
-    status: candidate
-  - branch: print-pdf
-    section: Make PDFs
-    tier: alternatives
-    name: Playwright page.pdf()
-    url: https://playwright.dev/python/docs/api/class-page
-    repo: microsoft/playwright
-    npm: playwright
-    search: Playwright page.pdf
-    license: Apache-2.0
-    install: npm i playwright (or pip install playwright), then page.pdf()
-    use_when: you want a PDF of a real web page exactly as headless Chromium prints it
-    note: page.pdf() works in Chromium only.
-    status: candidate
-  - branch: print-pdf
-    section: Make PDFs
-    tier: alternatives
-    name: Pandoc
-    url: https://pandoc.org/
-    repo: jgm/pandoc
-    search: Pandoc universal document converter
-    license: GPL-2.0-or-later
-    install: "see https://pandoc.org/installing.html (apt install pandoc, brew install pandoc); needs a PDF engine such as Typst, WeasyPrint or LaTeX"
-    use_when: you convert Markdown, DOCX or HTML into PDF, DOCX, EPUB and other formats
-    status: candidate
-  - branch: print-pdf
-    section: Make PDFs
-    tier: more
-    name: Puppeteer
-    url: https://github.com/puppeteer/puppeteer
-    repo: puppeteer/puppeteer
-    npm: puppeteer
-    search: Puppeteer page.pdf
-    license: Apache-2.0
-    install: npm i puppeteer
-    use_when: you are already on Puppeteer and want headless Chrome to print pages to PDF
-    status: candidate
-  - branch: print-pdf
-    section: Make PDFs
-    tier: more
-    name: pdfme
-    url: https://pdfme.com/
-    repo: pdfme/pdfme
-    npm: "@pdfme/generator"
-    search: pdfme PDF template designer generator
-    license: MIT
-    install: npm i @pdfme/generator @pdfme/common (add @pdfme/ui for the WYSIWYG designer)
-    use_when: you want a drag-and-drop template designer plus JSON data to generate forms, invoices and labels
-    status: candidate
-  - branch: print-pdf
-    section: Make PDFs
-    tier: more
-    name: Tectonic
-    url: https://github.com/tectonic-typesetting/tectonic
-    repo: tectonic-typesetting/tectonic
-    search: Tectonic TeX LaTeX engine
-    license: MIT
-    install: "brew install tectonic, cargo install tectonic, or a release binary; tectonic doc.tex"
-    use_when: you need LaTeX output from one binary that fetches packages on demand, without a full TeX Live install
-    status: candidate
-  - branch: print-pdf
-    section: Make PDFs
-    tier: more
-    name: TeX Live
-    url: https://tug.org/texlive/
-    search: TeX Live distribution
-    license: free software, mixed licenses (LPPL, GPL and others per package)
-    license_url: https://ctan.org/pkg/texlive?lang=en
-    install: "see https://www.tug.org/texlive/acquire.html (or apt install texlive-latex-recommended)"
-    use_when: you need the complete LaTeX distribution with every package and engine (pdfLaTeX, XeLaTeX, LuaLaTeX)
-    status: candidate
-  - branch: print-pdf
-    section: Make PDFs
-    tier: more
-    name: Gotenberg
-    url: https://github.com/gotenberg/gotenberg
-    repo: gotenberg/gotenberg
-    search: Gotenberg Docker API PDF
-    license: MIT
-    install: docker run --rm -p 3000:3000 gotenberg/gotenberg:8
-    use_when: you want an HTTP service that turns HTML, URLs, Markdown and Office files into PDF (Chromium and LibreOffice inside)
-    status: candidate
-  - branch: print-pdf
-    section: Make PDFs
-    tier: more
-    name: Vivliostyle CLI
-    url: https://github.com/vivliostyle/vivliostyle-cli
-    repo: vivliostyle/vivliostyle-cli
-    npm: "@vivliostyle/cli"
-    search: Vivliostyle CLI CSS typesetting
-    license: AGPL-3.0
-    install: npm i -D @vivliostyle/cli; npx vivliostyle build
-    use_when: you typeset books from Markdown or HTML with CSS Paged Media, including vertical Japanese text
-    note: AGPL; fine as a build tool, check terms before bundling into a served product.
-    status: candidate
-  - branch: print-pdf
-    section: Make PDFs
-    tier: paid
-    name: DocRaptor
-    url: https://docraptor.com/
-    search: DocRaptor HTML to PDF API
-    license: paid (hosted API, free test documents)
-    note: "Hosted Prince engine. Free option: WeasyPrint or Paged.js."
-    status: candidate
-  - branch: print-pdf
-    section: Make PDFs
-    tier: paid
-    name: Prince
-    url: https://princexml.com/
-    search: Prince XML HTML to PDF
-    license: paid; free non-commercial license adds a logo to page one
-    license_url: https://www.princexml.com/purchase/license_faq/
-    note: "Strongest CSS Paged Media support. Free option: WeasyPrint or Vivliostyle."
-    status: candidate
-
-  # ---------- Edit and merge ----------
-  - branch: print-pdf
-    section: Edit and merge
-    tier: default
-    name: qpdf
-    url: https://qpdf.sourceforge.io
-    repo: qpdf/qpdf
-    search: qpdf PDF transformation command line
-    license: Apache-2.0
-    license_url: https://qpdf.readthedocs.io/en/12.1/license.html
-    install: apt install qpdf or brew install qpdf
-    use_when: you need to merge, split, rotate, decrypt, linearize or repair PDFs from the command line without changing content
-    status: candidate
-  - branch: print-pdf
-    section: Edit and merge
-    tier: alternatives
-    name: pdf-lib
-    url: https://pdf-lib.js.org/
-    repo: Hopding/pdf-lib
-    npm: pdf-lib
-    search: pdf-lib JavaScript create modify PDF
-    license: MIT
-    install: npm i pdf-lib
-    use_when: you edit, merge or fill forms in PDFs in JavaScript, in the browser or on Node
-    note: Last npm release is 1.17.1 and the repo is quiet; it still works widely.
-    status: candidate
-  - branch: print-pdf
-    section: Edit and merge
-    tier: alternatives
-    name: pypdf
-    url: https://pypdf.readthedocs.io/en/latest/
-    repo: py-pdf/pypdf
-    search: pypdf Python PDF library
-    license: BSD-3-Clause
-    install: pip install pypdf
-    use_when: you merge, split, crop, encrypt or fill forms in pure Python with no native dependencies
-    status: candidate
-  - branch: print-pdf
-    section: Edit and merge
-    tier: alternatives
-    name: pikepdf
-    url: https://pikepdf.readthedocs.io/
-    repo: pikepdf/pikepdf
-    search: pikepdf Python qpdf
-    license: MPL-2.0
-    install: pip install pikepdf
-    use_when: you want qpdf's robustness from Python, including low-level object edits and repairing damaged files
-    status: candidate
-  - branch: print-pdf
-    section: Edit and merge
-    tier: alternatives
-    name: PyMuPDF
-    url: https://pymupdf.readthedocs.io/
-    repo: pymupdf/PyMuPDF
-    search: PyMuPDF fitz Python MuPDF
-    license: AGPL-3.0 or Artifex commercial license
-    license_url: https://mupdf.readthedocs.io/en/1.27.0/license.html
-    install: pip install pymupdf
-    use_when: you need fast rendering, text extraction, redaction and page edits in one Python library and can accept AGPL
-    note: AGPL; a closed-source product or service needs the paid Artifex license. Same engine as MuPDF / mutool.
-    status: candidate
-  - branch: print-pdf
-    section: Edit and merge
-    tier: alternatives
-    name: PDFtk Server (pdftk-java)
-    url: https://www.pdflabs.com/tools/pdftk-server
-    search: pdftk-java PDF toolkit
-    license: GPL-2.0-or-later; redistribution in non-GPL commercial products needs a paid license
-    license_url: https://sources.debian.org/src/pdftk-java/3.3.3-2/debian/copyright
-    install: apt install pdftk-java or brew install pdftk-java
-    use_when: you want the classic one-line commands for merging, splitting, stamping and filling forms
-    note: The original C++ PDFtk is unmaintained; pdftk-java is the maintained port that distros ship.
-    status: candidate
-  - branch: print-pdf
-    section: Edit and merge
-    tier: more
-    name: Stirling-PDF
-    url: https://github.com/Stirling-Tools/Stirling-PDF
-    repo: Stirling-Tools/Stirling-PDF
-    search: Stirling-PDF self-hosted PDF tools
-    license: MIT core; Pro and Enterprise features under a proprietary license
-    license_url: https://isitreallyfoss.com/projects/stirling-pdf/
-    install: docker run -p 8080:8080 stirlingtools/stirling-pdf
-    use_when: you want a self-hosted web app and API with dozens of PDF operations (merge, convert, OCR, sign)
-    note: Some features are not open source; check which build you run.
-    status: candidate
-  - branch: print-pdf
-    section: Edit and merge
-    tier: more
-    name: MuPDF (mutool)
-    url: https://mupdf.com/product/ecosystem
-    npm: mupdf
-    search: MuPDF mutool Artifex
-    license: AGPL-3.0-or-later or Artifex commercial license
-    license_url: https://mupdf.readthedocs.io/en/1.27.0/license.html
-    install: apt install mupdf-tools (mutool), or npm i mupdf for the WASM build
-    use_when: you want a small, fast CLI to render, clean, merge and extract from PDFs, or the WASM build in JS
-    note: AGPL, same terms as PyMuPDF.
-    status: candidate
-  - branch: print-pdf
-    section: Edit and merge
-    tier: big_lists
-    name: awesome-pdf (OneOffTech)
-    url: https://github.com/OneOffTech/awesome-pdf/
-    repo: OneOffTech/awesome-pdf
-    search: OneOffTech awesome-pdf
-    license: list
-    status: candidate
-  - branch: print-pdf
-    section: Edit and merge
-    tier: paid
-    name: Adobe Acrobat Pro
-    url: https://www.adobe.com/acrobat/pricing.html
-    search: Adobe Acrobat Pro
-    license: paid subscription
-    note: "Reference editor for preflight, forms and redaction. Free option: qpdf, pypdf or Stirling-PDF."
-    status: candidate
-
-  # ---------- Read and extract ----------
-  - branch: print-pdf
-    section: Read and extract
-    tier: default
-    name: Docling
-    url: https://docling-project.github.io/docling
-    repo: docling-project/docling
-    search: Docling IBM document conversion
-    license: MIT
-    install: pip install docling
-    use_when: you turn PDFs, DOCX, PPTX and images into Markdown or JSON with layout, tables and reading order, for LLM use
-    status: candidate
-  - branch: print-pdf
-    section: Read and extract
-    tier: alternatives
-    name: pdfplumber
-    url: https://github.com/jsvine/pdfplumber
-    repo: jsvine/pdfplumber
-    search: pdfplumber Python table extraction
-    license: MIT
-    install: pip install pdfplumber
-    use_when: you need exact text positions, lines and tables from digital (not scanned) PDFs
-    status: candidate
-  - branch: print-pdf
-    section: Read and extract
-    tier: alternatives
-    name: PDF.js
-    url: https://mozilla.github.io/pdf.js/
-    repo: mozilla/pdf.js
-    npm: pdfjs-dist
-    search: Mozilla PDF.js
-    license: Apache-2.0
-    install: npm i pdfjs-dist
-    use_when: you render or read text from PDFs in the browser or Node with JavaScript
-    status: candidate
-  - branch: print-pdf
-    section: Read and extract
-    tier: alternatives
-    name: Marker
-    url: https://github.com/datalab-to/marker
-    repo: datalab-to/marker
-    search: Marker PDF to markdown datalab
-    license: Apache-2.0 code; model weights under modified AI Pubs Open Rail-M (free for research, personal use and startups under $5M)
-    license_url: https://github.com/datalab-to/marker
-    install: pip install marker-pdf
-    use_when: you want PDFs (including equations and tables) converted to Markdown with deep-learning layout models
-    note: Larger companies need a paid license for the weights.
-    status: candidate
-  - branch: print-pdf
-    section: Read and extract
-    tier: alternatives
-    name: Unstructured
-    url: https://github.com/Unstructured-IO/unstructured
-    repo: Unstructured-IO/unstructured
-    search: Unstructured document partitioning Python
-    license: Apache-2.0
-    install: pip install unstructured (add extras like "unstructured[pdf]")
-    use_when: you split many file types into typed elements (titles, tables, text) for RAG pipelines
-    status: candidate
-  - branch: print-pdf
-    section: Read and extract
-    tier: alternatives
-    name: Apache Tika
-    url: https://tika.apache.org
-    repo: apache/tika
-    search: Apache Tika content analysis toolkit
-    license: Apache-2.0
-    install: run the tika-server jar or Docker image; Python client via pip install tika
-    use_when: you need text and metadata out of more than a thousand file types through one Java server
-    status: candidate
-  - branch: print-pdf
-    section: Read and extract
-    tier: more
-    name: MinerU
-    url: https://mineru.net/
-    repo: opendatalab/MinerU
-    search: MinerU PDF to markdown opendatalab
-    license: MinerU Open Source License (custom; read before commercial use)
-    license_url: https://github.com/opendatalab/MinerU/blob/master/LICENSE.md
-    install: pip install mineru
-    use_when: you convert complex PDFs (papers, formulas, Chinese text) to Markdown or JSON
-    status: candidate
-  - branch: print-pdf
-    section: Read and extract
-    tier: more
-    name: unpdf
-    url: https://github.com/unjs/unpdf
-    repo: unjs/unpdf
-    npm: unpdf
-    search: unjs unpdf
-    license: MIT
-    install: npm i unpdf
-    use_when: you extract text or images from PDFs in serverless or edge JavaScript runtimes (PDF.js build without the DOM)
-    status: candidate
-  - branch: print-pdf
-    section: Read and extract
-    tier: more
-    name: Camelot
-    url: https://camelot-py.readthedocs.io/
-    repo: camelot-dev/camelot
-    search: Camelot PDF table extraction Python
-    license: MIT
-    install: pip install camelot-py
-    use_when: you only need tables out of digital PDFs, straight into pandas DataFrames
-    status: candidate
-  - branch: print-pdf
-    section: Read and extract
-    tier: big_lists
-    name: awesome-pdf (py-pdf)
-    url: https://github.com/py-pdf/awesome-pdf
-    repo: py-pdf/awesome-pdf
-    search: py-pdf awesome-pdf
-    license: list
-    status: candidate
-
-  # ---------- OCR ----------
-  - branch: print-pdf
-    section: OCR
-    tier: default
-    name: OCRmyPDF
-    url: https://ocrmypdf.readthedocs.io/
-    repo: ocrmypdf/OCRmyPDF
-    search: OCRmyPDF searchable PDF
-    license: MPL-2.0
-    install: pip install ocrmypdf (needs Tesseract and Ghostscript), or apt install ocrmypdf
-    use_when: you add a searchable text layer to scanned PDFs in one command, with PDF/A output
-    status: candidate
-  - branch: print-pdf
-    section: OCR
-    tier: alternatives
-    name: Tesseract
-    url: https://github.com/tesseract-ocr/tesseract
-    repo: tesseract-ocr/tesseract
-    search: Tesseract OCR engine
-    license: Apache-2.0
-    install: apt install tesseract-ocr or brew install tesseract
-    use_when: you need the standard open OCR engine for images, with 100+ languages
-    status: candidate
-  - branch: print-pdf
-    section: OCR
-    tier: alternatives
-    name: PaddleOCR
-    url: https://github.com/PaddlePaddle/PaddleOCR
-    repo: PaddlePaddle/PaddleOCR
-    search: PaddleOCR
-    license: Apache-2.0
-    install: pip install paddleocr (plus paddlepaddle)
-    use_when: you need higher accuracy on hard scans, photos, Chinese and mixed layouts than Tesseract gives
-    status: candidate
-  - branch: print-pdf
-    section: OCR
-    tier: alternatives
-    name: docTR
-    url: https://mindee.github.io/doctr
-    repo: mindee/doctr
-    search: docTR Mindee OCR
-    license: Apache-2.0
-    install: pip install python-doctr
-    use_when: you want a deep-learning OCR pipeline (detection plus recognition) on PyTorch
-    status: candidate
-  - branch: print-pdf
-    section: OCR
-    tier: alternatives
-    name: Tesseract.js
-    url: https://github.com/naptha/tesseract.js
-    repo: naptha/tesseract.js
-    npm: tesseract.js
-    search: tesseract.js OCR JavaScript
-    license: Apache-2.0
-    install: npm i tesseract.js
-    use_when: you need OCR in the browser or Node without a native install
-    status: candidate
-  - branch: print-pdf
-    section: OCR
-    tier: more
-    name: pytesseract
-    url: https://github.com/madmaze/pytesseract
-    repo: madmaze/pytesseract
-    search: pytesseract Python wrapper
-    license: Apache-2.0
-    install: pip install pytesseract (needs Tesseract installed)
-    use_when: you call Tesseract from Python on images you already have in memory
-    status: candidate
-
-  # ---------- Templates ----------
-  - branch: print-pdf
-    section: Templates
-    tier: default
-    name: Typst Universe
-    url: https://typst.app/universe
-    repo: typst/packages
-    search: Typst Universe templates packages
-    license: per package (each lists its own, mostly MIT, Apache or MIT-0)
-    license_url: https://github.com/typst/packages/
-    install: typst init @preview/<template>
-    use_when: you want ready Typst templates for CVs, theses, letters, posters and slides
-    status: candidate
-  - branch: print-pdf
-    section: Templates
-    tier: alternatives
-    name: LaTeXTemplates.com
-    url: https://www.latextemplates.com
-    search: LaTeXTemplates.com
-    license: per template (mostly LPPL, MIT, CC BY); some have no license
-    license_url: https://latextemplates.com/latex-template-licences/
-    install: download the .zip from each template page
-    use_when: you want curated, well-kept LaTeX templates for books, theses, CVs and reports
-    note: Treat templates with no listed license as all rights reserved.
-    status: candidate
-  - branch: print-pdf
-    section: Templates
-    tier: alternatives
-    name: Overleaf template gallery
-    url: https://overleaf.com/latex/templates
-    search: Overleaf LaTeX templates gallery
-    license: per template (Overleaf recommends LPPL for templates)
-    license_url: https://docs.overleaf.com/templates/licensing-and-copyright
-    install: open in Overleaf or download the source zip
-    use_when: you need a journal, conference or university template, often the official one
-    status: candidate
-  - branch: print-pdf
-    section: Templates
-    tier: alternatives
-    name: pdfme templates
-    url: https://pdfme.com/docs/template-contribution-guide
-    repo: pdfme/pdfme
-    search: pdfme templates playground
-    license: MIT
-    install: copy a template JSON from the pdfme playground; use with @pdfme/generator
-    use_when: you want starting JSON templates (invoices, certificates, labels) for pdfme
-    status: candidate
-  - branch: print-pdf
-    section: Templates
-    tier: alternatives
-    name: Typst official templates
-    url: https://github.com/typst/templates
-    repo: typst/templates
-    search: typst templates repository
-    license: not stated on the repo page; check LICENSE
-    use_when: you want small reference templates from the Typst team to learn from or adapt
-    status: candidate
-  - branch: print-pdf
-    section: Templates
-    tier: big_lists
-    name: awesome-typst
-    url: https://github.com/qjcg/awesome-typst
-    repo: qjcg/awesome-typst
-    search: qjcg awesome-typst
-    license: list
-    status: candidate
-
-  # ---------- Print and layout tools ----------
-  - branch: print-pdf
-    section: Print and layout tools
-    tier: default
-    name: Scribus
-    url: https://www.scribus.net
-    search: Scribus desktop publishing
-    license: GPL-2.0-or-later
-    license_url: https://src.opensuse.org/rpm/scribus/raw/commit/d44f77a843db51d029934f58d9c2cb5573a9e1d1c242065e94abb528000232d4/scribus.appdata.xml
-    install: apt install scribus, or download from scribus.net; scriptable with Python
-    use_when: you need page layout with CMYK, spot colors and PDF/X export for a print shop
-    status: candidate
-  - branch: print-pdf
-    section: Print and layout tools
-    tier: alternatives
-    name: Inkscape
-    url: https://inkscape.org
-    search: Inkscape vector editor
-    license: GPL-2.0-or-later (parts GPL-3.0)
-    license_url: https://sources.debian.org/src/inkscape/1.4.2-3/COPYING
-    install: apt install inkscape; inkscape --export-type=pdf file.svg for headless export
-    use_when: you make single-page print pieces (posters, cards, covers) as SVG and export to PDF from the command line
-    note: No native CMYK workflow; finish CMYK and PDF/X in Scribus if the printer needs it.
-    status: candidate
-  - branch: print-pdf
-    section: Print and layout tools
-    tier: alternatives
-    name: MDN @page reference
-    url: https://developer.mozilla.org/docs/Web/CSS/@page
-    search: MDN CSS @page
-    license: CC-BY-SA-2.5 (MDN content)
-    license_url: https://developer.mozilla.org/docs/Web/CSS/@page
-    use_when: you need page size, margins and page selectors for print CSS
-    status: candidate
-  - branch: print-pdf
-    section: Print and layout tools
-    tier: alternatives
-    name: CSS Paged Media Module Level 3 (W3C)
-    url: https://www.w3.org/TR/css-page/
-    search: W3C CSS Paged Media Module Level 3
-    license: W3C Document License
-    license_url: https://www.w3.org/TR/css-page/
-    use_when: you need the spec for margin boxes, page counters and named pages used by Paged.js, WeasyPrint and Prince
-    status: candidate
-  - branch: print-pdf
-    section: Print and layout tools
-    tier: alternatives
-    name: Paged.js cheatsheet
-    url: https://pagedjs.org/documentation/cheatsheet
-    search: Paged.js paged media cheatsheet
-    license: docs page, link only
-    license_url: https://pagedjs.org/about
-    use_when: you want a short reference of Paged Media CSS properties with working examples
-    status: candidate
-  - branch: print-pdf
-    section: Print and layout tools
-    tier: alternatives
-    name: Can I use CSS Paged Media
-    url: https://caniuse.com/css-paged-media
-    search: caniuse CSS paged media
-    license: free reference, link only
-    license_url: https://caniuse.com/css-paged-media
-    use_when: you check which @page features a browser supports before relying on browser print-to-PDF
-    status: candidate
-  - branch: print-pdf
-    section: Print and layout tools
-    tier: more
-    name: Scribus color management guide
-    url: https://raw.githubusercontent.com/scribusproject/scribus/master/doc/en/cms.html
-    search: Scribus color management CMYK ICC
-    license: GPL-2.0-or-later (Scribus docs)
-    license_url: https://raw.githubusercontent.com/scribusproject/scribus/master/doc/en/cms.html
-    use_when: you need a plain explanation of ICC profiles, CMYK and soft-proofing before sending files to print
-    status: candidate
-  - branch: print-pdf
-    section: Print and layout tools
-    tier: more
-    name: FLOSS Manuals Scribus - The final output
-    url: https://archive.flossmanuals.net/scribus-2/the-final-output.html
-    search: FLOSS Manuals Scribus final output PDF print
-    license: not stated on the page (FLOSS Manuals books are usually GPL); link only
-    license_url: https://archive.flossmanuals.net/scribus-2/the-final-output.html
-    use_when: you need a step-by-step checklist for bleed, crop marks and PDF/X export for commercial print
-    status: candidate
+- branch: print-pdf
+  section: Make PDFs
+  tier: alternatives
+  name: Paged.js
+  url: https://pagedjs.org/about
+  repo: pagedjs/pagedjs
+  npm: pagedjs
+  search: Paged.js paged media polyfill
+  license: MIT
+  install: npm i pagedjs
+  use_when: you want CSS Paged Media (running headers, page counters, margin boxes) in a browser, then print to PDF
+  note: Main development has moved to gitlab.coko.foundation/pagedjs/pagedjs; the GitHub repo is a mirror.
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 404
+    stars: 1576
+    pushed: '2026-11-14'
+    archived: false
+    gh_license: MIT
+    npm_license: MIT
+    npm_modified: '2024-10-04'
+    npm_error: 429
+  problems:
+  - link returned 404
+  attempts: 1
+- branch: print-pdf
+  section: Make PDFs
+  tier: more
+  name: Tectonic
+  url: https://github.com/tectonic-typesetting/tectonic
+  repo: tectonic-typesetting/tectonic
+  search: Tectonic TeX LaTeX engine
+  license: MIT
+  install: brew install tectonic, cargo install tectonic, or a release binary; tectonic doc.tex
+  use_when: you need LaTeX output from one binary that fetches packages on demand, without a full TeX Live install
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 5268
+    pushed: '2026-08-01'
+    archived: false
+    gh_license: NOASSERTION
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: print-pdf
+  section: Make PDFs
+  tier: paid
+  name: DocRaptor
+  url: https://docraptor.com/
+  search: DocRaptor HTML to PDF API
+  license: paid (hosted API, free test documents)
+  note: 'Hosted Prince engine. Free option: WeasyPrint or Paged.js.'
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: print-pdf
+  section: Edit and merge
+  tier: alternatives
+  name: pypdf
+  url: https://pypdf.readthedocs.io/en/latest/
+  repo: py-pdf/pypdf
+  search: pypdf Python PDF library
+  license: BSD-3-Clause
+  install: pip install pypdf
+  use_when: you merge, split, crop, encrypt or fill forms in pure Python with no native dependencies
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 10321
+    pushed: '2026-11-27'
+    archived: false
+    gh_license: NOASSERTION
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: print-pdf
+  section: Edit and merge
+  tier: more
+  name: MuPDF (mutool)
+  url: https://mupdf.com/product/ecosystem
+  npm: mupdf
+  search: MuPDF mutool Artifex
+  license: AGPL-3.0-or-later or Artifex commercial license
+  license_url: https://mupdf.readthedocs.io/en/1.27.0/license.html
+  install: apt install mupdf-tools (mutool), or npm i mupdf for the WASM build
+  use_when: you want a small, fast CLI to render, clean, merge and extract from PDFs, or the WASM build in JS
+  note: AGPL, same terms as PyMuPDF.
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    license_link: 200
+    npm_license: AGPL-3.0-or-later
+    npm_modified: '2026-11-09'
+    npm_error: 429
+  problems:
+  - under 100 stars and 500 weekly downloads
+  attempts: 1
+- branch: print-pdf
+  section: Edit and merge
+  tier: big_lists
+  name: awesome-pdf (OneOffTech)
+  url: https://github.com/OneOffTech/awesome-pdf/
+  repo: OneOffTech/awesome-pdf
+  search: OneOffTech awesome-pdf
+  license: list
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 33
+    pushed: '2026-07-26'
+    archived: false
+    gh_license: CC0-1.0
+  problems:
+  - license says 'list' but gh_license is CC0-1.0
+  - under 100 stars and 500 weekly downloads
+  attempts: 1
+- branch: print-pdf
+  section: Edit and merge
+  tier: paid
+  name: Adobe Acrobat Pro
+  url: https://www.adobe.com/acrobat/pricing.html
+  search: Adobe Acrobat Pro
+  license: paid subscription
+  note: 'Reference editor for preflight, forms and redaction. Free option: qpdf, pypdf or Stirling-PDF.'
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 403
+  problems:
+  - link returned 403
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: print-pdf
+  section: Read and extract
+  tier: big_lists
+  name: awesome-pdf (py-pdf)
+  url: https://github.com/py-pdf/awesome-pdf
+  repo: py-pdf/awesome-pdf
+  search: py-pdf awesome-pdf
+  license: list
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 162
+    pushed: '2026-11-08'
+    archived: false
+    gh_license: BSD-3-Clause
+  problems:
+  - license says 'list' but gh_license is BSD-3-Clause
+  attempts: 1
+- branch: print-pdf
+  section: Templates
+  tier: default
+  name: Typst Universe
+  url: https://typst.app/universe
+  repo: typst/packages
+  search: Typst Universe templates packages
+  license: per package (each lists its own, mostly MIT, Apache or MIT-0)
+  license_url: https://github.com/typst/packages/
+  install: typst init @preview/<template>
+  use_when: you want ready Typst templates for CVs, theses, letters, posters and slides
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    license_link: 200
+    stars: 1052
+    pushed: '2026-11-26'
+    archived: false
+    gh_license: Apache-2.0
+  problems:
+  - license says 'per package (each lists its own, mostly MIT, Apache or MIT-0)' but gh_license is Apache-2.0
+  attempts: 1
+- branch: print-pdf
+  section: Templates
+  tier: alternatives
+  name: Typst official templates
+  url: https://github.com/typst/templates
+  repo: typst/templates
+  search: typst templates repository
+  license: not stated on the repo page; check LICENSE
+  use_when: you want small reference templates from the Typst team to learn from or adapt
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 435
+    pushed: '2026-03-20'
+    archived: false
+    gh_license: MIT-0
+  problems:
+  - license says 'not stated on the repo page; check LICENSE' but gh_license is MIT-0
+  attempts: 1
+- branch: print-pdf
+  section: Templates
+  tier: big_lists
+  name: awesome-typst
+  url: https://github.com/qjcg/awesome-typst
+  repo: qjcg/awesome-typst
+  search: qjcg awesome-typst
+  license: list
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 3629
+    pushed: '2026-08-07'
+    archived: false
+    gh_license: CC0-1.0
+  problems:
+  - license says 'list' but gh_license is CC0-1.0
+  attempts: 1
+- branch: print-pdf
+  section: Print and layout tools
+  tier: alternatives
+  name: Inkscape
+  url: https://inkscape.org
+  search: Inkscape vector editor
+  license: GPL-2.0-or-later (parts GPL-3.0)
+  license_url: https://sources.debian.org/src/inkscape/1.4.2-3/COPYING
+  install: apt install inkscape; inkscape --export-type=pdf file.svg for headless export
+  use_when: you make single-page print pieces (posters, cards, covers) as SVG and export to PDF from the command line
+  note: No native CMYK workflow; finish CMYK and PDF/X in Scribus if the printer needs it.
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    license_link: 404
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: print-pdf
+  section: Print and layout tools
+  tier: alternatives
+  name: Paged.js cheatsheet
+  url: https://pagedjs.org/documentation/cheatsheet
+  search: Paged.js paged media cheatsheet
+  license: docs page, link only
+  license_url: https://pagedjs.org/about
+  use_when: you want a short reference of Paged Media CSS properties with working examples
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 404
+    license_link: 404
+  problems:
+  - link returned 404
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: print-pdf
+  section: Print and layout tools
+  tier: more
+  name: FLOSS Manuals Scribus - The final output
+  url: https://archive.flossmanuals.net/scribus-2/the-final-output.html
+  search: FLOSS Manuals Scribus final output PDF print
+  license: not stated on the page (FLOSS Manuals books are usually GPL); link only
+  license_url: https://archive.flossmanuals.net/scribus-2/the-final-output.html
+  use_when: you need a step-by-step checklist for bleed, crop marks and PDF/X export for commercial print
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: URLError
+    license_link: URLError
+  problems:
+  - link returned URLError
+  - license has no evidence (add license_url)
+  attempts: 1

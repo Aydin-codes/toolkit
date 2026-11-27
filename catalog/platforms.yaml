@@ -1,0 +1,519 @@
+branch: platforms
+title: Platforms
+intro: ''
+sections:
+- name: Mobile apps
+  default:
+    name: Expo
+    url: https://github.com/expo/expo
+    repo: expo/expo
+    npm: expo
+    search: Expo React Native framework
+    license: MIT
+    install: npx create-expo-app@latest
+    use_when: you want iOS and Android apps from one React codebase with managed builds and updates
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 53830
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-27'
+      npm_error: 429
+    verified_by: auto
+  alternatives:
+  - name: React Native
+    url: https://reactnative.dev/
+    repo: react/react-native
+    npm: react-native
+    search: React Native framework
+    license: MIT
+    install: npm i react-native (usually through Expo)
+    use_when: you need the bare React Native runtime without the Expo toolchain
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 127015
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-27'
+      npm_error: 429
+    verified_by: auto
+  - name: Flutter
+    url: https://flutter.dev/
+    repo: flutter/flutter
+    search: Flutter SDK Dart cross-platform
+    license: BSD-3-Clause
+    install: download the Flutter SDK
+    use_when: you are fine writing Dart and want one UI toolkit for mobile, web and desktop
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 181538
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: BSD-3-Clause
+    verified_by: auto
+  - name: Capacitor
+    url: https://capacitorjs.com
+    repo: ionic-team/capacitor
+    npm: '@capacitor/core'
+    search: Capacitor native runtime web apps
+    license: MIT
+    install: npm i @capacitor/core @capacitor/cli
+    use_when: you already have a web app and want to ship it as a native app with access to device APIs
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 17154
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-27'
+      npm_error: 429
+    verified_by: auto
+  - name: Ionic Framework
+    url: https://ionicframework.com/
+    repo: ionic-team/ionic-framework
+    npm: '@ionic/core'
+    search: Ionic Framework mobile UI components
+    license: MIT
+    install: npm i @ionic/core (or @ionic/react, @ionic/vue, @ionic/angular)
+    use_when: you want mobile-styled UI components on top of Capacitor
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 52772
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-27'
+      npm_error: 429
+    verified_by: auto
+  more:
+  - name: vite-plugin-pwa
+    url: https://github.com/vite-pwa/vite-plugin-pwa
+    repo: vite-pwa/vite-plugin-pwa
+    npm: vite-plugin-pwa
+    search: vite-plugin-pwa service worker manifest
+    license: MIT
+    install: npm i -D vite-plugin-pwa
+    use_when: you build with Vite and want the manifest and service worker generated for a PWA
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 4317
+      pushed: '2026-10-09'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-10-03'
+      npm_error: 429
+    verified_by: auto
+  paid:
+  - name: RevenueCat
+    url: https://www.revenuecat.com/pricing/
+    repo: revenuecat/react-native-purchases
+    npm: react-native-purchases
+    search: RevenueCat in-app purchases subscriptions
+    license: SDK MIT; service free up to $2,500 monthly tracked revenue, then 1%
+    install: npm i react-native-purchases
+    note: 'Free option: use StoreKit and Google Play Billing directly.'
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 1249
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-27'
+      npm_error: 429
+    verified_by: auto
+- name: Desktop apps
+  default:
+    name: Tauri
+    url: https://github.com/tauri-apps/tauri
+    repo: tauri-apps/tauri
+    npm: '@tauri-apps/cli'
+    search: Tauri desktop apps Rust web frontend
+    license: Apache-2.0 OR MIT
+    install: npm create tauri-app@latest
+    use_when: you want small, fast desktop apps with a web frontend and a Rust backend
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 113262
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: Apache-2.0
+      npm_license: Apache-2.0 OR MIT
+      npm_modified: '2026-11-18'
+      npm_error: 429
+    verified_by: auto
+  alternatives:
+  - name: Electron
+    url: https://github.com/electron/electron
+    repo: electron/electron
+    npm: electron
+    search: Electron desktop apps JavaScript
+    license: MIT
+    install: npm i -D electron
+    use_when: you want a Node.js backend and the same Chromium engine on every OS, and app size matters less
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 124152
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-27'
+      npm_error: 429
+    verified_by: auto
+  - name: Wails
+    url: https://wails.io
+    repo: wailsapp/wails
+    search: Wails Go desktop apps
+    license: MIT
+    install: go install github.com/wailsapp/wails/v2/cmd/wails@latest
+    use_when: your backend is in Go and you want a web frontend in a native window
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 37219
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+    verified_by: auto
+  - name: Neutralinojs
+    url: https://neutralino.js.org/docs/cli/neu-cli
+    repo: neutralinojs/neutralinojs-cli
+    npm: '@neutralinojs/neu'
+    search: Neutralinojs lightweight desktop apps
+    license: MIT
+    install: npm i -g @neutralinojs/neu
+    use_when: you want a very light desktop wrapper for a plain web app with no Rust or Go
+    note: repo listed is the CLI; the framework repo was not checked
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 118
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-10-06'
+      npm_error: 429
+    verified_by: auto
+  - name: electron-builder
+    url: https://www.electron.build/
+    repo: electron-userland/electron-builder
+    npm: electron-builder
+    search: electron-builder package Electron app
+    license: MIT
+    install: npm i -D electron-builder
+    use_when: you need installers, code signing and auto-update for an Electron app
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 14729
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-21'
+      npm_error: 429
+    verified_by: auto
+  more:
+  - name: Electron Forge
+    url: https://github.com/electron/forge
+    repo: electron/forge
+    npm: '@electron-forge/cli'
+    search: Electron Forge build package publish
+    license: MIT
+    install: npx create-electron-app@latest
+    use_when: you want the Electron team's own tool to scaffold, package and publish
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 7176
+      pushed: '2026-11-13'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-09-29'
+      npm_error: 429
+    verified_by: auto
+  big_lists:
+  - name: awesome-tauri
+    url: https://github.com/tauri-apps/awesome-tauri
+    repo: tauri-apps/awesome-tauri
+    search: awesome-tauri list
+    license: MIT
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 8196
+      pushed: '2026-11-26'
+      archived: false
+      gh_license: MIT
+    verified_by: auto
+- name: Browser extensions
+  default:
+    name: WXT
+    url: https://wxt.dev
+    repo: wxt-dev/wxt
+    npm: wxt
+    search: WXT web extension framework
+    license: MIT
+    install: npx wxt@latest init
+    use_when: you want one Vite-based codebase that builds extensions for Chrome, Firefox, Edge and Safari
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 10790
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-10-26'
+      npm_error: 429
+    verified_by: auto
+  alternatives:
+  - name: Plasmo
+    url: https://docs.plasmo.com/
+    repo: PlasmoHQ/plasmo
+    npm: plasmo
+    search: Plasmo browser extension framework
+    license: MIT
+    install: npm create plasmo
+    use_when: you want a React-first extension framework with file-based entry points
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 13271
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2025-05-17'
+      npm_error: 429
+    verified_by: auto
+- name: Games
+  alternatives:
+  - name: Godot
+    url: https://godotengine.org
+    repo: godotengine/godot
+    search: Godot game engine
+    license: MIT
+    install: download the editor
+    use_when: you want a full 2D/3D engine with an editor, and can export to web, desktop and mobile
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 120950
+      pushed: '2026-11-26'
+      archived: false
+      gh_license: MIT
+    verified_by: auto
+  - name: PixiJS
+    url: https://pixijs.com/
+    repo: pixijs/pixijs
+    npm: pixi.js
+    search: PixiJS 2D WebGL renderer
+    license: MIT
+    install: npm i pixi.js
+    use_when: you only need a fast 2D renderer and will write your own game logic
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 48931
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-27'
+      npm_error: 429
+    verified_by: auto
+  - name: KAPLAY
+    url: https://kaplayjs.com/
+    repo: kaplayjs/kaplay
+    npm: kaplay
+    search: KAPLAY game library (Kaboom successor)
+    license: MIT
+    install: npm i kaplay
+    use_when: you want a small, beginner-friendly API for quick 2D games and jams
+    note: community fork that continues Kaboom.js
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 1851
+      pushed: '2026-11-26'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-05-12'
+      npm_error: 429
+    verified_by: auto
+  - name: Excalibur.js
+    url: https://github.com/excaliburjs/Excalibur
+    repo: excaliburjs/Excalibur
+    npm: excalibur
+    search: Excalibur.js TypeScript game engine
+    license: BSD-2-Clause
+    install: npm i excalibur
+    use_when: you want a 2D engine written in TypeScript with types throughout
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 2389
+      pushed: '2026-11-25'
+      archived: false
+      gh_license: BSD-2-Clause
+      npm_license: BSD-2-Clause
+      npm_modified: '2026-11-13'
+      npm_error: 429
+    verified_by: auto
+  more:
+  - name: Colyseus
+    url: https://colyseus.io/
+    repo: colyseus/colyseus
+    npm: colyseus
+    search: Colyseus multiplayer game server Node.js
+    license: MIT
+    install: npm create colyseus-app@latest
+    use_when: you need an authoritative multiplayer server with room and state sync
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 7589
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: MIT
+      npm_license: MIT
+      npm_modified: '2026-11-07'
+      npm_error: 429
+    verified_by: auto
+- name: MCP servers
+  default:
+    name: MCP TypeScript SDK
+    url: https://modelcontextprotocol.io
+    repo: modelcontextprotocol/typescript-sdk
+    npm: '@modelcontextprotocol/sdk'
+    search: Model Context Protocol TypeScript SDK
+    license: MIT
+    install: npm i @modelcontextprotocol/sdk
+    use_when: you want to build an MCP server or client in TypeScript with the official SDK
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 13832
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: NOASSERTION
+      npm_license: MIT
+      npm_modified: '2026-10-23'
+      npm_error: 429
+    verified_by: auto
+  alternatives:
+  - name: MCP Python SDK
+    url: https://py.sdk.modelcontextprotocol.io/
+    repo: modelcontextprotocol/python-sdk
+    search: Model Context Protocol Python SDK
+    license: MIT
+    install: pip install mcp
+    use_when: your server is in Python and you want the official SDK
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 24993
+      pushed: '2026-11-17'
+      archived: false
+      gh_license: MIT
+    verified_by: auto
+  - name: FastMCP
+    url: https://gofastmcp.com
+    repo: PrefectHQ/fastmcp
+    search: FastMCP Python MCP framework
+    license: Apache-2.0
+    install: uv add fastmcp
+    use_when: you want a higher-level Python framework with less boilerplate than the official SDK
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 28790
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: Apache-2.0
+    verified_by: auto
+  - name: MCP Inspector
+    url: https://modelcontextprotocol.io/docs/tools/inspector
+    repo: modelcontextprotocol/inspector
+    npm: '@modelcontextprotocol/inspector'
+    search: MCP Inspector debug MCP servers
+    license: see LICENSE in repo (npm says "SEE LICENSE IN LICENSE")
+    install: npx @modelcontextprotocol/inspector
+    use_when: you need to test and debug an MCP server in a browser, CLI or terminal UI
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 11377
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: NOASSERTION
+      npm_license: SEE LICENSE IN LICENSE
+      npm_modified: '2026-11-27'
+      npm_error: 429
+    verified_by: auto
+  - name: MCP reference servers
+    url: https://github.com/modelcontextprotocol/servers
+    repo: modelcontextprotocol/servers
+    npm: '@modelcontextprotocol/server-filesystem'
+    search: modelcontextprotocol servers reference implementations
+    license: see LICENSE in repo (npm says "SEE LICENSE IN LICENSE")
+    install: npx -y @modelcontextprotocol/server-filesystem <dir>
+    use_when: you want working example servers to copy patterns from or run as-is
+    status: verified
+    facts:
+      checked: '2026-11-27'
+      link: 200
+      stars: 92302
+      pushed: '2026-11-27'
+      archived: false
+      gh_license: NOASSERTION
+      npm_license: SEE LICENSE IN LICENSE
+      npm_modified: '2026-11-27'
+      npm_error: 429
+    verified_by: auto

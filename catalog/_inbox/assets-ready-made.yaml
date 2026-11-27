@@ -1,395 +1,196 @@
 proposals:
-  # ---------- Photos ----------
-  - branch: assets/ready-made
-    branch_title: Ready-made assets
-    section: Photos
-    tier: default
-    name: Unsplash
-    url: https://unsplash.com
-    search: Unsplash free photos API
-    license: Unsplash License (free, not CC)
-    license_url: https://unsplash.com/license
-    use_when: you need good general-purpose photos for a site or app
-    install: download, or the Unsplash API (needs an access key)
-    note: "No credit needed for downloads; can't sell unaltered copies or build a competing service. API rules: hotlink the returned image URLs and credit photographer + Unsplash (https://help.unsplash.com/api-guidelines/unsplash-api-guidelines)."
-    status: candidate
-  - branch: assets/ready-made
-    section: Photos
-    tier: alternatives
-    name: Pexels
-    url: https://www.pexels.com
-    search: Pexels free stock photos API
-    license: Pexels License (free, not CC)
-    license_url: https://help.pexels.com/hc/en-us/articles/360042332714-What-are-the-rules-for-using-Pexels-photos-or-videos
-    use_when: Unsplash lacks the subject, or you also want free stock video from the same API
-    install: download, or the Pexels API (needs a key)
-    note: "Credit appreciated, not required; don't sell unaltered copies. Terms: https://pexels.com/terms-of-service"
-    status: candidate
-  - branch: assets/ready-made
-    section: Photos
-    tier: alternatives
-    name: Pixabay
-    url: https://pixabay.com
-    search: Pixabay content license free images
-    license: Pixabay Content License (free, not CC)
-    license_url: https://pixabay.com/en/service/license/
-    use_when: you want photos, vectors and illustrations from one free source with an API
-    install: download, or the Pixabay API
-    never_copy: true
-    note: No standalone redistribution (don't ship the files as-is in a repo or asset pack); no credit needed.
-    status: candidate
-  - branch: assets/ready-made
-    section: Photos
-    tier: alternatives
-    name: Burst
-    url: https://burst.shopify.com
-    search: Burst by Shopify free stock photos
-    license: Burst license, mostly "Shopify some rights reserved" (some photos CC0)
-    license_url: https://burst.shopify.com/licenses/shopify-some-rights-reserved
-    use_when: you need product, e-commerce and small-business photos
-    install: download
-    note: Check each photo's license; CC0 photos are listed at https://burst.shopify.com/licenses/creative-commons
-    status: candidate
-  - branch: assets/ready-made
-    section: Photos
-    tier: alternatives
-    name: StockSnap
-    url: https://stocksnap.io
-    search: StockSnap.io CC0 photos
-    license: CC0
-    license_url: https://www.stocksnap.io/license
-    use_when: you want photos that are CC0 so they can sit in a repo without license questions
-    install: download
-    status: candidate
-  - branch: assets/ready-made
-    section: Photos
-    tier: more
-    name: Openverse
-    url: https://github.com/wordpress/openverse
-    repo: WordPress/openverse
-    search: Openverse openly licensed images audio search
-    license: per item (CC licenses and public domain); the code is MIT
-    use_when: you want one search (and API) across many openly licensed image and audio sources, filterable by license
-    install: openverse.org search, or its public API
-    note: Each result keeps its own CC license; read it and credit where required. Catalog docs https://make.wordpress.org/openverse/handbook/openverse-catalog/
-    status: candidate
-  - branch: assets/ready-made
-    section: Photos
-    tier: big_lists
-    name: awesome-stock-resources
-    url: https://github.com/neutraltone/awesome-stock-resources
-    repo: neutraltone/awesome-stock-resources
-    search: neutraltone awesome-stock-resources
-    license: list
-    status: candidate
-  - branch: assets/ready-made
-    section: Photos
-    tier: paid
-    name: Adobe Stock
-    url: https://stock.adobe.com/discover
-    search: Adobe Stock royalty-free images
-    license: paid (royalty-free license; some free assets at stock.adobe.com/free)
-    never_copy: true
-    note: "Free option: Unsplash or Pexels."
-    status: candidate
-
-  # ---------- Public domain and open collections ----------
-  - branch: assets/ready-made
-    section: Public domain and open collections
-    tier: default
-    name: Wikimedia Commons
-    url: https://commons.wikimedia.org
-    search: Wikimedia Commons free media
-    license: per file (public domain, CC0, CC BY, CC BY-SA and others)
-    license_url: https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia
-    use_when: you need a photo or diagram of a real place, thing or historic subject
-    install: download, or the MediaWiki API
-    note: Read each file's license; CC BY-SA needs credit and share-alike. Not all files are free of trademark or personality rights.
-    status: candidate
-  - branch: assets/ready-made
-    section: Public domain and open collections
-    tier: alternatives
-    name: The Met Open Access
-    url: https://www.metmuseum.org/openaccess
-    repo: metmuseum/openaccess
-    search: Metropolitan Museum Open Access CC0 images
-    license: CC0 (for works marked Open Access)
-    license_url: https://www.metmuseum.org/en/policies/image-resources
-    use_when: you want high-resolution art and artifact images with no credit needed
-    install: download from object pages, the Met Collection API, or the CSV in metmuseum/openaccess
-    note: Only objects with the Open Access mark are CC0.
-    status: candidate
-  - branch: assets/ready-made
-    section: Public domain and open collections
-    tier: alternatives
-    name: Smithsonian Open Access
-    url: https://www.si.edu/openaccess
-    search: Smithsonian Open Access CC0
-    license: CC0 (for items marked CC0)
-    license_url: https://dashboard.si.edu/openaccess/faq
-    use_when: you want natural history, science and American history images, plus 3D models, as CC0
-    install: download, API and bulk data (https://www.si.edu/openaccess/devtools)
-    note: Only items labelled CC0 are free; others keep their rights.
-    status: candidate
-  - branch: assets/ready-made
-    section: Public domain and open collections
-    tier: alternatives
-    name: NASA Image and Video Library
-    url: https://images.nasa.gov
-    search: NASA Image and Video Library images.nasa.gov
-    license: generally not copyrighted (US government work); see NASA media guidelines
-    license_url: https://nasa.gov/nasa-brand-center/images-and-media
-    use_when: you need space, Earth and spaceflight images, video or audio
-    install: download, or the images.nasa.gov API (docs https://images.nasa.gov/docs/images.nasa.gov_api_docs.pdf)
-    note: NASA logos and insignia are restricted (https://www.nasa.gov/nasa-brand-center/nasa-logo-use/); don't imply NASA endorsement; some items are third-party.
-    status: candidate
-  - branch: assets/ready-made
-    section: Public domain and open collections
-    tier: alternatives
-    name: Library of Congress Free to Use and Reuse
-    url: https://loc.gov/free-to-use
-    search: Library of Congress free to use and reuse sets
-    license: public domain or no known restrictions (per set)
-    license_url: https://loc.gov/free-to-use
-    use_when: you want themed sets of historic American photos, posters and maps that are cleared for reuse
-    install: download
-    note: Machine-readable sets at https://data.labs.loc.gov/free-to-use/
-    status: candidate
-  - branch: assets/ready-made
-    section: Public domain and open collections
-    tier: more
-    name: Rijksmuseum
-    url: https://data.rijksmuseum.nl
-    search: Rijksmuseum open data public domain images
-    license: public domain images (CC0) for most collection items; see data policy
-    license_url: https://www.rijksmuseum.nl/en/data/policy
-    use_when: you want Dutch Golden Age paintings and prints in high resolution
-    install: download from the collection, or the data services
-    status: candidate
-  - branch: assets/ready-made
-    section: Public domain and open collections
-    tier: more
-    name: Art Institute of Chicago Open Access
-    url: https://www.artic.edu/open-access/open-access-images
-    search: Art Institute of Chicago open access CC0 images API
-    license: CC0 (for public-domain works)
-    license_url: https://www.artic.edu/open-access/open-access-images
-    use_when: you want art images with a clean public JSON API and IIIF image server
-    install: public API (https://www.artic.edu/collection-information/open-access/public-api)
-    status: candidate
-  - branch: assets/ready-made
-    section: Public domain and open collections
-    tier: big_lists
-    name: The Public Domain Review
-    url: https://publicdomainreview.org
-    search: Public Domain Review collections images
-    license: curated public-domain works; rights label on each item
-    license_url: https://www.publicdomainreview.org/rights-labelling-on-our-site
-    note: A curated guide that links to the source archives; see https://publicdomainreview.org/reusing-material/
-    status: candidate
-
-  # ---------- Illustration ----------
-  - branch: assets/ready-made
-    section: Illustration
-    tier: default
-    name: Open Peeps
-    url: https://www.openpeeps.com
-    search: Open Peeps Pablo Stanley CC0
-    license: CC0
-    license_url: https://www.openpeeps.com
-    use_when: you want hand-drawn people you can mix and match and keep in a repo
-    install: download SVG/PNG
-    status: candidate
-  - branch: assets/ready-made
-    section: Illustration
-    tier: alternatives
-    name: Humaaans
-    url: https://www.humaaans.com
-    search: Humaaans mix and match illustrations
-    license: CC0
-    license_url: https://www.humaaans.com
-    use_when: you want flat, colourful people illustrations you can recombine
-    install: download (also a Figma/Sketch library)
-    status: candidate
-  - branch: assets/ready-made
-    section: Illustration
-    tier: alternatives
-    name: Open Doodles
-    url: https://www.opendoodles.com
-    search: Open Doodles sketchy illustrations CC0
-    license: CC0
-    license_url: https://www.opendoodles.com
-    use_when: you want loose, sketchy people illustrations with no credit needed
-    install: download SVG/PNG/GIF
-    status: candidate
-  - branch: assets/ready-made
-    section: Illustration
-    tier: alternatives
-    name: unDraw
-    url: https://undraw.co
-    search: unDraw open source illustrations
-    license: unDraw License (free, not open source)
-    license_url: https://undraw.co/license
-    use_when: you want flat scene illustrations recolourable to your brand colour
-    install: download by hand from undraw.co (link only; no scripted fetching)
-    never_copy: true
-    note: No credit needed. Bans automated scraping/downloading, redistribution in packs, competing services and AI training.
-    status: candidate
-  - branch: assets/ready-made
-    section: Illustration
-    tier: alternatives
-    name: Blush
-    url: https://blush.design
-    search: Blush design customizable illustrations
-    license: Blush License (free, not open source)
-    license_url: https://blush.design/license
-    use_when: you want customizable illustrations from many artists in one editor
-    install: download from blush.design
-    note: Commercial use allowed, credit not required; no compiling to build a competing service.
-    status: candidate
-  - branch: assets/ready-made
-    section: Illustration
-    tier: more
-    name: Storyset
-    url: https://storyset.com
-    search: Storyset Freepik animated illustrations
-    license: Storyset terms (free with credit)
-    license_url: https://storyset.com/terms
-    use_when: you want editable, animatable scene illustrations and can show a credit
-    install: download from storyset.com
-    never_copy: true
-    note: Credit required on free use (or a Flaticon Premium plan); no redistribution, resale or stock/archive use.
-    status: candidate
-  - branch: assets/ready-made
-    section: Illustration
-    tier: more
-    name: DrawKit
-    url: https://www.drawkit.com
-    search: DrawKit free illustrations
-    license: DrawKit License (free and paid packs)
-    license_url: https://www.drawkit.com/license
-    use_when: you want polished illustration packs for landing pages and apps
-    install: download
-    never_copy: true
-    note: Credit not required; no standalone redistribution, no templates or merch, no AI training.
-    status: candidate
-  - branch: assets/ready-made
-    section: Illustration
-    tier: more
-    name: IRA Design
-    url: https://iradesign.io
-    search: IRA Design Creative Tim illustrations
-    license: MIT (as stated on the site)
-    license_url: https://iradesign.io
-    use_when: you want to build simple gradient or outline illustrations from components
-    install: download SVG/PNG
-    note: Older project; no recent update date shown.
-    status: candidate
-
-  # ---------- 3D models ----------
-  - branch: assets/ready-made
-    section: 3D models
-    tier: default
-    name: Kenney
-    url: https://kenney.nl/assets
-    search: Kenney game assets CC0
-    license: CC0
-    license_url: https://kenney.nl/assets
-    use_when: you want consistent low-poly 3D, 2D and UI game assets you can ship anywhere
-    install: download zip packs
-    note: Also has audio packs (CC0).
-    status: candidate
-  - branch: assets/ready-made
-    section: 3D models
-    tier: alternatives
-    name: Poly Haven Models
-    url: https://polyhaven.com/models
-    search: Poly Haven 3D models CC0
-    license: CC0
-    license_url: https://polyhaven.com/license
-    use_when: you want realistic, scanned-quality props for a three.js or Blender scene
-    install: download glTF/Blend/FBX, or the Poly Haven API
-    status: candidate
-  - branch: assets/ready-made
-    section: 3D models
-    tier: alternatives
-    name: Quaternius
-    url: https://quaternius.com
-    search: Quaternius free low poly models CC0
-    license: CC0 (per the site's License page; not confirmed in this pass)
-    use_when: you want low-poly characters and environments, many rigged and animated
-    install: download packs
-    status: candidate
-  - branch: assets/ready-made
-    section: 3D models
-    tier: alternatives
-    name: Sketchfab
-    url: https://sketchfab.com
-    search: Sketchfab downloadable Creative Commons models
-    license: per model (CC licenses for free downloads; paid store licenses)
-    license_url: https://sketchfab.com/licenses
-    use_when: you need a specific object and can check each model's license
-    install: download, or the Sketchfab Download API
-    note: Filter by downloadable + license; respect NoAI tags and CC BY credit; store models are paid.
-    status: candidate
-  - branch: assets/ready-made
-    section: 3D models
-    tier: more
-    name: Smithsonian 3D
-    url: https://3d.si.edu
-    search: Smithsonian 3D digitization models
-    license: per model; CC0 where marked
-    license_url: https://dashboard.si.edu/openaccess/faq
-    use_when: you want scans of real museum objects and specimens
-    install: download from model pages where offered
-    status: candidate
-
-  # ---------- Textures and HDRIs ----------
-  - branch: assets/ready-made
-    section: Textures and HDRIs
-    tier: default
-    name: Poly Haven
-    url: https://polyhaven.com
-    search: Poly Haven HDRIs textures CC0
-    license: CC0
-    license_url: https://polyhaven.com/license
-    use_when: you need HDRI lighting or PBR textures for a 3D scene
-    install: download, or the Poly Haven API
-    note: Assets may be redistributed; the site itself bans scraping without permission, so use the API.
-    status: candidate
-  - branch: assets/ready-made
-    section: Textures and HDRIs
-    tier: alternatives
-    name: ambientCG
-    url: https://ambientcg.com
-    search: ambientCG CC0 PBR materials
-    license: CC0
-    license_url: https://docs.ambientcg.com/license/
-    use_when: you want a large set of PBR materials and HDRIs, with an API
-    install: download, or the ambientCG API
-    status: candidate
-  - branch: assets/ready-made
-    section: Textures and HDRIs
-    tier: alternatives
-    name: ShareTextures
-    url: https://www.sharetextures.com
-    search: ShareTextures CC0 textures models
-    license: CC0
-    license_url: https://www.sharetextures.com/p/license
-    use_when: you want more CC0 PBR textures, especially architectural surfaces
-    install: download
-    status: candidate
-
-  # ---------- Video ----------
-  - branch: assets/ready-made
-    section: Video
-    tier: alternatives
-    name: NASA Image and Video Library (video)
-    url: https://images.nasa.gov
-    search: NASA Image and Video Library video footage
-    license: generally not copyrighted (US government work); see NASA media guidelines
-    license_url: https://nasa.gov/nasa-brand-center/images-and-media
-    use_when: you need space and Earth footage
-    install: download, or the images.nasa.gov API
-    note: NASA logos and insignia are restricted; don't imply endorsement.
-    status: candidate
+- branch: assets/ready-made
+  branch_title: Ready-made assets
+  section: Photos
+  tier: default
+  name: Unsplash
+  url: https://unsplash.com
+  search: Unsplash free photos API
+  license: Unsplash License (free, not CC)
+  license_url: https://unsplash.com/license
+  use_when: you need good general-purpose photos for a site or app
+  install: download, or the Unsplash API (needs an access key)
+  note: 'No credit needed for downloads; can''t sell unaltered copies or build a competing service. API rules: hotlink the returned image URLs and credit photographer + Unsplash (https://help.unsplash.com/api-guidelines/unsplash-api-guidelines).'
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 401
+    license_link: 401
+  problems:
+  - link returned 401
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: assets/ready-made
+  section: Photos
+  tier: alternatives
+  name: Pexels
+  url: https://www.pexels.com
+  search: Pexels free stock photos API
+  license: Pexels License (free, not CC)
+  license_url: https://help.pexels.com/hc/en-us/articles/360042332714-What-are-the-rules-for-using-Pexels-photos-or-videos
+  use_when: Unsplash lacks the subject, or you also want free stock video from the same API
+  install: download, or the Pexels API (needs a key)
+  note: 'Credit appreciated, not required; don''t sell unaltered copies. Terms: https://pexels.com/terms-of-service'
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 403
+    license_link: 403
+  problems:
+  - link returned 403
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: assets/ready-made
+  section: Photos
+  tier: alternatives
+  name: Pixabay
+  url: https://pixabay.com
+  search: Pixabay content license free images
+  license: Pixabay Content License (free, not CC)
+  license_url: https://pixabay.com/en/service/license/
+  use_when: you want photos, vectors and illustrations from one free source with an API
+  install: download, or the Pixabay API
+  never_copy: true
+  note: No standalone redistribution (don't ship the files as-is in a repo or asset pack); no credit needed.
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 403
+    license_link: 403
+  problems:
+  - link returned 403
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: assets/ready-made
+  section: Photos
+  tier: big_lists
+  name: awesome-stock-resources
+  url: https://github.com/neutraltone/awesome-stock-resources
+  repo: neutraltone/awesome-stock-resources
+  search: neutraltone awesome-stock-resources
+  license: list
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+    stars: 14888
+    pushed: '2026-02-11'
+    archived: false
+    gh_license: CC0-1.0
+  problems:
+  - license says 'list' but gh_license is CC0-1.0
+  attempts: 1
+- branch: assets/ready-made
+  section: Photos
+  tier: paid
+  name: Adobe Stock
+  url: https://stock.adobe.com/discover
+  search: Adobe Stock royalty-free images
+  license: paid (royalty-free license; some free assets at stock.adobe.com/free)
+  never_copy: true
+  note: 'Free option: Unsplash or Pexels.'
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: assets/ready-made
+  section: Public domain and open collections
+  tier: alternatives
+  name: The Met Open Access
+  url: https://www.metmuseum.org/openaccess
+  repo: metmuseum/openaccess
+  search: Metropolitan Museum Open Access CC0 images
+  license: CC0 (for works marked Open Access)
+  license_url: https://www.metmuseum.org/en/policies/image-resources
+  use_when: you want high-resolution art and artifact images with no credit needed
+  install: download from object pages, the Met Collection API, or the CSV in metmuseum/openaccess
+  note: Only objects with the Open Access mark are CC0.
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 429
+    license_link: 429
+    stars: 1472
+    pushed: '2026-11-23'
+    archived: false
+    gh_license: CC0-1.0
+  problems:
+  - license says 'CC0 (for works marked Open Access)' but gh_license is CC0-1.0
+  attempts: 1
+- branch: assets/ready-made
+  section: Public domain and open collections
+  tier: alternatives
+  name: Smithsonian Open Access
+  url: https://www.si.edu/openaccess
+  search: Smithsonian Open Access CC0
+  license: CC0 (for items marked CC0)
+  license_url: https://dashboard.si.edu/openaccess/faq
+  use_when: you want natural history, science and American history images, plus 3D models, as CC0
+  install: download, API and bulk data (https://www.si.edu/openaccess/devtools)
+  note: Only items labelled CC0 are free; others keep their rights.
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 403
+    license_link: 403
+  problems:
+  - link returned 403
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: assets/ready-made
+  section: Public domain and open collections
+  tier: more
+  name: Art Institute of Chicago Open Access
+  url: https://www.artic.edu/open-access/open-access-images
+  search: Art Institute of Chicago open access CC0 images API
+  license: CC0 (for public-domain works)
+  license_url: https://www.artic.edu/open-access/open-access-images
+  use_when: you want art images with a clean public JSON API and IIIF image server
+  install: public API (https://www.artic.edu/collection-information/open-access/public-api)
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 403
+    license_link: 403
+  problems:
+  - link returned 403
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: assets/ready-made
+  section: 3D models
+  tier: alternatives
+  name: Quaternius
+  url: https://quaternius.com
+  search: Quaternius free low poly models CC0
+  license: CC0 (per the site's License page; not confirmed in this pass)
+  use_when: you want low-poly characters and environments, many rigged and animated
+  install: download packs
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 200
+  problems:
+  - license has no evidence (add license_url)
+  attempts: 1
+- branch: assets/ready-made
+  section: 3D models
+  tier: more
+  name: Smithsonian 3D
+  url: https://3d.si.edu
+  search: Smithsonian 3D digitization models
+  license: per model; CC0 where marked
+  license_url: https://dashboard.si.edu/openaccess/faq
+  use_when: you want scans of real museum objects and specimens
+  install: download from model pages where offered
+  status: candidate
+  facts:
+    checked: '2026-11-27'
+    link: 403
+    license_link: 403
+  problems:
+  - link returned 403
+  - license has no evidence (add license_url)
+  attempts: 1
