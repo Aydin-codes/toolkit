@@ -53,7 +53,7 @@ It works with any tool that reads `SKILL.md`: Claude Code, Codex, Cursor, Gemini
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset=".github/assets/how-it-works-dark.png">
-    <img src=".github/assets/how-it-works-light.png" width="760" alt="Diagram, How the toolkit works: four numbered stages on a winding path. 1. Read SKILL.md: stack for 12 kinds of project, 12 rules to follow, license rules, which page to open. 2. Open one page: fonts with 40 entries is written; UI kits and icons, photos 3D and sound, back end and hosting are shown dashed as not written yet. 3. Pick 1 to 3: fits your stack, free first, license allows it, still maintained, the AI can install it. 4. Check the work: screenshots at 375 and 1440 px, keyboard and contrast, speed on mobile, no placeholders or fake claims.">
+    <img src=".github/assets/how-it-works-light.png" width="760" alt="Diagram, How the toolkit works: four numbered stages on a winding path. 1. Read SKILL.md: stack for 12 kinds of project, 12 rules to follow, license rules, which page to open. 2. Open one page: fonts (2,083), UI kits and icons (39) and photos, 3D and sound (36) are written; back end and hosting is shown dashed as not written yet. 3. Pick 1 to 3: fits your stack, free first, license allows it, still maintained, the AI can install it. 4. Check the work: screenshots at 375 and 1440 px, keyboard and contrast, speed on mobile, no placeholders or fake claims.">
   </picture>
 </p>
 

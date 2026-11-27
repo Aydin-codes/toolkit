@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>How the toolkit works</title>
+<!--
+  Source for how-it-works-light.png and how-it-works-dark.png (1920x3412: a 960x1706 page at 2x).
+  Light is the default; add #dark to the URL for the dark version.
+  Re-render from this folder with headless Chrome at 2x:
+    chrome --headless=new --force-device-scale-factor=2 --window-size=960,1706 --virtual-time-budget=5000 --screenshot=../how-it-works-light.png "file:///<abs path>/how-it-works.html"
+    chrome --headless=new --force-device-scale-factor=2 --window-size=960,1706 --virtual-time-budget=5000 --screenshot=../how-it-works-dark.png "file:///<abs path>/how-it-works.html#dark"
+  Stage icons are Fluent Emoji 3D (MIT), in ../icons/.
+  Sub-boxes marked "planned" are drawn dashed; the rest are solid (written).
+-->
+<style>
+  html, body { margin:0; background:#ffffff; }
+  html.dark, html.dark body { background:#0d1117; }
+  svg { display:block; font-family:"Segoe UI", system-ui, sans-serif; }
+</style>
+</head>
+<body>
+<svg id="d" xmlns="http://www.w3.org/2000/svg"></svg>
+<script>
+  const dark = location.hash === '#dark';
+  if (dark) document.documentElement.classList.add('dark');
+
+  const SPEC = {
+    title: 'How the toolkit works',
+    stages: [
+      { title: 'Read SKILL.md', icon: '../icons/books.png',
+        subs: ['Stack for 12 kinds of project', '12 rules to follow', 'License rules', 'Which page to open'] },
+      { title: 'Open one page', icon: '../icons/open-file-folder.png',
+        subs: ['Fonts (2,083)', 'UI kits and icons (39)', 'Photos, 3D and sound (36)', ['Back end and hosting', 'planned']] },
+      { title: 'Pick 1 to 3', icon: '../icons/balance-scale.png',
+        subs: ['Fits your stack', 'Free first', 'License allows it', 'Still maintained', 'The AI can install it'] },
+      { title: 'Check the work', icon: '../icons/check-mark-button.png',
+        subs: ['Screenshots at 375 and 1440 px', 'Keyboard and contrast', 'Speed on mobile', 'No placeholders or fake claims'] },
+    ],
+    legend: ['Written', 'Not written yet'],
+  };
+
+  const C = {
+    ink: dark ? '#e6edf3' : '#1b1f24',
+    muted: dark ? '#8b949e' : '#57606a',
+    main: dark ? '#FFC20E' : '#111214',
+    main_ink: dark ? '#111214' : '#FFC20E',
+    sub: dark ? '#2b3038' : '#FFC20E',
+    sub_ink: dark ? '#f0f2f5' : '#111214',
+    path: dark ? '#c9d1d9' : '#1b2a6b',
+    planned_fill: dark ? '#161b22' : '#f2f3f5',
+    planned_ink: dark ? '#8b949e' : '#6e7781',
+    planned_line: dark ? '#484f58' : '#aab1ba',
+  };
+
+  const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;');
+  const W = 960, MAIN_W = 250, MAIN_H = 78, SUB_W = 270, SUB_H = 56, SUB_GAP = 18;
+  const LEFT_MAIN_X = 140, RIGHT_MAIN_X = W - 140 - MAIN_W, LEFT_SUB_X = 50, RIGHT_SUB_X = W - 50 - SUB_W;
+  const TOP = 120, STAGE_GAP = 100;
+
+  const out = [], mains = [];
+  let y = TOP;
+  SPEC.stages.forEach((st, i) => {
+    const subs = st.subs, blockH = subs.length * SUB_H + (subs.length - 1) * SUB_GAP;
+    const left = i % 2 === 0;
+    const mx = left ? LEFT_MAIN_X : RIGHT_MAIN_X, sx = left ? RIGHT_SUB_X : LEFT_SUB_X;
+    const my = y + blockH / 2 - MAIN_H / 2;
+    mains.push([mx, my]);
+    subs.forEach((sub, j) => {
+      const [text, state] = typeof sub === 'string' ? [sub, 'done'] : sub;
+      const planned = state === 'planned', sy = y + j * (SUB_H + SUB_GAP);
+      const stroke = planned ? `stroke="${C.planned_line}" stroke-width="1.5" stroke-dasharray="6 5"` : '';
+      out.push(`<rect x="${sx}" y="${sy}" width="${SUB_W}" height="${SUB_H}" rx="6" fill="${planned ? C.planned_fill : C.sub}" ${stroke}/>`);
+      out.push(`<text x="${sx + SUB_W / 2}" y="${sy + SUB_H / 2 + 6}" text-anchor="middle" font-size="16.5" fill="${planned ? C.planned_ink : C.sub_ink}">${esc(text)}</text>`);
+      const x1 = left ? sx : sx + SUB_W, x2 = left ? mx + MAIN_W + 6 : mx - 6;
+      out.push(`<line x1="${x1}" y1="${sy + SUB_H / 2}" x2="${x2}" y2="${my + MAIN_H / 2}" stroke="${C.path}" stroke-width="2.2" stroke-dasharray="9 7" marker-end="url(#arr)"/>`);
+    });
+    out.push(`<rect x="${mx}" y="${my}" width="${MAIN_W}" height="${MAIN_H}" rx="6" fill="${C.main}"/>`);
+    out.push(`<text x="${mx + MAIN_W / 2}" y="${my + MAIN_H / 2 + 7}" text-anchor="middle" font-size="19" font-weight="700" fill="${C.main_ink}">${i + 1}. ${esc(st.title)}</text>`);
+    const ix = left ? mx - 92 : mx + MAIN_W + 22;
+    out.push(`<image href="${st.icon}" x="${ix}" y="${my + MAIN_H / 2 - 35}" width="70" height="70"/>`);
+    y += blockH + STAGE_GAP;
+  });
+
+  const paths = mains.slice(1).map(([bx, by], k) => {
+    const [ax, ay] = mains[k];
+    const x1 = ax + MAIN_W / 2, y1 = ay + MAIN_H, x2 = bx + MAIN_W / 2, y2 = by, midy = (y1 + y2) / 2;
+    return `<path d="M${x1},${y1} C${x1},${midy + 40} ${x2},${midy - 40} ${x2},${y2}" fill="none" stroke="${C.path}" stroke-width="3.2"/>`;
+  });
+
+  const H = y - STAGE_GAP + 60 + 40, lx = W / 2 - 200;
+  const legend =
+    `<rect x="${lx}" y="${H - 62}" width="26" height="18" rx="4" fill="${C.sub}"/>` +
+    `<text x="${lx + 36}" y="${H - 48}" font-size="15" fill="${C.muted}">${SPEC.legend[0]}</text>` +
+    `<rect x="${lx + 210}" y="${H - 62}" width="26" height="18" rx="4" fill="${C.planned_fill}" stroke="${C.planned_line}" stroke-width="1.5" stroke-dasharray="5 4"/>` +
+    `<text x="${lx + 246}" y="${H - 48}" font-size="15" fill="${C.muted}">${SPEC.legend[1]}</text>`;
+  const title = `<text x="${W / 2}" y="68" text-anchor="middle" font-size="34" font-weight="800" fill="${C.ink}">${esc(SPEC.title)}</text>`;
+
+  const svg = document.getElementById('d');
+  svg.setAttribute('width', W); svg.setAttribute('height', H); svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+  svg.innerHTML = `<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">` +
+    `<path d="M0,0 L10,5 L0,10" fill="none" stroke="${C.path}" stroke-width="2"/></marker></defs>` + title + paths.join('') + out.join('') + legend;
+</script>
+</body>
+</html>
