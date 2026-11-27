@@ -10,6 +10,7 @@ sections:
       licence: mostly OFL (check each family)
       install: CDN link, or self-host through Fontsource
       status: candidate
+      checked: 2026-11-26
     alternatives:
       - name: Fontsource
         url: https://fontsource.org
@@ -18,6 +19,7 @@ sections:
         use_when: you want to self-host Google and other open fonts as npm packages
         install: npm i @fontsource/<font>
         status: candidate
+        checked: 2026-11-26
       - name: Fontshare
         url: https://www.fontshare.com
         search: Fontshare Indian Type Foundry free fonts
@@ -26,6 +28,7 @@ sections:
         install: CDN link from fontshare.com
         never_copy: true
         status: candidate
+        checked: 2026-11-26
       - name: Velvetyne
         url: https://velvetyne.fr
         search: Velvetyne libre fonts
@@ -33,6 +36,7 @@ sections:
         use_when: you want experimental, characterful display faces
         install: download
         status: candidate
+        checked: 2026-11-26
       - name: Collletttivo
         url: https://www.collletttivo.it
         search: Collletttivo open source type foundry
@@ -40,6 +44,7 @@ sections:
         use_when: you want contemporary open-source faces from independent designers
         install: download
         status: candidate
+        checked: 2026-11-26
       - name: Uncut
         url: https://uncut.wtf
         search: uncut.wtf libre typeface catalogue
@@ -47,22 +52,26 @@ sections:
         use_when: you want a curated catalogue of contemporary libre fonts
         install: download from each font's page
         status: candidate
+        checked: 2026-11-26
     big_lists:
       - name: Velvetyne Libre Friends
         url: https://velvetyne.fr/velvetyne-libre-friends
         search: Velvetyne Libre Friends free foundries list
         licence: list of OFL / libre foundries
         status: candidate
+        checked: 2026-11-26
       - name: Free Faces
         url: https://www.freefaces.gallery
         search: Free Faces gallery free typefaces
         licence: mixed; check each font
         status: candidate
+        checked: 2026-11-26
       - name: awesome-typography
         url: https://github.com/Jolg42/awesome-typography
         search: Jolg42 awesome-typography
         licence: list
         status: candidate
+        checked: 2026-11-26
     paid:
       - name: Adobe Fonts
         url: https://fonts.adobe.com
@@ -70,6 +79,7 @@ sections:
         licence: paid (with a Creative Cloud plan)
         note: "Free option: Google Fonts or Fontshare."
         status: candidate
+        checked: 2026-11-26
 
   - name: More libre foundries
     list:
@@ -80,6 +90,7 @@ sections:
         use_when: you want to test fonts on a clean specimen page first
         install: download
         status: candidate
+        checked: 2026-11-26
       - name: The League of Moveable Type
         url: https://www.theleagueofmoveabletype.com
         search: League of Moveable Type
@@ -87,41 +98,42 @@ sections:
         use_when: you want classic, well-made open-source faces
         install: download
         status: candidate
+        checked: 2026-11-26
 
   - name: Starting picks by style
     note: All on Google Fonts (OFL). None of these is on the common-AI-picks list below. Open the specimen and test with real text.
     list:
-      - { name: "Sans: Public Sans", url: "https://fonts.google.com/specimen/Public+Sans", search: "Public Sans font", licence: OFL, status: candidate }
-      - { name: "Sans: IBM Plex Sans", url: "https://fonts.google.com/specimen/IBM+Plex+Sans", search: "IBM Plex Sans font", licence: OFL, status: candidate }
-      - { name: "Sans: Work Sans", url: "https://fonts.google.com/specimen/Work+Sans", search: "Work Sans font", licence: OFL, status: candidate }
-      - { name: "Sans: Hanken Grotesk", url: "https://fonts.google.com/specimen/Hanken+Grotesk", search: "Hanken Grotesk font", licence: OFL, status: candidate }
-      - { name: "Sans: Instrument Sans", url: "https://fonts.google.com/specimen/Instrument+Sans", search: "Instrument Sans font", licence: OFL, status: candidate }
-      - { name: "Sans: Schibsted Grotesk", url: "https://fonts.google.com/specimen/Schibsted+Grotesk", search: "Schibsted Grotesk font", licence: OFL, status: candidate }
-      - { name: "Sans: Archivo", url: "https://fonts.google.com/specimen/Archivo", search: "Archivo font", licence: OFL, status: candidate }
-      - { name: "Serif: Source Serif 4", url: "https://fonts.google.com/specimen/Source+Serif+4", search: "Source Serif 4 font", licence: OFL, status: candidate }
-      - { name: "Serif: Newsreader", url: "https://fonts.google.com/specimen/Newsreader", search: "Newsreader font", licence: OFL, status: candidate }
-      - { name: "Serif: Fraunces", url: "https://fonts.google.com/specimen/Fraunces", search: "Fraunces font", licence: OFL, status: candidate }
-      - { name: "Serif: EB Garamond", url: "https://fonts.google.com/specimen/EB+Garamond", search: "EB Garamond font", licence: OFL, status: candidate }
-      - { name: "Serif: Literata", url: "https://fonts.google.com/specimen/Literata", search: "Literata font", licence: OFL, status: candidate }
-      - { name: "Serif: Spectral", url: "https://fonts.google.com/specimen/Spectral", search: "Spectral font", licence: OFL, status: candidate }
-      - { name: "Display: Syne", url: "https://fonts.google.com/specimen/Syne", search: "Syne font", licence: OFL, status: candidate }
-      - { name: "Display: Unbounded", url: "https://fonts.google.com/specimen/Unbounded", search: "Unbounded font", licence: OFL, status: candidate }
-      - { name: "Display: Big Shoulders Display", url: "https://fonts.google.com/specimen/Big+Shoulders", search: "Big Shoulders Display font", licence: OFL, status: candidate }
-      - { name: "Display: Bebas Neue", url: "https://fonts.google.com/specimen/Bebas+Neue", search: "Bebas Neue font", licence: OFL, status: candidate }
-      - { name: "Display: Anton", url: "https://fonts.google.com/specimen/Anton", search: "Anton font", licence: OFL, status: candidate }
-      - { name: "Mono: Space Mono", url: "https://fonts.google.com/specimen/Space+Mono", search: "Space Mono font", licence: OFL, status: candidate }
-      - { name: "Mono: Fira Code", url: "https://fonts.google.com/specimen/Fira+Code", search: "Fira Code font", licence: OFL, status: candidate }
-      - { name: "Mono: Red Hat Mono", url: "https://fonts.google.com/specimen/Red+Hat+Mono", search: "Red Hat Mono font", licence: OFL, status: candidate }
-      - { name: "Mono: Martian Mono", url: "https://fonts.google.com/specimen/Martian+Mono", search: "Martian Mono font", licence: OFL, status: candidate }
-      - { name: "Handwriting: Caveat", url: "https://fonts.google.com/specimen/Caveat", search: "Caveat font", licence: OFL, status: candidate }
-      - { name: "Handwriting: Kalam", url: "https://fonts.google.com/specimen/Kalam", search: "Kalam font", licence: OFL, status: candidate }
-      - { name: "Handwriting: Patrick Hand", url: "https://fonts.google.com/specimen/Patrick+Hand", search: "Patrick Hand font", licence: OFL, status: candidate }
+      - { name: "Sans: Public Sans", url: "https://fonts.google.com/specimen/Public+Sans", search: "Public Sans font", licence: OFL, status: candidate, checked: 2026-11-26 }
+      - { name: "Sans: IBM Plex Sans", url: "https://fonts.google.com/specimen/IBM+Plex+Sans", search: "IBM Plex Sans font", licence: OFL, status: candidate, checked: 2026-11-26 }
+      - { name: "Sans: Work Sans", url: "https://fonts.google.com/specimen/Work+Sans", search: "Work Sans font", licence: OFL, status: candidate, checked: 2026-11-26 }
+      - { name: "Sans: Hanken Grotesk", url: "https://fonts.google.com/specimen/Hanken+Grotesk", search: "Hanken Grotesk font", licence: OFL, status: candidate, checked: 2026-11-26 }
+      - { name: "Sans: Instrument Sans", url: "https://fonts.google.com/specimen/Instrument+Sans", search: "Instrument Sans font", licence: OFL, status: candidate, checked: 2026-11-26 }
+      - { name: "Sans: Schibsted Grotesk", url: "https://fonts.google.com/specimen/Schibsted+Grotesk", search: "Schibsted Grotesk font", licence: OFL, status: candidate, checked: 2026-11-26 }
+      - { name: "Sans: Archivo", url: "https://fonts.google.com/specimen/Archivo", search: "Archivo font", licence: OFL, status: candidate, checked: 2026-11-26 }
+      - { name: "Serif: Source Serif 4", url: "https://fonts.google.com/specimen/Source+Serif+4", search: "Source Serif 4 font", licence: OFL, status: candidate, checked: 2026-11-26 }
+      - { name: "Serif: Newsreader", url: "https://fonts.google.com/specimen/Newsreader", search: "Newsreader font", licence: OFL, status: candidate, checked: 2026-11-26 }
+      - { name: "Serif: Fraunces", url: "https://fonts.google.com/specimen/Fraunces", search: "Fraunces font", licence: OFL, status: candidate, checked: 2026-11-26 }
+      - { name: "Serif: EB Garamond", url: "https://fonts.google.com/specimen/EB+Garamond", search: "EB Garamond font", licence: OFL, status: candidate, checked: 2026-11-26 }
+      - { name: "Serif: Literata", url: "https://fonts.google.com/specimen/Literata", search: "Literata font", licence: OFL, status: candidate, checked: 2026-11-26 }
+      - { name: "Serif: Spectral", url: "https://fonts.google.com/specimen/Spectral", search: "Spectral font", licence: OFL, status: candidate, checked: 2026-11-26 }
+      - { name: "Display: Syne", url: "https://fonts.google.com/specimen/Syne", search: "Syne font", licence: OFL, status: candidate, checked: 2026-11-26 }
+      - { name: "Display: Unbounded", url: "https://fonts.google.com/specimen/Unbounded", search: "Unbounded font", licence: OFL, status: candidate, checked: 2026-11-26 }
+      - { name: "Display: Big Shoulders Display", url: "https://fonts.google.com/specimen/Big+Shoulders", search: "Big Shoulders Display font", licence: OFL, status: candidate, checked: 2026-11-26 }
+      - { name: "Display: Bebas Neue", url: "https://fonts.google.com/specimen/Bebas+Neue", search: "Bebas Neue font", licence: OFL, status: candidate, checked: 2026-11-26 }
+      - { name: "Display: Anton", url: "https://fonts.google.com/specimen/Anton", search: "Anton font", licence: OFL, status: candidate, checked: 2026-11-26 }
+      - { name: "Mono: Space Mono", url: "https://fonts.google.com/specimen/Space+Mono", search: "Space Mono font", licence: OFL, status: candidate, checked: 2026-11-26 }
+      - { name: "Mono: Fira Code", url: "https://fonts.google.com/specimen/Fira+Code", search: "Fira Code font", licence: OFL, status: candidate, checked: 2026-11-26 }
+      - { name: "Mono: Red Hat Mono", url: "https://fonts.google.com/specimen/Red+Hat+Mono", search: "Red Hat Mono font", licence: OFL, status: candidate, checked: 2026-11-26 }
+      - { name: "Mono: Martian Mono", url: "https://fonts.google.com/specimen/Martian+Mono", search: "Martian Mono font", licence: OFL, status: candidate, checked: 2026-11-26 }
+      - { name: "Handwriting: Caveat", url: "https://fonts.google.com/specimen/Caveat", search: "Caveat font", licence: OFL, status: candidate, checked: 2026-11-26 }
+      - { name: "Handwriting: Kalam", url: "https://fonts.google.com/specimen/Kalam", search: "Kalam font", licence: OFL, status: candidate, checked: 2026-11-26 }
+      - { name: "Handwriting: Patrick Hand", url: "https://fonts.google.com/specimen/Patrick+Hand", search: "Patrick Hand font", licence: OFL, status: candidate, checked: 2026-11-26 }
 
   - name: Type scale and fitting tools
     list:
-      - { name: Utopia, url: "https://utopia.fyi", search: "Utopia fluid type scale", licence: free tool, note: "fluid type and space scales in CSS clamp()", status: candidate }
-      - { name: Typescale, url: "https://typescale.com", search: "Typescale type scale generator", licence: free tool, status: candidate }
-      - { name: Capsize, url: "https://seek-oss.github.io/capsize/", search: "Capsize SEEK text trimming", licence: MIT, install: "npm i @capsizecss/core", note: "trims the extra space above and below text so it aligns", status: candidate }
+      - { name: Utopia, url: "https://utopia.fyi", search: "Utopia fluid type scale", licence: free tool, note: "fluid type and space scales in CSS clamp()", status: candidate, checked: 2026-11-26 }
+      - { name: Typescale, url: "https://typescale.com", search: "Typescale type scale generator", licence: free tool, status: candidate, checked: 2026-11-26 }
+      - { name: Capsize, url: "https://seek-oss.github.io/capsize/", search: "Capsize SEEK text trimming", licence: MIT, install: "npm i @capsizecss/core", note: "trims the extra space above and below text so it aligns", status: candidate, checked: 2026-11-26 }
 
   - name: Common AI picks
     note: "Fine when chosen on purpose for this product; don't default to them. Same list as design-studio's font picker: Inter, Geist, Space Grotesk, Instrument Serif, Outfit, Plus Jakarta Sans, DM Sans, Manrope, Bricolage Grotesque, Sora, Urbanist, Poppins, Montserrat, Roboto, Open Sans, Lato, Playfair Display, IBM Plex Mono, JetBrains Mono."
