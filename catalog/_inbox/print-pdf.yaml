@@ -24,7 +24,7 @@ proposals:
     npm_error: 429
   problems:
   - link returned 404
-  attempts: 1
+  attempts: 2
 - branch: print-pdf
   section: Make PDFs
   tier: more
@@ -45,7 +45,7 @@ proposals:
     gh_license: NOASSERTION
   problems:
   - license has no evidence (add license_url)
-  attempts: 1
+  attempts: 2
 - branch: print-pdf
   section: Make PDFs
   tier: paid
@@ -60,7 +60,7 @@ proposals:
     link: 200
   problems:
   - license has no evidence (add license_url)
-  attempts: 1
+  attempts: 2
 - branch: print-pdf
   section: Edit and merge
   tier: alternatives
@@ -81,7 +81,7 @@ proposals:
     gh_license: NOASSERTION
   problems:
   - license has no evidence (add license_url)
-  attempts: 1
+  attempts: 2
 - branch: print-pdf
   section: Edit and merge
   tier: more
@@ -104,7 +104,7 @@ proposals:
     npm_error: 429
   problems:
   - under 100 stars and 500 weekly downloads
-  attempts: 1
+  attempts: 2
 - branch: print-pdf
   section: Edit and merge
   tier: big_lists
@@ -124,7 +124,7 @@ proposals:
   problems:
   - license says 'list' but gh_license is CC0-1.0
   - under 100 stars and 500 weekly downloads
-  attempts: 1
+  attempts: 2
 - branch: print-pdf
   section: Edit and merge
   tier: paid
@@ -140,7 +140,7 @@ proposals:
   problems:
   - link returned 403
   - license has no evidence (add license_url)
-  attempts: 1
+  attempts: 2
 - branch: print-pdf
   section: Read and extract
   tier: big_lists
@@ -159,7 +159,7 @@ proposals:
     gh_license: BSD-3-Clause
   problems:
   - license says 'list' but gh_license is BSD-3-Clause
-  attempts: 1
+  attempts: 2
 - branch: print-pdf
   section: Templates
   tier: default
@@ -182,7 +182,7 @@ proposals:
     gh_license: Apache-2.0
   problems:
   - license says 'per package (each lists its own, mostly MIT, Apache or MIT-0)' but gh_license is Apache-2.0
-  attempts: 1
+  attempts: 2
 - branch: print-pdf
   section: Templates
   tier: alternatives
@@ -202,7 +202,7 @@ proposals:
     gh_license: MIT-0
   problems:
   - license says 'not stated on the repo page; check LICENSE' but gh_license is MIT-0
-  attempts: 1
+  attempts: 2
 - branch: print-pdf
   section: Templates
   tier: big_lists
@@ -221,7 +221,7 @@ proposals:
     gh_license: CC0-1.0
   problems:
   - license says 'list' but gh_license is CC0-1.0
-  attempts: 1
+  attempts: 2
 - branch: print-pdf
   section: Print and layout tools
   tier: alternatives
@@ -240,7 +240,7 @@ proposals:
     license_link: 404
   problems:
   - license has no evidence (add license_url)
-  attempts: 1
+  attempts: 2
 - branch: print-pdf
   section: Print and layout tools
   tier: alternatives
@@ -258,7 +258,7 @@ proposals:
   problems:
   - link returned 404
   - license has no evidence (add license_url)
-  attempts: 1
+  attempts: 2
 - branch: print-pdf
   section: Print and layout tools
   tier: more
@@ -276,4 +276,4 @@ proposals:
   problems:
   - link returned URLError
   - license has no evidence (add license_url)
-  attempts: 1
+  attempts: 2

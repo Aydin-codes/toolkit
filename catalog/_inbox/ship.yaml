@@ -24,7 +24,7 @@ proposals:
     npm_error: 429
   problems:
   - license says 'ISC (CLI); Railway hosting is paid after a trial' but gh_license is MIT
-  attempts: 1
+  attempts: 2
 - branch: ship
   section: Hosting
   tier: more
@@ -39,7 +39,7 @@ proposals:
     link: 200
   problems:
   - license has no evidence (add license_url)
-  attempts: 1
+  attempts: 2
 - branch: ship
   section: Hosting
   tier: big_lists
@@ -59,7 +59,7 @@ proposals:
     gh_license: null
   problems:
   - license has no evidence (add license_url)
-  attempts: 1
+  attempts: 2
 - branch: ship
   section: CI and automation
   tier: alternatives
@@ -75,7 +75,7 @@ proposals:
     link: 200
   problems:
   - license has no evidence (add license_url)
-  attempts: 1
+  attempts: 2
 - branch: ship
   section: Analytics
   tier: alternatives
@@ -101,7 +101,7 @@ proposals:
     npm_error: 429
   problems:
   - license says 'free tier, then paid; posthog-js is Apache-2.0 AND MIT' but npm_license is (Apache-2.0 AND MIT)
-  attempts: 1
+  attempts: 2
 - branch: ship
   section: Error tracking and monitoring
   tier: alternatives
@@ -127,7 +127,7 @@ proposals:
     npm_error: 429
   problems:
   - under 100 stars and 500 weekly downloads
-  attempts: 1
+  attempts: 2
 - branch: ship
   section: SEO and sharing
   tier: alternatives
@@ -150,4 +150,4 @@ proposals:
   problems:
   - link returned 404
   - under 100 stars and 500 weekly downloads
-  attempts: 1
+  attempts: 2

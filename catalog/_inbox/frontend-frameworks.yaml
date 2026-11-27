@@ -24,7 +24,7 @@ proposals:
     npm_error: 429
   problems:
   - link returned 404
-  attempts: 1
+  attempts: 2
 - branch: frontend/frameworks
   branch_title: Frameworks and front-end libraries
   section: Web frameworks
@@ -46,7 +46,7 @@ proposals:
     gh_license: MIT
   problems:
   - license says 'list' but gh_license is MIT
-  attempts: 1
+  attempts: 2
 - branch: frontend/frameworks
   branch_title: Frameworks and front-end libraries
   section: Build tools
@@ -68,7 +68,7 @@ proposals:
     gh_license: MIT
   problems:
   - license says 'list' but gh_license is MIT
-  attempts: 1
+  attempts: 2
 - branch: frontend/frameworks
   branch_title: Frameworks and front-end libraries
   section: Styling
@@ -90,7 +90,7 @@ proposals:
     gh_license: CC0-1.0
   problems:
   - license says 'list' but gh_license is CC0-1.0
-  attempts: 1
+  attempts: 2
 - branch: frontend/frameworks
   branch_title: Frameworks and front-end libraries
   section: Forms and validation
@@ -112,4 +112,4 @@ proposals:
     gh_license: CC0-1.0
   problems:
   - license says 'list' but gh_license is CC0-1.0
-  attempts: 1
+  attempts: 2

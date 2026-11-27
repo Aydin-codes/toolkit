@@ -25,7 +25,7 @@ proposals:
     npm_error: 429
   problems:
   - 'license says ''free, not open source (GSAP Standard "No Charge" license, owned by Webflow)'' but npm_license is Standard ''no charge'' license: https://gsap.com/standard-license.'
-  attempts: 1
+  attempts: 2
 - branch: frontend/motion
   section: Animation libraries
   tier: big_lists
@@ -44,30 +44,7 @@ proposals:
     gh_license: CC0-1.0
   problems:
   - license says 'list' but gh_license is CC0-1.0
-  attempts: 1
-- branch: frontend/motion
-  section: Text and background effects
-  tier: alternatives
-  name: React Bits
-  url: https://reactbits.dev
-  repo: DavidHDev/react-bits
-  search: React Bits animated React components DavidHDev
-  license: MIT + Commons Clause
-  install: npx shadcn@latest add @react-bits/<Component>-TS-TW (or jsrepo, or copy)
-  use_when: you want animated text and WebGL-style backgrounds for React; may be used in projects but not resold or redistributed as a library
-  never_copy: true
-  note: Vue version is DavidHDev/vue-bits.
-  status: candidate
-  facts:
-    checked: '2026-11-27'
-    link: 200
-    stars: 52839
-    pushed: '2026-11-26'
-    archived: false
-    gh_license: NOASSERTION
-  problems:
-  - license has no evidence (add license_url)
-  attempts: 1
+  attempts: 2
 - branch: frontend/motion
   section: Text and background effects
   tier: big_lists
@@ -86,7 +63,7 @@ proposals:
     gh_license: null
   problems:
   - license has no evidence (add license_url)
-  attempts: 1
+  attempts: 2
 - branch: frontend/motion
   section: Shaders and WebGL backgrounds
   tier: alternatives
@@ -111,7 +88,7 @@ proposals:
     npm_error: 429
   problems:
   - no updates in the last year
-  attempts: 1
+  attempts: 2
 - branch: frontend/motion
   section: Shaders and WebGL backgrounds
   tier: more
@@ -127,7 +104,7 @@ proposals:
   problems:
   - link returned 403
   - license has no evidence (add license_url)
-  attempts: 1
+  attempts: 2
 - branch: frontend/motion
   section: Smooth scroll and scroll effects
   tier: alternatives
@@ -154,7 +131,7 @@ proposals:
     npm_error: 429
   problems:
   - 'license says ''free, not open source (GSAP Standard "No Charge" license)'' but npm_license is Standard ''no charge'' license: https://gsap.com/standard-license.'
-  attempts: 1
+  attempts: 2
 - branch: frontend/motion
   section: Smooth scroll and scroll effects
   tier: alternatives
@@ -169,7 +146,7 @@ proposals:
     link: 200
   problems:
   - license has no evidence (add license_url)
-  attempts: 1
+  attempts: 2
 - branch: frontend/motion
   section: Smooth scroll and scroll effects
   tier: more
@@ -184,7 +161,7 @@ proposals:
     link: 200
   problems:
   - license has no evidence (add license_url)
-  attempts: 1
+  attempts: 2
 - branch: frontend/motion
   section: Lottie and Rive
   tier: alternatives
@@ -209,7 +186,7 @@ proposals:
     npm_error: 429
   problems:
   - no updates in the last year
-  attempts: 1
+  attempts: 2
 - branch: frontend/motion
   section: Lottie and Rive
   tier: big_lists
@@ -228,4 +205,4 @@ proposals:
     gh_license: null
   problems:
   - license has no evidence (add license_url)
-  attempts: 1
+  attempts: 2

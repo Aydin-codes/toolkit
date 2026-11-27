@@ -21,7 +21,7 @@ proposals:
     gh_license: MIT
   problems:
   - license says 'free and open source (check repo license)' but gh_license is MIT
-  attempts: 1
+  attempts: 2
 - branch: frontend/ui
   branch_title: UI components and icons
   section: Animated kits
@@ -44,7 +44,7 @@ proposals:
     gh_license: MIT
   problems:
   - license says 'free, open source (license not confirmed)' but gh_license is MIT
-  attempts: 1
+  attempts: 2
 - branch: frontend/ui
   branch_title: UI components and icons
   section: Animated kits
@@ -65,7 +65,7 @@ proposals:
     license_link: URLError
   problems:
   - license has no evidence (add license_url)
-  attempts: 1
+  attempts: 2
 - branch: frontend/ui
   branch_title: UI components and icons
   section: Blocks and sections
@@ -83,7 +83,7 @@ proposals:
     link: 200
   problems:
   - license has no evidence (add license_url)
-  attempts: 1
+  attempts: 2
 - branch: frontend/ui
   branch_title: UI components and icons
   section: Blocks and sections
@@ -101,7 +101,7 @@ proposals:
     link: 200
   problems:
   - license has no evidence (add license_url)
-  attempts: 1
+  attempts: 2
 - branch: frontend/ui
   branch_title: UI components and icons
   section: Blocks and sections
@@ -119,7 +119,7 @@ proposals:
     link: 200
   problems:
   - license has no evidence (add license_url)
-  attempts: 1
+  attempts: 2
 - branch: frontend/ui
   branch_title: UI components and icons
   section: Icons
@@ -142,7 +142,7 @@ proposals:
     gh_license: NOASSERTION
   problems:
   - no updates in the last year
-  attempts: 1
+  attempts: 2
 - branch: frontend/ui
   branch_title: UI components and icons
   section: Icons
@@ -166,7 +166,7 @@ proposals:
     npm_error: 429
   problems:
   - license says 'list; license shown per set' but npm_license is MIT
-  attempts: 1
+  attempts: 2
 - branch: frontend/ui
   branch_title: UI components and icons
   section: Component registries and directories
@@ -183,7 +183,7 @@ proposals:
     link: 200
   problems:
   - license has no evidence (add license_url)
-  attempts: 1
+  attempts: 2
 - branch: frontend/ui
   branch_title: UI components and icons
   section: Component registries and directories
@@ -201,7 +201,7 @@ proposals:
     link: 200
   problems:
   - license has no evidence (add license_url)
-  attempts: 1
+  attempts: 2
 - branch: frontend/ui
   branch_title: UI components and icons
   section: Component registries and directories
@@ -218,7 +218,7 @@ proposals:
     link: 200
   problems:
   - license has no evidence (add license_url)
-  attempts: 1
+  attempts: 2
 - branch: frontend/ui
   branch_title: UI components and icons
   section: Component registries and directories
@@ -234,4 +234,4 @@ proposals:
     link: 200
   problems:
   - license has no evidence (add license_url)
-  attempts: 1
+  attempts: 2

@@ -24,7 +24,7 @@ proposals:
     npm_weekly: 1063075
   problems:
   - no updates in the last year
-  attempts: 1
+  attempts: 2
 - branch: frontend/3d
   branch_title: 3D on the web
   section: Engines
@@ -44,7 +44,7 @@ proposals:
     gh_license: CC0-1.0
   problems:
   - license says 'list' but gh_license is CC0-1.0
-  attempts: 1
+  attempts: 2
 - branch: frontend/3d
   branch_title: 3D on the web
   section: Engines
@@ -64,7 +64,7 @@ proposals:
     gh_license: CC0-1.0
   problems:
   - license says 'list' but gh_license is CC0-1.0
-  attempts: 1
+  attempts: 2
 - branch: frontend/3d
   branch_title: 3D on the web
   section: React helpers
@@ -90,7 +90,7 @@ proposals:
     npm_weekly: 1295934
   problems:
   - no updates in the last year
-  attempts: 1
+  attempts: 2
 - branch: frontend/3d
   branch_title: 3D on the web
   section: React helpers
@@ -116,7 +116,7 @@ proposals:
     npm_weekly: 47570
   problems:
   - no updates in the last year
-  attempts: 1
+  attempts: 2
 - branch: frontend/3d
   branch_title: 3D on the web
   section: Physics
@@ -143,7 +143,7 @@ proposals:
     npm_weekly: 2162
   problems:
   - license has no evidence (add license_url)
-  attempts: 1
+  attempts: 2
 - branch: frontend/3d
   branch_title: 3D on the web
   section: Model tools and compression
@@ -163,7 +163,7 @@ proposals:
     license_link: 200
   problems:
   - link returned 403
-  attempts: 1
+  attempts: 2
 - branch: frontend/3d
   branch_title: 3D on the web
   section: Model tools and compression
@@ -189,4 +189,4 @@ proposals:
     npm_weekly: 26942
   problems:
   - no updates in the last year
-  attempts: 1
+  attempts: 2

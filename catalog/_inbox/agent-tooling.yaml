@@ -1,31 +1,5 @@
 proposals:
 - branch: agent-tooling
-  branch_title: Agent tooling
-  section: MCP servers and connectors
-  tier: default
-  name: MCP reference servers
-  url: https://github.com/modelcontextprotocol/servers
-  repo: modelcontextprotocol/servers
-  npm: '@modelcontextprotocol/server-filesystem'
-  search: modelcontextprotocol servers reference MCP servers
-  license: Apache-2.0 for new contributions, MIT for existing code
-  install: npx -y @modelcontextprotocol/server-<name> (filesystem, memory, sequential-thinking); fetch, git and time are Python (uvx)
-  use_when: you want the small reference set (Fetch, Filesystem, Git, Memory, Sequential Thinking, Time, Everything) or examples to build your own server
-  status: candidate
-  facts:
-    checked: '2026-11-27'
-    link: 200
-    stars: 92302
-    pushed: '2026-11-27'
-    archived: false
-    gh_license: NOASSERTION
-    npm_license: SEE LICENSE IN LICENSE
-    npm_modified: '2026-11-27'
-    npm_weekly: 1143812
-  problems:
-  - license says 'Apache-2.0 for new contributions, MIT for existing code' but npm_license is SEE LICENSE IN LICENSE
-  attempts: 1
-- branch: agent-tooling
   section: MCP servers and connectors
   tier: more
   name: Context Awesome
@@ -49,7 +23,7 @@ proposals:
     npm_weekly: 52
   problems:
   - under 100 stars and 500 weekly downloads
-  attempts: 1
+  attempts: 2
 - branch: agent-tooling
   section: MCP servers and connectors
   tier: paid
@@ -65,7 +39,7 @@ proposals:
     link: 200
   problems:
   - license has no evidence (add license_url)
-  attempts: 1
+  attempts: 2
 - branch: agent-tooling
   section: MCP servers and connectors
   tier: paid
@@ -86,7 +60,7 @@ proposals:
     gh_license: MIT
   problems:
   - under 100 stars and 500 weekly downloads
-  attempts: 1
+  attempts: 2
 - branch: agent-tooling
   section: MCP servers and connectors
   tier: big_lists
@@ -105,7 +79,7 @@ proposals:
     gh_license: NOASSERTION
   problems:
   - license has no evidence (add license_url)
-  attempts: 1
+  attempts: 2
 - branch: agent-tooling
   section: MCP servers and connectors
   tier: big_lists
@@ -124,7 +98,7 @@ proposals:
     gh_license: CC-BY-SA-4.0
   problems:
   - license says 'list' but gh_license is CC-BY-SA-4.0
-  attempts: 1
+  attempts: 2
 - branch: agent-tooling
   section: Skills
   tier: default
@@ -145,7 +119,7 @@ proposals:
     gh_license: null
   problems:
   - license has no evidence (add license_url)
-  attempts: 1
+  attempts: 2
 - branch: agent-tooling
   section: Plugins and marketplaces
   tier: default
@@ -166,7 +140,7 @@ proposals:
     gh_license: Apache-2.0
   problems:
   - license says 'per plugin (check each)' but gh_license is Apache-2.0
-  attempts: 1
+  attempts: 2
 - branch: agent-tooling
   section: Plugins and marketplaces
   tier: big_lists
@@ -180,7 +154,7 @@ proposals:
     link: 200
   problems:
   - license has no evidence (add license_url)
-  attempts: 1
+  attempts: 2
 - branch: agent-tooling
   section: Docs for agents
   tier: alternatives
@@ -195,4 +169,4 @@ proposals:
     link: 200
   problems:
   - license has no evidence (add license_url)
-  attempts: 1
+  attempts: 2

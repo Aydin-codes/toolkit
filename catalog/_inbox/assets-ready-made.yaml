@@ -19,7 +19,7 @@ proposals:
   problems:
   - link returned 401
   - license has no evidence (add license_url)
-  attempts: 1
+  attempts: 2
 - branch: assets/ready-made
   section: Photos
   tier: alternatives
@@ -39,7 +39,7 @@ proposals:
   problems:
   - link returned 403
   - license has no evidence (add license_url)
-  attempts: 1
+  attempts: 2
 - branch: assets/ready-made
   section: Photos
   tier: alternatives
@@ -60,7 +60,7 @@ proposals:
   problems:
   - link returned 403
   - license has no evidence (add license_url)
-  attempts: 1
+  attempts: 2
 - branch: assets/ready-made
   section: Photos
   tier: big_lists
@@ -79,7 +79,7 @@ proposals:
     gh_license: CC0-1.0
   problems:
   - license says 'list' but gh_license is CC0-1.0
-  attempts: 1
+  attempts: 2
 - branch: assets/ready-made
   section: Photos
   tier: paid
@@ -95,7 +95,7 @@ proposals:
     link: 200
   problems:
   - license has no evidence (add license_url)
-  attempts: 1
+  attempts: 2
 - branch: assets/ready-made
   section: Public domain and open collections
   tier: alternatives
@@ -119,7 +119,7 @@ proposals:
     gh_license: CC0-1.0
   problems:
   - license says 'CC0 (for works marked Open Access)' but gh_license is CC0-1.0
-  attempts: 1
+  attempts: 2
 - branch: assets/ready-made
   section: Public domain and open collections
   tier: alternatives
@@ -139,7 +139,7 @@ proposals:
   problems:
   - link returned 403
   - license has no evidence (add license_url)
-  attempts: 1
+  attempts: 2
 - branch: assets/ready-made
   section: Public domain and open collections
   tier: more
@@ -158,7 +158,7 @@ proposals:
   problems:
   - link returned 403
   - license has no evidence (add license_url)
-  attempts: 1
+  attempts: 2
 - branch: assets/ready-made
   section: 3D models
   tier: alternatives
@@ -174,7 +174,7 @@ proposals:
     link: 200
   problems:
   - license has no evidence (add license_url)
-  attempts: 1
+  attempts: 2
 - branch: assets/ready-made
   section: 3D models
   tier: more
@@ -193,4 +193,4 @@ proposals:
   problems:
   - link returned 403
   - license has no evidence (add license_url)
-  attempts: 1
+  attempts: 2

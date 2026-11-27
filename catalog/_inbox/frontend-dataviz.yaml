@@ -24,7 +24,7 @@ proposals:
     npm_error: 429
   problems:
   - no updates in the last year
-  attempts: 1
+  attempts: 2
 - branch: frontend/dataviz
   section: Charts
   tier: paid
@@ -47,7 +47,7 @@ proposals:
   problems:
   - license says 'paid for commercial use (free for some non-commercial use)' but npm_license is https://www.highcharts.com/license
   - under 100 stars and 500 weekly downloads
-  attempts: 1
+  attempts: 2
 - branch: frontend/dataviz
   section: Charts
   tier: big_lists
@@ -67,7 +67,7 @@ proposals:
   problems:
   - link returned 402
   - license has no evidence (add license_url)
-  attempts: 1
+  attempts: 2
 - branch: frontend/dataviz
   section: Maps
   tier: paid
@@ -93,7 +93,7 @@ proposals:
     npm_error: 429
   problems:
   - license says 'proprietary (Mapbox terms); needs a Mapbox account and token, billed by usage' but npm_license is SEE LICENSE IN LICENSE.txt
-  attempts: 1
+  attempts: 2
 - branch: frontend/dataviz
   section: Diagrams
   tier: more
@@ -118,7 +118,7 @@ proposals:
     npm_error: 429
   problems:
   - link returned 404
-  attempts: 1
+  attempts: 2
 - branch: frontend/dataviz
   section: Tables and grids
   tier: paid
@@ -144,4 +144,4 @@ proposals:
     npm_error: 429
   problems:
   - license says 'paid for commercial use (free non-commercial license)' but npm_license is SEE LICENSE IN LICENSE.txt
-  attempts: 1
+  attempts: 2

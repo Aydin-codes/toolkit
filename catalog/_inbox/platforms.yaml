@@ -23,7 +23,7 @@ proposals:
     npm_error: 429
   problems:
   - license says 'Apache-2.0' but gh_license is MIT
-  attempts: 1
+  attempts: 2
 - branch: platforms
   section: Mobile apps
   tier: more
@@ -38,7 +38,7 @@ proposals:
     link: 200
   problems:
   - license has no evidence (add license_url)
-  attempts: 1
+  attempts: 2
 - branch: platforms
   section: Mobile apps
   tier: paid
@@ -53,7 +53,7 @@ proposals:
     link: 200
   problems:
   - license has no evidence (add license_url)
-  attempts: 1
+  attempts: 2
 - branch: platforms
   section: Browser extensions
   tier: alternatives
@@ -78,7 +78,7 @@ proposals:
     npm_error: 429
   problems:
   - link returned URLError
-  attempts: 1
+  attempts: 2
 - branch: platforms
   section: Browser extensions
   tier: alternatives
@@ -93,7 +93,7 @@ proposals:
     link: 200
   problems:
   - license has no evidence (add license_url)
-  attempts: 1
+  attempts: 2
 - branch: platforms
   section: Browser extensions
   tier: alternatives
@@ -108,7 +108,7 @@ proposals:
     link: 200
   problems:
   - license has no evidence (add license_url)
-  attempts: 1
+  attempts: 2
 - branch: platforms
   section: Games
   tier: default
@@ -133,7 +133,7 @@ proposals:
     npm_error: 429
   problems:
   - link returned 403
-  attempts: 1
+  attempts: 2
 - branch: platforms
   section: Games
   tier: more
@@ -148,4 +148,4 @@ proposals:
     link: 200
   problems:
   - license has no evidence (add license_url)
-  attempts: 1
+  attempts: 2
