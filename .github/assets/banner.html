@@ -8,7 +8,7 @@
   Re-render with headless Chrome at 2x, e.g.:
     chrome --headless=new --force-device-scale-factor=2 --window-size=1440,360 --screenshot=banner.png banner.html
     chrome --headless=new --force-device-scale-factor=1 --window-size=1280,640 --screenshot=social-preview.png "banner.html#social"
-  The three entries on the right are real catalog entries (catalog/frontend/type.yaml).
+  The logo is logo.svg in this folder. The three entries on the right are real catalog entries (catalog/frontend/type.yaml).
 -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;700;800&display=swap">
 <style>
@@ -16,7 +16,9 @@
   * { box-sizing:border-box; margin:0; }
   html, body { width:1440px; height:360px; background:var(--bg); font-family:"Public Sans", system-ui, sans-serif; color:var(--ink); overflow:hidden; }
   .wrap { height:100%; display:flex; align-items:center; justify-content:space-between; padding:0 80px; }
-  h1 { font-size:96px; font-weight:800; letter-spacing:-0.045em; line-height:1; }
+  h1 { font-size:96px; font-weight:800; letter-spacing:-0.045em; line-height:1; display:flex; align-items:center; gap:24px; }
+  h1 img { width:92px; height:92px; flex:none; }
+  .count { margin-top:12px; font-size:18px; font-weight:500; color:var(--ink); }
   p { margin-top:18px; font-size:24px; color:var(--muted); }
   .list { width:430px; display:grid; gap:12px; }
   .e { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px 18px; display:flex; align-items:center; justify-content:space-between; gap:12px; }
@@ -30,13 +32,15 @@
   .social, .social body { width:1280px; height:640px; }
   .social .wrap { padding:0 80px; }
   .social h1 { font-size:104px; }
+  .social h1 img { width:100px; height:100px; }
 </style>
 </head>
 <body>
 <div class="wrap">
   <div>
-    <h1>toolkit</h1>
+    <h1><img src="logo.svg" alt="">toolkit</h1>
     <p>What exists. How to pick. How to check.</p>
+    <p class="count">2,300+ entries, each with a link and a license</p>
   </div>
   <div class="list">
     <div class="e"><b>Google Fonts</b><span><i class="chip">mostly OFL</i><i class="ok">checked</i></span></div>
