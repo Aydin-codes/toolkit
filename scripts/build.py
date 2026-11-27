@@ -4,17 +4,21 @@
   python scripts/build.py          write the pages
   python scripts/build.py --check  fail if a page is out of date or an entry is invalid (used in CI)
 """
+import json
 import sys
 from pathlib import Path
 
 import yaml
+
+from catalog import branch_files, walk
 
 ROOT = Path(__file__).resolve().parent.parent
 CATALOG = ROOT / "catalog"
 OUT = ROOT / "reference"
 REQUIRED = ("name", "url", "search", "license", "status")
 STATUSES = {"candidate", "verified", "declining"}
-TIERS = ("default", "alternatives", "big_lists", "paid", "list")
+TIERS = ("default", "alternatives", "more", "big_lists", "paid", "list")
+INDEX = CATALOG / "index.json"
 
 
 def entry_errors(e, where):
@@ -23,7 +27,25 @@ def entry_errors(e, where):
         errs.append(f"{where}: status must be one of {sorted(STATUSES)}")
     if e.get("url") and not str(e["url"]).startswith("https://"):
         errs.append(f"{where}: url must start with https://")
+    if e.get("verified_by") not in (None, "auto", "human"):
+        errs.append(f"{where}: verified_by must be auto or human")
     return errs
+
+
+def short(n):
+    return f"{n / 1000:.1f}k".replace(".0k", "k") if n >= 1000 else str(n)
+
+
+def facts_text(e):
+    f = e.get("facts") or {}
+    bits = []
+    if f.get("stars"):
+        bits.append(f"{short(f['stars'])} stars")
+    if f.get("npm_weekly"):
+        bits.append(f"{short(f['npm_weekly'])} npm downloads/week")
+    if f.get("pushed"):
+        bits.append(f"updated {f['pushed'][:7]}")
+    return f" ({', '.join(bits)})" if bits else ""
 
 
 def line(e, with_use_when=False):
@@ -37,8 +59,11 @@ def line(e, with_use_when=False):
         s += " **Use only from the source; never copy its files or code into another repo.**"
     if e.get("note"):
         s += f" {e['note']}"
+    s += facts_text(e)
     if e["status"] != "verified":
         s += f" *({e['status']})*"
+    elif e.get("verified_by") == "auto":
+        s += " *(auto-checked)*"
     return s
 
 
@@ -47,9 +72,9 @@ def render(doc, src):
         f"# {doc['title']}",
         "",
         f"<!-- Generated from {src}. Edit the YAML, then run: python scripts/build.py -->",
-        "",
-        doc.get("intro", "").strip(),
     ]
+    if (doc.get("intro") or "").strip():
+        out += ["", doc["intro"].strip()]
     if doc.get("notice"):
         out += ["", f"> **Note:** {doc['notice'].strip()}"]
     out.append("")
@@ -61,6 +86,8 @@ def render(doc, src):
             out += ["**Default**", "", line(sec["default"]), ""]
         if sec.get("alternatives"):
             out += ["**Strong alternatives**", ""] + [line(e, True) for e in sec["alternatives"]] + [""]
+        if sec.get("more"):
+            out += ["**More options**", ""] + [line(e, True) for e in sec["more"]] + [""]
         if sec.get("big_lists"):
             out += ["**Big lists**", ""] + [line(e) for e in sec["big_lists"]] + [""]
         if sec.get("list"):
@@ -73,7 +100,8 @@ def render(doc, src):
 def main():
     check = "--check" in sys.argv
     errors, stale, counts = [], [], {s: 0 for s in STATUSES}
-    for path in sorted(CATALOG.rglob("*.yaml")):
+    index = []
+    for path in branch_files():
         rel = path.relative_to(ROOT).as_posix()
         doc = yaml.safe_load(path.read_text(encoding="utf-8"))
         for k in ("branch", "title", "sections"):
@@ -95,6 +123,15 @@ def main():
                     names.add(e.get("name"))
                     if e.get("status") in counts:
                         counts[e["status"]] += 1
+                    f = e.get("facts") or {}
+                    index.append({k: v for k, v in {
+                        "name": e.get("name"), "url": e.get("url"), "branch": doc.get("branch"),
+                        "section": sec.get("name"), "tier": tier, "license": e.get("license"),
+                        "status": e.get("status"), "verified_by": e.get("verified_by"),
+                        "use_when": e.get("use_when"), "install": e.get("install"), "note": e.get("note"),
+                        "never_copy": e.get("never_copy"), "stars": f.get("stars"),
+                        "npm_weekly": f.get("npm_weekly"), "updated": f.get("pushed") or f.get("npm_modified"),
+                    }.items() if v not in (None, "", False)})
         if errors:
             continue
         target = OUT / f"{doc['branch']}.md"
@@ -106,6 +143,13 @@ def main():
             target.parent.mkdir(parents=True, exist_ok=True)
             target.write_text(text, encoding="utf-8")
             print("wrote", target.relative_to(ROOT).as_posix())
+    index_text = json.dumps(index, ensure_ascii=False, indent=0) + "\n"
+    if not errors:
+        if check:
+            if not INDEX.exists() or INDEX.read_text(encoding="utf-8") != index_text:
+                stale.append("catalog/index.json")
+        else:
+            INDEX.write_text(index_text, encoding="utf-8")
     for e in errors:
         print("ERROR", e)
     for s in stale:

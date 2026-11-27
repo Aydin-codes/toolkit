@@ -1,0 +1,382 @@
+[
+{
+"name": "Google Fonts",
+"url": "https://fonts.google.com",
+"branch": "frontend/type",
+"section": "Font sources",
+"tier": "default",
+"license": "mostly OFL (check each family)",
+"status": "candidate",
+"install": "CDN link, or self-host through Fontsource"
+},
+{
+"name": "Fontsource",
+"url": "https://fontsource.org",
+"branch": "frontend/type",
+"section": "Font sources",
+"tier": "alternatives",
+"license": "per font, mostly OFL",
+"status": "candidate",
+"use_when": "you want to self-host Google and other open fonts as npm packages",
+"install": "npm i @fontsource/<font>"
+},
+{
+"name": "Fontshare",
+"url": "https://www.fontshare.com",
+"branch": "frontend/type",
+"section": "Font sources",
+"tier": "alternatives",
+"license": "free, not open source (ITF license); load from Fontshare's CDN, don't redistribute",
+"status": "candidate",
+"use_when": "you want high-quality free fonts that aren't on Google Fonts",
+"install": "CDN link from fontshare.com",
+"never_copy": true
+},
+{
+"name": "Velvetyne",
+"url": "https://velvetyne.fr",
+"branch": "frontend/type",
+"section": "Font sources",
+"tier": "alternatives",
+"license": "OFL",
+"status": "candidate",
+"use_when": "you want experimental, characterful display faces",
+"install": "download"
+},
+{
+"name": "Collletttivo",
+"url": "https://www.collletttivo.it",
+"branch": "frontend/type",
+"section": "Font sources",
+"tier": "alternatives",
+"license": "OFL",
+"status": "candidate",
+"use_when": "you want contemporary open-source faces from independent designers",
+"install": "download"
+},
+{
+"name": "Uncut",
+"url": "https://uncut.wtf",
+"branch": "frontend/type",
+"section": "Font sources",
+"tier": "alternatives",
+"license": "OFL (check each)",
+"status": "candidate",
+"use_when": "you want a curated catalogue of contemporary libre fonts",
+"install": "download from each font's page"
+},
+{
+"name": "Velvetyne Libre Friends",
+"url": "https://velvetyne.fr/velvetyne-libre-friends",
+"branch": "frontend/type",
+"section": "Font sources",
+"tier": "big_lists",
+"license": "list of OFL / libre foundries",
+"status": "candidate"
+},
+{
+"name": "Free Faces",
+"url": "https://www.freefaces.gallery",
+"branch": "frontend/type",
+"section": "Font sources",
+"tier": "big_lists",
+"license": "mixed; check each font",
+"status": "candidate"
+},
+{
+"name": "awesome-typography",
+"url": "https://github.com/Jolg42/awesome-typography",
+"branch": "frontend/type",
+"section": "Font sources",
+"tier": "big_lists",
+"license": "list",
+"status": "candidate"
+},
+{
+"name": "Adobe Fonts",
+"url": "https://fonts.adobe.com",
+"branch": "frontend/type",
+"section": "Font sources",
+"tier": "paid",
+"license": "paid (with a Creative Cloud plan)",
+"status": "candidate",
+"note": "Free option: Google Fonts or Fontshare."
+},
+{
+"name": "Open Foundry",
+"url": "https://open-foundry.com",
+"branch": "frontend/type",
+"section": "More libre foundries",
+"tier": "list",
+"license": "OFL",
+"status": "candidate",
+"use_when": "you want to test fonts on a clean specimen page first",
+"install": "download"
+},
+{
+"name": "The League of Moveable Type",
+"url": "https://www.theleagueofmoveabletype.com",
+"branch": "frontend/type",
+"section": "More libre foundries",
+"tier": "list",
+"license": "OFL",
+"status": "candidate",
+"use_when": "you want classic, well-made open-source faces",
+"install": "download"
+},
+{
+"name": "Sans: Public Sans",
+"url": "https://fonts.google.com/specimen/Public+Sans",
+"branch": "frontend/type",
+"section": "Starting picks by style",
+"tier": "list",
+"license": "OFL",
+"status": "candidate"
+},
+{
+"name": "Sans: IBM Plex Sans",
+"url": "https://fonts.google.com/specimen/IBM+Plex+Sans",
+"branch": "frontend/type",
+"section": "Starting picks by style",
+"tier": "list",
+"license": "OFL",
+"status": "candidate"
+},
+{
+"name": "Sans: Work Sans",
+"url": "https://fonts.google.com/specimen/Work+Sans",
+"branch": "frontend/type",
+"section": "Starting picks by style",
+"tier": "list",
+"license": "OFL",
+"status": "candidate"
+},
+{
+"name": "Sans: Hanken Grotesk",
+"url": "https://fonts.google.com/specimen/Hanken+Grotesk",
+"branch": "frontend/type",
+"section": "Starting picks by style",
+"tier": "list",
+"license": "OFL",
+"status": "candidate"
+},
+{
+"name": "Sans: Instrument Sans",
+"url": "https://fonts.google.com/specimen/Instrument+Sans",
+"branch": "frontend/type",
+"section": "Starting picks by style",
+"tier": "list",
+"license": "OFL",
+"status": "candidate"
+},
+{
+"name": "Sans: Schibsted Grotesk",
+"url": "https://fonts.google.com/specimen/Schibsted+Grotesk",
+"branch": "frontend/type",
+"section": "Starting picks by style",
+"tier": "list",
+"license": "OFL",
+"status": "candidate"
+},
+{
+"name": "Sans: Archivo",
+"url": "https://fonts.google.com/specimen/Archivo",
+"branch": "frontend/type",
+"section": "Starting picks by style",
+"tier": "list",
+"license": "OFL",
+"status": "candidate"
+},
+{
+"name": "Serif: Source Serif 4",
+"url": "https://fonts.google.com/specimen/Source+Serif+4",
+"branch": "frontend/type",
+"section": "Starting picks by style",
+"tier": "list",
+"license": "OFL",
+"status": "candidate"
+},
+{
+"name": "Serif: Newsreader",
+"url": "https://fonts.google.com/specimen/Newsreader",
+"branch": "frontend/type",
+"section": "Starting picks by style",
+"tier": "list",
+"license": "OFL",
+"status": "candidate"
+},
+{
+"name": "Serif: Fraunces",
+"url": "https://fonts.google.com/specimen/Fraunces",
+"branch": "frontend/type",
+"section": "Starting picks by style",
+"tier": "list",
+"license": "OFL",
+"status": "candidate"
+},
+{
+"name": "Serif: EB Garamond",
+"url": "https://fonts.google.com/specimen/EB+Garamond",
+"branch": "frontend/type",
+"section": "Starting picks by style",
+"tier": "list",
+"license": "OFL",
+"status": "candidate"
+},
+{
+"name": "Serif: Literata",
+"url": "https://fonts.google.com/specimen/Literata",
+"branch": "frontend/type",
+"section": "Starting picks by style",
+"tier": "list",
+"license": "OFL",
+"status": "candidate"
+},
+{
+"name": "Serif: Spectral",
+"url": "https://fonts.google.com/specimen/Spectral",
+"branch": "frontend/type",
+"section": "Starting picks by style",
+"tier": "list",
+"license": "OFL",
+"status": "candidate"
+},
+{
+"name": "Display: Syne",
+"url": "https://fonts.google.com/specimen/Syne",
+"branch": "frontend/type",
+"section": "Starting picks by style",
+"tier": "list",
+"license": "OFL",
+"status": "candidate"
+},
+{
+"name": "Display: Unbounded",
+"url": "https://fonts.google.com/specimen/Unbounded",
+"branch": "frontend/type",
+"section": "Starting picks by style",
+"tier": "list",
+"license": "OFL",
+"status": "candidate"
+},
+{
+"name": "Display: Big Shoulders",
+"url": "https://fonts.google.com/specimen/Big+Shoulders",
+"branch": "frontend/type",
+"section": "Starting picks by style",
+"tier": "list",
+"license": "OFL",
+"status": "candidate"
+},
+{
+"name": "Display: Bebas Neue",
+"url": "https://fonts.google.com/specimen/Bebas+Neue",
+"branch": "frontend/type",
+"section": "Starting picks by style",
+"tier": "list",
+"license": "OFL",
+"status": "candidate"
+},
+{
+"name": "Display: Anton",
+"url": "https://fonts.google.com/specimen/Anton",
+"branch": "frontend/type",
+"section": "Starting picks by style",
+"tier": "list",
+"license": "OFL",
+"status": "candidate"
+},
+{
+"name": "Mono: Space Mono",
+"url": "https://fonts.google.com/specimen/Space+Mono",
+"branch": "frontend/type",
+"section": "Starting picks by style",
+"tier": "list",
+"license": "OFL",
+"status": "candidate"
+},
+{
+"name": "Mono: Fira Code",
+"url": "https://fonts.google.com/specimen/Fira+Code",
+"branch": "frontend/type",
+"section": "Starting picks by style",
+"tier": "list",
+"license": "OFL",
+"status": "candidate"
+},
+{
+"name": "Mono: Red Hat Mono",
+"url": "https://fonts.google.com/specimen/Red+Hat+Mono",
+"branch": "frontend/type",
+"section": "Starting picks by style",
+"tier": "list",
+"license": "OFL",
+"status": "candidate"
+},
+{
+"name": "Mono: Martian Mono",
+"url": "https://fonts.google.com/specimen/Martian+Mono",
+"branch": "frontend/type",
+"section": "Starting picks by style",
+"tier": "list",
+"license": "OFL",
+"status": "candidate"
+},
+{
+"name": "Handwriting: Caveat",
+"url": "https://fonts.google.com/specimen/Caveat",
+"branch": "frontend/type",
+"section": "Starting picks by style",
+"tier": "list",
+"license": "OFL",
+"status": "candidate"
+},
+{
+"name": "Handwriting: Kalam",
+"url": "https://fonts.google.com/specimen/Kalam",
+"branch": "frontend/type",
+"section": "Starting picks by style",
+"tier": "list",
+"license": "OFL",
+"status": "candidate"
+},
+{
+"name": "Handwriting: Patrick Hand",
+"url": "https://fonts.google.com/specimen/Patrick+Hand",
+"branch": "frontend/type",
+"section": "Starting picks by style",
+"tier": "list",
+"license": "OFL",
+"status": "candidate"
+},
+{
+"name": "Utopia",
+"url": "https://utopia.fyi",
+"branch": "frontend/type",
+"section": "Type scale and fitting tools",
+"tier": "list",
+"license": "free tool",
+"status": "candidate",
+"note": "fluid type and space scales in CSS clamp()"
+},
+{
+"name": "Typescale",
+"url": "https://typescale.com",
+"branch": "frontend/type",
+"section": "Type scale and fitting tools",
+"tier": "list",
+"license": "free tool",
+"status": "candidate"
+},
+{
+"name": "Capsize",
+"url": "https://seek-oss.github.io/capsize/",
+"branch": "frontend/type",
+"section": "Type scale and fitting tools",
+"tier": "list",
+"license": "MIT",
+"status": "candidate",
+"install": "npm i @capsizecss/core",
+"note": "trims the extra space above and below text so it aligns"
+}
+]

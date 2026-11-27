@@ -18,7 +18,7 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (toolkit link check)"}
 def urls():
     found = {}
     for p in list(ROOT.rglob("*.md")) + list(ROOT.rglob("*.yaml")):
-        if ".git" in p.parts:
+        if ".git" in p.parts or any(part.startswith("_") for part in p.parts) or "runs" in p.parts:
             continue
         for u in URL.findall(p.read_text(encoding="utf-8")):
             u = u.rstrip(".,;:")
