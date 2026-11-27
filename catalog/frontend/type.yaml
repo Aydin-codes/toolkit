@@ -118,7 +118,7 @@ sections:
       - { name: "Serif: Spectral", url: "https://fonts.google.com/specimen/Spectral", search: "Spectral font", licence: OFL, status: candidate, checked: 2026-11-26 }
       - { name: "Display: Syne", url: "https://fonts.google.com/specimen/Syne", search: "Syne font", licence: OFL, status: candidate, checked: 2026-11-26 }
       - { name: "Display: Unbounded", url: "https://fonts.google.com/specimen/Unbounded", search: "Unbounded font", licence: OFL, status: candidate, checked: 2026-11-26 }
-      - { name: "Display: Big Shoulders Display", url: "https://fonts.google.com/specimen/Big+Shoulders", search: "Big Shoulders Display font", licence: OFL, status: candidate, checked: 2026-11-26 }
+      - { name: "Display: Big Shoulders", url: "https://fonts.google.com/specimen/Big+Shoulders", search: "Big Shoulders font", licence: OFL, status: candidate, checked: 2026-11-26 }
       - { name: "Display: Bebas Neue", url: "https://fonts.google.com/specimen/Bebas+Neue", search: "Bebas Neue font", licence: OFL, status: candidate, checked: 2026-11-26 }
       - { name: "Display: Anton", url: "https://fonts.google.com/specimen/Anton", search: "Anton font", licence: OFL, status: candidate, checked: 2026-11-26 }
       - { name: "Mono: Space Mono", url: "https://fonts.google.com/specimen/Space+Mono", search: "Space Mono font", licence: OFL, status: candidate, checked: 2026-11-26 }
