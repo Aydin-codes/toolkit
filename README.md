@@ -163,8 +163,8 @@ toolkit/
 
 ## Current limits
 
-- Only the fonts page is written so far. The other pages that `SKILL.md` points to are planned, and until they exist the AI falls back on the stack table and rules in `SKILL.md`.
-- All 40 entries are still **candidate**: their links work, but none has passed the five checks for **verified** yet.
+- Nine pages are written. UX, back end, quality, AI generators and learn are still planned; until they exist the AI falls back on the stack table and rules in `SKILL.md`.
+- The 40 hand-picked font entries are still **candidate**. The other entries passed the automatic checks (working link, license evidence, maintained and used). The 2,043 Google Fonts come from Google's own font data, so their links aren't tested one by one.
 - Licenses change. Check anything you'll sell or ship against the source before relying on it.
 
 ## Add a tool
