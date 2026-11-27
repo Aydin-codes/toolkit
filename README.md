@@ -1,10 +1,8 @@
-<p align="center">
-  <img src=".github/assets/logo.svg" alt="toolkit logo: three list entries, the middle one picked with a green check" width="120">
-</p>
-
 <h1 align="center">toolkit</h1>
 
-<p align="center">A list of real, free things an AI can build with, so it stops making everything up.</p>
+<h3 align="center">You asked for fonts.<br>The AI picked Inter again.</h3>
+
+<p align="center"><b>toolkit gives your AI a list of real, free fonts, icons, photos and libraries, each with a link and a licence, so it builds from real material instead of guessing.</b></p>
 
 <p align="center">
   <a href="https://github.com/Aydin-codes/toolkit/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/Aydin-codes/toolkit/ci.yml?style=flat-square&label=ci" alt="CI"></a>
@@ -33,9 +31,11 @@
 
 ## What it is
 
-When an AI builds a website or app, it makes most things up. It picks the same font every time (usually Inter), draws its own icons, fills gaps with fake photos and "Lorem ipsum", and guesses at libraries it half remembers.
+Finding a free tool is easy. Knowing you're allowed to ship it is the part that bites.
 
-The toolkit is a skill you add to your AI that gives it a list of real things people have already made: fonts, icon sets, photo libraries, UI components, 3D models and so on. Every entry has a link, the licence (so you know if you're allowed to use it), and how the AI installs it. When you ask for something, the AI looks it up here, picks one to three options that fit your project, and tells you why.
+Left alone, an AI building your site makes most things up. It reaches for the same font every time, draws its own icons, fills gaps with fake photos and "Lorem ipsum", and guesses at libraries it half remembers. Nobody checks whether you're allowed to use what it grabbed. A Fontshare font is free, but you can't copy its files into your repo. A photo marked NC can't go in anything you sell.
+
+The toolkit gives the AI a shelf of real things people have already made: fonts, icon sets, photo libraries, UI components, 3D models and more. Every entry has a link, a search term in case the link dies, the licence, and how the AI installs it. When you ask for something, the AI looks it up here, picks one to three options that fit your project, and tells you why.
 
 It works with any tool that reads `SKILL.md`: Claude Code, Codex, Cursor, Gemini CLI and others. It also comes bundled with [design-studio](https://github.com/Aydin-codes/design-studio): design-studio works out the look with you, and the toolkit knows where to get the parts.
 
@@ -51,9 +51,12 @@ The same page lists the fonts AI tools overuse (Inter, Geist, Space Grotesk, DM 
 
 ## How it works
 
-| <img src=".github/assets/icons/books.png" alt="" width="56"> | <img src=".github/assets/icons/open-file-folder.png" alt="" width="56"> | <img src=".github/assets/icons/balance-scale.png" alt="" width="56"> | <img src=".github/assets/icons/check-mark-button.png" alt="" width="56"> |
-|:-:|:-:|:-:|:-:|
-| **1. Read the index**<br>`SKILL.md` says which page covers what, plus the stack, rules and checks | **2. Open one page**<br>Only the page the task needs, like fonts. Nothing else gets loaded | **3. Pick one to three**<br>Ranked: fits your stack, free, licence allows it, still maintained, easy to install | **4. Check the work**<br>Before saying "done", it runs the quality checklist |
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset=".github/assets/how-it-works-dark.png">
+    <img src=".github/assets/how-it-works-light.png" width="760" alt="Diagram, How the toolkit works: four numbered stages on a winding path. 1. Read SKILL.md: stack for 12 kinds of project, 12 rules to follow, licence rules, which page to open. 2. Open one page: fonts with 40 entries is written; UI kits and icons, photos 3D and sound, back end and hosting are shown dashed as not written yet. 3. Pick 1 to 3: fits your stack, free first, licence allows it, still maintained, the AI can install it. 4. Check the work: screenshots at 375 and 1440 px, keyboard and contrast, speed on mobile, no placeholders or fake claims.">
+  </picture>
+</p>
 
 ## What's inside
 
