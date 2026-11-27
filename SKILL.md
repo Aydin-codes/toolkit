@@ -19,7 +19,7 @@ At the start of a task:
 1. Name the project type and pick the matching row in **Default stacks**. Say which row and why in one line.
 2. List the assets the project needs and where each will come from, in this order:
    1. the user's own photos, product, CAD or 3D files
-   2. a real 3D model or real photo/video from the free sources in `assets/`
+   2. a real 3D model or real photo/video from a free source (the assets page is coming soon; until then, read the licence on the source's own site)
    3. generated, and labelled as generated
    4. hand-coded, only by choice
    Ask the user for anything only they have: screenshots, logos, real content.
@@ -31,7 +31,7 @@ At the start of a task:
 Use this whenever the user has to choose a tool, library or asset source.
 
 1. **Scope first.** Ask only what you can't infer: what it is, who uses it, what already exists (logo, photos, data, a repo), free only or paid OK, deadline.
-2. **Open one branch file** from **Where to look**. Don't load other branches.
+2. **Open one branch file** from **Where to look**. Don't load other branches. If the page is marked *coming soon*, use this file's stack table and rules plus the official docs, and say so.
 3. **Rank** the options in that file by, in order: fits the stack → free → licence allows this use → commits in the last 12 months → an agent can install it (npm, shadcn registry, MCP or download) → popularity.
 4. **Answer with 1-3 picks**, one line each: name, link, why it fits, licence. Start with the file's **Default** unless there's a reason not to.
 5. If nothing fits, use the file's **Big lists** links, or the Context Awesome MCP if connected, and apply the same ranking.
@@ -67,37 +67,37 @@ Each branch file has three tiers: **Default** (one pick), **Strong alternatives*
 | Chrome extension | Vite + TypeScript (WXT or Plasmo framework) | chrome.storage or Supabase | Tailwind | Chrome Web Store |
 | Printed document / PDF | Typst, or HTML + Paged.js | data files (CSV, JSON) | fonts from `reference/frontend/type.md` | PDF file |
 
-Links for every name in this table are in the matching branch file.
+Links for every name in this table will be in the matching branch file. Until that page is written, use the official docs.
 
 ## Where to look
 
-Open only the file the task needs.
+Open only the file the task needs. Only the fonts page is written so far; the others are marked *coming soon*.
 
 | Need | Open |
 | --- | --- |
-| Scoping questions, project types | `reference/plan.md` |
-| Frameworks | `reference/frontend/frameworks.md` |
-| Components (base and animated kits, blocks), icons, colour | `reference/frontend/ui.md` |
-| Real-app references, flows, forms, accessibility, copy | `reference/frontend/ux.md` |
+| Scoping questions, project types | *coming soon* |
+| Frameworks | *coming soon* |
+| Components (base and animated kits, blocks), icons, colour | *coming soon* |
+| Real-app references, flows, forms, accessibility, copy | *coming soon* |
 | Fonts by style, type scale, overused AI fonts | `reference/frontend/type.md` |
-| Animation libraries, effects, shaders, smooth scroll, Lottie, Rive | `reference/frontend/motion.md` |
-| 3D engines, helpers, performance rules | `reference/frontend/3d.md` |
-| Charts and maps | `reference/frontend/dataviz.md` |
-| Databases, auth, payments, email, files, search, realtime, jobs, AI features | `reference/backend.md` |
-| Photos, public domain, illustration, icons, 3D models, textures, video, audio | `reference/assets/ready-made.md` |
-| Tools to make your own assets (Blender, Krita, Inkscape…) | `reference/assets/make-your-own.md` |
-| AI image, 3D, video, voice and music generators | `reference/assets/ai-generators.md` |
-| Mobile, desktop, extensions, games, MCP servers | `reference/platforms.md` |
-| Make, edit, read and OCR PDFs; print templates | `reference/print-pdf.md` |
-| Hosting, CI, domains, analytics, errors, SEO | `reference/ship.md` |
-| Tests, accessibility, performance, security tools | `reference/quality.md` |
-| Full MUST / SHOULD / NEVER list | `reference/rules.md` |
-| Connectors, skills, plugins, shadcn registries | `reference/agent-tooling.md` |
-| Repos to read, awesome lists, courses | `reference/learn.md` |
+| Animation libraries, effects, shaders, smooth scroll, Lottie, Rive | *coming soon* |
+| 3D engines, helpers, performance rules | *coming soon* |
+| Charts and maps | *coming soon* |
+| Databases, auth, payments, email, files, search, realtime, jobs, AI features | *coming soon* |
+| Photos, public domain, illustration, icons, 3D models, textures, video, audio | *coming soon* |
+| Tools to make your own assets (Blender, Krita, Inkscape…) | *coming soon* |
+| AI image, 3D, video, voice and music generators | *coming soon* |
+| Mobile, desktop, extensions, games, MCP servers | *coming soon* |
+| Make, edit, read and OCR PDFs; print templates | *coming soon* |
+| Hosting, CI, domains, analytics, errors, SEO | *coming soon* |
+| Tests, accessibility, performance, security tools | *coming soon* |
+| Full MUST / SHOULD / NEVER list | *coming soon* |
+| Connectors, skills, plugins, shadcn registries | *coming soon* |
+| Repos to read, awesome lists, courses | *coming soon* |
 
 ## Top rules
 
-The full list, with sources, is in `reference/rules.md`.
+A full list, with sources, is coming soon on its own page.
 
 - MUST: Hit targets at least 24 px, and at least 44 px on mobile. ([Vercel](https://github.com/vercel-labs/web-interface-guidelines))
 - MUST: Mobile input text at least 16 px, so iOS doesn't zoom. ([Vercel](https://github.com/vercel-labs/web-interface-guidelines))
