@@ -138,7 +138,7 @@ proposals:
     section: Charts
     tier: paid
     name: Highcharts
-    url: http://www.highcharts.com
+    url: https://www.highcharts.com
     npm: highcharts
     search: Highcharts JavaScript charts license
     license: paid for commercial use (free for some non-commercial use)
@@ -355,7 +355,7 @@ proposals:
     section: Diagrams
     tier: more
     name: Cytoscape.js
-    url: http://js.cytoscape.org
+    url: https://js.cytoscape.org
     repo: cytoscape/cytoscape.js
     npm: cytoscape
     search: Cytoscape.js graph network visualization

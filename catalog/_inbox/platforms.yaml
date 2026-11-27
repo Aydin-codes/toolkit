@@ -291,7 +291,7 @@ proposals:
     section: Games
     tier: alternatives
     name: PixiJS
-    url: http://pixijs.com/
+    url: https://pixijs.com/
     repo: pixijs/pixijs
     npm: pixi.js
     search: PixiJS 2D WebGL renderer

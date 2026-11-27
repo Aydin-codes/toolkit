@@ -68,6 +68,8 @@ def main():
                 rejected.append({**prop, "rejected": today(), "reasons": [f"missing {', '.join(missing)}"]})
                 rej += 1
                 continue
+            if prop["url"].startswith("http://"):
+                prop["url"] = "https://" + prop["url"][7:]
             hit = urls.get(norm_url(prop["url"])) or names.get(norm_name(prop["name"]))
             if hit:
                 dup += 1
