@@ -14,8 +14,8 @@ body:
     id: branch
     attributes: { label: Which branch, placeholder: "frontend/ui, assets/ready-made, print-pdf, ..." }
   - type: input
-    id: licence
-    attributes: { label: Licence, placeholder: "MIT, OFL, CC0, free but not open source, paid ..." }
+    id: license
+    attributes: { label: License, placeholder: "MIT, OFL, CC0, free but not open source, paid ..." }
   - type: textarea
     id: why
     attributes: { label: "When would you pick it over what's listed?", description: "One or two lines. A link to a real project that uses it helps." }

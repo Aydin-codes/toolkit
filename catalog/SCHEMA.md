@@ -24,7 +24,7 @@ sections:
 | `name` | yes | Tool, library, source or font name |
 | `url` | yes | Official page |
 | `search` | yes | What to search if the link breaks |
-| `licence` | yes | e.g. OFL, MIT, CC0, "free, not open source", "paid" |
+| `license` | yes | e.g. OFL, MIT, CC0, "free, not open source", "paid" |
 | `use_when` | for alternatives | One line: when to pick this over the default |
 | `install` | no | How an agent gets it: npm package, `npx shadcn add …`, MCP, download, CDN |
 | `never_copy` | no | `true` if it may be installed into a project but never copied into another repo |
@@ -33,7 +33,7 @@ sections:
 | `checked` | no | Date of the last check, `YYYY-MM-DD` |
 
 ## The 5 checks for `verified`
-1. Licence read; it's clear whether it can be installed, bundled or only linked.
+1. License read; it's clear whether it can be installed, bundled or only linked.
 2. Commits in the last 12 months (or a stable, finished project such as a font).
 3. An agent can install or fetch it.
 4. Works with the stack it's listed under.

@@ -12,7 +12,7 @@ import yaml
 ROOT = Path(__file__).resolve().parent.parent
 CATALOG = ROOT / "catalog"
 OUT = ROOT / "reference"
-REQUIRED = ("name", "url", "search", "licence", "status")
+REQUIRED = ("name", "url", "search", "license", "status")
 STATUSES = {"candidate", "verified", "declining"}
 TIERS = ("default", "alternatives", "big_lists", "paid", "list")
 
@@ -30,7 +30,7 @@ def line(e, with_use_when=False):
     s = f"- [{e['name']}]({e['url']}) (search: {e['search']})"
     if with_use_when and e.get("use_when"):
         s += f": use when {e['use_when']}"
-    s += f". Licence: {e['licence']}."
+    s += f". License: {e['license']}."
     if e.get("install"):
         s += f" Install: `{e['install']}`." if not str(e["install"]).startswith(("download", "CDN", "self-host")) else f" Get it: {e['install']}."
     if e.get("never_copy"):
