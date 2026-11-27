@@ -1,6 +1,6 @@
 <h1 align="center">toolkit</h1>
 
-<p align="center"><b>toolkit gives your AI a list of real, free fonts, icons, photos and libraries, each with a link and a licence, so it builds from real material instead of guessing.</b></p>
+<p align="center"><b>toolkit gives your AI a list of real, free fonts, icons, photos and libraries, each with a link and a license, so it builds from real material instead of guessing.</b></p>
 
 <p align="center">
   <a href="https://github.com/Aydin-codes/toolkit/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/Aydin-codes/toolkit/ci.yml?style=flat-square&label=ci" alt="CI"></a>
@@ -11,6 +11,7 @@
 
 <p align="center">
   <a href="#install"><b>Install</b></a> ·
+  <a href="https://aydin-codes.github.io/toolkit/">Interactive map</a> ·
   <a href="#whats-inside">What's inside</a> ·
   <a href="#how-it-works">How it works</a> ·
   <a href="#add-a-tool">Add a tool</a> ·
@@ -20,12 +21,14 @@
 <p align="center">If the toolkit helps you, please give it a star ⭐</p>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset=".github/assets/font-picks-dark.png">
-    <img src=".github/assets/font-picks-light.png" width="838" alt="A grid of 25 free fonts, each name set in its own typeface and labelled with its style and licence: sans fonts like Public Sans and IBM Plex Sans, serifs like Newsreader and EB Garamond, display faces like Unbounded and Anton, mono fonts and handwriting fonts. All are OFL.">
-  </picture>
+  <a href="https://aydin-codes.github.io/toolkit/">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset=".github/assets/map-dark.png">
+      <img src=".github/assets/map-light.png" width="838" alt="Map of what's in the toolkit. In the middle, SKILL.md, the index: always read first, it holds stacks for 12 kinds of project, 12 rules, a quality checklist and license rules. Around it, ten categories with real tool logos and examples: Plan; Front end (Astro, Next.js, shadcn/ui, 40 free fonts, 1 of 7 pages written); Assets; Back end (Supabase, Stripe); Platforms (Expo, Tauri, MCP servers); Print and PDF (Typst, Paged.js); Ship (Vercel, Netlify); Quality and rules (Playwright, axe-core, Lighthouse); Agent tooling (Context7, connectors, skills); Learn. Below, sample requests like Pick fonts for my landing page and Add sign-in and payments, with the route from the index to Front end highlighted.">
+    </picture>
+  </a>
 </p>
-<p align="center"><sub>The 25 starting fonts on the toolkit's fonts page, each shown in itself. All free to use (OFL). Drawn straight from <code>catalog/frontend/type.yaml</code>.</sub></p>
+<p align="center"><sub>Everything your AI can look up, and how a request gets routed. <a href="https://aydin-codes.github.io/toolkit/"><b>Open the interactive map</b></a> to click through each category.</sub></p>
 
 ## What it is
 
@@ -33,26 +36,22 @@ Finding a free tool is easy. Knowing you're allowed to ship it is the part that 
 
 Left alone, an AI building your site makes most things up. It reaches for the same font every time, draws its own icons, fills gaps with fake photos and "Lorem ipsum", and guesses at libraries it half remembers. Nobody checks whether you're allowed to use what it grabbed. A Fontshare font is free, but you can't copy its files into your repo. A photo marked NC can't go in anything you sell.
 
-The toolkit gives the AI a shelf of real things people have already made: fonts, icon sets, photo libraries, UI components, 3D models and more. Every entry has a link, a search term in case the link dies, the licence, and how the AI installs it. When you ask for something, the AI looks it up here, picks one to three options that fit your project, and tells you why.
+The toolkit gives the AI a shelf of real things people have already made: fonts, icon sets, photo libraries, UI components, 3D models and more. Every entry has a link, a search term in case the link dies, the license, and how the AI installs it. When you ask for something, the AI looks it up here, picks one to three options that fit your project, and tells you why.
 
 It works with any tool that reads `SKILL.md`: Claude Code, Codex, Cursor, Gemini CLI and others. It also comes bundled with [design-studio](https://github.com/Aydin-codes/design-studio): design-studio works out the look with you, and the toolkit knows where to get the parts.
 
-## An example
+## From request to picks
 
-You ask: *"Pick fonts for my bakery's website."* The AI opens the fonts page and reads entries like these (real lines from [`reference/frontend/type.md`](reference/frontend/type.md)):
-
-> - [Google Fonts](https://fonts.google.com) (search: Google Fonts). Licence: mostly OFL (check each family). Get it: CDN link, or self-host through Fontsource.
-> - [Fontsource](https://fontsource.org) (search: Fontsource npm fonts): use when you want to self-host Google and other open fonts as npm packages. Licence: per font, mostly OFL. Install: `npm i @fontsource/<font>`.
-> - [Fontshare](https://www.fontshare.com) (search: Fontshare Indian Type Foundry free fonts): use when you want high-quality free fonts that aren't on Google Fonts. Licence: free, not open source (ITF licence); load from Fontshare's CDN, don't redistribute.
-
-The same page lists the fonts AI tools overuse (Inter, Geist, Space Grotesk, DM Sans, Poppins and others), so it knows not to reach for them by default. It answers with one to three picks, each with a link, a reason and the licence, instead of quietly using Inter again.
+<p align="center">
+  <img src=".github/assets/request-to-picks.png" width="838" alt="A blue bar reads: Use the toolkit to, followed by what you need. Below, SKILL.md routes the request to one of ten coloured category cards with 3D icons: Plan, Front end, Assets, Back end, Platforms, Print and PDF, Ship, Quality, Agent tools, Learn. Lines lead to the result: 1 to 3 picks, each with a link, the license and how to install it.">
+</p>
 
 ## How it works
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset=".github/assets/how-it-works-dark.png">
-    <img src=".github/assets/how-it-works-light.png" width="760" alt="Diagram, How the toolkit works: four numbered stages on a winding path. 1. Read SKILL.md: stack for 12 kinds of project, 12 rules to follow, licence rules, which page to open. 2. Open one page: fonts with 40 entries is written; UI kits and icons, photos 3D and sound, back end and hosting are shown dashed as not written yet. 3. Pick 1 to 3: fits your stack, free first, licence allows it, still maintained, the AI can install it. 4. Check the work: screenshots at 375 and 1440 px, keyboard and contrast, speed on mobile, no placeholders or fake claims.">
+    <img src=".github/assets/how-it-works-light.png" width="760" alt="Diagram, How the toolkit works: four numbered stages on a winding path. 1. Read SKILL.md: stack for 12 kinds of project, 12 rules to follow, license rules, which page to open. 2. Open one page: fonts with 40 entries is written; UI kits and icons, photos 3D and sound, back end and hosting are shown dashed as not written yet. 3. Pick 1 to 3: fits your stack, free first, license allows it, still maintained, the AI can install it. 4. Check the work: screenshots at 375 and 1440 px, keyboard and contrast, speed on mobile, no placeholders or fake claims.">
   </picture>
 </p>
 
@@ -60,10 +59,10 @@ The same page lists the fonts AI tools overuse (Inter, Geist, Space Grotesk, DM 
 
 | Page | What it covers | Status |
 |---|---|---|
-| `SKILL.md` | Which stack to use for 12 kinds of project, 12 rules (tap targets, contrast, focus rings…), a quality checklist and licence rules | Written |
+| `SKILL.md` | Which stack to use for 12 kinds of project, 12 rules (tap targets, contrast, focus rings…), a quality checklist and license rules | Written |
 | [Fonts](reference/frontend/type.md) | Where to get free fonts, 25 starting picks by style, type-scale tools, and the fonts AI overuses | Written: 40 entries, every link checked on 26 Nov 2026 |
 | UI kits and icons, frameworks, UX, motion, 3D, charts | Component libraries, icon sets, animation and 3D tools | Planned |
-| Photos, illustrations, 3D models, sound | Free asset sources with their licences | Planned |
+| Photos, illustrations, 3D models, sound | Free asset sources with their licenses | Planned |
 | Back end, platforms, PDF and print, shipping, quality | Databases, auth, hosting, testing and more | Planned |
 
 <details>
@@ -107,7 +106,7 @@ If you use [design-studio](https://github.com/Aydin-codes/design-studio), you al
 Mention it, or just ask for something it covers:
 
 ```text
-Use the toolkit to pick fonts for a bakery landing page.
+Use the toolkit to pick fonts for an AI startup's landing page.
 Use the toolkit to choose a stack for a small booking site, then run the quality gate.
 Use the toolkit to find free fonts and a type scale for a printed report.
 ```
@@ -116,7 +115,7 @@ The AI says which stack it picked and why, lists the parts it needs and where ea
 
 ## How entries are kept honest
 
-Every entry needs a link, a search term (in case the link breaks), a licence and a status. New entries start as **candidate** and become **verified** only after five checks: the licence is read, it had commits in the last 12 months, an AI can install it, it works with its stack, and there's a free demo you can see.
+Every entry needs a link, a search term (in case the link breaks), a license and a status. New entries start as **candidate** and become **verified** only after five checks: the license is read, it had commits in the last 12 months, an AI can install it, it works with its stack, and there's a free demo you can see.
 
 <p align="center"><img src=".github/assets/link-check.png" width="640" alt="Terminal output of python scripts/check_links.py: links to Google Fonts, Fontsource, Fontshare, Velvetyne, Uncut, Fraunces and Utopia marked ok 200, ending with 53 ok, 0 broken."></p>
 <p align="center"><sub>The link check, run on 26 Nov 2026. A GitHub workflow runs it again every Monday and opens an issue if anything breaks.</sub></p>
@@ -130,7 +129,7 @@ The pages in `reference/` are generated. Each entry lives in a YAML file in `cat
 - name: Fontsource
   url: https://fontsource.org
   search: Fontsource npm fonts
-  licence: per font, mostly OFL
+  license: per font, mostly OFL
   use_when: you want to self-host Google and other open fonts as npm packages
   install: npm i @fontsource/<font>
   status: candidate
@@ -162,7 +161,7 @@ toolkit/
 
 - Only the fonts page is written so far. The other pages that `SKILL.md` points to are planned, and until they exist the AI falls back on the stack table and rules in `SKILL.md`.
 - All 40 entries are still **candidate**: their links work, but none has passed the five checks for **verified** yet.
-- Licences change. Check anything you'll sell or ship against the source before relying on it.
+- Licenses change. Check anything you'll sell or ship against the source before relying on it.
 
 ## Add a tool
 
@@ -170,6 +169,6 @@ Know a free font, icon set, library or asset source that belongs here? Open a [S
 
 ## License
 
-The text in this repo is MIT. Every tool, font and asset it links to keeps its own licence.
+The text in this repo is MIT. Every tool, font and asset it links to keeps its own license.
 
-<sub>Icons from Microsoft <a href="https://github.com/microsoft/fluentui-emoji">Fluent Emoji</a> (MIT) and <a href="https://simpleicons.org">Simple Icons</a> (CC0). Fonts in the image above are from Google Fonts, all under the SIL Open Font License.</sub>
+<sub>Icons from Microsoft <a href="https://github.com/microsoft/fluentui-emoji">Fluent Emoji</a> (MIT) and <a href="https://simpleicons.org">Simple Icons</a> (CC0).</sub>
