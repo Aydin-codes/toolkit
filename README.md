@@ -119,8 +119,8 @@ The AI says which stack it picked and why, lists the parts it needs and where ea
 
 Every entry needs a link, a search term (in case the link breaks), a license and a status. New entries start as **candidate** and become **verified** only after five checks: the license is read, it had commits in the last 12 months, an AI can install it, it works with its stack, and there's a free demo you can see.
 
-<p align="center"><img src=".github/assets/link-check.png" width="640" alt="Terminal output of python scripts/check_links.py: the first seven links (the CI badge, agentskills.io, three shields.io badges, the toolkit map page and the design-studio repo) marked ok 200, ending with 395 ok, 5 broken."></p>
-<p align="center"><sub>The link check, run on 26 Nov 2026. A GitHub workflow runs it again every Monday and opens an issue if anything breaks.</sub></p>
+<p align="center"><img src=".github/assets/link-check.png" width="640" alt="Terminal output of python scripts/check_links.py: the first seven links (the CI badge, agentskills.io, three shields.io badges, the toolkit map page and the design-studio repo) marked ok 200, ending with 388 ok, 0 broken."></p>
+<p align="center"><sub>The link check, run on 27 Nov 2026. A GitHub workflow runs it again every Monday and opens an issue if anything breaks.</sub></p>
 
 <details>
 <summary><b>How the pages are built</b></summary>

@@ -13,6 +13,15 @@ ROOT = Path(__file__).resolve().parent.parent
 URL = re.compile(r"https://[^\s)\"'<>`\]]+")
 SKIP = ("github.com/Aydin-codes/toolkit",)  # not public yet
 HEADERS = {"User-Agent": "Mozilla/5.0 (toolkit link check)"}
+# Addresses inside commands are things to paste, not pages to visit (e.g. MCP server
+# endpoints that answer 401/405 to a plain request), so code and install fields are skipped.
+CODE = re.compile(r"```.*?```|`[^`\n]*`", re.S)
+INSTALL = re.compile(r"^\s*install:.*$", re.M)
+
+
+def text_to_check(p):
+    text = p.read_text(encoding="utf-8")
+    return CODE.sub("", text) if p.suffix == ".md" else INSTALL.sub("", text)
 
 
 def urls():
@@ -20,7 +29,7 @@ def urls():
     for p in list(ROOT.rglob("*.md")) + list(ROOT.rglob("*.yaml")):
         if ".git" in p.parts or any(part.startswith("_") for part in p.parts) or "runs" in p.parts:
             continue
-        for u in URL.findall(p.read_text(encoding="utf-8")):
+        for u in URL.findall(text_to_check(p)):
             u = u.rstrip(".,;:")
             if not any(s in u for s in SKIP):
                 found.setdefault(u, p.relative_to(ROOT).as_posix())
